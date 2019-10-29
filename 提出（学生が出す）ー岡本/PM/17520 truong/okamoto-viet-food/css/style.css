@@ -11,7 +11,7 @@ display:flex;
 *{margin: 0px; padding: 0px;}
 .wrapper{
 width:960px;
-height: 500px;
+height: 180px;
 background: #ddd;
 margin: 0px auto;
 }
