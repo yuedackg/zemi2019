@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+ 	<meta harset="UTF-8">
+	<title>ポカラ街</title>
+	<link rel="stylesheet"href="../css/Anu.css">
+</head>
+<body>
+<header id="header">
+
+<h1>ポカラ街<br>Heaven of Nepal</h1></h1>
+<h2>The city of heaven </h2>
+<img src="pokhara1.jpj">
+<img src="map.jpj">
+</header>
+<p>ネパールの一番きれい町ポカラでは世界中からお客様が旅行に来ます。</p>
+</body>
+</html>

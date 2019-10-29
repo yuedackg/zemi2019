@@ -1,0 +1,37 @@
+﻿<!doctype html>
+<html lang="ja">
+	<head>
+		<meta charset="UTF-8">
+		<title>kumari</title>
+		<link rel="stylesheet" href="css/stylesheet.css">
+		<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+		<header id="header">
+			<h1>kumari</h1>
+		</header>
+		<nav>
+			<ul>
+				<li><a href="#about">kumariについて</a></li>
+				<li><a href="#photo">おすすめのパン</a></li>
+				<li><a href="#price">商品メニュー</a></li>
+				<li><a href="#access">アクセスマップ</a></li>
+			</ul>
+		</nav>
+		<h2 id="about">kumariについて</h2>
+		<section class="about">
+			<p>kumariは1725年に日本から来たkumariネパール料理屋さんです。
+			</p>
+			<img src="k.jpg">
+		</section>
+
+		<h2 id="k">おすすめのパン</h2>
+		<section class="photo">
+			<p>毎日12:00、15:00。</p>
+<!--　アクセスマップ　-->
+		<p class="pagetop">
+			<a href="#header">PAGE TOP</a>
+		</p>
+		<footer>&copy; 2019 Mom's Bakery</footer>
+	</body>
+</html>

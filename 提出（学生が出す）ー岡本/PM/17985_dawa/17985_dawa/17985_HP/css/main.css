@@ -1,0 +1,122 @@
+body{
+    width: 1024px;
+    height: auto;
+    margin: 0px auto;
+    background-color: #282828;
+}
+header{
+    width: 1024px;
+    height: 105px;
+    background-color: #6aa405;
+    
+    
+}
+header .logo1{
+    height: 100px;
+    margin: 0px;
+    padding: 0px;
+    padding-top: 5px;
+    width: auto;
+    
+}
+header .logo2{
+    position: absolute;
+}
+header .logo1 img{
+    padding:0px 10px 0px 380px; 
+}
+header .logo2 img{
+    padding:2px 0px 0px 380px;
+    
+}
+nav{ 
+    text-align: center;
+
+}
+nav ul{
+    list-style-type: none;
+    width: 1024px;
+    height: 50px;
+    margin: 0px;
+    padding: 0px;
+    background-image: url("../images/nav_back.png");
+    background-repeat: repeat-x;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 0px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #fff;
+    border-right:3px solid  #fff; 
+    line-height: 60px;
+}
+nav ul li a{
+    padding:0px;
+    margin-right: 3px;
+    margin-left: 3px;
+    color: #ffffff;
+    display: block;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    }
+    
+nav ul li a:hover {
+    color: #0c0c0c;
+    background-color: #ffffff;
+    height: 50px;
+    width: auto;
+    padding: 0px 0px;
+
+    }
+
+.slider{
+    width: 1024px;
+    height: 402px;
+    position: absolute;
+    background-color: #6aa405;
+}    
+.banner{
+    height: 400px;
+    width: 940px;
+    background-color: #d2ced6;
+    position: absolute;
+    margin-top: 1px;
+    margin-left: 44px;
+}
+.middlepart{
+    height: 445px;
+    width: 1024px;
+    background-image: url("../images/mid_back.png");
+    position: relative;
+    top: 188px;
+    z-index: 0;
+}
+.midpic{
+    background-image: url("../images/midpic.png");
+    height: 263px;
+    width: 263px;
+    position: relative;
+    top: 400px;
+    margin-left: 80px;
+    z-index: 1;
+}
+
+.midpic2{
+    background-image: url("../images/midpic.png");
+    height: 263px;
+    width: 263px;
+    position: absolute;
+    top: 505px;
+    margin-left: 398px;
+    z-index: 1;
+}
+.midpic3{
+    background-image: url("../images/midpic.png");
+    height: 263px;
+    width: 263px;
+    position: absolute;
+    top: 505px;
+    margin-left: 700px;
+    z-index: 1;
+}

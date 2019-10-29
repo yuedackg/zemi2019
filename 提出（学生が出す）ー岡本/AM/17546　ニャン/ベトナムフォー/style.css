@@ -1,0 +1,31 @@
+﻿header{
+	background-image: url("写真/anh trang chu/2.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: 400px;
+}
+header nav ul{
+	display: flex;
+ 	background-color: rgba(255,255,0,0.7);
+}
+li{
+	list-style: none;
+}
+h1{
+	margin-bottom: 0px;
+	border-left: solid 10px blue;
+	border-bottom: dotted 5px blue;
+}
+.lili{
+	display: flex;
+}
+section{
+	margin-top: 20px;
+}
+.lili img{
+	width: 20%;
+	height: 20%;
+}
+p.top-text{
+	margin-top: 0px;
+}

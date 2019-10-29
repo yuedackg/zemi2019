@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+			<meta charset="UTF-8">
+		<title>アクセス</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+			<p class="subpage">福岡城桜まつり</p>
+		<nav>
+			<ul>
+				<li>イベント・開花情報</li>
+				<li>新着ニュース</li>
+				<li>イベント</li>
+				<li>さくら開花</li>
+				<li>さくらライトアップ情報</li>
+				<li>グルメ・BBQ</li>
+				<li>アクセス</li>
+				<li><a>href="information.pptx.html">sakura information</a>
+			</ul>
+		</nav>
+		<div>

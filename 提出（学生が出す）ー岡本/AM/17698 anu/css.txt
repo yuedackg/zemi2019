@@ -1,0 +1,10 @@
+.pokhara{
+display:flex;
+}
+.pokhara p{
+width:900px;
+margin:0px 40px;
+text-align:justify;
+text-decoration:none;
+color:#000;
+}

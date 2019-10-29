@@ -1,0 +1,22 @@
+﻿body{
+width: 980px;
+margin: 0 auto;
+}
+h1{
+	font-size: 50px;
+	margin-bottom: 0;
+	height: 60px;
+	border-bottom: solid 1.5px #999;
+	width: 300px;
+}
+h2{
+	font-size: 14px;
+	margin-top: 0;
+}
+#kimono{
+	text-align: center
+}
+body{
+width:980px;
+margin: 0 auto;
+}

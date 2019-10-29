@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>slide.html</title>
+		<link rel="stylesheet" href="css/slide.css">
+		<link rel="stylesheet" href="css/jquery.bxslider.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="js/jquery.bxslider.min.js"></script>
+        <script>
+			$(function() {
+				$('.bxslider').bxSlider({
+				mode: 'fade', // を必ず忘れずに
+				speed: 3000, // 5秒でゆっくり今回はフェードイン[,]と変わっていくように
+				auto: true, // クリックしなくても自動的に変わっていくように
+				infiniteLoop: true, // 繰り返し
+				});
+			});
+        </script>
+	</head>
+	<body>
+		<h1>日本の風景</h1>
+		<ul class="bxslider">
+			<li><img src="images/img1.jpg" alt=""></li>
+			<li><img src="images/img2.jpg" alt=""></li>
+			<li><img src="images/img3.jpg" alt=""></li>
+			<li><img src="images/img4.jpg" alt=""></li>
+			<li><img src="images/img5.jpg" alt=""></li>
+		</ul>
+		<p>海外の観光客からも注目を集める、日本の「和」絶景。
+一度は行きたい世界遺産、
+古の時を感じる寺社や日本庭園・・・
+私たちが生まれたこの国ならではの素敵な風景が
+そこにはあります。
+春夏秋冬・四季折々の美しさを楽しめるのも魅力のひとつ。
+まるで写真のような「和の絶景」を見に出かけませんか？
+		</p>
+	</body>
+</html>
