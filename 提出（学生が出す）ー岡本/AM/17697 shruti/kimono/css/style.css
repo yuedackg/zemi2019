@@ -2,21 +2,38 @@
 width: 980px;
 margin: 0 auto;
 }
+
 h1{
 	font-size: 50px;
 	margin-bottom: 0;
 	height: 60px;
-	border-bottom: solid 1.5px #999;
-	width: 300px;
+	width: 1000px;
 }
 h2{
 	font-size: 14px;
 	margin-top: 0;
 }
+#flower{
+	text-align: center
+}
+#leaf{
+	text-align: center
+}
 #kimono{
 	text-align: center
 }
-body{
-width:980px;
-margin: 0 auto;
+.photo{
+	float:left;
+	padding: 15px;
+}
+
+/*  explanation説明ページのCSS  */
+
+.contents{
+	display: flex;
+	flex-direction: column;
+}
+.explanation{
+	font-size: 12px;
+	width: 200px;
 }

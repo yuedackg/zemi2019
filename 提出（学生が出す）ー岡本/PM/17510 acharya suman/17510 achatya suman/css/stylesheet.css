@@ -1,8 +1,8 @@
 ﻿body{
 max-width: 1010px;
 width: 90%;
-margin: 90px auto;
-background-color: white;
+margin: 0px auto;
+background-color: pink;
 }
 header{
 height:670px;
@@ -14,12 +14,21 @@ h1{
 color:white;
 background-repeat: no-repeat;
 background-position: 50% 73%;
-font-family: Lobster;
-font-size: 60px;
-text-align: 50px;
-margin-top: 80px;
-padding-top: 60px;
-height: 245px;
+font-family: 'SimSun';
+font-weight: 900;
+margin-top: 40px;
+text-align: center;
+}
+h1#subtitle{
+font-size: 30px;
+}
+h1#maintitle{
+font-size: 58px;
+}
+p#smalltitle{
+color: white;
+font-size: 50px;
+text-align: center;
 }
 #menu-photo{
 width: 290px;

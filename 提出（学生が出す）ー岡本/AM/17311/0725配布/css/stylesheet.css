@@ -2,27 +2,27 @@ body{
 max-width: 1024px;
 width: 90%;
 margin: 0 auto;
-background-color:brown;
+background-color:rgba(3, 92, 70, 0.76);
 }
 header{
-height: 440px;
-background-image: url("../img/sample.jpg");
+height: 300px;
+background-image: url("../img/nepandfood.jpg");
 background-repeat: no-repeat;
 }
 h1{
-color: #fff;
+color: rgb(248, 169, 10);
 background-image: url("../img/.png");
 background-repeat: no-repeat;
-background-position: 50% 73%;
-font-family: HGñæí©E;
+background-position: center;
+font-family: HGÔøΩÔøΩÔøΩÔøΩE;
 font-size: 60px;
 text-align: center;
 margin-top: 0px;
-padding-top: 105px;
-height: 245px;
+padding-top: 85px;
+height:230px;
 }
 nav{
-background-color: brown;
+background-color: rgb(3, 74, 83);
 }
 ul{
 text-align: center;
@@ -33,7 +33,7 @@ li{
 font-size: 14px;
 list-style: none;
 margin-right: 30px;
-display: inline-block;
+display:initial;
 padding: 10px 0px;
 }
 a{
@@ -41,15 +41,14 @@ color: #ffffff;
 text-decoration: none;
 }
 h2{
-border-left: solid 10px #ffa500;
-border-bottom:  dotted 5px #ffa500;
+border-left: thick double #fffcfd91;
+border-bottom:  thick double #32a1ce; 5px #fffcfd91;
 margin-top: 30px;
 padding: 5px;
 }
 section{
-margin-bottom: 50px;
+margin-bottom: 40px;
 }
-
 .about{
 display: flex;
 }
@@ -77,11 +76,11 @@ margin-left: 30px;
 margin-left: 65px;
 }
 h3{
-ÉTÉCÉY
-Ç†Ç´
+ÔøΩTÔøΩCÔøΩY
+ÔøΩÔøΩÔøΩÔøΩ
 }
 .big img{
-width: 95%;
+width: 35%;
 padding: 20px;
 margin-top: 18px;
 background-color: #fff;
@@ -96,22 +95,7 @@ padding: 15px;
 background-color: #fff;
 }
 
-.price-table{
-display: flex;
-margin-left: 25px;
-}
-th{
-background-color: #ccc;
-}
-table,th,td{
-border: solid 1px #666;
-border-collapse: collapse;
-padding: 5px 48px;
-}
-.table-right{
-margin-left: 30px;
-}
-/* Å@ÉAÉNÉZÉXÅ@*/
+
 .access{
 display: flex;
 }

@@ -16,8 +16,11 @@ nav ul li{
 padding-left: 100px;
 }
 
-header img{
-width: 900px;
+header img1{
+width: 400px;
+}
+staff img2{
+height:300px
 }
 footer{
 text-align:center;

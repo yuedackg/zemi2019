@@ -16,7 +16,9 @@ background-repeat:no-repeat;
 padding-top:40px;
 color:red;
 }
-
+img{
+width:280px;
+}
 body {
 }
 
@@ -64,4 +66,19 @@ body {
     display: block;
     text-align: left;
   }
+}
+.price-table{
+display: flex;
+margin-left: 25px;
+}
+th{
+background-color: #ccc;
+}
+table,th,td{
+border: solid 1px #666;
+border-collapse: collapse;
+padding: 5px 48px;
+}
+.table-right{
+margin-left: 30px;
 }

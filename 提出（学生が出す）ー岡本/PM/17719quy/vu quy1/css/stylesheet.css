@@ -5,16 +5,16 @@
 	font-family: Arial, Helvetica, sans-serif;
 	background-color: #f8e4ce;
 }
-header{
+header #header{
 	background-image: url("");
 }
-h1{
-color: #fff;
+h1#headertop{
+color: #371313;
 background-image: url("../anh/8.jpg");
 background-repeat: no-repeat;
 background-position: 34% 36%;
 background-size: 124%;
-font-family: Lobster;
+font-family: "游明朝体", YuMincho, "游明朝", "Yu Mincho", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN W3", HiraMinProN-W3, "ヒラギノ明朝 ProN", "Hiragino Mincho ProN", "ヒラギノ明朝 Pro", "Hiragino Mincho Pro", "HGS明朝E", "ＭＳ Ｐ明朝", "MS PMincho", Georgia, Times, "Times New Roman", serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 font-size: 40px;
 text-align: center;
 margin-top: 0px;
