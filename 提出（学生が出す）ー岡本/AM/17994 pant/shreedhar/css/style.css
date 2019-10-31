@@ -1,0 +1,43 @@
+﻿header{
+background-image:url("../n/pa.jpg");
+/*background-repeat: no-repeat;*/
+height:200px;
+width: auto;
+text-align: center;
+}
+.main{
+display: flex;
+height:1000px;
+}
+nav{
+background-color: #FF0000;
+}
+ul{
+	text-align: center;
+	margin-top: 0;
+	padding-left: 16px;
+}
+li{
+	display: inline-block;
+	list-style: none;
+	font-size: 14px;
+	margin-right: 30px;
+	padding: 10px 0px;
+}
+.main-contents{
+background-color: #00FF00;
+width: 70%;
+}
+aside{
+background-color: #0000FF;
+width: 20%;
+}
+@media screen and (max-width: 600px){
+	.main{
+	display: flex;
+	flex-direction: column;
+	}
+	.main,nav,.main-contents,aside{
+	width: 100%;
+	}
+}

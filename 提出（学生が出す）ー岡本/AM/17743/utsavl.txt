@@ -1,0 +1,18 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>NEPAL</title>
+</head>
+<body>
+<header id="head">
+<h1>NEPAL(ネパール)<br> Country of mountains</h1>
+</header>
+<nav>
+	<ul>
+		<li><a href="#">Introduction</a></li>
+		<li><a href="#">Mountains</a></li>
+		<li><a href="#">remarks</a></li>
+		<li><a href="#">Contact us</a></li>
+	</ul>
+</nav>

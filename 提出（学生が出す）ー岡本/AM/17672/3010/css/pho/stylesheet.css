@@ -1,0 +1,47 @@
+body{
+    max-width: 1024px;
+    width: 90%;
+    margin: 0 auto;
+    background-color:aqua;
+    }
+    header{
+        float: left;
+        width: 40%;
+    }
+    h1{
+    color: #fff;
+    background-image: url("../anh/anh1.png");
+    background-repeat: no-repeat;
+    
+    background-size: 100%;
+    font-family: Lobster;
+    font-size: 160px;
+    text-align: center;
+    margin: 0;
+    
+    height: 355px;
+    }
+    ul{
+    text-align: center;
+    margin-top: 0;
+    padding-left: 30px;
+    }
+    li{
+    font-size: 30px;
+    list-style: none;
+    margin-right: 30px;
+    display: inline-block;
+    padding: 10px 0px;
+    }
+    div{
+        border: 3px solid azure
+        padding 5px
+    }
+    .img{
+        float: left;
+    }
+    p{
+
+    }
+    
+    

@@ -1,0 +1,21 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>newari kitchen</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	<body>
+		<header>
+			<h1>newari kitchen</h1>
+			<h2>「neawari kitchen」</h2>
+			<img src="images/topimage.jpg">
+		</header><br>
+		<p>newari kitchen [浴衣」：Located at a very cultural and peaceful setting,  Ashan Newari Kitchen has been bringing smile  on people for ten years. With the amazing view  of architectural beauty of Patan Durbar Square,
+。
+
+
+		</p>
+	</body>
+</html>
+
