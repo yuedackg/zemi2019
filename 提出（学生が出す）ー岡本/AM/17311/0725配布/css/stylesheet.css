@@ -11,10 +11,10 @@ background-repeat: no-repeat;
 }
 h1{
 color: rgb(248, 169, 10);
-background-image: url("../img/.png");
+background-image: url("../img/.jpg");
 background-repeat: no-repeat;
 background-position: center;
-font-family: HG����E;
+font-family: HG????E;
 font-size: 60px;
 text-align: center;
 margin-top: 0px;
@@ -59,14 +59,14 @@ text-align: justify;
 line-height: 25px;
 }
 .about img{
-width: 20%;
-height: 20%;
+width:30%;
+height: 30%;
 min-width: 150px;
 }
-
+}
 .photo p{
-margin-top: 15px;
-margin-left: 30px;
+margin-top: 25px;
+margin-left: 45px;
 }
 .photo-box{
 display: flex;
@@ -76,8 +76,8 @@ margin-left: 30px;
 margin-left: 65px;
 }
 h3{
-�T�C�Y
-����
+?T?C?Y
+????
 }
 .big img{
 width: 35%;

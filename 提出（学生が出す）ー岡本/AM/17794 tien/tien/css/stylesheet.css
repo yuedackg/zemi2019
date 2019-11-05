@@ -102,17 +102,16 @@ display: flex;
 margin-left: 30px;
 }
 .box{
+width: 400px;
 margin-left: 65px;
-}
-h3{
-margin-top: 10px;
 }
 
 .big img{
-font-size: 90%;
-line-height: 1.6;
-background-color:#fff;
-padding: 10px;
+	font-size: 90%;
+	line-height: 1.6;
+	background-color:#fff;
+	padding: 10px;
+	width: 300px;
 }
 .big h3{
 	font-weight: 700;
@@ -123,13 +122,11 @@ padding: 10px;
 font-size: 85%;
 }
 .big1 img{
-margin: 0 30px 0 40px;
-width: 50%;
-height: 60%;
-text-align: center;
-float: left;
-background-color:#fff;
-padding: 10px;
+	font-size: 90%;
+	line-height: 1.6;
+	background-color:#fff;
+	padding: 10px;
+	width: 300px;
 }
 .big1 h3{
 font-weight: 700;
@@ -140,9 +137,11 @@ font-size: 1.3rem;
 font-size: 85%;
 }
 .small img{
-width: 30%;
-padding: 10px;
-background-color: #fff;
+	font-size: 90%;
+	line-height: 1.6;
+	background-color:#fff;
+	padding: 10px;
+	width: 300px;
 }
 .small h3{
 	font-weight: 700;
@@ -153,10 +152,11 @@ background-color: #fff;
 font-size: 85%;
 }
 .small1 img{
-width: 40%;
-height: 30%;
-padding: 10px;
-background-color: #fff;
+	font-size: 90%;
+	line-height: 1.6;
+	background-color:#fff;
+	padding: 10px;
+	width: 300px;
 }
 .small1 h3{
 	font-weight: 700;
@@ -229,4 +229,8 @@ right:60px;
 bottom:20px;
 background-color:rgba(100,100,100,0.5);
 padding:0 10px;
+}
+
+div{
+	border: solid 1px red;
 }
