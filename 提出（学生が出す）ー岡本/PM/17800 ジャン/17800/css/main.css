@@ -1,6 +1,6 @@
 body{
     max-width: 2000px;
-    width:90%;
+    width:100%;
     margin: 0 auto;
     background-color: #C0FF3E;
 }
@@ -18,7 +18,7 @@ ul{
     margin-top: 0;
 }
 .box{
-    margin-left: 1000px;
+    margin-left: 100px;
 }
 #menu ul li{
     color:#f1f1f1;

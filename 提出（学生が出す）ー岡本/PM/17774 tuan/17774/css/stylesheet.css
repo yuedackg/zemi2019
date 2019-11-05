@@ -1,24 +1,24 @@
 ﻿body{
-max-width: 1024px;
+max-width: 800px;
 width: 90%;
 margin: 0 auto;
-background-color: #A9F5F2;
+background-color: #B22222;
 }
 h1{
 color: #fff;
-background-image: url("1.png");
+background-image: url("2.jpg");
 background-repeat: no-repeat;
 
 background-size: 100%;
 font-family: Lobster;
-font-size: 200px;
+font-size: 100px;
 text-align: center;
 margin: 0;
 
-height: 305px;
+height: 320px;
 }
 nav{
-background-color: #8b4513;
+background-color:#B22222;
 }
 ul{
 text-align: center;
@@ -125,6 +125,6 @@ position: fixed;
 right: 60px;
 bottom: 20px;
 background-color: rgba(100,100,100,0.5);
-padding: 0 10px;
+padding: 0 10px;	
 }
 
