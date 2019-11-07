@@ -6,9 +6,9 @@ background-color:rgba(3, 92, 70, 0.76);
 }
 header{
 height: 300px;
-background-image: url("../img/nepandfood.jpg");
-width:1000px;
-height:400px;
+background-image: url("../img/nepalikitchen.png");
+width:1100px;
+height:500px;
 background-repeat: no-repeat;
 }
 h1{
@@ -20,8 +20,8 @@ font-family: HG????E;
 font-size: 60px;
 text-align: center;
 margin-top: 0px;
-padding-top: 85px;
-height:230px;
+padding-top: 65px;
+height:200px;
 }
 nav{
 background-color: rgb(3, 74, 83);
@@ -55,14 +55,14 @@ margin-bottom: 40px;
 display: flex;
 }
 .about p{
-width: 690px;
+width: auto;
 margin: 0px 40px;
 text-align: justify;
 line-height: 25px;
 }
 .about img{
-width:30%;
-height: 30%;
+width:40%;
+height: 35%;
 min-width: 150px;
 }
 }

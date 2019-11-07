@@ -1,61 +1,63 @@
 body{
-max-width: 1024px;
-width: 90%;
-margin: 0 auto;
-background-image:url("../img/vietnam.jpg");
+	max-width: 1024px;
+	width: 90%;
+	margin: 0 auto;
+	background-color: #666;
 }
 header{
-width:100%;
-height: 300px;
-background-image: url("../img/pho6.jpg");
-background-repeat: no-repeat;
-background-size:100%;
+	width:100%;
+	height: 300px;
+	background-image: url("../img/pho6.jpg");
+	background-repeat: no-repeat;
+	background-size:100%;
 }
 h1{
-color: #ffffff;
-background-image: url("../img/pho6.png");
-background-repeat: no-repeat;
-background-position: 50% 73%;
-font-family: Lobster;
-font-size: 50px;
-text-align: center;
-margin-top: 10px;
-padding-top: 10px;
-height: 500px;
+	color: #ffffff;
+	background-image: url("../img/pho6.png");
+	background-repeat: no-repeat;
+	background-position: 50% 73%;
+	font-family: Lobster;
+	font-size: 50px;
+	text-align: center;
+	margin-top: 10px;
+	padding-top: 10px;
+	height: 500px;
 }
 nav{
-background-color:silver;
+	background-color:silver;	
 }
 ul{
-text-align: center;
-margin-top: 0;
-padding-left: 16px;
+	text-align: center;
+	margin-top: 0;
+	padding-left: 16px;
 }
 li{
-font-size: 14px;
-list-style: none;
-margin-right: 30px;
-display: inline-block;
-padding: 10px 0px;
+	font-size: 14px;
+	list-style: none;
+	margin-right: 30px;
+	display: inline-block;
+	padding: 10px 0px;
 }
 a{
-color: #ffffff;
-text-decoration: none;
+	color: #ffffff;
+	text-decoration: none;
 }
 h2{
-margin-top: 30px;
-padding: 5px;
-color: #ffffff;
-font-size: 21px;
-font-weight: normal;
-line-height: 1.0;
-background: #007130;
+	margin-top: 30px;
+	padding: 5px;
+	color: #ffffff;
+	font-size: 21px;
+	font-weight: normal;
+	line-height: 1.0;
+	background: #007130;
 }
 section{
-margin-bottom: 50px;
+	margin-bottom: 50px;
+
 }
 .home{
-display: flex
+	display: flex
+
 }
 .home p{
 	font-size: 20px;
@@ -68,42 +70,37 @@ display: flex
 }
 
 .home img{
-width: 30%;
-height: 30%;
-min-width: 100px;
-background-color: #ffffff;
-padding: 10px;
+	width: 30%;
+	height: 30%;
+	min-width: 100px;
+	background-color: #ffffff;
+	padding: 10px;
 }
 .about{
-display: flex;
+	display: flex;
 }
 .about p{
-width: 690px;
-margin: 0px 40px;
-text-align: justify;
-line-height: 25px;
+	width: 690px;
+	margin: 0px 40px;
+	text-align: justify;
+	line-height: 25px;
 }
 .about img{
-width: 90%;
-height: 100%;
-min-width: 150px;
+	width: 90%;
+	height: 100%;
+	min-width: 150px;
 }
-margin: 0 24px 35px 0;
-width: 100%;
-text-align: center;
-float: left;
-backg
 .photo p{
-margin-top: 15px;
-margin-left: 30px;
+	margin-top: 15px;
+	margin-left: 30px;
 }
 .photo-box{
-display: flex;
-margin-left: 30px;
+	display: flex;
+	margin-left: 30px;
 }
 .box{
-width: 400px;
-margin-left: 65px;
+	width: 400px;
+	margin-left: 65px;
 }
 
 .big img{
@@ -121,51 +118,6 @@ margin-left: 65px;
 .big h4{
 font-size: 85%;
 }
-.big1 img{
-	font-size: 90%;
-	line-height: 1.6;
-	background-color:#fff;
-	padding: 10px;
-	width: 300px;
-}
-.big1 h3{
-font-weight: 700;
-font-size: 18px;
-font-size: 1.3rem;
-}
-.big1 h4{
-font-size: 85%;
-}
-.small img{
-	font-size: 90%;
-	line-height: 1.6;
-	background-color:#fff;
-	padding: 10px;
-	width: 300px;
-}
-.small h3{
-	font-weight: 700;
-	font-size: 18px;
-	font-size: 1.3rem;
-}
-.small h4{
-font-size: 85%;
-}
-.small1 img{
-	font-size: 90%;
-	line-height: 1.6;
-	background-color:#fff;
-	padding: 10px;
-	width: 300px;
-}
-.small1 h3{
-	font-weight: 700;
-	font-size: 18px;
-	font-size: 1.3rem;
-}
-.small1 h4{
-font-size: 85%;
-}
 .price-table{
 display: flex;
 margin-left: 25px;
@@ -179,37 +131,30 @@ border-collapse: collapse;
 padding: 5px 48px;
 }
 .table-right{
-background-color: #fff;
 margin-left: 30px;
 margin-top:0;
 }
 .table-left{
-background-color: #fff;
 margin-left: 30px;
 margin-top:0;
 }
 .photo1{
-display: flex;
-margin-left: 25px;
+	display: flex;
+	margin-left: 25px;
+}
+.anh{
+	font-size: 90%;
+	line-height: 1.6;
+	background-color:#fff;
+	padding: 10px;
+	width: 300px;
 }
 table,tr,td{
 border: none
 }
-.price h5{
-	margin: 0 0 10px;
-    line-height: 2;
-    font-size: 18px;
-    font-weight: bold;
-    border-bottom: 1px solid #007130
-}
 .toppinglist{
-	margin: 0 0 35px;
-	display: block;
-    flex-wrap: wrap;
-}
-.tax{
-	display: inline-block;
-    float: right;
+	margin-left: 30px;
+	margin-top:0;
 }
 /* 地図*/
 .access{
@@ -230,7 +175,7 @@ bottom:20px;
 background-color:rgba(100,100,100,0.5);
 padding:0 10px;
 }
-
-div{
-	border: solid 1px red;
+.photobox-text{
+	width: 200px;
+	word-wrap: none;
 }

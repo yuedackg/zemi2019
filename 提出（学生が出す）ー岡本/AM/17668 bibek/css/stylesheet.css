@@ -6,7 +6,8 @@ background-color: #f8e4ce;
 }
 header{
 height: 440px;
-background-image: url("../img/khaaja.jpg");
+background-image: url("../img/khaaja.png");
+background-size: 1000px;
 background-repeat: no-repeat;
 }
 h1{
@@ -133,4 +134,4 @@ padding: 0 10px;
 }
 #khaaja{
 width:1000px;
-length:1000px;
+}

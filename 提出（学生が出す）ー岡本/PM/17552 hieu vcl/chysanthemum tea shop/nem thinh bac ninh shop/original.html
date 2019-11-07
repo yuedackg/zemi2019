@@ -1,0 +1,118 @@
+﻿<!doctype html>
+<html lang="ja">
+	<head>
+		<meta charset="UTF-8">
+		<title>nem thinh bac ninh</title>
+		<link rel="stylesheet" href="css/stylesheet.css">
+		<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	</head>
+
+	<body>
+		<header id="header">
+			<h1>nem thinh bac ninh shop</h1>
+		</header>
+		<div class="topnav" id="myTopnav">
+				<a href="#about" class="acive">NEW FOODS</a>
+				<a href="#about">DRINK MENU</a>
+				<a href="#photo">FOOD MENU</a>
+				<a href="#price">お店について</a>
+				<a href="#access">アクセスマップ</a>
+				<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+   					 <i class="fa fa-bars"></i>
+				</a>	
+		</div>
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+		
+		<h2 id="about">nem thinh bac ninh shopについて</h2>
+		<section class="about">
+			<p>nem thinh la 1 mon an dac san cua nguoi bac ninh.duoc sinh ra 100 nam truoc.trai qua bao thang tram huong vi cua nem thinh van khong the nham lan vao dau duoc.voi gia thanh hop li moi tang lop nhan dan deu co the thuong thuc 1 cach de dang.ngay nay xa hoi phat trien,cac mon an au my chiem linh thi truong nhung nem thinh van la mon an cua gia dinh-dam co- va la 1 mon khoai khau cua dang may rau tren ban nhau.
+			</p>
+			<img src="anh/1.jfif">
+		</section>
+
+		<h2 id="photo">おすすめのnem thinh</h2>
+		<section class="photo">
+			<div class="photo-box">			
+				<div class="big">
+					<img src="anh/1.jfif">
+					<h3 id="price">nem thinh</h3>
+				</div>
+				<div class="box">
+					<div class="small">
+						<img src="anh/2.jfif">
+						<h3>nem tai</h3>
+					</div>
+					<div class="small">
+						<img src="anh/3.jfif">
+						<h3>nem chua</h3>
+					</div>
+				</div>
+			</div>
+			<p>毎日10:00-22:00。</p>
+		
+		</section>
+
+		<h2 id="price">商品メニュー</h2>
+		<section class="price">
+			<div class="price-table">
+				<table class="table-left">
+					<tr>
+						<th>平日の商品</th><th>価格</th>
+					</tr>
+					<tr>　
+						<td>nem thinh</td><td>25000d</td>
+					</tr>
+					<tr>
+						<td>nem tai</td><td>20000d</td>
+					</tr>
+					<tr>
+						<td>nem chua</td><td>20000d</td>
+					</tr>
+				</table>
+				<table class="table-right">
+					<tr>
+						<th>週末の商品</th><th>価格</th>
+					</tr>
+					<tr>
+						<td>nem thinh</td><td>30000d</td>
+					</tr>
+					<tr>
+						<td>nem tai</td><td>22000d</td>
+					</tr>
+					<tr>
+						<td>nem chua</td><td>22000d</td>
+					</tr>
+				</table>
+			</div>
+		</section>
+<!--　アクセスマップ　-->
+		<section>
+			<h2 id="access">アクセスマップ</h2>
+			<h3 class="map-title">nem thinh bac ninh shop</h3>
+			<div class="access">
+				<img src="">
+				<p>住所：Thanh Gia Quang Phu Luong Tai Bac Ninh<br>
+				電話番号：0987-301-586<br>
+				営業時間：10:00 ～ 21:00
+				</p>
+			</div>
+		</section>
+		<p class="pagetop">
+			<a href="#header">PAGE TOP</a>
+		</p>
+		<footer>&copy; 2019 nem thinh bac ninh shop</footer>
+	</body>
+</html>
