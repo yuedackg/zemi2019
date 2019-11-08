@@ -1,8 +1,8 @@
 ﻿body{
-max-width: 1010px;
-width: 90%;
-margin: 0px auto;
-background-color: pink;
+	max-width: 1010px;
+	width: 90%;
+	margin: 30px auto;
+	background-color: pink;
 }
 header{
 	height:670px;
@@ -10,11 +10,11 @@ header{
 	background-size: 100%;
 	background-repeat: no-repeat;
 	display: flex;
-	margin top :120px;
+	margin top :100px;
 	background-color:#d87373;
 }
 .title{
-display: block;
+	display: block;
 }
 
 h1{
@@ -30,35 +30,46 @@ h1{
 	font-size: 58px;
 }
 	p#smalltitle{
-color: white;
-font-size: 50px;
-text-align: center;
+	color:yellow;
+	font-size: 50px;
+	text-align: center;
+}
+	p#bigtitle{
+	color:red;
+	font-size:30px;
+	text-align: center;
+	margin :150px auto;
+	font-family:bold;
+}
+.nav{
+	color:white;
+	font-size:20px;
 }
 #menu-photo{
-width: 290px;
-height: 270px;
-margin:20px;
-background-image: url("../image/image2.jpg");
-background-size: 100%;
+	width: 290px;
+	height: 270px;
+	margin:20px;
+	background-image: url("../image/image2.jpg");
+	background-size: 100%;
 }
 /* 商品メニュー　*/
-.price-table{
-displat:flex;
-margin-left: 50px;
+	.price-table{
+	displat:flex;
+	margin-left: 50px;
 }
-th{
-background-color: #ccc;
+	th{
+	background-color: #ccc;
 }
 td{
-background-color: #fff;
+	background-color: #fff;
 }
-table,th,td{
-border: solid 1px #666;
-border-collapse: collapse;
-padding: 5px 48px;
+	table,th,td{
+	border: solid 1px #666;
+	border-collapse: collapse;
+	padding: 5px 48px;
 }
 .table-right{
-margin-left: 50px;
+	margin-left: 50px;
 
 }
 /* tooltip */
@@ -100,25 +111,25 @@ margin-left: 50px;
 
 /* ドリンクメニュー　*/
 .price-table{
-displat:flex;
-margin-left: 50px;
+	displat:flex;
+	margin-left: 50px;
 }
-th{
-background-color: #ccc;
+	th{
+	background-color: #ccc;
 }
-td{
-background-color: #fff;
+	td{
+	background-color: #fff;
 }
-table,th,td{
-border: solid 1px #666;
-border-collapse: collapse;
-padding: 5px 48px;
+	table,th,td{
+	border: solid 1px #666;
+	border-collapse: collapse;
+	padding: 5px 48px;
 }
 .table-right{
-margin-left: 50px;
+	margin-left: 50px;
 
 }
 /*　アクセス　*/
-.address ul li{
-display: block;
+.address{
+	display: block;
 }

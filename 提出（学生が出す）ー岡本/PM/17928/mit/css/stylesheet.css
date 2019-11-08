@@ -8,17 +8,19 @@ font-family: Arial, Helvetica, sans-serif;
 h1{
 color: #fff;
 width:1024px;
-height:300px;
+height:500px;
 border:green thin solid;
 background-image: url("../anh/lamilana1.jpg");
 background-size:100%;
 background-repeat:no-repeat;
 padding-top:40px;
 color:red;
+text-align:center;
+font-size:80px;
 }
 h2{
 border:#ff7f00 solid 2px;
-border:dotted;
+border:hidden;
 background-color:#ff7f00;
 font-style: italic;
 font-size:35px;

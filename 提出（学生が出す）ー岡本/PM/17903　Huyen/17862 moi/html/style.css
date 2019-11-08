@@ -1,0 +1,15 @@
+.text{
+position: absolute;
+}
+.relative{
+position: relative;
+background-color: rgba(255,255,0,0.5);
+}
+.absolute{
+position: absolute;
+background-color: rgba(0,255,255,0.5);
+}
+.fixed{
+position: fixed;
+background-color: rgba(255,0,255,0.5);
+}
