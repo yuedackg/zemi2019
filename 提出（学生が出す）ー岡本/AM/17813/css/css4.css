@@ -1,0 +1,14 @@
+body{
+    background-color:rgb(255, 255, 128);
+}
+.photo{
+    display: flex ;
+}
+.big{
+    height:800px;
+    width: 600px;
+}
+.big1{
+    height:800px;
+    width: 600px;
+}

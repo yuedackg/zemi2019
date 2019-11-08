@@ -37,12 +37,12 @@ display: inline-block;
 padding: 10px 0px;
 }
 a{
-color: #ffffff;
+color: #99FF00;
 text-decoration: none;
 }
 h2{
-border-left: solid 10px #ffa500;
-border-bottom:  dotted 5px #ffa500;
+border-left: solid 10px #00FF00;
+border-bottom:  dotted 5px #0000FF;
 margin-top: 30px;
 padding: 5px;
 }
@@ -94,7 +94,7 @@ margin-top: 35px;
 .small img{
 
 padding: 25px;
-background-color: #0000BF;
+background-color: #003300;
 }
 
 .price-table{
@@ -102,10 +102,10 @@ display: flex;
 margin-left: 25px;
 }
 th{
-background-color: #ccc;
+background-color: #999900;
 }
 table,th,td{
-border: solid 1px #666;
+border: solid 1px #999900;
 border-collapse: collapse;
 padding: 5px 48px;
 }

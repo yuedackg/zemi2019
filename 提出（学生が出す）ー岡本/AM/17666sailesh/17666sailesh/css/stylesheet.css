@@ -2,7 +2,7 @@ body{
 max-width: 1024px;
 width: 90%;
 margin: 0 auto;
-background-color: #f8e4ce;
+background-color: green;
 }
 header{
 height: 1000hpx;
@@ -21,7 +21,7 @@ padding-top: 105px;
 height: 245px;
 }
 nav{
-background-color: #8b4513;
+background-color: brown;
 }
 ul{
 text-align: center;

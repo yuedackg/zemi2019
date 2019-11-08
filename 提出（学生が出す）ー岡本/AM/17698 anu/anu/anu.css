@@ -1,0 +1,64 @@
+﻿body{
+width: 900px;
+margin: 0 auto;
+}
+.head{
+background-image: url("images/pokhara.jpg");
+height: 500px;
+background-repeat: no-repeat;
+
+}
+.image img{
+height: 200px;
+width: 200px;
+}
+h1{
+	font-size: 150px;
+	text-align: center;
+	margin:50px;
+	padding-top: 100px;
+	color: aliceblue;
+}
+h2{
+	font-size: 50px;
+	margin-top: 150px;
+	color: blue;
+}
+h3{
+	font-size: 25px;
+	margin-top: 15px;
+	color: blue; 
+
+}  
+h4{
+	font-size: 50px;
+	margin-top: 150px;
+	color: olive;
+}
+p{
+text-indent:50px;
+}
+
+	
+}
+}
+#{
+	text-align: center
+}
+#leaf{
+	text-align: center
+}
+#pokhara {
+	text-align: center
+}
+.photo{
+	float:left;
+	padding: 15px;
+}
+
+/*  説明ページのCSS  */
+
+.{
+	font-size: 12px;
+	width: 200px;
+}
