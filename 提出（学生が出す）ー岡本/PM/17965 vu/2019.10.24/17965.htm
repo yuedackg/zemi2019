@@ -7,6 +7,7 @@
 		<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 
 	</head>	
 	<body>
@@ -31,8 +32,31 @@ function myFunction() {
 }
 		</script>
 		<form>
-        <input type="text" name="search" placeholder="Search..">
-		</form
+        <input type="text" name="search" placeholder="Search.."><i class="fa fa-search"></i>
+
+		</form>
+	<body>
+
+<h4>LOGIN</h4>
+
+<div>
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+		<label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+		<label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="日本">Japan</option>
+      <option value="ベトナム">VIET NAM</option>
+      <option value="usa">USA</option>
+    </select>
+  
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+</body>
 
 </html>
 

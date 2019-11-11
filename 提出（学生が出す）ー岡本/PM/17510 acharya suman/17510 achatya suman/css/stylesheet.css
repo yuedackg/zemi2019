@@ -11,7 +11,7 @@ header{
 	background-repeat: no-repeat;
 	display: flex;
 	margin top :100px;
-	background-color:#d87373;
+	background-color:lime;
 }
 .title{
 	display: block;
@@ -30,20 +30,16 @@ h1{
 	font-size: 58px;
 }
 	p#smalltitle{
-	color:yellow;
+	color:lightseagreen;
 	font-size: 50px;
 	text-align: center;
 }
 	p#bigtitle{
-	color:red;
+	color:darkorange;
 	font-size:30px;
 	text-align: center;
 	margin :150px auto;
 	font-family:bold;
-}
-.nav{
-	color:white;
-	font-size:20px;
 }
 #menu-photo{
 	width: 290px;
@@ -51,6 +47,7 @@ h1{
 	margin:20px;
 	background-image: url("../image/image2.jpg");
 	background-size: 100%;
+
 }
 /* 商品メニュー　*/
 	.price-table{
