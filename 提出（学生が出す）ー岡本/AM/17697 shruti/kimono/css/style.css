@@ -19,6 +19,10 @@ h2{
 #leaf{
 	text-align: center
 }
+p{
+	text-align: justify;
+	width: 800px;
+}
 #kimono{
 	text-align: center
 }
@@ -29,10 +33,6 @@ h2{
 
 /*  explanation説明ページのCSS  */
 
-.contents{
-	display: flex;
-	flex-direction: column;
-}
 .explanation{
 	font-size: 12px;
 	width: 200px;

@@ -32,7 +32,7 @@ margin-top: 0;
 padding-left: 16px;
 }
 li{
-font-size: 14px;
+font-size: 20px;
 list-style: none;
 margin-right: 30px;
 display: inline-block;
@@ -46,10 +46,11 @@ h2{
 margin-top: 15px;
 padding: 5px;
 color: #ffffff;
-font-size: 21px;
+font-size: 30px;
 font-weight: normal;
 line-height: 1.0;
 background: #007130;
+text-align: center;
 }
 section{
 margin-bottom: 20px;

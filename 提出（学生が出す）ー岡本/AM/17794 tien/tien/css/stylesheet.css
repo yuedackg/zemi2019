@@ -70,8 +70,8 @@ section{
 }
 
 .home img{
-	width: 30%;
-	height: 30%;
+	width: 90%;
+	height: 100%;
 	min-width: 100px;
 	background-color: #ffffff;
 	padding: 10px;
@@ -96,13 +96,13 @@ section{
 }
 .photo-box{
 	display: flex;
-	margin-left: 30px;
+	margin-left: 60px;
+	
 }
 .box{
 	width: 400px;
 	margin-left: 65px;
 }
-
 .big img{
 	font-size: 90%;
 	line-height: 1.6;
@@ -124,6 +124,7 @@ font-size: 85%;
 h4{
 	width: 200px;
 	word-wrap: none;
+	margin-left: 40px;
 }
 .price-table{
 display: flex;
@@ -186,4 +187,5 @@ padding:0 10px;
 .photobox-text{
 	width: 200px;
 	word-wrap: none;
+	margin-left: 40px;
 }

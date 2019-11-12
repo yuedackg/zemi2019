@@ -1,9 +1,10 @@
 ﻿body{
 width: 900px;
 margin: 0 auto;
+background-color:powderblue;
 }
 .head{
-background-image: url("images/pokhara.jpg");
+background-image: url("images/images.jpg");
 height: 500px;
 background-repeat: no-repeat;
 
@@ -13,11 +14,11 @@ height: 200px;
 width: 200px;
 }
 h1{
-	font-size: 150px;
+	font-size: 30px;
 	text-align: center;
 	margin:50px;
 	padding-top: 100px;
-	color: aliceblue;
+	color: black;
 }
 h2{
 	font-size: 50px;
@@ -34,6 +35,9 @@ h4{
 	font-size: 50px;
 	margin-top: 150px;
 	color: olive;
+}
+ul{
+	font-size 50px;
 }
 p{
 text-indent:50px;

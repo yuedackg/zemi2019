@@ -1,11 +1,11 @@
 body{
 max-width: 1024px;
 width: 90%;
-margin: 0 auto;
+margin: 30px auto;
 background-color: #f7be81;
 }
 header{
-height: 440px;
+height: 670px;
 
 background-repeat: no-repeat;
 }
@@ -95,7 +95,7 @@ width: 90%;
 padding: 15px;
 background-color: #fff;
 }
-/* ���i���j���[�@*/
+/* ???i???j???[?@*/
 .price-table{
 display: flex;
 margin-left: 25px;
@@ -114,7 +114,7 @@ padding: 5px 48px;
 .table-right{
 margin-left: 30px;
 }
-/*�@�A�N�Z�X�@*/
+/*?@?A?N?Z?X?@*/
 .access h3{
 font-family: lobster;
 font-size:28px;
@@ -127,7 +127,7 @@ display: flex;
 margin-left:15px;
 margin-top:0;
 }
-/*�@�y�[�W�g�b�v�{�^���@*/
+/*?@?y?[?W?g?b?v?{?^???@*/
 .pagetop{
 position:fixed;
 right:60px;
