@@ -4,12 +4,19 @@ width: 90%;
 margin: 0 auto;
 background-color:rgb(255, 255, 128);
 }
+
 header{
 width:200%;
-height: 500px;
-background-image: url("anh/anh1.png");
+height: 350px;
+background-image: url("anh/logo.jpg");
 background-repeat: no-repeat;
 background-size:100%;
+}
+#headerimg{
+/*
+	width: 90%;
+*/
+	height: 100%;
 }
 h1{
 color: rgb(214, 122, 127);
@@ -32,11 +39,11 @@ margin-top: 0;
 padding-left: 16px;
 }
 li{
-font-size: 20px;
-list-style: none;
-margin-right: 30px;
-display: inline-block;
-padding: 10px 0px;
+	font-size: 20px;
+	list-style: none;
+	margin-right: 30px;
+	display: inline-block;
+	padding: 10px 0px;
 }
 a{
 color: #ffffff;

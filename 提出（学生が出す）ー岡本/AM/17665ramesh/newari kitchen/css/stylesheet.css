@@ -2,7 +2,7 @@ body{
 max-width: 1024px;
 width: 90%;
 margin: 0 auto;
-background-color: #0000ff;
+background-color: #;
 }
 header{
 height: 1000hpx;
@@ -29,6 +29,8 @@ margin-top: 0;
 padding-left: 16px;
 }
 li{
+a:hover{
+color:#ff7043;
 font-size: 14px;
 list-style: none;
 margin-right: 30px;

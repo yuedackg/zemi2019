@@ -36,8 +36,24 @@ h4{
 	margin-top: 150px;
 	color: olive;
 }
-ul{
-	font-size 50px;
+section img{
+	height: 500px;
+	width:900px;
+
+}
+section class image{
+	height:900px;
+	width:500px;
+}
+h2{
+	border-none;
+	border-bottom: dotted 5px; 
+	margin-top:30px;
+	padding:5px
+}
+	
+
+}
 }
 p{
 text-indent:50px;
