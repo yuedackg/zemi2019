@@ -1,4 +1,5 @@
-﻿body{
+﻿
+body{
 max-width: 1024px;
 width: 100%;
 margin: 0 auto;
@@ -78,9 +79,9 @@ h3{
 font-size: medium;
 }
 .big img{
-width: 95%;
-padding: 20px;
-margin-top: 18px;
+width: 86%;
+padding: 3px;
+margin-top: 23px;
 background-color: #fff;
 transform:rotate(-6deg)
 }
@@ -88,9 +89,10 @@ transform:rotate(-6deg)
 margin-top: 35px;
 }
 .small img{
-width: 90%;
-padding: 15px;
+width: 65%;
+padding: 4px;
 background-color: #fff;
+transform:rotate(26deg)
 }
 
 .price-table{
@@ -124,11 +126,14 @@ margin-bottom: 15px;
 }
 .pagetop{
 position: fixed;
-right: 60px;
+right: 40px;
 bottom: 20px;
 background-color: rgba(100,100,100,0.5);
 padding: 0 10px;
 }
+
+/***slider***/
+
 *{
     margin: 0;
     padding: 0;
@@ -138,10 +143,14 @@ padding: 0 10px;
     width: 1000px;
     margin: 0 auto;
     overflow: hidden;
-    margin-top: 50px;
+    margin-top: 12px;
     border-radius: 10px;
     position: relative;
   }
+  .slide:hover .dieuhuong{
+    display: block;
+  }
+
   .chuyen-slide{
     width: 9999px;
     transition: all 0.5s;
@@ -157,8 +166,94 @@ padding: 0 10px;
     font-size: 40px;
     top: 48%;
     padding-left: 20px;
+    display: none;
   }
   .dieuhuong i:last-child{
     position: relative;
     left: 880px;
   }
+/***menu da cap***/
+* {
+  margin:0px;
+  padding:0px;
+}
+.clearfix:after {
+  display:block;
+  clear:both;          
+}
+.wrapper {
+  width:100%;
+  box-shadow:0px 1px 3px rgba(0,0,0,0.2); 
+  background:#3e3436;
+  height: 42px;
+}
+
+/*----- Phần menu -----*/
+.menu {
+  width:1024px;
+  margin:0px auto;
+  background:#bf5c71;
+  height: 42px;
+  margin-top: 12px;
+}
+.menu li {
+  margin:0px;
+  list-style:none;
+  font-family:'asolute';
+}
+.menu a {
+  transition:all linear 0.15s;
+  color:#919191;
+  text-decoration:none;
+}
+.menu li:hover > a, .menu .current-item > a {
+  text-decoration:none;
+  color:#be5b70;
+} 
+.menu .arrow {
+  font-size:11px;
+  line-height:0%;
+} 
+/*----- css cho phần menu cha -----*/
+.menu > ul > li {
+  float:left;
+  display:inline-block;
+  position:relative;
+  font-size:19px;
+}
+.menu > ul > li > a {
+  padding:10px 50px;
+  display:inline-block;
+  color:white;
+}
+.menu > ul > li:hover > a, .menu > ul > .current-item > a {
+  background:#2e2728;
+}
+/*----css cho menu con----*/
+.menu li:hover .sub-menu {
+  z-index:1;
+  opacity:1;
+}
+.sub-menu {
+  width:160%;
+  padding:5px 0px;
+  position:absolute;
+  top:100%;
+  left:0px;
+  z-index:-1;
+  opacity:0;
+  transition:opacity linear 0.15s;
+  box-shadow:0px 2px 3px rgba(0,0,0,0.2);
+  background:#2e2728;
+}
+.sub-menu li {
+  display:block;
+  font-size:16px;
+}
+.sub-menu li a {
+  padding:10px 30px;
+  display:block;
+}
+.sub-menu li a:hover, .sub-menu .current-item a {
+  background:#3e3436;
+}

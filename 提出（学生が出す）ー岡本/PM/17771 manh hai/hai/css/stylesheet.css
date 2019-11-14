@@ -1,20 +1,22 @@
 ﻿body{
-max-width: 1024px;
+max-width: 980px;
 width: 90%;
 margin: 0 auto;
+font-family: Arial, Helvetica, sans-serif;
 background-color: #ffc125;
 }
 h1{
 color: #fff;
 background-image: url("../anh/anh6.jpg");
 background-repeat: no-repeat;
-background-position: 50% 73%;
+background-position: 36% 38%;
+background-size: 124%;
 font-family: Lobster;
-font-size: 60px;
+font-size: 40px;
 text-align: center;
 margin: 0px;
-padding-top: 105px;
-height: 245px;
+padding-top: 150px;
+height: 150px;
 }
 nav{
 background-color: #8b4513;
@@ -22,14 +24,14 @@ background-color: #8b4513;
 ul{
 text-align: center;
 margin-top: 0;
-padding-left: 16px;
+padding-left: 50px;
 }
 li{
 font-size: 14px;
 list-style: none;
-margin-right: 30px;
+margin-right: 40px;
 display: inline-block;
-padding: 10px 0px;
+padding: 14px 16px;
 }
 a{
 color: #ffffff;

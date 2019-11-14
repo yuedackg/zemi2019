@@ -71,3 +71,7 @@ section{
 iframe{
     margin-right: 100%;
 }
+table{
+    position: relative;
+    left: 500px;
+}

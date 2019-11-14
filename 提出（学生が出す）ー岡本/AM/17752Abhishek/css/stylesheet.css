@@ -2,7 +2,7 @@ body{
 max-width: 1024px;
 width: 90%;
 margin: 0 auto;
-background-color: #FFF8DC;
+background-color: #DDA0DD;
 }
 header{
 height: 1000hpx;
@@ -37,12 +37,12 @@ display: inline-block;
 padding: 10px 0px;
 }
 a{
-color: #99FF00;
+color: #FAEBD7;
 text-decoration: none;
 }
 h2{
-border-left: solid 10px #00FF00;
-border-bottom:  dotted 5px #0000FF;
+border-left: solid 10px #ffa500;
+border-bottom:  dotted 5px #ffa500;
 margin-top: 30px;
 padding: 5px;
 }
@@ -94,7 +94,7 @@ margin-top: 35px;
 .small img{
 
 padding: 25px;
-background-color: #003300;
+background-color: #0000BF;
 }
 
 .price-table{
@@ -102,10 +102,10 @@ display: flex;
 margin-left: 25px;
 }
 th{
-background-color: #999900;
+background-color: #ccc;
 }
 table,th,td{
-border: solid 1px #999900;
+border: solid 1px #666;
 border-collapse: collapse;
 padding: 5px 48px;
 }
@@ -121,7 +121,7 @@ margin-left: 15px;
 margin-top: 0;
 }
 .map-title{
-font-family: Lobster;
+font-family: lobster;
 font-size: 32px;
 margin-bottom: 15px;
 }
@@ -129,7 +129,7 @@ margin-bottom: 15px;
 position: fixed;
 right: 60px;
 bottom: 20px;
-background-color: rgba(0,0,255,0.1);
+background-color: hsl(0, 100%, 50%);
 padding: 0 10px;
 }
 #headerpicture{

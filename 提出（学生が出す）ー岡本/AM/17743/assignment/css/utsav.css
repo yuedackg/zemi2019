@@ -1,16 +1,24 @@
 ﻿body{
 max-width: 1024px;
 width: 90%;
-margin: 0 auto;
-background-color: #fffaf0;
+margin: 20px auto;
+background-color: forestgreen;
+height: 768px;
+color: ivory;;
 }
-#king img{
-height: 300px;
-width: 450px;
-padding-left:250px;
-padding-top: 20px;
-display: flex;
+body a{
+  color: black;
+  text-decoration: none;
+  text-align: center;
 }
+p{
+text-indent: 50px;
+}
+.dinesh{
+text-align: center;
+border-bottom: dashed 5px #000;
+}
+
 .myform input{
 padding:12px;
 width: 100%;
@@ -33,19 +41,27 @@ float: left;
 }
 .myform .ius{
 margin-top: 30px;
+margin-right: -25px;
 width: 30%;
-float: left;
+float: right;
 }
+.ut{
+
+  margin-top: 60px;
+  margin-left: 70px;
+  }
 .uts{
-width: 320px;
+width: 360px;
 height: 250px;
-margin-top: 70px;
-margin-left: 37px;
+margin-top: 60px;
+margin-left: -41px;
+
 }
 .shruti{
 text-align: right;
 margin-top:100px;
 padding:30px;
+color: black;
 }
 .utsa{
 text-align: center;
@@ -53,31 +69,39 @@ text-decoration: none;
 }
 #head{
 height: 400px;
-background-image: url("../img/go.jpg");
+background-image: url("../img/utsav1.jpg");
 background-repeat: no-repeat;
 }
 
 #head h1{
-color: #fff;
-font-family: -apple-system;
-font-size: 70px;
+color: initial;
+font-family:cursive;
+font-size: 60px;
 text-align: center;
 margin-top: 0px;
-padding-top: 105px;
+padding-top: 55px;
 height: 245px;
 }
+#head h3{
+  text-align: center;
+  font-size: 40px;
+  margin-top: -90px;
+  color: #000;
+
+}
 #header{
-height: 190px;
-background-image: url("../img/go2.jpg");
+height: 300px;
+background-image: url("../img/utsav.jpg");
 background-repeat: no-repeat;
+
 }
 #header h1{
-color: #fff;
-font-family: -apple-system;
-font-size: 30px;
+color: #000;
+font-family: cursive;
+font-size: 50px;
 text-align: center;
 margin-top: 0px;
-padding-top: 50px;
+padding-top: 135px;
 padding-left: 100px:;
 height: 500px;
 }
@@ -85,12 +109,14 @@ height: 500px;
 
 
 nav{
-background-color: #04B431;
+background-color: forestgreen;
+width: 1022px;
 }
 h2{
-border-bottom:  dotted 5px #00ff00;
+border-bottom: dashed 5px #013001;
 margin-top: 30px;
 padding: 5px;
+color: black;
 }
 .nepal{
 display: flex;
@@ -103,18 +129,24 @@ text-align: justify;
 line-height: 25px;
 }
 .nepal img{
-width: 50%;
-height: 50%;
-min-width: 150px;
-}
+  width: 73%;
+  height: 63%;
+  min-width: 150px;
+  }
+
 .comp{
+height: fit-content;
+background-color: forestgreen;
+
+}
+.king{
 height: fit-content;
 }
 .comp img{
 height: 40%;
 width: 70%;
-padding-left: 143px;
-margin-top: 18px;
+padding-left: 0px;
+margin: 65px 70px 0 90px;
 background-color: #fff;
 transform:rotate(6deg)
 }
@@ -124,7 +156,7 @@ display: flex;
 }
 .mountain p{
 width: 900px;
-margin: 0px 40px;
+margin: 0px 20px;
 text-align: justify;
 line-height: 25px;
 }
@@ -157,7 +189,7 @@ color: #000;
   line-height: 2.8;
   background: #336600;
   text-decoration: none;
-  border-right: 2px solid #eee;
+  border-right: 0px solid #eee;
   box-sizing: border-box;
 }
 .nav > li:hover > a {/*layer-1*/
@@ -166,11 +198,9 @@ color: #000;
 }
 .nav > li li:hover > a {/*layer-2*/
   color: orange;
-  background: #003300;
+  background: #333a24;
 }
-.anu{
-padding: 40px;
-}
+
 .nav ul ul{
 position: relative !important;
 left: 100px !important;
@@ -205,4 +235,25 @@ position: relative;
 bottom: 0;
 width: 100%;
 height: 100px;
+}
+.king img {
+height: 40%;
+width: 55%;
+margin: 40px 10px 30px 15px;
+background-color: #fff;
+}
+.king p{
+width: 1000px;
+margin: 20px 0px 0px 40px;
+text-align: justify;
+line-height: 25px;
+}
+.king{
+display: flex;
+}
+footer{
+  text-align: right;
+  font-size: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }

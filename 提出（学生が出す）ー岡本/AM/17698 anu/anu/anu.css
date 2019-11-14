@@ -1,5 +1,5 @@
 ﻿body{
-width: 900px;
+width: 900px;	
 margin: 0 auto;
 background-color:powderblue;
 }
@@ -21,8 +21,8 @@ h1{
 	color: black;
 }
 h2{
-	font-size: 50px;
-	margin-top: 150px;
+	font-size: 20px;
+	margin-top: 100px;
 	color: blue;
 }
 h3{

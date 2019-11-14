@@ -10,6 +10,7 @@
 
 	</head>
 <style>
+/*
 body {
 	margin: 150px;
 	margin-top: 5px;
@@ -66,22 +67,33 @@ body {
     display: block;
     text-align: left;
   }
-}
+}*/
 </style>
 	<body>
 		<header id="header">
 			<h1>VietFood</h1>
 		</header>
-		<div class="topnav" >
-				<a class="acive" href="#about">MENU</a>
-				<a href="#about">VietFood</a></li>
-				<a href="#photo">おすすめの料理</a>
-				<a href="#price">商品メニュー</a>
-				<a href="#access">アクセスマップ</a>
-				<a href="javascript:void(0);" class="icon" onclick="myFunction()">
-   					 <i class="fa fa-bars"></i>
-				</a>	
+		<div class="wrapper">
+			<nav class="menu">
+				<ul class="clearfix">
+					<li><a href="#">Trang chủ</a></li>
+					<li>
+						<a href="#">Ẩm thực <span class="arrow">&#9660;</span></a>
+		 
+						<ul class="sub-menu">
+							<li><a href="#">Món ăn miền Bắc</a></li>
+							<li><a href="#">Món ăn miền Trung</a></li>
+							<li><a href="#">Món ăn miền Nam</a></li>
+							<li><a href="#">Ẩm thực đường phố</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Du lịch</a></li>
+					<li class="current-item"><a href="#price">商品メニュー</a></li>
+					<li><a href="#access">Liên hệ</a></li>
+				</ul>
+			</nav>
 		</div>
+	
 		<div class="slide">
 		<div class="dieuhuong">
 			<i class="fa fa-chevron-circle-left" onclick="Back();"></i>
@@ -98,11 +110,11 @@ body {
 	<script type="text/javascript" src="js/slide.js"></script>
 <script>
 function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
+  var x = document.getElementById("myclearfix");
+  if (x.className === "clearfix") {
     x.className += " responsive";
   } else {
-    x.className = "topnav";
+    x.className = "clearfix";
   }
 }
 </script>

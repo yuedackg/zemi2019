@@ -15,3 +15,19 @@ function Back(){
 	else Chuyen -= KichThuoc;
 	ChuyenSlide.style.marginLeft = '-' + Chuyen + 'px';
 }
+
+setInterval(function(){
+	Next();
+}, 3000);
+
+setTimeout(function(){
+	Next();
+},3000);	
+/*menu da cap*/
+document.addEventListener("DOMContentLoaded",function(){
+	var nut = document.querySelector('div.icon i');
+	var mobile = document.querySelector('ul');
+	nut.addEventListener('click',function(){
+		mobile.classList.toggle('active');
+	})
+})

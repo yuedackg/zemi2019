@@ -5,25 +5,32 @@
 <title>ネパール インド料理さん
 </title>
 <link rel="stylesheet" href="css/stylesheet.css">
+<link href="css/reset.css" rel="stylesheet" type="text/css">
+<link href="css/sp-menu.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 	<header>
 		<div class="title">
 			<h1 id="subtitle">HIMALAYA NEPALESE</h1>
 			<h1 id="maintitle"> INDIAN CURRY</h1>
-			<p id="smalltitle">ヒマラヤ　ネパール インドカレー</p>
+			<p id="smalltitle">ヒマラヤ ネパールインドカレーハウス</p>
 			<p id="bigtitle">飲み放題1時間:1500\ ,2時間:2500\<br>
 							飲み食べ放題1時間:2000\ ,2時間:3000\</p>
 		</div>
-		<nav>
-			<ul>
-				<li><a href="about himalaya.htm" style= "color:orangered">カレーハウスについて　</a></li>
-				<li><a href="pic of item.htm " style= "color:yellow">すべてのアイタム写真</a></li>
-				<li><a href="menu.htm" style= "color:royalblue">商品メニュ　</a></li>
-				<li><a href="Drink.htm" style= "color:deeppink">ドリンクメニュー </a></li>
-				<li><a href="Adress.htm" style= "color:lime">アドレス　</a></li>
-			</ul>
-		</nav>
+<!--　アコーディオンメニュー　-->		
+		<div id="sp-icon" class="sp-close"><span></span></div>
+
+		<ul id="menu">
+			<li><a href="about himalaya.htm">カレーハウスについて</a></li>
+			<li><a href="pic of item.htm">すべてのアイタム写真</a></li>
+			<li><a href="menu.htm">商品メニュ</a></li>
+			<li><a href="Drink.htm">ドリンクメニュー</a></li>
+			<li><a href="Adress.htm">アドレス</a></li>
+			<li><a href="#">お問い合わせ</a></li>
+		</ul>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+		<script src="js/sp-menu.js"></script>
+
 	</header>
 	<h3 class="title"> ドリンクメニュー </h3>
 		<section class="price" id="price">

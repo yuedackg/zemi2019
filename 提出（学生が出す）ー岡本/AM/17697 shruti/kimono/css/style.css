@@ -26,6 +26,9 @@ p{
 #kimono{
 	text-align: center
 }
+.photo-box{
+	display: flex;
+}
 .photo{
 	float:left;
 	padding: 15px;
