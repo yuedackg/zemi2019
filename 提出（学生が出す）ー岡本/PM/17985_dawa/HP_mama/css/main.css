@@ -18,6 +18,7 @@ header .logo1{
     padding: 0px;
     padding-top: 5px;
     width: auto;
+    padding-left: 78px;
     
 }
 /* Main */
@@ -116,14 +117,10 @@ header .logo1{
 
 header .logo2{
     position: absolute;
+    top: 20px;
+    left: 700px;
 }
-header .logo1 img{
-    padding-left: 78px; 
-}
-header .logo2 img{
-    padding:2px 0px 0px 380px;
-    
-}
+
 
 
 .slider{
@@ -145,7 +142,7 @@ header .logo2 img{
     width: 1024px;
     background-image: url("../images/mid_back.png");
     position: relative;
-    top: 183px;
+    top: 180px;
     z-index: 0;
 }
 .midpic{
