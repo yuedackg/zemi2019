@@ -1,6 +1,32 @@
 ﻿body{
-width: 980px;
+max-width: 1000px;
 margin: 0 auto;
+}
+nav ul {
+	position: relative;
+	list-style-type: none;
+	display: flex;
+  
+  }
+nav li a {
+	display: block;
+	width: 160px;
+	height: 50px;
+	text-align: center;
+	font-size: 16px;
+	line-height: 2.8;
+	color: black;
+	background-color: chartreuse;
+	text-decoration: none;
+	border: 1px solid blue ;
+	box-sizing: border-box;
+}
+.shruti{
+	padding-left: 40px;
+}
+p{
+	padding-left: 40px;
+	width: 1000px;
 }
 
 h1{

@@ -19,6 +19,11 @@ background-color: rgb(99, 216, 128);
 a{
 text-decoration: none;
 color: deeppink;
+display: block;
+}
+a:hover{
+background: white;
+color: yellow;
 }
 ul{
 	text-align: center;
@@ -26,6 +31,7 @@ ul{
 	margin-bottom:-25px;
 	padding-left: 16px;
 	color: crimson;
+	list-style-type: none;
 }
 li{
 	display: inline-block;

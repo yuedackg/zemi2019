@@ -12,10 +12,10 @@ height: 200%;
 width: 100%;
 background-image: url("../img1/hinh008.jpg");
 background-repeat:no-repeat;
-background-size: 100%;
+background-size: 100% 300px;
 }
 h1{
-color:#CCCC33;
+color:rgb(14, 14, 0);
 font-family: Lobster;
 font-size: 60px;
 text-align:left;
@@ -33,6 +33,7 @@ nav{
     text-align: center;
     margin-top: 0;
     padding-left: 16px;
+    list-style-type: none;
     }
     li{
     font-size: 14px;
@@ -44,6 +45,11 @@ nav{
 a{
 color: #ffffff;
 text-decoration: none;
+display: block;
+}
+a:hover{
+    background: #a51e9a;
+    color: yellow;
 }
 div.nihon{
 width:300px,

@@ -43,11 +43,13 @@ color: #ffffff;
 text-decoration: none;
 }
 h2{
-border-left: thick double #fffcfd91;
-border-bottom:  thick double #32a1ce; 5px #fffcfd91;
+  
+    border-left: thick double #fffcfd91;
+    border-bottom:  thick double #32a1ce; 5px #fffcfd91;
 margin-top: 30px;
 padding: 5px;
 }
+
 section{
 margin-bottom: 40px;
 }
@@ -140,16 +142,10 @@ padding: 0 10px;
     transform:rotate(0deg)
     }
     .shadowbox {
-        width: 10em;
+        width: 20em;
         border: thick double #333;
         box-shadow: 4px 4px 3px #444;
         padding:1px 3px;
         background-image: linear-gradient(180deg, #fff, #ddd 40%, #ccc);
     }
-    ol{
-        font-size: 14px;
-        list-style: none;
-        margin-right: 30px;
-        display:list-item;
-        padding: 10px 0px;
-        }
+   
