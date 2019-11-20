@@ -2,7 +2,7 @@
 <html lang="ja">
 <head>
 <meta charset="UTF-8">
-<title>ネパール インド料理さん
+<title>ネパール 料理さん
 </title>
 <link rel="stylesheet" href="css/stylesheet.css">
 </head>

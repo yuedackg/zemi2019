@@ -36,64 +36,14 @@ h1{
 	color:blue;
 	font-size: 70px;
 	text-align: center;
-	margin-left:100px;
+	margin-left:100px auto;
 }
 	p#bigtitle{
 	color:red;
 	font-size:30px;
 	text-align: center;
-	margin :150px;
+	margin :150px auto;
 	font-family:bold;
-}
-.nav {
-  width: 1100px;
-  height: 50px;
-  margin: 0 auto;
-  padding: 0;
-  display: flex;
-}
-.nav li {
-  position: relative;
-  list-style: none;
-
-}
-.nav li a {
-  display: block;
-  width: 200px;
-  height: 50px;
- text-align:center;
-  color: #fff;
-  font-size: 16px;
-  line-height: 2.8;
-  background: #336600;
-  text-decoration: none;
-  border-left: 0px solid #eee;
-  box-sizing: border-box;
-
-}
-.nav ul ul{
- position: relative !important;
- left: 300px !important;
- margin-top: -100px;
- z-index: 9999999;
-}
-.nav li ul {
-  top: 40px;
-  left: 300px;
- 
-  overflow: hidden;
-  position: absolute;
-}
-.nav li ul li {
-  overflow: hidden;
-  height: 0;
-}
-.nav li ul li a {
-  border-top: 1px solid #eee;
-}
-.nav li:hover > ul > li {
-  overflow: visible;
-  height: 40px;
 }
 #menu-photo{
 	width: 290px;
@@ -105,7 +55,7 @@ h1{
 }
 /* 商品メニュー　*/
 	.price-table{
-	displat:flex;
+	display:flex;
 	margin-left: 100px;
 }
 	th{
@@ -162,8 +112,8 @@ td{
 
 /* ドリンクメニュー　*/
 .price-table{
-	displat:flex;
-	margin-left: 200px;
+	display:flex;
+	margin-left: 100px;
 }
 	th{
 	background-color: #ccc;
@@ -177,12 +127,12 @@ td{
 	padding: 5px 48px;
 }
 .table-right{
-	margin-left: 200px;
+	margin-left: 100px;
 
 }
 /*　アクセス　*/
 .address{
-	display: block;
-	margin-left: 200px;
+	display: flex;
+	margin-left:100px;
 	text-align:center;
 }

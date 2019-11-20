@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="ja">
+	<head>
+		<meta charset="UTF-8">
+		<title>VietFood</title>
+		<link rel="stylesheet" href="css/stylesheet.css">
+		<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	</head>
+<style>
+    </style>
+	<body>
+		<header id="header">
+			<h1>VietFood</h1>
+		</header>
+		<div class="wrapper">
+			<nav class="menu">
+				<ul class="clearfix">
+					<li><a href="vietfood.html#">ホーム</a></li>
+					<li>
+						<a href="photo.html#">おすすめ料理 <span class="arrow">&#9660;</span></a>
+		 
+						<ul class="sub-menu">
+							<li><a href="#">Món ăn miền Bắc</a></li>
+							<li><a href="#">Món ăn miền Trung</a></li>
+							<li><a href="#">Món ăn miền Nam</a></li>
+							<li><a href="#">Ẩm thực đường phố</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Du lịch</a></li>
+					<li><a href="#access">Liên hệ</a></li>
+					<li><a href="#price">商品メニュー</a></li>
+				</ul>
+			</nav>
+		</div>
+	
+		<div class="slide">
+		<div class="dieuhuong">
+			<i class="fa fa-chevron-circle-left" onclick="Back();"></i>
+			<i class="fa fa-chevron-circle-right" onclick="Next();"></i>
+		</div>
+		<div class="chuyen-slide">
+			<img src="img/1.jpg"> // 0
+			<img src="img/2.jpg"> // 1000
+			<img src="img/3.jpg"> // 2000
+			<img src="img/4.jpg"> // 3000
+			<img src="img/5.jpg"> // 4000
+		</div>
+	</div>
+	<script type="text/javascript" src="js/slide.js"></script>
+<script>
+function myFunction() {
+  var x = document.getElementById("myclearfix");
+  if (x.className === "clearfix") {
+    x.className += " responsive";
+  } else {
+    x.className = "clearfix";
+  }
+}
+</script>
+<h2 id="photo">おすすめの料理</h2>
+<section class="photo">
+    <div class="photo-box">			
+        <div class="big">
+            <img src="img/2.jpg">
+            <h3 id="price">バン　シェア</h3>
+        </div>
+        <div class="box">
+            <div class="small">
+                <img src="img/3.jpg">
+                <h3>バン　ミィ</h3>
+            </div>
+            <div class="small">
+                <img src="img/4.jpg">
+                <h3>バン　シゥン</h3>
+            </div>
+        </div>
+    </div>
+    <p>毎日10:00-18:00。</p>
+</section>
+<footer>17520 Dinh Xuan Truong</footer>
+		<p class="ホームページ">
+			<a href="VietFood.html">ホームページ</a>
+		</p>
+		<footer>&copy; VietFood</footer>
+    </body>
+</html>
+

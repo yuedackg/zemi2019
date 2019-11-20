@@ -6,13 +6,14 @@ body{
 }
 header{
     width: 1024px;
-    height: 105px;
-    background-color: #6aa405;
+    height: 119px;
+    background-color: #74ccd0;
+    /* #6aa405;*/
     
     
 }
 header .logo1{
-    height: 100px;
+    height: 111px;
     margin: 0px;
     padding: 0px;
     padding-top: 5px;
@@ -117,7 +118,7 @@ header .logo2{
     position: absolute;
 }
 header .logo1 img{
-    padding:0px 10px 0px 380px; 
+    padding-left: 78px; 
 }
 header .logo2 img{
     padding:2px 0px 0px 380px;

@@ -41,8 +41,8 @@ color: #ffffff;
 text-decoration: none;
 }
 h2{
-border-double: solid 20px #FFFF00;
-border-bottom:  hidden10px #FFFF00;
+border-left: solid 10px #FFFF00;
+border-bottom:  dotted 5px #FFFF00;
 margin-top: 30px;
 padding: 5px;
 }
