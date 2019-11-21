@@ -17,11 +17,10 @@ header{
 }
 
 h1{
-	color:white;
+	color:#3f2192;
 	font-family: 'SimSun';
 	font-weight: 900;
-	text-align: center;
-	
+	text-align: center;	
 }
 	h1#subtitle{
 	font-size: 100px;
@@ -34,7 +33,7 @@ h1{
 }
 	p#smalltitle{
 	color:blue;
-	font-size: 70px;
+	font-size: 40px;
 	text-align: center;
 	margin-left:100px auto;
 }
@@ -60,17 +59,19 @@ h1{
 }
 	th{
 	background-color: #ccc;
+	width: 200px;
 }
 td{
 	background-color: #fff;
+	width: 200px;
 }
 	table,th,td{
-	border: solid 1px #666;
+	border: solid 5px #656;
 	border-collapse: collapse;
 	padding: 20px 100px;
 }
 .table-right{
-	margin-left: 50px;
+	margin-left: 30px;
 
 }
 /* tooltip */
@@ -122,9 +123,9 @@ td{
 	background-color: #fff;
 }
 	table,th,td{
-	border: solid 1px #666;
+	border: solid 5px #666;
 	border-collapse: collapse;
-	padding: 5px 48px;
+	padding: 50px 100px;
 }
 .table-right{
 	margin-left: 100px;

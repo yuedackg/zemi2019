@@ -1,130 +1,14 @@
 body{
-max-width: 1024px;
-width: 90%;
-margin: 30px auto;
-background-color: #f7be81;
+width: 1024px;
+margin: 10px auto;
 }
 header{
-height: 670px;
-background-image:url("../image/image1.jpg");
-background-size:100%
+	height: 470px;
+background-image: url("../img/topimage.jpg");
 background-repeat: no-repeat;
-display:flex;
-margin-top:100px;
-background-color:lime;
-}
-.title{
-	display:block;
+background-position: 375px 0px;
+display: flex;
 }
 h1{
-	color:white;
-	font-family:"simsun";
-	font-weight:900;
-	text-align:center;
-
+font-size: 35px;	
 }
-	h1#subtitle{
-	font-size:30px;
-}
-	h1#maintitle{
-	font-size:58px;
-}
-	p#smalltitle{
-	color:blue;
-	font-size:50px;
-	text-align:center;
-}
-	p#bigtitle{
-	color:yellow;
-	font-size:30px;
-	text-align:center;
-	margin:150px auto;
-	font-family:bold;
-}
-#menu-photo{
-	width:290px;
-	height:270px;
-	margin:20px;
-	background-image:("../image/2image.jpg");
-	background-size:100%
-}
-/* 商品メニュー＊/
-	.price-table[
-	displat:flex;
-	margin-left:50px;
-}
-th{
-	background-color:#ccc;
-}
-	table,th,td{
-	border:solid 1px #666;
-	border-collapse:collapse;
-	padding: 5px 48px;
-}
-.table-right{
-	margin-left:50px;
-
-}
-/* tooltip */
-.tooltip{
-	position:relative;
-	cursor:pointer;
-	display:inline-block;
-}
-.tooltip p{
-	margin:0;
-	padding:0;
-}
-.description{
-	display:none;
-	position:absolute;
-	padding:10px;
-	font-size:12px;
-	line-height:1.6cm;
-	color:#fff;
-	border-radius:5px;
-	background:#000;
-	width:100px;
-}
-.description:before{
-	position:absolute;
-	top:=-24px;
-	right:60%;
-	border:15px solid transparent;
-	border-top:15px solid #000;
-	margin-left:-15px;
-	transform: rotate(180deg);
-}
-.tooltip:hover.description{
-	display:inline-block;
-	top:30px;
-	left:0px;
-}
-
-
-/*ドリンクメニュー*/
-.price-table{
-	displat:flex;
-	margin-left:50px;
-}
-	background-color:#ccc;
-}
-	td{
-	background-color:#fff;
-}
-	table,th,td{
-	border:solid 1px #666;
-	border-collapse:collapse;
-	padding:5px 48px;
-}
-.table-right{
-	margin-left:50px;
-
-}
-/*アクセス */
-.address{
-	display:block;
-}
-	
-
-
