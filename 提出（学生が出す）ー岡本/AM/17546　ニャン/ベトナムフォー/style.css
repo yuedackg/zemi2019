@@ -1,4 +1,10 @@
-﻿header{
+﻿body{
+	max-width: 1524px;
+	width: 90%;
+	margin: 0 auto;
+	background-color: rgba(225, 127, 0, 0.8);
+}
+header{
 	background-image: url("写真/anh trang chu/2.jpg");
 	background-repeat: no-repeat;
 	background-size: 100%;
@@ -6,18 +12,17 @@
 	display: flex;
 	color: rgba(225, 225, 225, 0.9);
 }
-header img{
-	height: 15%;
-	width: 20%;
-	background-color: rgba(7, 225, 0, 0.9);
-	
-}
+
 header nav ul{
 	display: flex;
 	background-color: rgba(7, 225, 0, 0.9);
 }
 li{
 	list-style: none;
+	font-size: 14px;
+	margin-right: 30px;
+	display: inline-block;
+	padding: 10px 0px;
 }
 h1{
 	margin-bottom: 0px;
@@ -37,3 +42,4 @@ section{
 p.top-text{
 	margin-top: 0px;
 }
+

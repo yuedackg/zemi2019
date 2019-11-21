@@ -25,17 +25,11 @@ h2{
 	margin-top: 100px;
 	color: blue;
 }
-h3{
-	font-size: 25px;
-	margin-top: 15px;
-	color: blue; 
 
-}  
-h4{
-	font-size: 50px;
-	margin-top: 150px;
-	color: olive;
-}
+
+ 
+
+
 section img{
 	height: 500px;
 	width:900px;
@@ -52,32 +46,4 @@ h2{
 	padding:5px
 }
 #head{
-	height:500px
-	background image 
-
-}
-}
-
 	
-}
-}
-#{
-	text-align: center
-}
-#leaf{
-	text-align: center
-}
-#pokhara {
-	text-align: center
-}
-.photo{
-	float:left;
-	padding: 15px;
-}
-
-/*  説明ページのCSS  */
-
-.{
-	font-size: 12px;
-	width: 200px;
-}

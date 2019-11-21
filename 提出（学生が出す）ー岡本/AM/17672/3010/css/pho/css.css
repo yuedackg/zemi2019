@@ -11,9 +11,10 @@ height: 350px;
 background-image: url("anh/logo.jpg");
 background-repeat: no-repeat;
 background-size:100%;
+font-size: 200%;
 }
 #headerimg{
-/*
+/*  
 	width: 90%;
 */
 	height: 100%;

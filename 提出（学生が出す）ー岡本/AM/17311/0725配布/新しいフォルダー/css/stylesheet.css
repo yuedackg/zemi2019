@@ -43,10 +43,10 @@ color: #ffffff;
 text-decoration: none;
 }
 h2{
-border-left: thick double #fffcfd91;
 border-bottom:  thick double #32a1ce; 5px #fffcfd91;
 margin-top: 30px;
 padding: 5px;
+text-align=right;
 }
 section{
 margin-bottom: 40px;
@@ -57,9 +57,10 @@ display: flex;
 .about p{
 width: auto;
 margin: 0px 40px;
-text-align: justify;
+text-align: right;
 line-height: 25px;
 }
+
 .about img{
 width:40%;
 height: 35%;
