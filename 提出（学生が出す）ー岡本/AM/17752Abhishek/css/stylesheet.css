@@ -42,7 +42,7 @@ text-decoration: none;
 }
 h2{
 border-left: solid 10px #ffa500;
-border-bottom:  dotted 5px #ffa500;
+border-bottom:  dotted 5px #FF0000;
 margin-top: 30px;
 padding: 5px;
 }
@@ -85,7 +85,7 @@ h3{
 width: 45%;
 padding: 10px;
 margin-top: 18px;
-background-color: #fff;
+background-color: #0066FF;
 transform:rotate(-6deg)
 }
 .big h3{
@@ -105,7 +105,7 @@ th{
 background-color: #ccc;
 }
 table,th,td{
-border: solid 1px #666;
+border: solid 1px #000000;
 border-collapse: collapse;
 padding: 5px 48px;
 }
@@ -133,4 +133,4 @@ background-color: hsl(0, 100%, 50%);
 padding: 0 10px;
 }
 #headerpicture{
-width:1000px;
+width:1025px;
