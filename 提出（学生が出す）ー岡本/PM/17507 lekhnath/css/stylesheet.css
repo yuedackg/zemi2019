@@ -2,7 +2,7 @@
 max-width: 1010px;
 width: 90%;
 margin: 90px auto;
-background-color: white;
+background-color:rgb(73, 115, 139);
 }
 header{
 height:670px;
@@ -45,7 +45,7 @@ border-collapse: collapse;
 padding: 5px 48px;
 }
 .table-right{
-margin-left: 50px;
+margin-left: ６0px;
 
 }
 

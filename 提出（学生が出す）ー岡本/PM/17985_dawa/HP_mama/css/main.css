@@ -115,8 +115,12 @@ header .logo1{
 
 header .logo2{
     position: absolute;
-    top: 20px;
-    left: 700px;
+    top: 56px;
+    left: 800px;
+}
+header .logo2 img{
+    height: 60px;
+    widows: 220px;
 }
 
 

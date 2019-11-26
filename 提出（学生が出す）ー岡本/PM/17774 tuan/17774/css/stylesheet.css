@@ -1,15 +1,15 @@
 ﻿body{
-max-width: 800px;
+max-width: 500px;
 width: 60%;
 margin: 0 auto;
 background-color: #B22222;
 }
 h1{
 color: #fff;
-background-image: url("6.jpg");
+background-image: url("7.png");
 background-repeat: no-repeat;
 
-background-size: 80%;
+background-size: 60%;
 font-family: Lobster;
 font-size: 80px;
 text-align: center;

@@ -1,8 +1,8 @@
 body{
-max-width: 1024px;
-width: 9%;
+max-width: 600px;
+width: 60%;
 margin: 0 auto;
-background-color: #red;
+background-color: #B22222;
 }
 header{
 height: 440px;
@@ -13,16 +13,16 @@ h1{
 color: #fff;
 background-image:url("../image/2image.jpg) ;
 background-repeat: no-repeat;
-background-position: 50% 73%;
+background-position: 70%;
 font-family: Lobster;
 font-size: 60px;
 text-align: center;
 margin-top: 0px;
 padding-top: 105px;
-height: 245px;
+height: 250px;
 }
 nav{
-background-color: #red;
+background-color: #B22222;
 }
 ul{
 text-align: center;
