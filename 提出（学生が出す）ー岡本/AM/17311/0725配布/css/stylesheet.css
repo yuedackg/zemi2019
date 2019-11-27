@@ -90,7 +90,7 @@ padding: 20px;
 margin-top: 18px;
 background-color: #fff;
 transform:rotate(-6deg)
-}
+
 .big h3{
 margin-top: 35px;
 }
@@ -122,6 +122,7 @@ padding: 0 10px;
 }
 .pictureSize{
     width:200px;
+    height:200px;
 }
 .snackspic{
     width:200px;

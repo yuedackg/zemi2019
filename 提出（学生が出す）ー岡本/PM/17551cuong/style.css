@@ -4,10 +4,14 @@ body{
     widows: 1000px;
     margin: 0px auto;
 }
-
+header{
+        height: 200px;
+        background-image: url("../images/anhbia.jpg");
+        background-repeat: no-repeat;
+        }
 h1{
         color: rgb(212, 109, 12);
-        background-image: url("../images/anhbia.jpg");
+        background-image: url("../images/anhbia.png");
         background-repeat: no-repeat;
         background-position: 50% 73%;
         font-family: Lobster;
@@ -21,11 +25,19 @@ ul {
         font-family: Lobster;
         font-size: 30px;
 }
+#div section p {
+        font-family: Lobster;
+        font-size: 30px;
+    background:#6ab661;
+    height:  40px;
+    text-align: center;
+}
 #menu_top {
         font-family: Lobster;
         font-size: 30px;
     background:#6ab661;
     height:  40px;
+    text-align: center;
 }
 #banner {
     height: 0px auto;

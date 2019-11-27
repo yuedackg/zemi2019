@@ -6,12 +6,12 @@ background-color: #F3F781;
 }
 header{
 height: 440px;
-background-image: url("/images/anhbia.jpg");
+background-image: url("../images/anhbiadep.jpg");
 background-repeat: no-repeat;
 }
 h1{
 color: #fff;
-background-image: url("/images/anhbia.jpg");
+background-image: url("../images/anhbiadep.jpg");
 background-repeat: no-repeat;
 background-position: 50% 73%;
 font-family: Lobster;
@@ -95,7 +95,7 @@ width: 90%;
 padding: 15px;
 background-color: #fff;
 }
-/* ¤•iƒƒjƒ…[@*/
+/* ï¿½ï¿½ï¿½iï¿½ï¿½ï¿½jï¿½ï¿½ï¿½[ï¿½@*/
 .price-table{
 display: flex;
 margin-left: 25px;
@@ -114,7 +114,7 @@ padding: 5px 48px;
 .table-right{
 margin-left: 30px;
 }
-/*@ƒAƒNƒZƒX@*/
+/*ï¿½@ï¿½Aï¿½Nï¿½Zï¿½Xï¿½@*/
 .address ul li{
 display: block;
 }

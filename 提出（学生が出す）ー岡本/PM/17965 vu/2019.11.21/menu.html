@@ -1,50 +1,50 @@
 ﻿<!DOCTYPE html>
-<html lang="ja">
-<head>
+<html>
+		<title>MENU FOOD</title>
 		<meta charset="UTF-8">
-		<title>GOI CUON</title>
+		<title>Vietnamese Fresh Spring Rolls</title>
 		<link rel="stylesheet" href="css/stylesheet.css">
 		<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
-</head>
-<header>
-   <h1>MENU</h1>
-</header>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+.mySlides {display:none;}
+</style>
 <body>
-<div class="gallery">
-	<a target="_blank" href="anh1/goitom.jpg">
-		<img src="anh1/goitom.jpg" alt="Cinque Terre" width="600" height="400">
-	</a>
- <div class="desc">GOI TOM</div>
+
+<h2 class="w3-center">FOOD MENU</h2>
+
+<div class="w3-content w3-display-container">
+  <img class="mySlides" src="anh1/goitom.jpg" style="width:75%">
+  <img class="mySlides" src="anh1/goica.jpg" style="width:75%">
+  <img class="mySlides" src="anh1/goiga.jpg" style="width:75%">
+  <img class="mySlides" src="anh1/goibo.jpg" style="width:75%">
+  <img class="mySlides" src="anh1/goide.jpg" style="width:75%">
+  <img class="mySlides" src="anh1/goivit.jpg" style="width:75%">
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
 </div>
-<div class="gallery">
-	<a target="_blank" href="anh1/goica.jpg">
-		<img src="anh1/goica.jpg" alt="Cinque Terre" width="600" height="400">
-	</a>
- <div class="desc">GOI CA</div>
-</div>
-<div class="gallery">
-	<a target="_blank" href="anh1/goibo.jpg">
-		<img src="anh1/goibo.jpg" alt="Cinque Terre" width="600" height="400">
-	</a>
- <div class="desc">GOI BO</div>
-</div>
-<div class="gallery">
-	<a target="_blank" href="anh1/goivit.jpg">
-		<img src="anh1/goivit.jpg" alt="Cinque Terre" width="600" height="400">
-	</a>
- <div class="desc">GOI VIT</div>
-</div>
-<div class="gallery">
-	<a target="_blank" href="anh1/goide.jpg">
-		<img src="anh1/goide.jpg" alt="Cinque Terre" width="600" height="400">
-	</a>
- <div class="desc">GOI DE</div>
-</div>
-<div class="gallery">
-	<a target="_blank" href="anh1/goiga.jpg">
-		<img src="anh1/goiga.jpg" alt="Cinque Terre" width="600" height="400">
-	</a>
- <div class="desc">GOI GA</div>
-</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
 </body>
 </html>

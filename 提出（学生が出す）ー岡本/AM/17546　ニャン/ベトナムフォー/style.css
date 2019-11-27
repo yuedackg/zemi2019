@@ -61,11 +61,28 @@ p.top-text{
 }
 .AAA{
 	display: flex;
+	margin-top: 20px;
 }
 .AAA img{
-	width: 60%;
+	width: 280px;
+	height: 60%;
 }
 .BBB{
 	display: flex;
 }
+.bbb{
+	padding: 10px 100px;
+}
+.table-right th{
+	text-align: center;
+}
 
+.ccc{
+	height: 300px;
+}
+.ddd img{
+	width: 30%;
+}
+.ddd{
+	display: flex;
+}
