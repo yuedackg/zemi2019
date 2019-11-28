@@ -1,7 +1,7 @@
 ﻿body{
 max-width: 1010px;
 width: 90%;
-margin: 90px auto;
+margin: 0px auto;
 background-color:rgb(73, 115, 139);
 }
 header{
@@ -14,12 +14,32 @@ h1{
 color:red;
 background-repeat: no-repeat;
 background-position: 50% 73%;
-font-family: Lobster;
+font-family:;
 font-size: 60px;
-text-align: 50px;
-margin-top: 80px;
-padding-top: 60px;
-height: 245px;
+margin: 0 25px;
+}
+
+/*　リンクボタン　*/
+nav ul{
+	display: flex;
+	margin: -8px 0px 0px 158px;
+}
+nav ul li{
+	list-style: none;
+	margin-right: 15px;
+	color: #fff;
+	background-color: #17c7cc;
+  padding: 0px 5px;
+	width: 100px;
+	text-align: center;
+	border-radius: 5px
+}
+a{
+	text-decoration: none;
+  font-size: 12px;
+  border-radius: 5px;
+
+
 }
 #menu-photo{
 width: 290px;

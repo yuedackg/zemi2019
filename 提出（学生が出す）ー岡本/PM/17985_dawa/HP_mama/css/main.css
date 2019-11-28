@@ -175,32 +175,33 @@ header .logo2 img{
     margin-left: 700px;
     z-index: 1;
 }
-.midpic h3{    
-    line-height: 376px;
+.midpic h3{
+    position: relative;
+    top: 174px;    
     margin: 0px;
     text-align: center;
     padding: 0px;
     color: seagreen;
-    letter-spacing: 1px;
-    word-spacing: 2px
+   
 }
 .midpic2 h3{    
-    line-height: 460px;
+    position: absolute;
+    top: 220px;
+    left: 60px; 
     margin: 0px;
     text-align: center;
     padding: 0px;
     color: seagreen;
-    letter-spacing: 1px;
-    word-spacing: 2px
+    
 }
 .midpic3 h3{    
-    line-height: 460px;
+    position: absolute;
+    top: 220px;
+    left: 40px;     
     margin: 0px;
     text-align: center;
     padding: 0px;
     color: seagreen;
-    letter-spacing: 1px;
-    word-spacing: 2px
 }
 .discription1{
     background-color: #ffffff;

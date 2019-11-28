@@ -1,5 +1,5 @@
 ﻿body{
-max-width: 1024px;
+max-width: 1324px;
 width: 100%;
 margin: 0 auto;
 background-color: #f8e4ce;
@@ -7,8 +7,8 @@ font-family: Arial, Helvetica, sans-serif;
 }
 h1{
 color: #fff;
-width:1024px;
-height:300px;
+width:1324px;
+height:500px;
 border:green thin solid;
 background-image: url("../anh/tra-hoa-cuc-.jpg");
 background-size:100%;

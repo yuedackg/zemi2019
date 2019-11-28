@@ -4,25 +4,27 @@ width: 90%;
 margin: 0 auto;
 background-color: #669999;
 }
-headder#headder{
-height: 1000px;
-background-image: url("../img/bg_header.jpg");
+header#header{
+height: 675px;
+background-image: url("../img/top-image.jpg");
 background-repeat: no-repeat;
+background-size: 1024px;
 }
 h1{
 color: #fff;
 background-repeat: no-repeat;
-background-position: 50% 73%;
 font-family: Lobster;
 font-size: 60px;
 text-align: center;
 margin-top: 0px;
-padding-top: 105px;
-height: 245px;
+padding-top: 50px;
+height: 40px;
 }
-#headder p.subtitle{
+#header p.subtitle{
 margin: 10px 20px 30px 40px;
+color: #aaa;
 font-size: 20px;
+text-align: center;
 }
 nav{
 background-color: #8b4513;

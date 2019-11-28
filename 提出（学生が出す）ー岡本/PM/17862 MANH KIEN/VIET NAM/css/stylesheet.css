@@ -7,14 +7,14 @@ text-align: center;
 }
 header{
 height: 500px;
-background-image: url("../img/o.png");
+background-image: url("../img/b.jpg");
 background-color:0EB9C2;
-background-size: 90%;
+background-size: 100%;
 background-repeat: no-repeat;
 }
 h1{
 color: #fff;
-background-image: url("../img/8.png");
+background-image: url("../img/c.jpg");
 background-repeat: no-repeat;
 background-position: 50% 73%;
 
@@ -105,7 +105,7 @@ width: 90%;
 padding: 15px;
 background-color: #fff;
 }
-/* ���i���j���[�@*/
+/* ???i???j???[?@*/
 .price-table{
 display: flex;
 margin-left: 25px;
@@ -124,7 +124,7 @@ padding: 5px 48px;
 .table-right{
 margin-left: 30px;
 }
-/*�@�A�N�Z�X�@*/
+/*?@?A?N?Z?X?@*/
 .address ul li{
 display: block;
 }
