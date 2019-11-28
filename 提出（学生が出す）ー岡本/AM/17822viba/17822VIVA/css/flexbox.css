@@ -8,23 +8,23 @@ background-position: 0%;
 background-size: 100%;
 }
 header{
-height: 200%;
+height:100%;
 width: 100%;
-background-image: url("../img1/hinh008.jpg");
+background-image: url("../img/inaka.jpg");
 background-repeat:no-repeat;
-background-size: 100% 300px;
+background-size: 100% 100%;
+margin: 0;
 }
 h1{
-color:rgb(14, 14, 0);
-font-family: Lobster;
-font-size: 60px;
-text-align:left;
-margin-top: 0px;
-padding-top: 105px;
-height:100%;
-}
+    color:rgb(236, 236, 39);
+    font-family: Lobster;
+    font-size: 60px;
+    text-align:left;
+    margin-top: 0px;
+    padding-top:120px;
+    }
 section{
-display:flex;
+display:inline-flex;
 }
 nav{
     background-color:#666;
@@ -36,16 +36,16 @@ nav{
     list-style-type: none;
     }
     li{
-    font-size:20px;
+    font-size: 14px;
     list-style: none;
     margin-right: 30px;
     display: inline-block;
     }
 a{
 color: #ffffff;
-padding: 14px 16px;
 text-decoration: none;
 display: block;
+padding: 14px 16px
 }
 a:hover{
     background: #a51e9a;
@@ -56,13 +56,16 @@ width:300px,
 }
 div.nihon img{
 width:300px;
+height: 200px;
 background-color: #ffffff;
 padding: 10px;
 }
 div.nihon p{
-width:300px;
 color: #f5f5f0;
+margin-left: 25px;
 }
 h4{
 color: #f5f5f0;
+margin-left:25px;
+margin-bottom: -10px;
 }

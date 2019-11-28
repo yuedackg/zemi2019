@@ -1,0 +1,43 @@
+﻿
+body{
+width: 900px;	
+margin: 0 auto;
+background-color:powderblue;
+}
+.head{
+background-image: url("images/images.jpg");
+background-size: 900px;
+height: 500px;
+background-repeat: no-repeat;
+
+}
+.image img{
+height: 200px;
+width: 200px;
+}
+h1{
+	font-size: 30px;
+	text-align: center;
+	margin:50px;
+	padding-top: 100px;
+	color: black;
+}
+h2{
+	font-size: 20px;
+	margin-top: 100px;
+	color: blue;
+}
+
+h2{
+	border-none;
+	border-bottom: dotted 5px; 
+	margin-top:30px;
+	padding:5px
+}
+
+
+
+
+section{
+
+}
