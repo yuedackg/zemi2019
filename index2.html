@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <style>
+        header{
+            background: lemonchiffon;
+            width: 600px;
+            ;
+        }
+        nav{
+            background: lightcyan;
+            width: 600px;
+            
+        }
+        section{
+            background: lightgray;
+            width: 600px;
+            
+        }
+        footer{
+            background: lightpink;
+            width: 600px;
+            
+        }
+        .boxsetting {
+            width: 150px;
+            height: 100px;
+            border: solid 1px red;
+            ;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: row-reverse;
+            width: 600px;
+            
+            border: solid 1px red;
+            ;
+        }
+        .pageMenu{
+            display: flex;
+            width: 600px;
+            
+            border: solid 1px yellow;
+            ;
+        }
+        .pageMenuItem{
+            background: yellow;
+            width: 100px;
+            margin: 3px;
+            ;;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        header
+
+    </header>
+    <nav>
+        navigation
+        <ul class="pageMenu">
+            <li class="pageMenuItem">item 1</li>
+            <li class="pageMenuItem">item 2</li>
+            <li class="pageMenuItem">item 3</li>
+        </ul>
+    </nav>
+
+    <section>
+        <div class="container">
+            <div id="box1" class="boxsetting">
+                string 1
+            </div>
+            <div id="box2" class="boxsetting">
+                string 2
+            </div>
+        </div>
+
+    </section>
+
+    <footer>
+        footer
+    </footer>
+
+</body>
+
+</html>

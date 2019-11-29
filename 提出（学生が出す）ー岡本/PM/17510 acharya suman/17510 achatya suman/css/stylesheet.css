@@ -1,6 +1,8 @@
 ﻿body{
 	width: 100%;
 	margin: 0px auto;
+	margin:2;
+	padding:-1;
 }
 header{
 	height:670px;
@@ -54,7 +56,7 @@ h1{
 /* 商品メニュー　*/
 	.price-table{
 	display:flex;
-	margin-left: 100px;
+	margin-left: 130px;
 }
 	th{
 	background-color: #ccc;
@@ -86,7 +88,7 @@ td{
     position: absolute;
     padding: 110px;
     font-size: 12px;
-    line-height: 1.6em;
+    line-height: 2.5cm;
     color: #fff;
     border-radius: 5px;
     background: #000;
@@ -111,7 +113,7 @@ td{
 /* ドリンクメニュー　*/
 .price-table{
 	display:flex;
-	margin-left: 100px;
+	margin-left: 130px;
 }
 	th{
 	background-color: #ccc;
@@ -125,21 +127,21 @@ td{
 	padding: 10px 134px;
 }
 .table-right{
-	margin-left: 100px;
+	margin-left: 130px;
 
 }
 /*　アクセス　*/
 .address{
 	display: flex;
-	margin-left:100px;
+	margin-left:130px;
 	text-align:center;
 }
 .access{
-	margin-left: 100px;
+	margin-left: 130px;
 	
 }
 footer{
-	margin-left: 100px;
+	margin-left: 130px;
 	top: 700px;
 }
 .pagetop{

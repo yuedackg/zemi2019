@@ -6,15 +6,15 @@ background-color: #f8e4ce;
 font-family: Arial, Helvetica, sans-serif;
 }
 h1{
-color: #fff;
-width:1024px;
+color: #FFE4B5;
+width:900px;
 height:500px;
 border:green thin solid;
 background-image: url("../anh/toppage.jpg");
 background-size:100%;
 background-repeat:no-repeat;
 padding-top:40px;
-color:red;
+color:Moccasin;
 text-align:center;
 font-size:80px;
 }
