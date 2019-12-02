@@ -1,0 +1,175 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="css/stylesheet.css">
+		<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+<style>
+body {font-family: "Lato", sans-serif;}
+
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+/* Style the tab content */
+.tabcontent {
+  color: black;
+  display: none;
+  padding: 50px;
+  text-align: center;
+}
+
+#London {background-color:#f9f97a;}
+#Paris {background-color:#f9f97a;}
+#Tokyo {background-color:#f9f97a;}
+#Oslo {background-color:#f9f97a;}
+
+body{
+	background-color :#E8E8E8;
+}
+</style>
+</head>
+<body>
+<div id="London" class="tabcontent">
+  <h1>HOME</h1>
+  <p>Fresh spring roll is a Vietnamese traditional dish. The Vietnamese food consists of shrimp, pork ,vegetables, herbs, rice vermicelli. All of them are wrapped in a rice paper.
+Some believe that Vietnamese Fresh rolls originated from China because their shapes are similar to chines spring rolls or chinese　biscuit rolls. However, most Vietnamese people believe the origins of Vietnamese fresh rolls are from Vietnam.
+Vietnamese fresh rolls is one of the most popular appetizers in Vietnamese food culture. The traditional food is ranked at number 30 on the list of 50 most delicious foods in the worlds by CNN Go in 2011.
+Vietnamese fresh spring roll is often served with a kind of special dipping sauce-fish sauce-and garlic, limes, chili, crushed roasted peanuts. The combination of herbs, pork, shrimp and the salty, hot and sour dipping sauce that make Vietnamese fresh spring roll wonderfully unique.
+  </p>
+<img class="mySlides w3-animate-fading" src="anh1/k.jpg" style="width:100%">
+  <img class="mySlides w3-animate-fading" src="anh1/banhcuon5.jpg" style="width:300px;height:250px;">
+  <img class="mySlides w3-animate-fading" src="anh1/banhcuon.jpg" style="width:300px;height:250px;">
+  <img class="mySlides w3-animate-fading" src="anh1/banhcuon2.jpg" style="width:300px;height:250px;">
+  <img class="mySlides w3-animate-fading" src="anh1/banhcuon3.jpg" style="width:300px;height:250px;">
+  <img class="mySlides w3-animate-fading" src="anh1/banhcuon4.jpg" style="width:300px;height:250px;">
+</div>
+
+<div id="Paris" class="tabcontent">
+  <h1>PRICE</h1>
+	<section class="price">
+			<div class="price-table">
+				<table class="table-left">
+					<tr>
+						<th>NAME</th><th>PRICE</th>
+					</tr>
+					<tr>　
+						<td>GOI TOM</td><td>25000d</td>
+					</tr>
+					<tr>
+						<td>GOI CA</td><td>10000d</td>
+					</tr>
+					<tr>
+						<td>GOI BO</td><td>15000d</td>
+					</tr>
+					<tr>
+						<td>GOI GA</td><td>15000d</td>
+					</tr>
+					<tr>
+						<td>GOI DE</td><td>15000d</td>
+					</tr>
+					<tr>
+						<td>GOI VIT</td><td>15000d</td>
+					</tr>
+					
+				</table>
+				<table class="table-right">
+					<tr>
+						<th>NAME</th><th>PRICE</th>
+					</tr>
+					<tr>
+						<td>GOI TOM</td><td>30000d</td>
+					</tr>
+					<tr>
+						<td>GOI CA</td><td>15000d</td>
+					</tr>
+					<tr>
+						<td>GOI BO</td><td>20000d</td>
+					</tr>
+					<tr>
+						<td>GOI GA</td><td>20000d</td>
+					</tr>
+					<tr>
+						<td>GOI DE</td><td>20000d</td>
+					</tr>
+					<tr>
+						<td>GOI VIT</td><td>20000d</td>
+					</tr>
+				</table>
+			</div>
+		</section>
+
+<h2 class="w3-center">FOOD MENU</h2>
+
+<div class="w3-content w3-display-container">
+  <img class="mySlides" src="anh1/goitom.jpg" style="width:300px;height:250px;"><p>GOITOM</p>
+  <img class="mySlides" src="anh1/goica.jpg" style="width:300px;height:250px;"><p>GOICA</p>
+  <img class="mySlides" src="anh1/goiga.jpg" style="width:300px;height:250px;"><p>GOIGA</p>
+  <img class="mySlides" src="anh1/goibo.jpg" style="width:300px;height:250px;"><p>GOIBO</p>
+  <img class="mySlides" src="anh1/goide.jpg" style="width:300px;height:250px;"><p>GOIDE</p>
+  <img class="mySlides" src="anh1/goivit.jpg" style="width:300px;height:250px;"><GOIVIT</p>
+</div>
+</div>
+
+<div id="Tokyo" class="tabcontent">
+  <h1>ACCESS</h1>
+<section>
+			<p>ACCESS:365 Nguyen Tat Thanh , Huong Thuy, Thanh Pho Hue<br>
+			PHONE NUMBER:0543-852-456<br>
+			TIME:8:00 ~ 18:00
+			</p>
+	</section>
+</div>
+
+<div id="Oslo" class="tabcontent">
+  <h1>LOGIN</h1>
+<form action="action_page.php">
+<br>
+<input type="text" name="txtHoDem" value="male">
+<br>
+<br>
+<input type="text" name="txtTen" value="famale">
+<br><br>
+<input type="submit" value="Submit">
+</form>
+</div>
+
+<button class="tablink" onclick="openCity('London', this, 'red')" id="defaultOpen">MENU</button>
+<button class="tablink" onclick="openCity('Paris', this, 'green')">PRICE</button>
+<button class="tablink" onclick="openCity('Tokyo', this, 'blue')">ACCESS</button>
+<button class="tablink" onclick="openCity('Oslo', this, 'orange')">ORDER</button>
+
+<script>
+function openCity(cityName,elmnt,color) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].style.backgroundColor = "";
+  }
+  document.getElementById(cityName).style.display = "block";
+  elmnt.style.backgroundColor = color;
+
+}
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+   
+</body>
+</html> 

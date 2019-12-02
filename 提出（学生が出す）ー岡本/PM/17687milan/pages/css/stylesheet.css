@@ -128,3 +128,23 @@ h1{
 
 * html #menu             { zoom: 1; } /* IE6 */
 *:first-child+html #menu { zoom: 1; } /* IE7 */
+h2{
+    color: aqua;
+}
+/*.about{
+    display:;
+}*/
+.about p{
+    width: 425px;
+    margin: 0px 0px;
+    text-align: justify;
+    display: flex;
+}
+.about img{
+    width: 455px;
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+.history{
+    display: flex;
+}
