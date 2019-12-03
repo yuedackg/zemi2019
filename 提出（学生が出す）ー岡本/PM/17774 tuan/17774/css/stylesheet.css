@@ -1,12 +1,12 @@
 ﻿body{
-max-width: 800px;
+max-width: 1000px;
 width: 60%;
 margin: 0 auto;
-background-color: #B22222;
+background-color: #CC3366;
 }
 h1{
 color: #fff;
-background-image: url("7.png");
+background-image: url("8.jpg");
 background-repeat: no-repeat;
 
 background-size: 60%;
@@ -18,7 +18,7 @@ margin: 0;
 height: 250px;
 }
 nav{
-background-color:#B22222;
+background-color:#;
 }
 ul{
 text-align: center;

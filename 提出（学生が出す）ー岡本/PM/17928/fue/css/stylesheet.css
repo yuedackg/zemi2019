@@ -24,6 +24,7 @@ border:hidden;
 background-color:#ff7f00;
 font-style: italic;
 font-size:35px;
+font-size:100%;
 }
 h3{
 border:#fff00 solid 2px;
@@ -35,7 +36,11 @@ width:280px;
 }
 body {
 }
-
+p.txtPr {
+    color: #cc0000;
+    font-size: 120%;
+    font-weight: bold;
+}
 .topnav {
   overflow: hidden;
   background-color: #333;

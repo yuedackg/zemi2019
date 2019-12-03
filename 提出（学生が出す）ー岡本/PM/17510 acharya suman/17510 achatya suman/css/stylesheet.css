@@ -51,7 +51,6 @@ h1{
 	margin:20px;
 	background-image: url("../image/image2.jpg");
 	background-size: 100%;
-
 }
 /* 商品メニュー　*/
 	.price-table{
@@ -146,4 +145,10 @@ footer{
 }
 .pagetop{
 	float: right;
+}
+#drink-photo{
+	width: 600px;
+	height: 700px;
+	background-image: url("../image/image15/16.jpg");
+	margin:30px;
 }

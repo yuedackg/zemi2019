@@ -135,15 +135,17 @@ h2{
     display:;
 }*/
 .about p{
-    width: 425px;
+    width: 800px;
     margin: 0px 0px;
     text-align: justify;
     display: flex;
 }
 .about img{
-    width: 455px;
-    margin: 0px 0px;
+    width: 400px;
     padding: 0px 0px;
+    float: left;
+    margin: 22px 10px -1px 10px;
+    text-align: justify;
 }
 .history{
     display: flex;

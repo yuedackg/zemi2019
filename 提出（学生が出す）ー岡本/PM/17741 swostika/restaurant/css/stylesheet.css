@@ -3,12 +3,12 @@
 	margin: 0px auto;
 }
 header{
-	height:350px;
+	height:550px;
 	background-image: url("../img/16image.jpg");
 	background-size: 105%;
 	background-repeat: no-repeat;
 	display: flex;
-	margin-top :100px;
+	margin-top :-3px;
 	background-color:#B66666;
 
 }
@@ -27,7 +27,7 @@ nav ul li{
     position: relative;
     display: inline;
     width: 200px;
-    background-color: yellowgreen;
+    background-color: yellow;
     margin-left: 5px;
     text-align: center;
 }
@@ -37,7 +37,7 @@ nav ul li{
 h1{
 	color:black;
 	font-family: 'SimSun';
-	font-weight: 900;
+	font-weight: 1000;
 	text-align: center;
 	font-size: 90px;
 	margin-left:200px;
@@ -125,10 +125,10 @@ td{
 	margin-left: 100px;
 }
 	th{
-	background-color: #ccc;
+	background-color: #e61919;
 }
 	td{
-	background-color: #fff;
+	background-color: #ffc107;
 }
 	table,th,td{
 	border: solid 5px #666;
