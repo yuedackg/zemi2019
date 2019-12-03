@@ -60,7 +60,7 @@ display: flex;
 .about p{
 width: auto;
 margin: 0px 40px;
-text-align: justify;
+text-align: right;
 line-height: 25px;
 }
 .about img{

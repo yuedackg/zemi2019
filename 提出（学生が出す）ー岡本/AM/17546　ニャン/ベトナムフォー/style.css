@@ -14,15 +14,17 @@ header{
 }
 h1#headtitle{
 	font-size: 60px;
+	color: black;
 }
 h2.title{
 	font-size: 18px;
+	color: black;
 }
 .nav1{
 	display: flex;
 	background-color: rgba(7, 225, 0, 0.9);
 	height: 50px;
-	margin-left: 20px;
+	margin-left: 130px;
 }
 .nav1 li{
 	list-style: none;
@@ -63,7 +65,7 @@ p.top-text{
 }
 
 	
-}
+
 .BBB{
 	display: flex;
 }
@@ -75,7 +77,8 @@ p.top-text{
 }
 
 .ccc{
-	height: 300px;
+	height: 330px;
+	width: 94%;
 }
 .ddd img{
 	width: 30%;

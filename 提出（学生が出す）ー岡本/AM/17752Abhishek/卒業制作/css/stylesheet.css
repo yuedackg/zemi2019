@@ -5,13 +5,14 @@ margin: 0 auto;
 background-color: #669999;
 }
 header#header{
-height: 800px;
+    margin-top: 30px;
+height: 400px;
 background-image: url("../img/top-image.jpg");
 background-repeat: no-repeat;
-background-size: 1500px;
+background-size: 1024px;
 }
 h1{
-color: #fff;
+color: #3399FF;
 background-repeat: no-repeat;
 font-family: Lobster;
 font-size: 60px;
@@ -46,7 +47,7 @@ color: #ffffff;
 text-decoration: none;
 }
 h2{
-border-left: solid 10px #ffa500;
+border-left: solid 10px #FFFF00;
 border-bottom:  dotted 5px #ffa500;
 margin-top: 30px;
 padding: 5px;
@@ -109,7 +110,7 @@ th{
 background-color: #ccc;
 }
 table,th,td{
-border: solid 1px #666;
+border: solid 1px #9900FF;
 border-collapse: collapse;
 padding: 5px 48px;
 }
