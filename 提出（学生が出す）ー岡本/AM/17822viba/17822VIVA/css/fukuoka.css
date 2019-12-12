@@ -20,6 +20,13 @@ margin-top: 0px;
 padding-top:200px;
 height:100%;
 }
+p.titi{
+    color: rgb(239, 243, 10);
+    text-align: center;
+    padding-top: 30px;
+    margin: 0;
+    font-size:50px;
+}
 h4{
     border-left: solid 10px #c70d6a;
     border-bottom:double 5px #ff009d;

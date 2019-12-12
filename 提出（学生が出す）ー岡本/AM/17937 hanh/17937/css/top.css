@@ -1,0 +1,113 @@
+﻿body{
+max-width: 1200px;
+width:90%;
+margin: 0 auto;
+background-color: rgb(240, 180, 217);
+}
+header{
+height:400px;
+width: 100%;
+background-image: url("../images/hoguom3.jpg");
+background-repeat:no-repeat;
+background-size: 100% 100%;
+margin: 0;
+}
+h1{
+    color:rgb(6, 40, 51);
+    font-family: Lobster;
+    font-size: 60px;
+    text-align:left;
+    margin-top: 0px;
+    padding-top:120px;
+    }
+section{
+display:inline-flex;
+}
+nav{
+    background-color:rgb(7, 50, 53);
+    }
+a{
+color: #ffffff;
+text-decoration: none;
+display: block;
+padding: 14px 16px;
+}
+a:hover{
+	background: rgb(184, 16, 142);
+	color: rgb(42, 16, 192);
+}
+ul{
+    text-align: center;
+    padding-left:16px;
+    list-style-type: none;
+    margin: 0;
+    }
+li{
+    font-size: 14px;
+    list-style: none;
+    margin-right: 30px;
+    display: inline-block;
+    }
+section{
+display:flex;
+padding-left:30px;
+}
+h1{
+margin-bottom: 0;
+}
+.hocsinh{
+    background-image:url("../images/hs.jpg");
+    background-size:320px 420px;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 400px;
+}
+.kethon{
+    background-image:url("../images/u1.jpg");
+    background-size:320px 420px;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 400px;
+}
+.truyenthong{
+    background-image:url("../images/ad1.jpg");
+    background-size:320px 420px;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 400px;
+}
+div{
+    background-color: antiquewhite;
+    border-radius: 10px;
+    padding: 10px;
+}
+p{
+    font-size:20px;
+    color: rgb(241, 245, 19);
+    margin-top:-10px;
+}
+div.tan{
+    background-color: antiquewhite;
+    border-radius: 10px;
+    padding: 10px;
+}
+.cachtan{
+    background-image: url("../images/ct3.jpg");
+    background-size:320px 420px;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 400px;
+}
+.pagetop{
+position: fixed;
+right: 60px;
+bottom: 20px;
+background-color: rgb(19, 9, 104);
+padding: 0 10px;
+border-radius: 10px;
+}
+h2{
+    color: rgb(13, 43, 20);
+    margin-top: 100px;
+    margin-bottom:20px;
+}

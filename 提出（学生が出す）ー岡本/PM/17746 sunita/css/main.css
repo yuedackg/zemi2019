@@ -1,0 +1,12 @@
+﻿body{
+	width: 1024px;
+	margin: 0 auto;
+}
+h1{
+	font-size: 40px;
+	margin-top: 0px;
+}
+#catch{
+	font-size: 17px;
+	margin-bottom: 0px;
+}

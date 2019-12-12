@@ -21,8 +21,15 @@ margin-top: 0px;
 padding-top: 105px;
 height:100%;
 }
+p.titi{
+    color: rgb(239, 243, 10);
+    text-align: center;
+    padding-top: 30px;
+    margin: 0;
+    font-size:50px;
+}
 nav{
-background-color:rgb(109, 209, 109);
+background-color:rgb(29, 71, 29);
 }
 ul{
 text-align: center;

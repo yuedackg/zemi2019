@@ -4,9 +4,13 @@ body{
     widows: 1000px;
     margin: 0px auto;
 }
+body ul {
+        list-style: none;
+        text-align:center
+}
 header{
-        height: 200px;
-        background-image: url("../images/anhbia.jpg");
+        height: autopx;
+        background-image: url("images/anhbia.jpg");
         background-repeat: no-repeat;
         }
 h1{
@@ -21,6 +25,15 @@ h1{
         padding-top: 105px;
         height: 245px;
         }
+h2 {
+        text-align:center ;
+        font-size: 30px ;
+        color: chartreuse
+}
+section {
+        text-align: center;
+        font-size: 15px ;
+}
 ul {
         font-family: Lobster;
         font-size: 30px;
@@ -42,32 +55,9 @@ ul {
 #banner {
     height: 0px auto;
     width: 0px auto;
+    text-align: center;
 }
 
-#main #left {
-    width: 800px;
-    background: #ccc;
-    float: left;
-    min-height: 0px auto;
-}
-
-#main #right {
-    width: 200px;
-    background: blue;
-    min-height: 0px auto;
-    float: left;
-
-}
-#footer {
-        background: 000;
-        width: 1000px;
-        text-align: center;
-        height: 60px;
-        color: #FFF;
-        clear: left;
-        line-height: 60px;
-
-}
 #menu_top ul {
         margin: 0px;
         padding: 0px;
@@ -95,8 +85,8 @@ ul {
     width: 100%;
 }
 #map img{
-    width: ;
-    height: ;
+    width: auto;
+    height: auto;
 }
 
 #main #left ul {
@@ -126,10 +116,18 @@ p {
     height:  40px;
 }
 h1 {
-        background:#6ab661;
     height:  autopx;
     width: autopx;
 }
+div-class {
+        border:1px solid black;
+    }
+    th{
+        border:1px solid black;
+    }
+    td{
+        border:1px solid black;
+    }
 .price-table{
         display: flex;
         margin-left: 25px;
@@ -155,4 +153,7 @@ h1 {
                 background-color: rgba(100,100,100,0.5);
                 padding: 0 10px;
                 border-radius: 10px;
-                }
+}
+
+img.x {display: block; margin-left: auto; margin-right: auto;
+}

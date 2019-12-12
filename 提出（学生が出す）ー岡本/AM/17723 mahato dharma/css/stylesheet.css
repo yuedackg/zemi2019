@@ -19,3 +19,14 @@ header#header{
 	background-size: 980px;
 	background-position: -13px -131px;
 }
+
+/*@thartu dress‚É‚Â‚¢‚Ä@*/
+
+.tharu-dress{
+	width: 980px;
+	height: 600px;
+	background-image: url("../img/tharu-dress.jpg");
+	background-repeat: no-repeat;
+	background-size: 980px;
+	background-position: -13px -131px;
+}

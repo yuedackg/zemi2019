@@ -1,0 +1,99 @@
+header#toppage{
+	background-image: url("../images/rana01.jpg");
+	background-repeat: no-repeat;
+	background-size: 800px;
+ 	background-position: 100px 50px;
+	height: 540px;
+}
+nav ul {
+	position: relative;
+	list-style-type: none;
+	display: flex;
+	margin-left: 190px;
+  
+}
+nav li a {
+	display: block;
+	width: 100px;
+	height: 20px;
+	text-align: center;
+	font-size: 12px;
+	color: black;
+	background-color: chartreuse;
+	text-decoration: none;
+	border: 1px solid blue ;
+	box-sizing: border-box;
+}
+.shruti{
+	padding-left: 40px;
+}
+p{
+	padding-left: 97px;
+	width: 400px;
+}
+
+h1{
+	font-size: 50px;
+	height: 34px;
+	margin-top: 0px;
+	width: 1000px;
+	text-align: center;
+}
+.utsav{
+	padding: 50px;
+	display: flex;
+}
+.utsav p{
+	margin-left: 30px;
+	margin-top: 50px;
+}
+h2{
+	font-size: 18px;
+	margin-top: 0;
+	text-align:center;
+}
+#flower{
+	text-align: center;
+}
+#leaf{
+	font-size: 30px;
+	text-align: center;
+}
+#bud{
+	font-size:18px ;
+	text-align: center;
+}
+p{
+	text-align: justify;
+	width: 400px;
+}
+#kimono{
+	text-align: center;
+}
+.rana{
+	border: solid 1px red;
+	padding-top:-3em;
+	line-height:3em;
+
+}
+.photo-box{
+	display: flex;
+}
+.photo{
+	float:left;
+	padding: 15px;
+}
+/*　トップページコメント　*/
+div.comment{
+	display: flex;
+	width: 850px;
+}
+div.comment #col-1,div.comment #col-2{
+	margin-right: -50px;
+}
+/*  explanation説明ページのCSS  */
+
+.explanation{
+	font-size: 12px;
+	width: 200px;
+}

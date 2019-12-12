@@ -14,11 +14,10 @@ background-size: 100% 50%;
 }
 
 h1{
-color: rgb(214, 122, 127);
+color: white;
 background-image: url("img/hoguom.png");
 background-repeat: no-repeat;
 background-position: 50% 73%;
-font-family: Lobster;
 font-size: 50px;
 text-align: center;
 margin-top: 30px;
@@ -90,6 +89,22 @@ width: 50%;
 height: 50%;
 min-width: 80px;
 }
+/*　ここから1212　*/
+.photo{
+    display: flex ;
+}
+.big{
+    height:800px;
+    width: 600px;
+}
+.big1{
+    height:800px;
+    width: 600px;
+}
+
+
+
+
 
 .photo p{
 margin-top: 15px;

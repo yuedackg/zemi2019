@@ -6,7 +6,7 @@ background-color: #F1F8E0;
 }
 header{
 height: 600px;
-background-image: url("../img/12.jpg");
+background-image: url("../img/topimage.jpg");
 background-color:0EB9C2;
 background-size: 100%;
 }
@@ -15,14 +15,17 @@ color: #fff;
 background-image: url("../img/8.png");
 background-repeat: no-repeat;
 background-position: 70% 93%;
-
 font-family: helvetica;
 font-size: 50px;
 font-weight: 900;
 text-align: center;
 margin-top: 0px;
 padding-top: 105px;
-height: 245px;
+height: 38px;
+}
+.subcatch{
+font-size: 18px;
+text-align: center;
 }
 nav{
 background-color: #40FF00;
@@ -68,7 +71,7 @@ line-height: 25px;
 }
 .about img{
 width: 20%;
-height: 20%;
+height: 30%;
 min-width: 150px;
 }
 

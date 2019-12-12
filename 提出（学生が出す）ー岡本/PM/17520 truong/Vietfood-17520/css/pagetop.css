@@ -1,0 +1,26 @@
+/*nut page top*/
+
+a.on_top { 
+    position: fixed;
+    opacity:0.6; 
+    display: none;
+    border-radius: 15px;
+    background-color: #b10909;
+    padding: 9px 6px;
+    white-space: nowrap; color: #fff;
+    position: fixed;
+    bottom: 9px;
+    right: 5px;
+    height: 24px;
+}
+  a.on_top:hover{
+  background-color: #3c10da;
+  color: #fff;
+  border: 1px solid #3c10da;
+  opacity:1;
+}
+  a.on_top i{ 
+    font-size: 20px;
+   margin-right: 3px;
+   margin-top: 1px;
+  }

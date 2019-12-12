@@ -3,28 +3,38 @@
 	margin: 0px auto;
 }
 header{
-	height:550px;
+	height:320px;
 	background-image: url("../img/16image.jpg");
 	background-size: 105%;
 	background-repeat: no-repeat;
+	background-position: -5px -69px;
 	display: flex;
-	margin-top :-3px;
+	margin-top :0px;
 	background-color:#B66666;
-
+	min-width: 730px;
+}
+h1{
+	font-size: 40px;
+	margin-left: 21px;
+	color: #fff;
 }
 .title{
 	display: block;
 }
+nav{
+background-color: yellow;
+	
+}
 nav ul {
 	list-style-type: none;
-	margin: 0;
-	padding: 0;
-
+    width: 554px;
+    margin: 0 auto;
+    padding: 0;
 }
 nav ul li{
-	float: left;
-    padding: 6px 35px 5px 35px;
+    padding: 2px 35px 1px 35px;
     position: relative;
+    font-size: 12px;
     display: inline;
     width: 200px;
     background-color: yellow;
@@ -32,32 +42,39 @@ nav ul li{
     text-align: center;
 }
 
-}
-
 h1{
 	color:black;
 	font-family: 'SimSun';
 	font-weight: 1000;
 	text-align: center;
-	font-size: 90px;
+	font-size: 75px;
 	margin-left:200px;
 }
+
+/*おすすめ＊/
+
+}
+
+
+
+
+
 	p#smalltitle{
 	color:blue;
 	font-size: 40px;
-	margin-left:200px;
+	margin-left:100px;
 }
 	p#bigtitle{
 	color:currentcolor;
 	font-size:30px;
-	margin-left:300px;
-	margin-top:200px;
+	margin-left:	0px;
+	margin-top:100px;
 	font-family:bold;
 }
 #menu-photo{
-	width: 290px;
+	width: 100px;
 	height: 270px;
-	margin:20px;
+	margin:0px;
 	background-image: url("../image/image2.jpg");
 	background-size: 100%;
 
@@ -65,80 +82,30 @@ h1{
 /* 商品メニュー　*/
 	.price-table{
 	display:flex;
-	margin-left: 100px;
+	margin-left: -170px;
 }
 	th{
 	background-color: #ccc;
 }
 td{
-	background-color: #fff;
+	background-color: #b9ad19;
 }
 	table,th,td{
-	border: solid 5px #e21d29;
-	border-collapse: collapse;
-	padding: 10px 134px;
+
+	border:solid 5px #283744;
+	padding: 5px 188px;
 }
 .table-right{
-	margin-left: 50px;
+	margin-left: -170px;
 
 }
-/* tooltip */
-.tooltip{
-    position: relative;
-    cursor: pointer;
-    display: inline-block;
-}
-.tooltip p{
-    margin:0;
-    padding:0;
-}
-.description {
-    display: none;
-    position: absolute;
-    padding: 110px;
-    font-size: 12px;
-    line-height: 1.6em;
-    color: #fff;
-    border-radius: 5px;
-    background: #000;
-    width: 200px;
-}
-.description:before {
-    position: absolute;
-    top: -24px;
-    right: 60%;
-    border: 15px solid transparent;
-    border-top: 15px solid #000;
-    margin-left: -15px;
-    transform: rotateZ(180deg);
-}
-.tooltip:hover .description{
-    display: inline-block;
-    top: 30px;
-    left: 0px;
+
 }
 
 
 /* ドリンクメニュー　*/
-.price-table{
-	display:flex;
-	margin-left: 100px;
-}
-	th{
-	background-color: #e61919;
-}
-	td{
-	background-color: #ffc107;
-}
-	table,th,td{
-	border: solid 5px #666;
-	border-collapse: collapse;
-	padding: 10px 134px;
-}
-.table-right{
-	margin-left: 100px;
 
-}
+
 /*　アクセス　*/
 .address{
 	display: flex;

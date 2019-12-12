@@ -1,0 +1,46 @@
+﻿body{
+width:1200px;
+margin: 0 auto;
+background-color: greenyellow;
+}
+header#header{
+display: flex;
+background-image: url("../img/topimage.jpg");
+background-repeat: no-repeat;
+height: 500px;
+}
+{
+width:1500px;
+margin: 0 auto;
+display: flex;
+background-image url ("../img/nepali.jpg");
+height: 500px;
+}
+
+h1{
+font-size: 26px;
+color: #fff;
+margin-left: 15px;
+margin-top: 4px;
+}
+nav{
+	margin-left: 30px;
+	margin-top: 6px;
+	font-size: 12px;
+}
+ul{
+display: flex;
+}
+li{
+list-style: none;
+margin-left: 20px;
+}
+a{
+text-decoration: none;
+color: #fff;
+}
+.footer1{
+	width: 500px;
+
+}
+

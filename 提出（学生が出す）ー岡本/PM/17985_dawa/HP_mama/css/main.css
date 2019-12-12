@@ -116,7 +116,7 @@ header .logo1{
 header .logo2{
     position: absolute;
     top: 56px;
-    left: 800px;
+    left: 935px;
 }
 header .logo2 img{
     height: 60px;
@@ -264,6 +264,14 @@ header .logo2 img{
     top: 12px;
     left: 350px;
 }
+.bigmap{
+    background-color: #59c1f7;
+    height: 300px;
+    width: 97%;
+    position: absolute;
+    top: 12px;
+    left: 15px;
+}
 /*
 .secondmid3{
     background-color: #59c1f7;
@@ -311,4 +319,144 @@ footer go_top{
     top: 115px;
     left: 976px;
    
+}
+.kodawari{
+    height: 550px;
+    width: 1024px;
+    background-image: url("../images/mid_back.png");
+    position: relative;
+    z-index: 0;
+    top: 40px;
+}
+.kodawarimid1{
+    background-image: url(../images/mid_1.png);
+    height: 263px;
+    width: 263px;
+    position: relative;
+    top: 50px;
+    margin-left: 55px;
+    z-index: 1;
+    background-color: #0186ba;
+
+}
+.kodawarimid2{
+    background-image: url("../images/mid_2.png");
+    height: 263px;
+    width: 263px;
+    position: absolute;
+    top: 167px;
+    margin-left: 380px;
+    z-index: 1;
+
+}
+.kodawarimid3{
+    background-image: url("../images/mid_3.png");
+    height: 263px;
+    width: 263px;
+    position: absolute;
+    top: 167px;
+    margin-left: 700px;
+    z-index: 1;
+}
+.kodawarimid1 h3{
+    position: relative;
+    top: 174px;    
+    margin: 0px;
+    text-align: center;
+    padding: 0px;
+    color: seagreen;
+}
+.kodawarimid2 h3{
+    position: absolute;
+    top: 220px;
+    left: 60px; 
+    margin: 0px;
+    text-align: center;
+    padding: 0px;
+    color: seagreen;
+    
+}
+.kodawarimid3 h3{
+    position: absolute;
+    top: 220px;
+    left: 40px;     
+    margin: 0px;
+    text-align: center;
+    padding: 0px;
+    color: seagreen;
+    
+
+}
+.kodawaridis1{
+    background-color: #ffffff;
+    height: 285px;
+    width: 320px;
+    position: relative;
+    top: 250px;
+    left: 15px;
+
+}
+.kodawaridis2{
+    background-color: #ffffff;
+    height: 285px;
+    width: 320px;
+    position: absolute;
+    top: 250px;
+    left: 350px;
+}
+.kodawaridis3{
+    background-color: #ffffff;
+    height: 285px;
+    width: 320px;
+    position: absolute;
+    top: 250px;
+    left: 685px;
+}
+.kodawari p{
+    padding: 60px 4px 4px 4px;
+    margin: 2px;
+    text-align: justify;
+    font-size: 14px;
+}
+.secondmidetc{
+    height: 325px;
+    width: 100%;
+    background-color: #ffffff;
+    position: relative;
+    top: 28px;
+}
+.etcpage{
+    background-color: #7c7e7f;
+    width: 100%;
+    height: 160px;
+    position: relative;
+    top: 10px;
+    margin-bottom: 4px;
+}
+.onlinepage{
+    height: 550px;
+    width: 1024px;
+    background-image: url("../images/mid_back.png");
+    position: relative;
+    top: 27px;
+}
+.product{
+    background-color: #ffffff;
+    height: 450px;
+    width: 320px;    
+}
+#product1 {
+    top: 86px;
+    left: 15px;
+    position: relative;    
+}
+#product2 {
+    top: 86px;
+    left: 350px;
+    position: absolute;
+}
+#product3 {
+    top: 86px;
+    left: 685px;
+    position: absolute;
 }

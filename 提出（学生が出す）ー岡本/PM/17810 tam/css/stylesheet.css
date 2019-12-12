@@ -10,7 +10,7 @@ background-repeat: no-repeat;
 
 }
 h1{
-color: #B0E0E6;
+color: #ff0000;
 background-image: url("../anh/shophoa.jpg");
 background-repeat: no-repeat;
 
@@ -35,16 +35,22 @@ list-style: none;
 margin-right: 30px;
 display: inline-block;
 padding: 10px 0px;
+
 }
 a{
 color: #ffffff;
 text-decoration: none;
 }
+li:hover > a {
+    color: #000000;
+
+}
 h2{
-border-left: solid 10px #FFFF00;
-border-bottom:  dotted 5px #FFFF00;
+border:dotted solid 5px #ff1493;
+border:dotted 5px #FF1493;
 margin-top: 30px;
 padding: 5px;
+color:#000000;
 }
 section{
 margin-bottom: 50px;

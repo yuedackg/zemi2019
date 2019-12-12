@@ -55,7 +55,7 @@ div#sp-icon span:after {
 	display: inline-block;
 	width: 30px;
 	height: 3px;
-	background: #000000;
+	background: #00ff4b;
 	position: absolute;
 	transition-property: transform;
 	transition-duration: 0.3s;

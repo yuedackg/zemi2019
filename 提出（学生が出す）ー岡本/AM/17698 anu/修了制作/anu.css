@@ -31,6 +31,7 @@ h2{
 	height: 400px;
 	width: 500px;
 	background-repeat: no-repeat;
+	
 }
 .shruti p{
 	margin-top: -50px;
@@ -49,3 +50,17 @@ h2{
 	background-repeat: no-repeat;
 
 }
+.lamichane{ 
+padding-top: 60px;
+text-align:float right;
+}
+.pagetop{
+	padding-top: 40px;
+}
+.ansuni img{
+	height: 400px;
+	width: 500px;
+	background-repeat: no-repeat;
+}
+.anup {
+	margin-right: -50px;}

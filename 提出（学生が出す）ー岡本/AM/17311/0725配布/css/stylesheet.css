@@ -43,13 +43,12 @@ color: #ffffff;
 text-decoration: none;
 }
 h2{
-   
-    border-bottom:  thick double #32a1ce; 5px #fffcfd91;
+   border-bottom:  thick double #32a1ce; 5px #fffcfd91;
 margin-top: 30px;
 padding: 5px;
 }
 h3{
-    text-align:center;
+    text-align:left;
     border-bottom:  thick double #32a1ce; 5px #fffcfd91;
 }
 margin-bottom: 40px;
@@ -105,7 +104,7 @@ background-color: #fff;
 display: flex;
 }
 .access p{
-margin-left: 15px;
+margin-left: 10px;
 margin-top: 0;
 }
 .map-title{

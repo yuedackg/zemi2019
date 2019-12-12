@@ -1,0 +1,42 @@
+@charset "utf-8";
+
+body {
+  margin: 0;
+  padding: 0;
+}
+header#header{
+	background-image: url("../image/Nepali-Daal-Bhat.jpg");
+	background-repeat: no-repeat;
+	background-position: 214px -24px;
+h1{
+font-size: 36px;
+margin: 10px 0 0 20px;
+}
+p#catch{
+
+h2{
+	margin-top:30px;
+	padding:5px;
+	font-size:25px;
+	font-weight:normal;
+	line-height:1.0;
+	background:#007130;
+}
+section{
+	margin-botton:50;
+}
+
+body{
+	margin:0;
+	padding:0;
+}
+header#header{
+	background-image: url("../image/NEPALI RESTURENT ITEMS.jpg");
+	background-repeat: no-repeat;
+	background-position: 500px -24px;
+
+h2{
+font-size:36px;
+margin:10px 0 0 10px;
+ }
+p#catch{

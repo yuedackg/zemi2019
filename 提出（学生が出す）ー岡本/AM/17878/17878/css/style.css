@@ -1,8 +1,10 @@
 ﻿body{
 width: 980px;
 margin: 0 auto;
+background-color:  #04b6fc;
 }
 header{
+
 background-image: url("../img/topimage.jpg");
 background-repeat: no-repeat;
 background-position: 0px -150px;
@@ -39,8 +41,8 @@ font-size: 12px;
 
 a{
 text-decoration: none;
-color: black;
-background-color: #fa8072;
+color: rgb(29, 27, 27);
+background-color: #74fc04;
 }
 /* イベント　*/
 header#sub-page{
@@ -58,4 +60,10 @@ p.subpage{
 font-size: 40px;
 margin: 0px 20px;
 color: black;
+}
+#utsav{
+    text-align: justify;
+}
+#utsav img{
+    float: left;
 }

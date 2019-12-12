@@ -31,7 +31,11 @@ border:#fff00 solid 2px;
 
 }
 img{
-width:280px;
+filter:drop-shadow(0 0 5px red);
+display:block;
+margin-left:auto;
+margin-right:auto;
+width:50%;
 }
 body {
 }

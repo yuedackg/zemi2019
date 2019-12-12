@@ -4,19 +4,28 @@ width: 90%;
 margin: 0px auto;
 background-color:rgb(73, 115, 139);
 }
-header{
-height:670px;
-background-image: url("../image/image1.jpg");
+header#toppage{
+height: 436px;
+background-image: url("../image/topimage.jpg");
 background-size: 120%;
 background-repeat: no-repeat;
+margin-bottom: 40px;
+}
+
+header{
+height:210px;
+background-image: url("../image/topimage.jpg");
+background-size: 120%;
+background-repeat: no-repeat;
+margin-bottom: 40px;
 }
 h1{
 color:red;
 background-repeat: no-repeat;
 background-position: 50% 73%;
-font-family:;
+margin: 0px 20px;
 font-size: 60px;
-margin: 0 25px;
+height: 95px;
 }
 
 /*　リンクボタン　*/
@@ -93,3 +102,5 @@ margin-left: 50px;
 .address ul li{
 display: block;
 }
+.pagetop{
+	float: right;

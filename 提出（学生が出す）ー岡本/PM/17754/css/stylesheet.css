@@ -1,137 +1,152 @@
+
 body{
-max-width: 1024px;
-width: 90%;
-margin: 0 auto;
-background-color: #669999;
+    width: 800px;
+    margin:0 auto;
+    font-family: Arial, Helvetica, sans-serif;
 }
 header{
-height: 1000hpx;
-background-image: url("../img/top-image.jpg");
-background-repeat: round;
+    background-image: url("../images/Nepal-football-team.jpg");
+    background-repeat: no-repeat;
+    height: 360px;
+}
+header img#headerpicture{
+    margin: 254px 0px 0px 697px;
 }
 h1{
-color: #fff;
+    margin: 0;
+    color: #999;
+    font-size: 32px;
+    padding: 10px 0px 0px 20px;
+    text-align: center;
+    color: darkorange;
+}
+.topnav{
+    overflow:hidden;
+    background-color:#333;
+    padding-right: 20px;
 
-background-repeat: no-repeat;
-background-position: 50% 73%;
-font-family: Lobster;
-font-size: 60px;
-text-align: center;
-margin-top: 0px;
-padding-top: 105px;
-height: 245px;
 }
-nav{
-background-color: #8b4513;
+.topnav a{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
 }
-ul{
-text-align: center;
-margin-top: 0;
-padding-left: 16px;
+.topnav :hover{
+   
+    color: white;
+
 }
-li{
-font-size: 14px;
-list-style: none;
-margin-right: 30px;
-display: inline-block;
-padding: 10px 0px;
+
+#menu {
+    width: 100%;
+    margin: 0;
+    padding: 10px 0 0 0;
+    list-style: none;  
 }
-a{
-color: #ffffff;
-text-decoration: none;
+
+#menu li {
+    float: left;
+    padding: 0 30px 10px 15px;
+    position: relative;
 }
+
+#menu a {
+    float: left;
+    height: 25px;
+    padding: 0 25px;
+    color: #999;
+    text-transform: uppercase;
+    font: bold 12px/25px Arial, Helvetica;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #000;
+}
+
+#menu li:hover > a {
+    color: #fafafa;
+}
+
+*html #menu li a:hover { 
+    color: #fafafa;
+}
+
+#menu li:hover > ul {
+    display: block;
+}
+
+
+*html #menu ul a {    
+    height: 10px;
+    width: 150px;
+}
+
+*:first-child+html #menu ul a {  
+    height: 10px;
+    width: 150px;
+}
+
+#menu ul a:hover {
+    background-color: #0186ba;
+    background-image: linear-gradient(#04acec, #0186ba);
+}
+
+#menu ul li:first-child a {
+    border-radius: 5px 5px 0 0;
+}
+
+#menu ul li:first-child a:after {
+    content: '';
+    position: absolute;
+    left: 30px;
+    top: -8px;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 8px solid #444;
+}
+
+#menu ul li:first-child a:hover:after {
+    border-bottom-color: #04acec; 
+}
+
+#menu ul li:last-child a {
+    border-radius: 0 0 5px 5px;
+}
+
+/* Clear floated elements */
+#menu:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+* html #menu             { zoom: 1; } /* IE6 */
+*:first-child+html #menu { zoom: 1; } /* IE7 */
 h2{
-border-left: solid 10px #ffa500;
-border-bottom:  dotted 5px #ffa500;
-margin-top: 30px;
-padding: 5px;
+    color: aqua;
 }
-section{
-margin-bottom: 50px;
-}
-
-.about{
-display: flex;
-}
+/*.about{
+    display:;
+}*/
 .about p{
-width: 700px;
-margin: 0px 40px;
-text-align: justify;
-line-height: 25px;
+    width: 800px;
+    margin: 0px 0px;
+    text-align: justify;
+    display: flex;
 }
 .about img{
-width: 20%;
-height: 20%;
-min-width: 150px;
+    width: 400px;
+    padding: 0px 0px;
+    float: left;
+    margin: 22px 10px -1px 10px;
+    text-align: justify;
 }
-
-.photo p{
-margin-top: 15px;
-margin-left: 30px;
-}
-.photo-box{
-display: flex;
-margin-left: 30px;
-
-}
-.box{
-margin-left: 65px;
-}
-h3{
-�T�C�Y
-����
-}
-.big img{
-width: 45%;
-padding: 10px;
-margin-top: 18px;
-background-color: #fff;
-transform:rotate(-6deg)
-}
-.big h3{
-margin-top: 35px;
-}
-.small img{
-
-padding: 25px;
-background-color: #0000BF;
-}
-
-.price-table{
-display: flex;
-margin-left: 25px;
-}
-th{
-background-color: #ccc;
-}
-table,th,td{
-border: solid 1px #666;
-border-collapse: collapse;
-padding: 5px 48px;
-}
-.table-right{
-margin-left: 30px;
-}
-/* �@�A�N�Z�X�@*/
-.access{
-display: flex;
-}
-.access p{
-margin-left: 15px;
-margin-top: 0;
-}
-.map-title{
-font-family: Lobster;
-font-size: 32px;
-margin-bottom: 15px;
-}
-.pagetop{
-position: fixed;
-right: 60px;
-bottom: 20px;
-background-color: rgba(100,100,100,0.5);
-padding: 0 10px;
-}
-#headerpicture{
-width:1000px;
+.history{
+    display: flex;
 }

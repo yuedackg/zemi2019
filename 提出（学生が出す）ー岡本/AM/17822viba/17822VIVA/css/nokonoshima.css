@@ -13,16 +13,23 @@ width: 100%;
 background-image: url("../img1/hinh05.jpg");
 background-repeat:no-repeat;
 background-size: 100%;
-
+margin: 0;
 }
 h1{
-color:#CCCC33;
+color:rgb(51, 204, 76);
 font-family: Lobster;
 font-size: 60px;
 text-align:left;
 margin-top: 0px;
 padding-top: 105px;
 height:100%;
+}
+p.titi{
+    color: rgb(255, 0, 221);
+    padding-left: 60px;
+    padding-top: 30px;
+    margin: 0;
+    font-size:50px;
 }
 nav{
 background-color:#666;
