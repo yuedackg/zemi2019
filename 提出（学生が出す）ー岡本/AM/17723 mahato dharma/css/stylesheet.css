@@ -30,3 +30,25 @@ header#header{
 	background-size: 980px;
 	background-position: -13px -131px;
 }
+
+/*@thartu festival‚É‚Â‚¢‚Ä@*/
+
+.tharu-festival{
+	width: 300px;
+	height: 400px;
+	background-image: url("../img/jitiya.jpg");
+	background-image: url("../img/dipawoli.jpg");
+	background-image: url("../img/holi.jpg");
+	background-repeat: no-repeat;
+	background-size: 980px;
+	background-position: -13px -131px;
+}
+
+.tharu-food{
+	width: 980px;
+	height: 500px;
+	background-image: url("../img/topimage.jpg");
+	background-repeat: no-repeat;
+	background-size: 980px;
+	background-position: 100px -131px;
+}

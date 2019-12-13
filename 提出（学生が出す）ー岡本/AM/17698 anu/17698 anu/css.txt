@@ -1,0 +1,35 @@
+body{
+width: 980px;
+margin: 0 auto;
+}
+
+h1{
+	font-size: 50px;
+	margin-bottom: 0;
+	height: 60px;
+	width: 1000px;
+}
+h2{
+	font-size: 14px;
+	margin-top: 0;
+}
+#{
+	text-align: center
+}
+#{
+	text-align: center
+}
+#pokhara {
+	text-align: center
+}
+.photo{
+	float:left;
+	padding: 15px;
+}
+
+/*   */
+
+.{
+	font-size: 12px;
+	width: 200px;
+}

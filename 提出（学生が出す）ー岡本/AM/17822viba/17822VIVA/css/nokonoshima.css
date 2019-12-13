@@ -18,10 +18,10 @@ margin: 0;
 h1{
 color:rgb(51, 204, 76);
 font-family: Lobster;
-font-size: 60px;
 text-align:left;
 margin-top: 0px;
 padding-top: 105px;
+padding-left: 10px;
 height:100%;
 }
 p.titi{
@@ -32,7 +32,7 @@ p.titi{
     font-size:50px;
 }
 nav{
-background-color:#666;
+background-color:rgb(73, 6, 51);
 }
 ul{
 text-align: center;
@@ -53,8 +53,9 @@ display: block;
 padding: 14px 16px
 }
 a:hover{
-    background: #ffffff;
-    color: yellow;
+    background: #ec0dec;
+    color: rgb(9, 72, 83);
+    font-size:15px;
 }
 h2{
 border-left: solid 10px chocolate;

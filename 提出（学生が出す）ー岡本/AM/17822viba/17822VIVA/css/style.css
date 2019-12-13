@@ -25,6 +25,7 @@ padding: 14px 16px
 a:hover{
 background: rgb(47, 211, 42);
 color: yellow;
+font-size: 15px;
 }
 ul{
 	text-align: center;

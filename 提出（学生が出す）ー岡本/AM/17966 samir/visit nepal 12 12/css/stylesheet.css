@@ -4,7 +4,7 @@ body{
     margin:30px auto;
 
 }
-#head{
+#head{ 
     height: 597px;
     background-image: url("n.jpg");
     background-repeat: no-repeat;
@@ -33,7 +33,7 @@ body{
         color: #fff;
         font-size: 16px;
         line-height: 2.8;
-        background: #3f0afc;
+        background: #a152eb;
         text-decoration: none;
         border-right: 0px solid #eee;
         box-sizing: border-box;

@@ -52,6 +52,7 @@ padding: 14px 16px
 a:hover{
     background: rgb(13, 183, 235);
     color: yellow;
+    font-size: 15px;
 }
 h2{
 border-left: solid 10px rgb(1, 19, 5);

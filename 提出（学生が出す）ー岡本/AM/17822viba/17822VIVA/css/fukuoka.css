@@ -60,6 +60,7 @@ padding: 14px 16px;
 a:hover{
     background: #0f9ec9;
     color: rgb(209, 21, 124);
+    font-size: 21px;
 }
 .nihon{
 display: flex;
