@@ -5,19 +5,15 @@ margin: 0 auto;
 background-color:rgb(255, 255, 128);
 }
 header{
-width:100%;
 height: 300px;
 background-image: url("../img/hoguom.png"   );
 background-repeat: no-repeat;
-background-attachment: fixed;
-background-size: 100% 50%;
+background-size: 102% 100%;
+
 }
 
 h1{
 color: white;
-background-image: url("img/hoguom.png");
-background-repeat: no-repeat;
-background-position: 50% 73%;
 font-size: 50px;
 text-align: center;
 margin-top: 30px;
@@ -94,18 +90,14 @@ min-width: 80px;
     display: flex ;
 }
 .big{
-    height:800px;
-    width: 600px;
+    height:400px;
+    width: 400px;
 }
 .big1{
-    height:800px;
-    width: 600px;
+    height:400px;
+    width: 400px;
+    margin-left: 50px;
 }
-
-
-
-
-
 .photo p{
 margin-top: 15px;
 margin-left: 30px;
@@ -119,7 +111,7 @@ margin-left: 65px;
 }
 .big img{
 margin: 0 30px 30px 0;
-width: 60%;
+width: 90%;
 text-align: center;
 float: left;
 background-color:#fff;
@@ -127,8 +119,8 @@ padding: 30px;
 }
 .big1 img{
 margin: 0 30px 0 30px;
-width: 60%;
-height: 40%;
+width: 89%;
+height: 80%;
 text-align: center;
 float: left;
 background-color:#fff;

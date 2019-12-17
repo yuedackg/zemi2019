@@ -7,162 +7,30 @@
 		<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
 		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style>
-body {font-family: "Lato", sans-serif;}
-
-.tablink {
-  background-color: #555;
-  color: white;
-  float: left;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  padding: 14px 16px;
-  font-size: 17px;
-  width: 25%;
-}
-
-.tablink:hover {
-  background-color: #777;
-}
-
-/* Style the tab content */
-.tabcontent {
-  color: black;
-  display: none;
-  padding: 50px;
-  text-align: center;
-}
-
-#London {background-color:#f9f97a;}
-#Paris {background-color:#f9f97a;}
-#Tokyo {background-color:#f9f97a;}
-#Oslo {background-color:#f9f97a;}
-body{
-	background-color :#E8E8E8;
-}
-
-body {
-  font-family: Arial;
-  margin: 0;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-img {
-  vertical-align: middle;
-}
-
-/* Position the image container (needed to position the left and right arrows) */
-.container {
-  position: relative;
-}
-
-/* Hide the images by default */
-.mySlides {
-  display: none;
-}
-
-/* Add a pointer when hovering over the thumbnail images */
-.cursor {
-  cursor: pointer;
-}
-
-/* Next & previous buttons */
-.prev,
-.next {
-  cursor: pointer;
-  position: absolute;
-  top: 40%;
-  width: auto;
-  padding: 16px;
-  margin-top: -50px;
-  color: white;
-  font-weight: bold;
-  font-size: 20px;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-  -webkit-user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover,
-.next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
-}
-
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
-/* Container for image text */
-.caption-container {
-  text-align: center;
-  background-color: #222;
-  padding: 2px 16px;
-  color: white;
-}
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Six columns side by side */
-.column {
-  float: left;
-  width: 16.66%;
-}
-
-/* Add a transparency effect for thumnbail images */
-.demo {
-  opacity: 0.6;
-}
-
-.active,
-.demo:hover {
-  opacity: 1;
-}
-
-
-
-
-</style>
 <header>
    <h1>RESTAURANTS</h1>
    <h1>Vietnamese Fresh Spring Rolls</h1>
 </header>
+<title>RESTAURANTS</title>
 </head>
-<button class="tablink" onclick="openCity('London', this, 'red')" id="defaultOpen">HOME</button>
-<button class="tablink" onclick="openCity('Paris', this, 'green')">FOOD</button>
-<button class="tablink" onclick="openCity('Tokyo', this, 'blue')">DRINK</button>
-<button class="tablink" onclick="openCity('Oslo', this, 'orange')">ACCESS</button>
-<div class="topnav">
-  <div class="search-container">
-    <form action="/action_page.php">
-      <input type="text" placeholder="Search.." name="search">
-      <button type="submit"><i class="fa fa-search"></i></button>
-    </form>
-  </div>
-</div>
+
+	<button class="tablink" onclick="openCity('London', this, 'red')" id="defaultOpen">HOME</button>
+	<button class="tablink" onclick="openCity('Paris', this, 'green')">FOOD</button>
+	<button class="tablink" onclick="openCity('Tokyo', this, 'blue')">DRINK</button>
+	<button class="tablink" onclick="openCity('Oslo', this, 'orange')">ACCESS</button>
+
+	 <div class="topnav">
+  	 	<div class="search-container">
+    		   <form action="/action_page.php">
+      			<input type="text" placeholder="Search.." name="search">
+      			<button type="submit"><i class="fa fa-search"></i></button>
+    		   </form>
+  		</div>
+	 </div>
 <body>
-<div id="London" class="tabcontent">
+ <div id="London" class="tabcontent">
   <h1>HOME</h1>
-<center>
+ <center>
   <img class="mySlides w3-animate-fading" src="anh1/k.jpg" style="width:600px;height:400px;">
   <img class="mySlides" src="anh1/goitom.jpg" style="width:600px;height:400px;">
   <img class="mySlides" src="anh1/goica.jpg" style="width:600px;height:400px;">
@@ -179,47 +47,41 @@ img {
      Vietnamese fresh spring roll is often served with a kind of special dipping sauce-fish sauce-and garlic, limes, chili, crushed roasted peanuts. The combination of herbs, pork, shrimp
      and the salty, hot and sour dipping sauce that make Vietnamese fresh spring roll wonderfully unique.
   </p>
-  
-</div>
-
+ </div>
 <div id="Paris" class="tabcontent">
 <h2 style="text-align:center">MENU</h2>
-
 <div class="container">
   <div class="mySlides">
     <div class="numbertext">1 / 6</div>
     <img src="anh1/goitom.jpg" style="width:50%">
   </div>
-
   <div class="mySlides">
     <div class="numbertext">2 / 6</div>
     <img src="anh1/goica.jpg" style="width:50%">
   </div>
-
   <div class="mySlides">
     <div class="numbertext">3 / 6</div>
     <img src="anh1/goibo.jpg" style="width:50%">
   </div>
-    
-  <div class="mySlides">
+   <div class="mySlides">
     <div class="numbertext">4 / 6</div>
     <img src="anh1/goide.jpg" style="width:50%">
-  </div>
-
+   </div>
   <div class="mySlides">
     <div class="numbertext">5 / 6</div>
     <img src="anh1/goiga.jpg" style="width:50%">
   </div>
-    
   <div class="mySlides">
     <div class="numbertext">6 / 6</div>
     <img src="anh1/goivit.jpg" style="width:50%">
   </div>
 
+ <a class="prev" onclick="plusSlides(-1)">prev</a>
+  <a class="next" onclick="plusSlides(1)">next</a>
+
   <div class="caption-container">
     <p id="caption"></p>
   </div>
-
   <div class="row">
     <div class="column">
       <img class="demo cursor" src="anh1/goitom.jpg" style="width:100%" onclick="currentSlide(1)" alt="GOI TOM">
@@ -240,7 +102,7 @@ img {
       <img class="demo cursor" src="anh1/goivit.jpg" style="width:100%" onclick="currentSlide(6)" alt="GOI VIT">
     </div>
   </div>
-</div>
+</div
   <h1>PRICE</h1>
 
 	<section class="price">
@@ -250,22 +112,22 @@ img {
 						<th>NAME</th><th>PRICE</th>
 					</tr>
 					<tr>　
-						<td>GOI TOM</td><td>25000d</td>
+						<td>海老</td><td>25000d</td>
 					</tr>
 					<tr>
-						<td>GOI CA</td><td>15000d</td>
+						<td>魚肉</td><td>15000d</td>
 					</tr>
 					<tr>
-						<td>GOI BO</td><td>30000d</td>
+						<td>牛肉</td><td>30000d</td>
 					</tr>
 					<tr>
-						<td>GOI GA</td><td>15000d</td>
+						<td>鶏肉</td><td>15000d</td>
 					</tr>
 					<tr>
-						<td>GOI DE</td><td>35000d</td>
+						<td>山羊の肉</td><td>35000d</td>
 					</tr>
 					<tr>
-						<td>GOI VIT</td><td>15000d</td>
+						<td>家鴨の肉</td><td>15000d</td>
 					</tr>
 					
 				</table>
@@ -345,7 +207,7 @@ img {
 						<td>7 up</td><td>10000d</td>
 					</tr>
 					<tr>
-						<td>sting</td><td>10000d</td>
+						<td>スティング</td><td>10000d</td>
 					</tr>
 					<tr>
 						<td>pepsi</td><td>10000d</td>
@@ -368,14 +230,15 @@ img {
 </div>
 <div id="Oslo" class="tabcontent">
 <h1>ACCESS</h1>
-	<section>
-			<p>HUYNH VAN THE VU 番号:17965 専門学校コンピュータ教育学院ビジネスカレッジ<br>
+	<address>
+			<p>HUYNH VAN THE VU 番号:17965
+			専門学校コンピュータ教育学院ビジネスカレッジ<br>
 			ACCESS:福岡県福岡市東区箱崎1丁目9番17号<br>
 			PHONE NUMBER:090-3438-4087<br>
 			Gmail:ckg17965@st.ckg.ac.jp<br>
 			TIME:8:00 ~ 18:00
 			</p>
-	</section>
+	</address>
 </div>
 			<p class="pagetop">
 			<button class="btn"><i class="fa fa-home"></i><a href="file://192.168.16.201/01%20%E7%94%9F%E5%BE%92%E7%94%A8/%E5%A4%A7%E6%A9%8B%E6%A0%A1/%E7%95%99%E5%AD%A6%E7%94%9F/%E4%BF%AE%E4%BA%86%E5%88%B6%E4%BD%9C/%E6%8F%90%E5%87%BA%EF%BC%88%E5%AD%A6%E7%94%9F%E3%81%8C%E5%87%BA%E3%81%99%EF%BC%89%E3%83%BC%E5%B2%A1%E6%9C%AC/PM/17965%20vu/2019.12.05/bu1.htm">TOP PAGE</a></button>

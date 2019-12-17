@@ -99,8 +99,10 @@ display: inline-block;
 margin-left: 100px;
 }
 .box{
-margin-left: 65px;
-
+display: flex;
+}
+.img{
+	display: inline-block;
 }
 .big img{
 margin: 0 30px 0 30px;

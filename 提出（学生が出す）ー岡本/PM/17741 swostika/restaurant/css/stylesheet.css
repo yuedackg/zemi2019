@@ -1,5 +1,5 @@
 ﻿body{
-	width: 100%;
+	width: 1024px;
 	margin: 0px auto;
 }
 header{
@@ -48,23 +48,26 @@ h1{
 	font-weight: 1000;
 	text-align: center;
 	font-size: 75px;
-	margin-left:200px;
 }
 
-/*おすすめ＊/
+/*おすすめ*/
+td#recomand{
+padding-left: 29px;
+}
+td#recomand img{
+	width: 300px;
+}
+td#recomand p{
+margin-top: 0;
+margin-bottom: 100px;
 
 }
-
-
-
-
-
-	p#smalltitle{
+p#smalltitle{
 	color:blue;
 	font-size: 40px;
 	margin-left:100px;
 }
-	p#bigtitle{
+p#bigtitle{
 	color:currentcolor;
 	font-size:30px;
 	margin-left:	0px;
@@ -82,18 +85,19 @@ h1{
 /* 商品メニュー　*/
 	.price-table{
 	display:flex;
-	margin-left: -170px;
+	margin-left: 150px;
+	border:solid 1px #000;
 }
-	th{
+/*	th{
 	background-color: #ccc;
 }
 td{
 	background-color: #b9ad19;
 }
+*/
 	table,th,td{
-
-	border:solid 5px #283744;
-	padding: 5px 188px;
+	width: 717px;
+	padding-left: 0px;
 }
 .table-right{
 	margin-left: -170px;

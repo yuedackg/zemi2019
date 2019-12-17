@@ -5,13 +5,13 @@ margin: 0 auto;
 background-color: #F1F8E0;
 }
 header{
-height: 600px;
+height: 400px;
 background-image: url("../img/topimage.jpg");
 background-color:0EB9C2;
 background-size: 100%;
 }
 h1{
-color: #fff;
+color: #000000;
 background-image: url("../img/8.png");
 background-repeat: no-repeat;
 background-position: 70% 93%;
@@ -41,7 +41,7 @@ font-size: 14px;
 list-style: none;
 margin-right: 30px;
 display: inline-block;
-padding: 10px 0px;
+padding: 10px 30px 0px 30px;
 }
 a{
 color: #B40404;
@@ -51,8 +51,12 @@ font-style:	normal;
 font-weight:bold;
 }
 h2{
-margin-top: 30px;
-padding: 5px;
+    margin-top: 0px;
+    padding: 0px;
+    background-color: black;
+    color: white;
+    padding-left: 30px;
+    padding-top: 6px;
 }
 section{
 margin-bottom: 50px;
@@ -64,10 +68,10 @@ margin-bottom: 50px;
 display: flex;
 }
 .about p{
-width: 690px;
-margin: 0px 40px;
-text-align: justify;
-line-height: 25px;
+    width: 1000px;
+    margin: 0px;
+    text-align: justify;
+    line-height: 30px;
 }
 .about img{
 width: 20%;
@@ -105,7 +109,7 @@ width: 90%;
 padding: 15px;
 background-color: #fff;
 }
-/* ¤•iƒƒjƒ…[@*/
+/* ï¿½ï¿½ï¿½iï¿½ï¿½ï¿½jï¿½ï¿½ï¿½[ï¿½@*/
 .price-table{
 display: flex;
 margin-left: 25px;
@@ -124,7 +128,7 @@ padding: 5px 48px;
 .table-right{
 margin-left: 30px;
 }
-/*@ƒAƒNƒZƒX@*/
+/*ï¿½@ï¿½Aï¿½Nï¿½Zï¿½Xï¿½@*/
 .address ul li{
 display: block;
 }

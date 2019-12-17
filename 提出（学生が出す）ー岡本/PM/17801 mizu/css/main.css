@@ -1,4 +1,5 @@
 body{
+	background-color: rgb(255, 255, 113);
 
 }
 header{
@@ -9,14 +10,24 @@ header h1{
     font-size:40px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+h2{
+	color: orangered;
+	font-size: 40px;
+	font-family: 'Times New Roman', Times, serif;
+	border-style: groove;
+	border-bottom-left-radius: 30px;
+	border-top-right-radius: 30px;
+	width: 212px;
+	
+}
 p{
 	font-size:20px;
 	margin-left: 30px;
-width: 850px;
-font-family: cursive;
+	width: 850px;
+	font-family: cursive;
 }
 .links{
-	border-radius:10px;
+	border-radius:10px;;
 }
 .links:hover{
 	background-color:green;

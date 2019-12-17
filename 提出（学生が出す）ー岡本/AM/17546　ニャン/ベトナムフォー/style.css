@@ -6,7 +6,6 @@
 header{
 	background-image: url("写真/anh trang chu/2.jpg");
 	background-repeat: no-repeat;
-
 	height: 270px;
 	display: flex;
 	color: rgba(225, 225, 225, 0.9);
@@ -21,7 +20,9 @@ header img{
 	height: 50px;
 	margin-left: 130px;
 }
-
+.nav1 a{
+	color: floralwhite
+}
 .nav1 li{
 	list-style: none;
 	font-size: 14px;
@@ -44,8 +45,8 @@ section{
 	margin-top: 20px;
 }
 .lili img{
-	width: 20%;
-	height: 20%;
+	width: 35%;
+	height: 150px;
 }
 p.top-text{
 	margin-top: 0px;
@@ -66,7 +67,7 @@ p.top-text{
 .aaa2 th{
 	color: blue;
 	text-align: left;
-	font-size: 18px;
+	font-size: 17px;
 	width: 392px;
 }
 .aaa3 td{
@@ -123,8 +124,8 @@ p.top-text{
 	line-height: 1.6;
 	background-color:white;
 	padding: 10px;
-	width: 344px;
-	height: 350px;
+	width: 282px;
+	height: 235px;
 	margin-left: 20px;
 	margin-right: 20px;
 }

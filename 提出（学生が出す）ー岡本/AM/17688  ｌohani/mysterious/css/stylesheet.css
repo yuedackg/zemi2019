@@ -1,6 +1,6 @@
 body{
-max-width: 1024px;
-width: 90%;
-margin: 0 auto;
-background-color:rgba(3, 92, 70, 0.76);
-}
+    max-width: 1024px;
+    width: 90%;
+    margin:30px auto;   
+       background-color: rgb(16, 16, 17);
+    }

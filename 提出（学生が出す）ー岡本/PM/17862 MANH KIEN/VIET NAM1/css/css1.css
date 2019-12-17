@@ -2,12 +2,12 @@ body{
 max-width: 900px;
 width: 90%;
 margin: 0 auto;
-background-color: #F1F8E0;
+background-color: #17E2DF;
 text-align: center;
 }
 header{
 height: 500px;
-background-image: url("img/4.jpg");
+background-image: url("../img/4.jpg");
 background-color:0EB9C2;
 background-size: 100%;
 background-repeat: no-repeat;
