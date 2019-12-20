@@ -19,7 +19,7 @@ text-align:center;
 font-size:80px;
 }
 h2{
-border:#ff7f00 solid 2px;
+border:#ff7f00 solid 5px;
 border:hidden;
 background-color:#ff7f00;
 font-style: italic;
@@ -27,7 +27,7 @@ font-size:35px;
 }
 h3{
 border:#fff00 solid 2px;
-
+text-style:center;
 
 }
 img{
@@ -56,6 +56,7 @@ body {
 }
 
 .topnav a:hover {
+  text-style:center;
   background-color: #ddd;
   color: black;
 }

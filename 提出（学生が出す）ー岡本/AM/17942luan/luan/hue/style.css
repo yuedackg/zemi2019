@@ -1,14 +1,21 @@
 ﻿td{
+   text-align: center;
    width:200px;
    height:160px;
-   background-color:red;
+   background-color:rgb(235, 227, 227);
 }
 img{
-   width:200px;
+   width:220px;
    height:160px;
 }
 .mainPic{
    text-align:center;
-   width:640px;
+   width:1120px;
    height:480px;
+}
+body{
+   max-width: 1200px;
+   width: 90%;
+   margin: 0 auto;
+   background-color: rgb(233, 198, 233);
 }

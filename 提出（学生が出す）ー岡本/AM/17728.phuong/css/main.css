@@ -7,9 +7,64 @@ img{
 body{
     background-color: blue;
     color: yellow;
+    max-width: 1200px;
+    width:90%;
+    margin: 0 auto;
 
-    width: 1000px;
 }
-#p5{
-    width: ;
+header{
+    height:100%;
+    width: 100%;
+    background-image: url("../img/3.jpg");
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+    margin: 0;
+    }
+    h1{
+        color:rgb(236, 236, 39);
+        font-family: Lobster;
+        font-size: 60px;
+        text-align:left;
+        margin-top: 0px;
+        padding-top:120px;
+        }
+    section{
+    display:flex;
+    margin: 20px;
+    margin-top:30px;
+    }
+    nav{
+        background-color:rgb(7, 50, 53);
+        }
+        ul{
+        text-align: center;
+        margin-top: 0;
+        padding-left: 16px;
+        list-style-type: none;
+        }
+        li{
+        font-size: 14px;
+        list-style: none;
+        margin-right: 30px;
+        display: inline-block;
+        }
+    a{
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+    padding: 14px 16px;
+    }
+table,th,td
+{
+border: solid 1px #666;
+border-collapse: collapse;
+padding: 5px 48px;
+}
+.table-right{
+margin-left: 30px;
+margin-top:0;
+}
+.table-left{
+margin-left: 30px;
+margin-top:0;
 }

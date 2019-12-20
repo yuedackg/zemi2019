@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    margin: 0 auto;
+    color: rgb(38, 70, 70);
+    font-family: sans-serif;
+}
+.menu ul{
+    list-style-type: none;
+    background: black;
+    text-align: center;
+}
+.menu ul li{
+    color: blanchedalmond;
+    display: inline-table;
+    width: 120px;
+    line-height: 20px;
+    position: relative;
+}
+.menu ul li a{
+    color: blanchedalmond;
+    text-decoration: none;
+    display: block;
+}
+.menu ul li a:hover{
+    background: rgb(170, 8, 8);
+    color: blanchedalmond;
+}
+ .menu ul li > .sub-menu{
+     display: none;
+     position: absolute;
+ }
+ .menu ul li:hover .sub-menu{
+     display: block;
+ }
+.sub-menu{
+    z-index:1;
+    transition:opacity linear 0.15s;
+}

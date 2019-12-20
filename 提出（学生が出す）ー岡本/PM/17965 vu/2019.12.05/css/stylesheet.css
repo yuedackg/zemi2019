@@ -6,7 +6,6 @@ margin:center;
 header{
 background-image: url("../anh1/topimage.jpg");
 background-size:1024px;
-
 height:300px;
 }
 div.container {
@@ -211,7 +210,6 @@ img {
   user-select: none;
   -webkit-user-select: none;
 }
-
 /* Position the "next button" to the right */
 .next {
   right: 0;

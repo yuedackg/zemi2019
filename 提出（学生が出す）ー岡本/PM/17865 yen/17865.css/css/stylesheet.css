@@ -1,24 +1,24 @@
 ﻿body{
 max-width: 1024px;
-width: 90%;
-margin: 0 auto;
-background-color: #f8e4ce;
+padding:center;
+margin:center;
+background-color:#ccffff;
+
 }
 
 h1{
-color: #adff2f;
-background-image: url("../anh/quan ca phe bien.jpg");
-background-repeat: no-repeat;
-background-position: 50% 73%;
+color: #ffd700;
+background-image: url("../anh/quan.jpg");
+background-size:1024px;
 font-family: Lobster;
 font-size: 55px;
 text-align: center;
 margin-top: 0px;
-padding-top: 220px;
-height: 180px;
+padding-top: 250px;
+height: 330px;
 }
 div{
-background-color: #8b4513;
+background-color: #daa520;
 }
 a{
 text-align: center;
@@ -124,10 +124,14 @@ margin-bottom: 15px;
 position: fixed;
 right: 60px;
 bottom: 20px;
-background-color: rgba(100,100,100,0.5);
+background-color: blue;
 padding: 0 10px;
+color:black;
 }
 img{
 text-align:right;
 }
-
+.btn{
+color:black;
+background-color:black;
+}

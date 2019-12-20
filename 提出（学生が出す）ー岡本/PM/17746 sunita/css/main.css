@@ -1,6 +1,9 @@
 ﻿body{
 	width: 1024px;
 	margin: 0 auto;
+	background-image: url("image/topimage.png");
+	background-repeat: no-repeat;
+
 }
 h1{
 	font-size: 40px;

@@ -125,3 +125,25 @@ padding: 0 10px;
 .menu{
 width: 1020px;
 }
+.map img{
+    height: 300px;
+    width: 378px;
+}
+.aaa{
+	margin-top: 25px;
+}
+.aaa img{
+	width: 98%;	
+}
+.aaa1 td{
+	width: 400px;
+}
+.aaa2 th{
+	color: blue;
+	text-align: left;
+	font-size: 17px;
+	width: 392px;
+}
+.aaa3 td{
+	color:#800000;
+}

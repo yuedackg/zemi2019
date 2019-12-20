@@ -11,14 +11,15 @@ header{
 	color: rgba(225, 225, 225, 0.9);
 }
 header img{
-	width: 35%;
-	height: 29%;
+	width: 83%;
+	height: 57%;
 }
 .nav1{
-	display: flex;
-	background-color: rgba(7, 225, 0, 0.9);
-	height: 50px;
-	margin-left: 130px;
+    display: flex;
+    background-color: rgba(7, 225, 0, 0.9);
+    height: 41px;
+    margin-left: -336px;
+    font-size: 12px;
 }
 .nav1 a{
 	color: floralwhite
@@ -35,8 +36,16 @@ h3{
 	margin-bottom: 0px;
 	border-left: solid 10px blue;
 	border-bottom: dotted 5px blue;
-	margin-top: 55px;
-	
+	margin-top: 15px;
+	font-size: 30px;
+}
+h2{
+	margin-bottom: 0px;
+	border-left: solid 10px blue;
+	border-bottom: dotted 5px blue;
+	margin-top: 15px;
+	font-size: 30px;
+}	
 }
 .lili{
 	display: flex;
@@ -45,7 +54,7 @@ section{
 	margin-top: 20px;
 }
 .lili img{
-	width: 35%;
+	width: 34%;
 	height: 150px;
 }
 p.top-text{
@@ -59,10 +68,6 @@ p.top-text{
 }
 .aaa1 td{
 	width: 400px;
-}
-.aaa2 td{
-	width: 392px;
-	height: 30px;
 }
 .aaa2 th{
 	color: blue;
@@ -80,10 +85,10 @@ p.top-text{
 .bbb{
 	padding: 10px 145px 20px;
 }
-.table-right th{
+.bbb th{
 	text-align: center;
 }
-.table-left th{
+.bbb th{
 	text-align: center;
 }
 .table-left{
@@ -96,7 +101,7 @@ p.top-text{
 .ccc{
 	height: 330px;
 	width: 94%;
-	margin-left: 20px;
+	margin-left: 55px;
 }
 .th{
 	color: rgb(54, 42, 165);
@@ -128,4 +133,21 @@ p.top-text{
 	height: 235px;
 	margin-left: 20px;
 	margin-right: 20px;
+}
+.div1{
+	margin-top: 35px;
+	color: crimson;
+}
+.class1{
+	display: flex;
+}
+.class1 img{
+	width: 337px;
+}
+.class1 th{
+	color: blue;
+	text-align: left;
+}
+.class2{
+	margin-left: 10px;
 }

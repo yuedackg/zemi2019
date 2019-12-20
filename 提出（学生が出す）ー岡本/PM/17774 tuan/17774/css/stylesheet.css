@@ -1,19 +1,16 @@
-｜ody{y 
-     max-height: 800px;;
-     width: 30%;
-     margin: 0px auto;
-     font-family: Arial,Helvetica,sans-serif;
-     background-color: #f8e4ce;
-}
-header{
-     background-image: url("")
+﻿body{
+	max-width: 980px;
+	width: 90%;
+	margin: 0px auto;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #009900;
 }
 h1{
 color: #FFCC00;
 background-image: url("8.jpg");
 background-repeat: no-repeat;
-background-position: 36% 38%;
-background-size: 90%;
+background-position: 20% 30%;
+background-size: 50%;
 font-family: Lobster;
 font-size: 40px;
 text-align: center;

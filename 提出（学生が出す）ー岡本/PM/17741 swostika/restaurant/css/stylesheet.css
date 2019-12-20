@@ -1,6 +1,8 @@
 ﻿body{
 	width: 1024px;
 	margin: 0px auto;
+	background-color:rgb(205, 220, 57)
+
 }
 header{
 	height:320px;
@@ -41,7 +43,6 @@ nav ul li{
     margin-left: 5px;
     text-align: center;
 }
-
 h1{
 	color:black;
 	font-family: 'SimSun';
@@ -87,6 +88,7 @@ p#bigtitle{
 	display:flex;
 	margin-left: 150px;
 	border:solid 1px #000;
+	width: 420px;
 }
 /*	th{
 	background-color: #ccc;
@@ -96,11 +98,15 @@ td{
 }
 */
 	table,th,td{
-	width: 717px;
-	padding-left: 0px;
+		width: 414px;
+		padding-left: 0px;
+		text-align: center;
+		border: solid 1px;
+		border-collapse: collapse;
+		background-color:#FF9800
 }
 .table-right{
-	margin-left: -170px;
+	margin-left: 152px;
 
 }
 

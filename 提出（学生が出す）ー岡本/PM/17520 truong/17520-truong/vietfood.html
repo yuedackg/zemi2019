@@ -1,0 +1,166 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="UTF-8">
+		<title>VietFood</title>
+		<link rel="stylesheet" href="css/stylesheet.css">
+		<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		
+	</head>
+<style>
+	/*Ipad ngang(1024 x 768)*/
+@media screen and (max-width: 1024px){
+	.header, .menu {
+    flex-direction: column;
+  }
+}
+/*Ipad dọc(768 x 1024)*/
+@media screen and (max-width: 768px){
+    .header, .menu {
+    flex-direction: column;
+  }
+}
+/*Tablet nhỏ(480 x 640)*/
+@media screen and (max-width: 480px){
+    .header, .menu {
+    flex-direction: column;
+  }
+}
+/*Iphone(480 x 640)*/
+@media screen and (max-width: 420px){
+  
+}
+/*Smart phone nhỏ*/
+@media screen and (max-width: 240px){
+	.header, .menu {
+    flex-direction: column;
+  } 
+}
+/*Smart phone nhỏ*/
+@media screen and (min-width: 240px){
+    
+}
+/*Iphone(480 x 640)*/
+@media screen and (min-width: 320px){
+    
+}
+/*Tablet nhỏ(480 x 640)*/
+@media screen and (min-width: 480px){
+    
+}
+/*Ipad dọc(768 x 1024)*/
+@media screen and (min-width: 768px){
+    
+}
+/*Ipad ngang(1024 x 768)*/
+@media screen and (min-width: 1024px){
+  
+}
+</style>
+	<body>
+		<header id="header">
+			<h1>VietFood</h1>
+		</header>
+		<div class="table">
+			<nav class="menu">
+				<ul>
+					<li><a href="vietfood.html">ホーム</a></li>
+					<li><a href="about.html">おすすめ料理</a>
+						<ul class="sub-menu">
+							<li><a href="mienbac.html">北の料理</a></li>
+							<li><a href="mientrung.html">中部の料理</a></li>
+							<li><a href="miennam.html">南の料理</a></li>
+							<li><a href="anvat.html">街の屋台の料理</a></li>
+						</ul>
+					</li>
+					<li><a href="photo.html">ドリンク</a>
+						<ul class="sub-menu">
+							<li><a href="photo.html#P1">コーヒー</a></li>
+							<li><a href="photo.html#P2">カプチーノ</a></li>
+                            <li><a href="photo.html#P3">ミルクティー</a></li>
+                            <li><a href="photo.html#P4">スムージー</a></li>
+							<li><a href="photo.html#P5">アイスブレンド</a></li>
+                            <li><a href="photo.html#P6">ソーダ</a></li>
+                            <li><a href="photo.html#P7">レモンティー</a></li>
+							<li><a href="photo.html#P8">クッキー<br>クリーム</a></li>
+                            <li><a href="photo.html#P9">ジュース<br>スムージー</a></li>
+                            <li><a href="photo.html#P10">ココナッツ<br>ミルク</a></li>
+						</ul>
+					</li>
+					<li><a href="price.html">商品メニュー</a>
+						<ul class="sub-menu">
+							<li><a href="price.html#A1">食べ物</a></li>
+							<li><a href="price.html#A2">飲み物</a></li>
+							<li><a href="price.html#A3">特別デザート</a></li>
+						</ul>
+					</li>
+					<li><a href="access.html">地図</a></li>
+				</ul>
+			</nav>
+	
+				<div class="slide">
+				<div class="dieuhuong">
+					<i class="fa fa-chevron-circle-left" onclick="Back();"></i>
+					<i class="fa fa-chevron-circle-right" onclick="Next();"></i>
+				</div>
+				<div class="chuyen-slide">
+					<img src="img/1.jpg"> // 0
+					<img src="img/2.jpg"> // 1000
+					<img src="img/3.jpg"> // 2000
+					<img src="img/4.jpg"> // 3000
+					<img src="img/5.jpg"> // 4000
+					<img src="photo/1.jpg">
+					<img src="photo/2.jpg">
+					<img src="photo/3.jpg">
+				</div>
+				</div>
+				<script type="text/javascript" src="js/slide.js"></script>
+	<h2 id="about">ベトナムの有名の食べ物</h2>
+	<section class="about">
+		<p>フォーはベトナムの伝統的な料理であり、ベトナム料理の典型的な料理の一つと考えることもできます。<br>
+			フォーの主な材料は、薄切りの牛肉または鶏肉のフォーヌードルとスープ です。<br>
+			醤油、胡pepper、レモン、魚醤、唐辛子などのスパイスもあります。<br>
+			これらのスパイスは、各ユーザーの好みに応じて追加されます。<br>
+			フォーは朝食や夜によく使用されますが、大都市ではこの料理は終日楽しめます。<br>
+			ベトナム南部の地域やフォーの他の地域には、タマネギ、もやし、コリアンダーの葉、バジルなどのハーブのプレートがあります。<br>
+			コリアンダーの葉はフォーの典型的な葉です。<br>
+			フォーは通常、ビーフまたはチキンヌードルスープですが、ポークヌードル、エビヌードル、カエルヌードルなど、他のバリエーションもありますが、
+			あまり成功していません。
+		</p>
+		<p><img src="img/1.jpg"><br>
+				<img src="img/0.jpg">
+	</section>
+	<h3>フォーは有名なだけでなく、ベトナム料理も非常に豊富で多様です。</h3>
+	<h2 id="about">外国人向けのベトナム料理</h2>
+	<section class="about1" id="about">
+		<p>ベトナム料理は非常に多様で豊かです。
+			年とともに、ベトナム料理は伝統的でモダンな味と完全に組み合わされています。
+			ベトナム人の珍味と味についてのメニューを称賛する多くのダイナーがベトナムに来ます。<br>
+			したがって、ベトナム人の誇りの1つは食べ物です。<br>
+			ベトナム料理は、ベトナムの国のすべてのベトナム人の一般的にスパイスと食習慣を混合する原則、食品加工を呼び出す方法です。<br>
+			ほとんど違いがありますが、ベトナム料理は、少数民族のコミュニティで人気のある料理をすべて参照する最も重要な意味ですが、<br>
+			ベトナムのコミュニティでは比較的一般的です。
+		</p>
+		<img src="images/s0.jpg">
+	</section>
+
+		<a onclick="topFunction()" id="on_top" class="on_top" href="#ホーム"><i class="fa-arrow-circle-up fa"></i>PAGE TOP</a>
+		<script type="text/javascript" src="js/on_top.js"></script>
+		<address class="address">
+			<strong>Twitter, Inc.</strong><br>
+		Dinh Xuan Truong,番号：17520<br>
+		専門学校コンピュータ教育学院ビジネスカレッジ<br>
+		福岡市、南区向野２丁目１０番３０号<br>
+			<strong title="Phone">電話:</strong> (090) 123-4567
+		</address>
+			  
+			<address class="address">
+					<strong>Gmail</strong><br>
+					<p href="mailto:#" style="color:darkred;">VietFood@ckg.co.jp</p>
+			</address>
+			<footer>&copy; 2019,VietFood,Inc, or its affiliates</footer>
+		</div>
+	</body>
+</html>

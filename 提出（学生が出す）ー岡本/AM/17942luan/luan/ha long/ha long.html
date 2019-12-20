@@ -19,7 +19,6 @@
 	      "img/10.jpg",
 	      "img/11.jpg",
 	      "img/12.jpg",
-	      "img/13.jpg",
 	);
 	var index = 0;
         var on = 0;
@@ -29,10 +28,11 @@
 	    document.images[5].width=640;
 	    document.images[5].height=480;
 	    index++;
-	    if ( index >= 13 )   index = 0;
+	    if ( index >= 8 )   index = 0;
             if(on==1){
 	        timer1 = setTimeout("play()" , 1000);
             }
+	}
 	function start(){
             if(on==0){
                 on=1;
@@ -51,8 +51,9 @@
 	</script>
 </head>
 <body>
-	ベトナムの観光と言えばハロンでございます。<br>
-	<a href="../index.html"<h4>戻る(return)</h4></a><br>
+	ベトナムの観光と言えばハロンでございます。
+	<br>
+	<a href="../index.html"<h4>戻る</h4></a><br>
 
 	<table border="1">
 

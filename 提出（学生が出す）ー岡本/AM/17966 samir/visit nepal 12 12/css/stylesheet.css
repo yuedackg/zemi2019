@@ -2,9 +2,13 @@ body{
     max-width: 1024px;
     width: 90%;
     margin:30px auto;
+      background-color: rgba(35, 231, 94, 0.705);
+ 
+    
 
 }
-#head{ 
+#head   
+{ 
     height: 597px;
     background-image: url("n.jpg");
     background-repeat: no-repeat;

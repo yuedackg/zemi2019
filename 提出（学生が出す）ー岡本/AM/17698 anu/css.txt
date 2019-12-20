@@ -12,6 +12,7 @@ h1{
 h2{
 	font-size: 14px;
 	margin-top: 0;
+	text-align:center
 }
 #{
 	text-align: center
@@ -32,4 +33,7 @@ h2{
 .{
 	font-size: 12px;
 	width: 200px;
+}
+.shruti{
+	float:center;
 }

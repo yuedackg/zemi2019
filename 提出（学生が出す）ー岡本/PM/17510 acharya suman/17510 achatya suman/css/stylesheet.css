@@ -3,17 +3,19 @@
 	margin: 0 auto;
 	position: relative;
 }
+
 header{
 	height: 500px;
-	background-image: url("../image/image1.jpg");
+	background-image: url("../image/topimage.jpg");
 	background-size: 100%;
 	background-repeat: no-repeat;
 	display: flex;;
 	background-color:lime
 }
+
 header#toppage{
-	height: 600px;
-	background-image: url("../image/image1.jpg");
+	height: 470px;
+	background-image: url("../image/topimage.jpg");
 	background-size: 100%;
 	background-repeat: no-repeat;
 	display: flex;;
@@ -25,28 +27,28 @@ header#toppage{
 }
 
 h1{
-	color:white;
+	color:#cc2020;
 	font-family: 'SimSun';
 	font-weight: 900;
 	text-align: center;	
 }
 	h1#subtitle{
 	font-size: 80px;
-	margin-left: 250px;
+	margin-left: 280px;
 }
 	h1#maintitle{
 	font-size: 70px;
-	margin-left: 250px;
+	margin-left: 280px;
 }
 	p#smalltitle{
-	color:#44ef51;
+	color:#193b48;
 	font-size: 40px;
-	margin-left:200px;
+	margin-left:300px;
 }
 	p#bigtitle{
-	color:#e00c0c;
+	color:#1b5826;
 	font-size:30px;
-	margin-left:300px;
+	margin-left:380px;
 	margin-top:-10px;
 	font-family:bold;
 }

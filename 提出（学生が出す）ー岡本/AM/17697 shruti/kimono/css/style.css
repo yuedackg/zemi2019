@@ -3,6 +3,12 @@
     margin: 0 auto;
     background-color: blanchedalmond;;
 }
+header#toppage .title{
+	display: block;
+}
+header#toppage .title p{
+	margin-left: 357px;
+}
 h1{
 	font-size: 50px;
 	height: 34px;
@@ -15,7 +21,6 @@ h2{
 	margin-top: 0;
 	text-align:center;
 }
-
 
 nav ul {
 	position: relative;

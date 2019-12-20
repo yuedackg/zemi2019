@@ -1,0 +1,291 @@
+﻿body{
+  max-width: 1024px;
+  width: 100%;
+  margin: 0 auto;
+}
+#header h1{
+  background-image: url("../images/s1.png");
+  background-repeat: no-repeat;
+  background-position: 50% 73%;
+  background-size:100%;
+  
+}
+
+h1{
+  color: rgb(26, 25, 25);
+  font-family: 'Lobster';
+  font-size: 85px;
+  text-align: center;
+  margin-top: 0px;
+  padding-top: 150px;
+  height: 104px;
+}
+h2{
+  border-left: solid 10px #e91e63;
+  border-bottom:  dotted 5px #e91e63;
+  margin-top: 30px;
+  padding: 5px;
+}
+section{
+margin-bottom: 50px;
+}
+/*phan menu tren*/
+.table{
+  background-color:#ffc3c3;
+ 
+}
+.about{
+  display: flex;
+}
+.about p{
+  width: 465px;
+  margin: 0px 20px;
+  padding: 0px 3px;
+  text-align: justify;
+  line-height: 25px;
+  font-size: 15px;
+}
+.about img{
+  width: 102%;
+  height: 50%;
+  margin: 0px 0px;
+  padding: 0px 0px;
+  min-width: 150px;
+  padding-top:3px;
+}
+.about1{
+  display: flex;
+}
+.about1 p{
+  width: 464px;
+  margin: 0px 20px;
+  text-align: justify;
+  line-height: 25px;
+}
+.about1 img{
+  width: 60%;
+  height: 44%;
+  margin: 0px 9px;
+  min-width: 150px;
+  padding-top:3px;
+}
+.about2{
+  display: flex;
+  }
+.about2 p{
+  width: 300px;
+  margin: 0px 20px;
+  padding: 0px 0px;
+  text-align: justify;
+  line-height: 25px;
+  font-size: 15px;
+}
+.about2 img{
+  width: 112%;
+  height: 50%;
+  margin: 0px -24px;
+  padding: 0px 0px;
+  min-width: 150px;
+  padding-top:3px;
+}
+ /* おすすめの料理*/
+.mienbac{
+  display: flex;
+}
+.mienbac p{
+  width: 377px;
+  margin: 0px 20px;
+  text-align: justify;
+  line-height: 25px;
+}
+.mienbac img{
+  width: 152%;
+  height: 44%;
+  min-width: 150px;
+  padding-top:3px;
+}
+.mientrung{
+  display: flex;
+}
+.mientrung p{
+  width: 690px;
+  margin: 0px 40px;
+  text-align: justify;
+  line-height: 25px;
+}
+.mientrung img{
+  width: 50%;
+  height: 44%;
+  min-width: 150px;
+  padding-top:3px;
+}
+.miennam{
+  display: flex;
+}
+.miennam p{
+  width: 690px;
+  margin: 0px 40px;
+  text-align: justify;
+  line-height: 25px;
+}
+.miennam img{
+  width: 50%;
+  height: 44%;
+  min-width: 150px;
+  padding-top:3px;
+}
+.anvat{
+  display: flex;
+}
+.anvat p{
+  width: 429px;
+  margin: 0px 40px;
+  text-align: justify;
+  line-height: 25px;
+}
+.anvat img{
+  width: 108%;
+  height: 44%;
+  min-width: 150px;
+  padding-top:3px;
+}
+
+
+/* 　アクセス　*/
+
+.access{
+  display: flex;
+  width: 1016px;
+  height: 330px;
+
+}
+.access p{
+  margin-left: 15px;
+  margin-top: 0;
+  }
+.map{
+  font-family: Lobster;
+  font-size: 32px;
+  margin-bottom: 15px;
+  margin: 0px 20px;
+}
+.access iframe{
+  width: 50%;
+  height: 100%;
+  margin: 0px 20px;
+}
+/*nut page top*/
+
+a.on_top { 
+  opacity:0.6; 
+  display: none;
+}
+a.on_top:hover{
+  background-color: #007bb6;
+  color: #fff;
+  border: 1px solid #007bb6;
+  opacity:1;
+}
+a.on_top i{ 
+  font-size: 20px;
+  margin-right: 3px;
+  margin-top: 1px;
+}
+a.on_top {
+  border-radius: 15px;
+  background-color: #f30a0ae6;
+  padding: 9px 6px;
+  white-space: nowrap; color: #fff;
+  position: fixed;
+  bottom: 9px;
+  right: 5px;
+  height: 24px;
+}
+    
+    
+/***slider***/
+    
+*{
+  margin: 0;
+  padding: 0;
+}
+      
+.slide{
+  width: 1024px;
+  margin: 0 auto;
+  overflow: hidden;
+  margin-top: 12px;
+  border-radius: 10px;
+  position: relative;
+}
+.slide:hover .dieuhuong{
+  display: block;
+}
+    
+.chuyen-slide{
+  width: 9999px;
+  transition: all 0.5s;
+}
+img{
+  width: 1024px;
+  height: 400px;
+  float:left;
+}
+.dieuhuong{
+  position: absolute;
+  color: white;
+  font-size: 40px;
+  top: 48%;
+  padding-left: 20px;
+  display: none;
+}
+.dieuhuong i:last-child{
+  position: relative;
+  left: 905px;
+}
+    
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  margin: 0 auto;
+  color: rgb(38, 70, 70);
+  font-family: sans-serif;
+}
+.menu ul{
+  list-style-type: none;
+  background: black;
+  text-align: center;
+}
+.menu ul li{
+  color: blanchedalmond;
+  display: inline-table;
+  width: 120px;
+  line-height: 20px;
+  position: relative;
+}
+.menu ul li a{
+  color: blanchedalmond;
+  text-decoration: none;
+  display: block;
+}
+.menu ul li a:hover{
+  background: rgb(170, 8, 8);
+  color: blanchedalmond;
+}
+.menu ul li > .sub-menu{
+   display: none;
+   position: absolute;
+}
+.menu ul li:hover .sub-menu{
+   display: block;
+}
+.sub-menu{
+  z-index:1;
+  transition:opacity linear 0.15s;
+}
+/* address*/
+.address{
+  margin: 0px 20px;
+}
