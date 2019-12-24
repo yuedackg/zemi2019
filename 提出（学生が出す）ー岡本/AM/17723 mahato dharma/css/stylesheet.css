@@ -20,7 +20,7 @@ header#header{
 	background-position: -13px -131px;
 }
 
-/*　thartu dressについて　*/
+/*?@thartu dress??????@*/
 
 .tharu-dress{
 	width: 980px;
@@ -31,7 +31,7 @@ header#header{
 	background-position: -13px -131px;
 }
 
-/*　thartu festivalについて　*/
+/*?@thartu festival??????@*/
 
 .tharu-festival{
 	width: 300px;
@@ -51,4 +51,8 @@ header#header{
 	background-repeat: no-repeat;
 	background-size: 980px;
 	background-position: 100px -131px;
+}
+.about img{
+	width:526px;
+	height:356px;
 }

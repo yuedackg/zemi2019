@@ -140,14 +140,18 @@ p.top-text{
 }
 .class1{
 	display: flex;
+	background-color: burlywood;
+	margin-top: 25px;
 }
 .class1 img{
-	width: 337px;
+	width: 335px;
 }
 .class1 th{
 	color: blue;
 	text-align: left;
+	font-size: 17px;
 }
-.class2{
-	margin-left: 10px;
+.td1{
+	color: aliceblue;
+	font-size: 20px;
 }

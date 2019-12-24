@@ -22,11 +22,19 @@ nav{
 background-color: #8b4513;
 }
 ul{
+background: #1F568B;
+list-style-type: none;
 text-align: center;
 margin-top: 0;
 padding-left: 16px;
 }
 li{
+color: #f1f1f1;
+width: 120px;
+height: 40px;
+line-height: 40px;
+margin-left: -5px;
+
 font-size: 14px;
 list-style: none;
 margin-right: 30px;
@@ -34,9 +42,17 @@ display: inline-block;
 padding: 10px 10px;
 }
 a{
+text-decoration: none;
+color: #fff;
+display: block;
 color: #ffffff;
 text-decoration: none;
 }
+#a:hover {
+background: #F1F1F1;
+color: #333;
+}
+
 h2{
 border-left: solid 10px #ffa500;
 border-bottom:  dotted 5px #ffa500;
@@ -82,7 +98,7 @@ width: 95%;
 padding: 20px;
 margin-top: 18px;
 background-color: #fff;
-transform:rotate(-6deg)
+transform:rotate(9deg)
 }
 .big h3{
 margin-top: 35px;
@@ -91,6 +107,7 @@ margin-top: 35px;
 width: 90%;
 padding: 15px;
 background-color: #fff;
+line-height: 5px;
 }
 
 .price-table{
@@ -118,7 +135,7 @@ margin-top: 0;
 }
 .map-title{
 font-family: Lobster;
-font-size: 39px;
+font-size: 40px;
 margin-bottom: 15px;
 }
 .pagetop{
@@ -127,5 +144,8 @@ right: 60px;
 bottom: 20px;
 background-color: rgba(100,100,100,0.5);
 padding: 0 10px;
+}
+.small img{
+	line-height: 5px;
 }
 

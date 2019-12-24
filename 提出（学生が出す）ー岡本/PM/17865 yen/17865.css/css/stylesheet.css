@@ -7,15 +7,15 @@ background-color:#ccffff;
 }
 
 h1{
-color: #ffd700;
+color: #ffff00;
 background-image: url("../anh/quan.jpg");
 background-size:1024px;
 font-family: Lobster;
-font-size: 55px;
+font-size: 65px;
 text-align: center;
 margin-top: 0px;
 padding-top: 250px;
-height: 330px;
+height: 270px;
 }
 div{
 background-color: #daa520;

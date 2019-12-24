@@ -13,12 +13,14 @@ body{
 
 }
 header{
-    height:100%;
-    width: 100%;
-    background-image: url("../img/3.jpg");
+    height:250px;
+    width:auto;
+    background-image: url("../image/p8.jpg");
     background-repeat:no-repeat;
     background-size: 100% 100%;
     margin: 0;
+    padding-left:400px;
+    padding-top: 150px;
     }
     h1{
         color:rgb(236, 236, 39);

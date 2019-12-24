@@ -10,47 +10,7 @@
 
 	</head>
 <style>
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
 
-.topnav {
-  overflow: hidden;
-  background-color: #333;
-}
-
-.topnav a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-.topnav a.active {
-  background-color: #4CAF50;
-  color: white;
-}
-
-.topnav .icon {
-  display: none;
-}
-
-@media screen and (max-width: 600px) {
-  .topnav a:not(:first-child) {display: none;}
-  .topnav a.icon {
-    float: right;
-    display: block;
-  }
-}
 
 @media screen and (max-width: 600px) {
   .topnav.responsive {position: relative;}
@@ -73,14 +33,11 @@ body {
 			</h1>
 		</header>
 		<div class="topnav" id="myTopnav">
-				<a href="#about" class="acive">MENU</a>
-				<a href="#about">焼き鳥居酒屋桃太郎について</a></li>
-				<a href="#photo">おすすめのメニュー</a>
-				<a href="#price">ドリンク</a>
-				<a href="#access">アクセスマップ</a>
-				<a href="javascript:void(0);" class="icon" onclick="myFunction()">
-   					 <i class="fa fa-bars"></i>
-				</a>	
+				<a href="index.hmtl" class="acive">MENU</a>
+				<a href="about.html">焼き鳥居酒屋桃太郎について</a></li>
+				<a href="menu.html">おすすめのメニュー</a>
+				<a href="drink.html">ドリンク</a>
+				<a href="map.html">アクセスマップ</a>
 		</div>
 <script>
 function myFunction() {
@@ -96,94 +53,14 @@ function myFunction() {
 		
 		<h2 id="about">焼き鳥居酒屋桃太郎について</h2>
 		<section class="about">
-			<p>当店は焼き鳥とお刺身の専門店です。<br>
-				営業：月曜日～土曜日（祝前日）<br>
-				営業時間：１８：００～２４：００<br>
-				電話番号：１２３４５６７８９<br>
-				お客様からご予約お待ちしております。<br>
-		
-			</p>
-			<img src="anh/s1.jfif">
-		</section>
-
-		<section class="about2">
+			<img src="img/1.jpg">
 				<p>当店は焼き鳥とお刺身の専門店です。<br>
 					営業：月曜日～土曜日（祝前日）<br>
 					営業時間：１８：００～２４：００<br>
 					電話番号：１２３４５６７８９<br>
 					お客様からご予約お待ちしております。<br>
-			
 				</p>
-				<img src="anh/s1.jfif">
 			</section>
-
-		<h2 id="photo">おすすめメニュー</h2>
-		<section class="photo">
-			<div class="photo-box">			
-				<div class="big">
-					<img src="s10.jpg">
-					<h3 id="price">お刺身5点以上盛り</h3>
-				</div>
-				<div class="box">
-					<div class="big">
-						<img src="s3.jpg">
-						<h3>焼きたて焼き鳥</h3>
-					</div>
-					<div class="big">
-						<img src="s6.jpg">
-						<h3>ぷりぷりもつ鍋</h3>
-					</div>
-				</div>
-			</div>
-			
-		
-		</section>
-
-		<h2 id="price">料理</h2>
-		<section class="price">
-			<div class="price-table">
-				<table class="table-left">
-					<tr>
-						<th>おすすめ料理</th><th>価格</th>
-					</tr>
-					<tr>　
-						<td>お刺身5点以上盛り</td><td>７９０円</td>
-					</tr>
-					<tr>
-						<td>焼き鳥5点盛り合わせ</td><td>８００円</td>
-					</tr>
-					<tr>
-						<td>ぷりぷりもつ鍋（2人前）</td><td>１５００円</td>
-					</tr>
-				</table>
-				<table class="table-right">
-					<tr>
-						<th>月代わり料理</th><th>価格</th>
-					</tr>
-					<tr>
-						<td>すき焼き鍋（2人前）</td><td>１７００円</td>
-					</tr>
-					<tr>
-						<td>骨付きカルビ</td><td>９００円</td>
-					</tr>
-					<tr>
-						<td>鳥から揚チリソース</td><td>６００円</td>
-					</tr>
-				</table>
-			</div>
-		</section>
-<!--　アクセスマップ　-->
-		<section>
-			<h2 id="access">アクセスマップ</h2>
-			<h3 class="map-title">Chrysanthemun tea shop</h3>
-			<div class="access">
-				<img src="img/map.png">
-				<p>住所：福岡県久留米市東町１－１－１<br>
-				電話番号：１２３４５６７８９<br>
-				営業時間：18:00~24:00
-				</p>
-			</div>
-		</section>
 		<p class="pagetop">
 			<a href="#header">PAGE TOP</a>
 		</p>

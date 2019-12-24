@@ -5,8 +5,41 @@
 		<title>Pretty Lovely</title>
 		<link rel="stylesheet" href="css/stylesheet.css">
 		<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script src="main.js"></script>
+		<link rel="stylesheet" href="css/jquery.bxslider.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="js/jquery.bxslider.min.js"></script>
+		<script>
+				$(function() {
+					$('.bxslider').bxSlider({
+					mode: 'fade', // を必ず忘れずに
+					speed: 3000, // 5秒でゆっくり今回はフェードイン[,]と変わっていくように
+					auto: true, // クリックしなくても自動的に変わっていくように
+					infiniteLoop: true, // 繰り返し
+					});
+				});
+			</script>
+			<script>
+
+				function stir0(){
+				var bbs = new Audio('anh/nhac.mp3');
+				bbs.play();
+				alert('音声確認してください。');
+				}
+			   
+				function pl(){
+			   
+				 var Loops = new Audio('anh/nhac.mp3');
+			   
+				Loops.play();
+				 }
+			   
+			   
+				</script>
 	</head>
-	<body>
+	<body onload="stir0()">
 		<header id="header">
 		<h1><marquee behavior="alternate" width="450">Pretty Lovely	</marquee></h1>
 		</header>
@@ -21,10 +54,24 @@
 		</nav>
 		<h2 id="about">Pretty Lovely shopについて</h2>
 		<section class="about">
-			<p>Hoa la mon qua vo gia ma thien nhien da danh tang cho con nguoi. Moi loai hoa mang mot ve dep va sac thai rieng, chinh vi vay ma nguoi thuong thuc hoa co the gui gam tam tu tinh cam cua minh vao gio hoa mot cach tinh te, y nghia. </p>
-			<p>Ben canh do, moi loai hoa con mang mot y nghia dac biet, hieu duoc no se giup ban tranh khoi nhung boi roi khong noi nen loi truoc mot tinh yeu dep, truocc mot tinh ban ben lau, mot long biet on vo bo ben doi voi cha voi me, hay chi don gian la mot loi cam on sau sac, chan thanh…</p>
+			<p>Hoa la mon qua vo gia ma thien nhien da danh tang cho con nguoi. Moi loai hoa mang mot ve dep va sac thai rieng, chinh vi vay ma nguoi thuong thuc hoa co the gui gam tam tu tinh cam cua minh vao gio hoa mot cach tinh te, y nghia. <br>
+			Ben canh do, moi loai hoa con mang mot y nghia dac biet, hieu duoc no se giup ban tranh khoi nhung boi roi khong noi nen loi truoc mot tinh yeu dep, truocc mot tinh ban ben lau, mot long biet on vo bo ben doi voi cha voi me, hay chi don gian la mot loi cam on sau sac, chan thanh…<br>
 
-			<p>Den voi<strong> Pretty Lovely shop</strong> cac ban se duoc nhin ngam day du cac loai hoa va kieu hoa kheo leo hoan toan moi nhung van toat len ve dep tu nhien von co cua moi loai hoa. Tu nhung nguyen lieu co ban ket hop voi su kheo leo cua doi ban tay nguoi tho,<strong>Pretty Lovely shop</strong> da thoi vao do mot hon hoa tinh te voimau sac that tu nhien mem mai. Ben canh ve dep tuoi tan,sinh dong do, moi gio hoa con co do tuoi ben lau, gop phan tang them gia tri ve dep      
+			Den voi<strong> Pretty Lovely shop</strong> cac ban se duoc nhin ngam day du cac loai hoa va kieu hoa kheo leo hoan toan moi nhung van toat len ve dep tu nhien von co cua moi loai hoa. Tu nhung nguyen lieu co ban ket hop voi su kheo leo cua doi ban tay nguoi tho,<strong>Pretty Lovely shop</strong> da thoi vao do mot hon hoa tinh te voimau sac that tu nhien mem mai. Ben canh ve dep tuoi tan,sinh dong do, moi gio hoa con co do tuoi ben lau, gop phan tang them gia tri ve dep</p>   
+		</section>
 
+		<div class="slider">
+				<div class="banner">
+					<ul class="bxslider">
+						<li><img src="anh/1.jpg" alt="" width="1024px" height="400px"></li>
+						<li><img src="anh/2.jpg" alt="" width="1024px" height="400px"></li>
+						<li><img src="anh/3.jpg" alt="" width="1024px" height="400px""></li>
+						<li><img src="anh/4.jpg" alt="" width="1024px" height="400px"></li>
+						<li><img src="anh/5.jpg" alt="" width="1024px" height="400px"></li>
+					</ul>
+				</div>
+			</div>
+	
+		
 </body>
 </html>

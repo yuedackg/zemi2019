@@ -1,4 +1,4 @@
-﻿body{
+﻿	body{
 max-width: 980px;
 width: 90%;
 margin: 0px auto;
@@ -22,21 +22,37 @@ nav{
 background-color: #8b4513;
 }
 ul{
+background: #1F568B;
+list-style-type: none;
 text-align: center;
 margin-top: 0;
 padding-left: 16px;
 }
 li{
+color: #f1f1f1;
+width: 120px;
+height: 40px;
+line-height: 40px;
+margin-left: -5px;
+
 font-size: 14px;
 list-style: none;
 margin-right: 30px;
 display: inline-block;
-padding: 10px 0px;
+padding: 10px 10px;
 }
 a{
+text-decoration: none;
+color: #fff;
+display: block;
 color: #ffffff;
 text-decoration: none;
 }
+#a:hover {
+background: #F1F1F1;
+color: #333;
+}
+
 h2{
 border-left: solid 10px #ffa500;
 border-bottom:  dotted 5px #ffa500;
@@ -57,9 +73,9 @@ text-align: justify;
 line-height: 25px;
 }
 .about img{
-width: 20%;
-height: 20%;
-min-width: 150px;
+width: 30%;
+height: 30%;
+min-width: 250px;
 }
 
 .photo p{
@@ -118,7 +134,7 @@ margin-top: 0;
 }
 .map-title{
 font-family: Lobster;
-font-size: 32px;
+font-size: 39px;
 margin-bottom: 15px;
 }
 .pagetop{

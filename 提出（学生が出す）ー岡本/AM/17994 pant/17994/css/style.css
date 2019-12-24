@@ -1,13 +1,16 @@
-body{
-    max-width: 450px;
-    width: 350px;
-    background-color: rgba(35, 231, 94, 0.705);
-    background-image: url("s.jpg"); 
-    background-repeat: no-repeat;
-}
-#head   
+
+#header   
 { 
-    height: 597px;
-    background-image: url("chiken fry.jpeg"); 
+    height: 400px;
+    background-image: url("../img/ok.jpg"); 
     background-repeat: no-repeat;
+    width: 100%;
     }
+
+    body{
+        max-width: 1024px;
+        width: 90%;
+        margin: 20px auto;
+        height: 768px;
+        color: ivory;
+        }

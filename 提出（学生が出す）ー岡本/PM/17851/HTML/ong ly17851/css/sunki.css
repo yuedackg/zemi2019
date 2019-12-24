@@ -1,0 +1,119 @@
+﻿body{
+max-width: 1050px;
+width: 90%;
+margin: 0 auto;
+background-color: rgb(208, 224, 236);
+}
+header{
+height: 150%;
+width: 100%;
+background-image: url("../img2/lado.jpg");
+background-repeat:no-repeat;
+background-size: 100%;
+
+}
+h1{
+color:rgb(5, 1, 17);
+font-family: Lobster;
+font-size: 60px;
+text-align:left;
+margin-top: 0px;
+padding-top: 105px;
+height:100%;
+}
+p.titi{
+    color: rgb(239, 243, 10);
+    text-align: center;
+    padding-top: 30px;
+    margin: 0;
+    font-size:50px;
+}
+nav{
+background-color:rgb(29, 71, 29);
+}
+ul{
+text-align: center;
+margin-top: 0;
+padding-left: 16px;
+list-style-type: none;
+}
+li{
+font-size: 14px;
+list-style: none;
+margin-right: 30px;
+display: inline-block;
+}
+a{
+color:rgb(244, 242, 247);
+text-decoration: none;
+display: block;
+padding: 14px 16px
+}
+a:hover{
+    background: rgb(13, 183, 235);
+    color: yellow;
+    font-size: 15px;
+}
+h2{
+border-left: solid 10px rgb(1, 19, 5);
+border-bottom: solid 2px #000c03;
+margin-top: 30px;
+padding: 5px;
+color:rgb(1, 20, 6);
+}
+section{
+margin-bottom: 50px;
+}
+
+.Ngan{
+display: flex;
+}
+.Ngan p{
+width: 690px;
+margin: 0px 40px;
+text-align: justify;
+line-height: 25px;
+color:rgb(1, 4, 14);
+font-size: 20px;
+}
+.Ngan img{
+width: 100%;
+height: 100%;
+min-width: 150px;
+background-color: rgb(201, 74, 163);
+padding: 10px;
+}
+
+.photo p{
+margin-top: 15px;
+margin-left: 30px;
+}
+.photo-box{
+display: flex;
+margin-left: 30px;
+color:rgb(4, 0, 10);
+}
+.box{
+margin-left: 65px;
+display:flex;
+padding: 10px;
+transform: rotate(6deg);
+color:rgb(5, 1, 17);
+}
+.big img{
+width: 95%;
+padding:10px;
+margin-top: 18px;
+background-color: rgb(201, 74, 163);
+transform:rotate(-6deg);
+}
+.big h3{
+margin-top: 35px;
+}
+.small img{
+width: 90%;
+padding: 10px;
+margin: 10px;
+background-color: rgb(201, 74, 163);
+}
+

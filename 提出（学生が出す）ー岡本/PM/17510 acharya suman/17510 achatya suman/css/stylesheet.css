@@ -5,7 +5,7 @@
 }
 
 header{
-	height: 500px;
+	height: 370px;
 	background-image: url("../image/topimage.jpg");
 	background-size: 100%;
 	background-repeat: no-repeat;
@@ -14,7 +14,7 @@ header{
 }
 
 header#toppage{
-	height: 470px;
+	height: 590px;
 	background-image: url("../image/topimage.jpg");
 	background-size: 100%;
 	background-repeat: no-repeat;
@@ -62,14 +62,14 @@ h1{
 #menu-photo{
 	width: 400px;
 	height: 300px;
-	margin:20px;
+	margin:15px;
 	background-image: url("../image/image2.jpg");
 	background-size: 100%;
 
 }
 /* 商品メニュー　*/
 	.price-table{
-	margin-left: 130px;
+	margin-left: 32px;
 }
 	th{
 	background-color: #ccc;
@@ -78,9 +78,9 @@ td{
 	background-color: #fff;
 }
 	table,th,td{
-	border: solid 5px #656;
+	border: solid 5px #5C5;
 	
-	padding:70px 240px;
+	padding:100px 125px;
 }
 .table-right{
 	margin-left: 50px;
@@ -92,7 +92,7 @@ td{
 /*　アクセス　*/
 .address{
 	display: flex;
-	margin-left:130px;
+	margin-left:100px;
 	text-align:center;
 }
 .access{

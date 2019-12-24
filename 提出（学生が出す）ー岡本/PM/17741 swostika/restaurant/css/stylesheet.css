@@ -60,7 +60,7 @@ td#recomand img{
 }
 td#recomand p{
 margin-top: 0;
-margin-bottom: 100px;
+margin-bottom: 35px;
 
 }
 p#smalltitle{
@@ -87,7 +87,7 @@ p#bigtitle{
 	.price-table{
 	display:flex;
 	margin-left: 150px;
-	border:solid 1px #000;
+	border:solid px #000;
 	width: 420px;
 }
 /*	th{

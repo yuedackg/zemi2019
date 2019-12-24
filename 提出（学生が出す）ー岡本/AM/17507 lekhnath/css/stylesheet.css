@@ -1,0 +1,106 @@
+﻿body{
+max-width: 1010px;
+width: 90%;
+margin: 0px auto;
+background-color:rgb(73, 115, 139);
+}
+header#toppage{
+height: 436px;
+background-image: url("../image/topimage.jpg");
+background-size: 120%;
+background-repeat: no-repeat;
+margin-bottom: 40px;
+}
+
+header{
+height:210px;
+background-image: url("../image/topimage.jpg");
+background-size: 120%;
+background-repeat: no-repeat;
+margin-bottom: 40px;
+}
+h1{
+color:red;
+background-repeat: no-repeat;
+background-position: 50% 73%;
+margin: 0px 20px;
+font-size: 60px;
+height: 95px;
+}
+
+/*　リンクボタン　*/
+nav ul{
+	display: flex;
+	margin: -8px 0px 0px 158px;
+}
+nav ul li{
+	list-style: none;
+	margin-right: 15px;
+	color: #fff;
+	background-color: #17c7cc;
+  padding: 0px 5px;
+	width: 100px;
+	text-align: center;
+	border-radius: 5px
+}
+a{
+	text-decoration: none;
+  font-size: 12px;
+  border-radius: 5px;
+
+
+}
+#menu-photo{
+width: 290px;
+height: 270px;
+margin:20px;
+background-image: url("../image/image2.jpg");
+background-size: 100%;
+}
+/* 商品メニュー　*/
+.price-table{
+displat:flex;
+margin-left: 50px;
+}
+th{
+background-color: #ccc;
+}
+td{
+background-color: #fff;
+}
+table,th,td{
+border: solid 1px #666;
+border-collapse: collapse;
+padding: 5px 48px;
+}
+.table-right{
+margin-left: ６0px;
+
+}
+
+/* ドリンクメニュー　*/
+.price-table{
+displat:flex;
+margin-left: 50px;
+}
+th{
+background-color: #ccc;
+}
+td{
+background-color: #fff;
+}
+table,th,td{
+border: solid 1px #666;
+border-collapse: collapse;
+padding: 5px 48px;
+}
+.table-right{
+margin-left: 50px;
+
+}
+/*　アクセス　*/
+.address ul li{
+display: block;
+}
+.pagetop{
+	float: right;
