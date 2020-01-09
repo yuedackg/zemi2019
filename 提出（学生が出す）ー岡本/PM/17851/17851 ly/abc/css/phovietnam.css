@@ -2,7 +2,7 @@
 max-width: 1024px;
 width: 90%;
 margin: 0 auto;
-background-image: url("../img4/abc.png");
+background-image: url("../img4/ccc.jpg");
 background-attachment: fixed;
 background-position: 0%;
 background-size: 100%;
@@ -10,13 +10,13 @@ background-size: 100%;
 header{
 height: 150%;
 width: 100%;
-background-image: url("../img4/5.jpg");
+background-image: url("../img4/abc.jpg");
 background-repeat:no-repeat;
 background-size: 100%;
 
 }
 h1{
-color:rgb(4, 1, 14);
+color:#CCCC33;
 font-family: Lobster;
 font-size: 60px;
 text-align:left;
@@ -50,11 +50,11 @@ a:hover{
     color: yellow;
 }
 h2{
-border-left: solid 10px rgb(3, 0, 10);
+border-left: solid 10px chocolate;
 /*border-bottom:  dotted 5px #ceeb65;*/
 margin-top: 30px;
 padding: 5px;
-color:#03010e;
+color:#f5f5f0;
 }
 section{
 margin-bottom: 50px;
@@ -68,7 +68,7 @@ width: 690px;
 margin: 0px 40px;
 text-align: justify;
 line-height: 25px;
-color:#02010f;
+color:#f5f5f0;
 font-size: 20px;
 }
 .Ngan img{
@@ -86,14 +86,14 @@ margin-left: 30px;
 .photo-box{
 display: flex;
 margin-left: 30px;
-color:#060211;
+color:#f5f5f0;
 }
 .box{
 margin-left: 65px;
 display:flex;
 padding: 10px;
 transform: rotate(6deg);
-color:#04010e;
+color:#f5f5f0;
 }
 .big img{
 width: 95%;

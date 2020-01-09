@@ -23,6 +23,7 @@ ul{
     margin-left: 100px;
 }
 #menu ul li{
+    font-size: 20px;
     color:#f1f1f1;
     display: inline-table;
     width: 120px;

@@ -1,3 +1,4 @@
+
 header#toppage{
 	background-image: url("../images/rana01.jpg");
 	background-repeat: no-repeat;
@@ -9,7 +10,7 @@ nav ul {
 	position: relative;
 	list-style-type: none;
 	display: flex;
-	margin-left: 190px;
+	margin-left: 219px;
   
 }
 nav li a {
@@ -28,8 +29,7 @@ nav li a {
 	padding-left: 40px;
 }
 p{
-	padding-left: 97px;
-	width: 400px;
+margin: 0 -51px 0 96px;
 }
 
 h1{
@@ -49,7 +49,7 @@ h1{
 }
 h2{
 	font-size: 18px;
-	margin-top: 0;
+	margin: 0px 0px 0px 20px;
 	text-align:center;
 }
 #flower{
@@ -65,7 +65,6 @@ h2{
 }
 p{
 	text-align: justify;
-	width: 400px;
 }
 #kimono{
 	text-align: center;
@@ -97,3 +96,5 @@ div.comment #col-1,div.comment #col-2{
 	font-size: 12px;
 	width: 200px;
 }
+.magar{
+	margin-left: 96px;}

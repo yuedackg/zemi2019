@@ -1,10 +1,10 @@
 ﻿body{
-	width: 1024px;
+	width: 1085px;
 	margin: 0 auto;
 	background-color: rgba(225, 127, 0, 0.8);
 }
 header{
-	background-image: url("写真/anh trang chu/2.jpg");
+	background-image: url("anh/anh5/2.jpg");
 	background-repeat: no-repeat;
 	height: 270px;
 	display: flex;
@@ -16,7 +16,7 @@ header img{
 }
 .nav1{
     display: flex;
-    background-color: rgba(7, 225, 0, 0.9);
+    background-color: rgba(7, 225, 0, 0.7);
     height: 41px;
     margin-left: -336px;
     font-size: 12px;
@@ -46,19 +46,16 @@ h2{
 	margin-top: 15px;
 	font-size: 30px;
 }	
-}
 .lili{
 	display: flex;
 }
-section{
-	margin-top: 20px;
+.top-text{
+	font-size: 21px;
 }
 .lili img{
 	width: 34%;
-	height: 150px;
-}
-p.top-text{
-	margin-top: 0px;
+    height: 179px;
+    margin-top: 25px;
 }
 .aaa{
 	margin-top: 25px;
@@ -84,15 +81,14 @@ p.top-text{
 }
 .bbb{
 	padding: 10px 145px 20px;
+	font-size: 20px;
 }
 .bbb th{
 	text-align: center;
-}
-.bbb th{
-	text-align: center;
+	font-size: 28px;
 }
 .table-left{
-	width: 300px;
+	width: 330px;
 }
 .table-right{
 	margin-left: -120px;
@@ -115,6 +111,7 @@ p.top-text{
 
 .ddd{
 	display: flex;
+	margin-top: 17px;
 }
 
 .anh1{
@@ -137,21 +134,38 @@ p.top-text{
 .div1{
 	margin-top: 35px;
 	color: crimson;
+	font-size: 25px;
 }
 .class1{
 	display: flex;
-	background-color: burlywood;
+	background-color: lightcoral;
 	margin-top: 25px;
 }
 .class1 img{
-	width: 335px;
+	width: 355px;
 }
 .class1 th{
 	color: blue;
 	text-align: left;
-	font-size: 17px;
+	font-size: 20px;
+}
+.class1 td{
+	font-size: 18px;
 }
 .td1{
-	color: aliceblue;
 	font-size: 20px;
+	color: aliceblue;
+}
+.class2{
+	display: flex;
+	background-color: lightcoral;
+	margin-top: 25px;
+}
+.class2 img{
+	width: 355px;
+}
+.class2 th{
+	color: blue;
+	text-align: left;
+	font-size: 18px;
 }

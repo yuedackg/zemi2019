@@ -1,0 +1,132 @@
+<!DOCTYPE <!DOCTYPE html>
+<head>
+    <meta charset="utf-8" />
+    <title>タメルバーザ＿ネパールのカレー屋</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon"/>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="css/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/jquery.bxslider.min.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+</head>
+<body>
+    <header>
+        <div class="logo1"><img src="images/logo_mama.png"></div>
+        <div class="logo2"><img src="images/contact.png"></div>
+                <ul id="menu">
+                        <li><a href="index.html">トップページ</a></li>
+                        <li><a href="kodawari.html">タメルのこだわり</a></li>
+                        <li><a href="menu.html" target="_blank">Grandメニュー</a></li>
+                        <li><a href="booking.html">インターネットでのご予約</a></li>
+                        <li><a href="contact.html">店舗情報</a></li>
+                </ul>     
+    </header>
+
+    <div class="onlinepage">
+         <div id="product1" class="product"><p>Wel Come to online booking<br><br>
+             こちらでの予約は、<br>仮予約となります。<br><br>
+                店舗からの予約内容の確認のお電話をもって予約確定します。<br>
+                現時点では、予約手続きが完了しておりません。<br><br>
+                電話での確認をもって予約確定となりますので、予めご了承ください。<br>
+        </p></div>
+    
+         <div id="onlineform" class="product">
+
+                <form method="post" action="" onSubmit="return validateForm();">
+                        <div style="width: 400px;">
+                        </div>
+                        <div style="padding-bottom: 18px;font-size : 24px;">Table Reservation</div>
+                        <div style="padding-bottom: 18px;font-size : 18px;">レストランでテーブルをご予約いただければ幸いです！</div>
+                        <div style="padding-bottom: 18px;">氏名<span style="color: red;"> *</span><br/>
+                        <input type="text" id="data_3" name="data_3" style="width : 400px;" class="form-control"/>
+                        </div>
+                        <div style="padding-bottom: 18px;">携帯電話<br/>
+                        <input type="text" id="data_4" name="data_4" style="width : 400px;" class="form-control"/>
+                        </div>
+                        <div style="padding-bottom: 18px;">メール<br/>
+                        <input type="text" id="data_5" name="data_5" style="width : 400px;" class="form-control"/>
+                        </div>
+                        <div style="padding-bottom: 18px;">日付<span style="color: red;"> *</span><br/>
+                        <input type="text" id="data_6" name="data_6" style="width : 250px;" class="form-control"/>
+                        </div>
+                        <div style="padding-bottom: 18px;">時間<span style="color: red;"> *</span><br/>
+                        <input type="text" id="data_7" name="data_7" style="width : 250px;" class="form-control"/>
+                        </div>
+                        <div style="padding-bottom: 18px;">人数目<span style="color: red;"> </span><br/>
+                        <select id="data_8" name="data_8" style="width : 250px;" class="form-control"><option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                        <option>10+ (Specify in Comments)</option>
+                        </select>
+                        </div>
+                        <div style="padding-bottom: 18px;">コメント/追加リクエストs<br/>
+                        <textarea id="data_9" false name="data_9" style="width : 600px;" rows="4" class="form-control"></textarea>
+                        </div>
+                        <div style="padding-bottom: 18px; padding-bottom: 18px;
+                        margin-right: 47px;
+                        float: right;"><input name="skip_Submit" value="送信" type="submit"/></div>
+                        <div>
+                        
+                        </div>
+                        </form>
+                        
+                        <script type="text/javascript">
+                        function validateForm() {
+                        if (isEmpty(document.getElementById('data_3').value.trim())) {
+                        alert('名前を入力してください!');
+                        return false;
+                        }
+                        if (!validateEmail(document.getElementById('data_5').value.trim())) {
+                        alert('メールアドレスは有効なメールアドレスでなければなりません！');
+                        return false;
+                        }
+                        if (isEmpty(document.getElementById('data_6').value.trim())) {
+                        alert('日付が必要です！');
+                        return false;
+                        }
+                        if (isEmpty(document.getElementById('data_7').value.trim())) {
+                        alert('時間が必要です！');
+                        return false;
+                        }
+                        return true;
+                        }
+                        function isEmpty(str) { return (str.length === 0 || !str.trim()); }
+                        function validateEmail(email) {
+                        var re = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,15}(?:\.[a-z]{2})?)$/i;
+                        return isEmpty(email) || re.test(email);
+                        }
+                        </script>
+
+
+
+         </div>
+                             
+    </div>
+    <div class="bookingmap">
+        <div class="bigmap">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3325.1270401320776!2d130.44090231468525!3d33.55007545147385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x354190efa6c4442d%3A0xec4c9fbee34981!2z44Kk44Oz44OJJuODjeODkeODvOODq-ODrOOCueODiOODqeODs1RIQU1FTCBCQVpaQUFS!5e0!3m2!1sen!2sjp!4v1573709236209!5m2!1sen!2sjp" width="100%"" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+        </div>
+    </div>
+    <footer class="bookingfoot">
+        <h3>私たちはお客様のためには最高の味とおもてなしのためにあなたに約束いたします........</h3>
+        <ul class="sociallink">
+                <li><a href="https://www.facebook.com/gurung.gurkhazz.3" target="_blank"><img src="images/fbcom.png" alt="facebook"></a></li>
+                <li><a href="https://twitter.com/?lang=en" target="_blank"><img src="images/tweet.png" alt="facebook"></a></li>
+                <li><a href="https://www.youtube.com/" target="_blank"><img src="images/youtube.png" alt="facebook"></a></li>
+                <li><a href="https://www.linkedin.com/" target="_blank"><img src="images/linkdin.png" alt="facebook"></a></li>
+                <li><a href="https://accounts.google.com/ServiceLogin/signinchooser?passive=1209600&continue=https%3A%2F%2Faboutme.google.com%2Fu%2F0%2F%3Freferer%3Dgplus&followup=https%3A%2F%2Faboutme.google.com%2Fu%2F0%2F%3Freferer%3Dgplus&flowName=GlifWebSignIn&flowEntry=ServiceLogin" target="_blank"><img src="images/gplus.png" alt="facebook"></a></li>
+                <li><a href="https://www.pinterest.jp/" target="_blank"><img src="images/pintrest.png" alt="facebook"></a></li>
+        </ul>
+        <h5>プライバシーポリシー © Copyright ネパール・インドレストランタメルバーザル. All rights reserved.</h5>
+        <div class="go_top"></div>
+    </footer>       
+</body>
+</html>

@@ -18,7 +18,7 @@ h1{
 	background-position: 50% 73%;
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	font-size: 40px;
-	text-align: left;        
+	text-align: center;        
 	margin-top: 10px;
 	padding-top: 50px;
 }
@@ -115,7 +115,8 @@ section{
 .big h3{
 	font-weight: 700;
     font-size: 18px;
-    font-size: 1.3rem;
+	font-size: 1.3rem;
+	margin-top: auto;
 }
 .big h4{
 font-size: 85%;

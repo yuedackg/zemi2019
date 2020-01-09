@@ -32,7 +32,7 @@ header{
         }
     section{
     display:flex;
-    margin: 20px;
+    margin:10px;
     margin-top:30px;
     }
     nav{
@@ -62,15 +62,34 @@ border: solid 1px #666;
 border-collapse: collapse;
 padding: 5px 48px;
 }
+div{
+    padding: 5px 48px;
+}
 .table-right{
-margin-left: 30px;
+margin-left:100px;
 margin-top:0;
 }
 .table-left{
-margin-left: 30px;
+margin-left:10px;
 margin-top:0;
 }
 .price-table{
     display: flex;
-    padding: 20px;
+    padding:10px;
 }
+div.bia{
+background-image: url("../image/p9.jpg");
+background-size:400px 450px;
+width:400px;
+height:450px;
+background-repeat: no-repeat;
+padding: 5px 48px;
+}
+div.lon{
+    background-image: url("../image/p5.jpg");
+    background-size:400px 450px;
+    width:400px;
+    height:450px;
+    background-repeat: no-repeat;
+    padding: 5px 48px;
+    }

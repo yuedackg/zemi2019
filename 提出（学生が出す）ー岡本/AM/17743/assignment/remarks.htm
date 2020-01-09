@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>About Us</title>
+    <link rel="stylesheet" href="css/utsav.css">
+    <script>
+        function myFunction() {
+            document.getElementById("devil").innerHTML = "ありがとうございました。";
+        }
+    </script>
+</head>
+
+<body>
+    <header id="header">
+        <h1>NEPAL<br> Country of mountains</h1>
+        <h3>ネパール：山の国</h3>
+        <nav>
+            <ul class="nav">
+                <li>
+                    <a href="utsav.htm">メニュー</a>
+                    <ul>
+                        <li><a href="introduction.htm">山について</a></li>
+                        <li>
+                            <a href="mountains.htm">ヒマラヤ（山）</a>
+                            <ul>
+                                <li><a href="mountains/mounteverest.htm">マウント　エべレスト(8,848m)</a></li>
+                                <li><a href="mountains/Kanchanjanga.htm">カンチャンジュンガ(8,586m)</a></li>
+                                <li><a href="mountains/Lhotse.htm">ローツェ(8,516m)</a></li>
+                                <li><a href="mountains/Makalu.htm">マカル(8,463m)</a></li>
+                                <li><a href="mountains/Chooyu.htm">チョ・オユー(8,201m)</a></li>
+                                <li><a href="mountains/Dhaulagiri.htm">ダウラギリ 1(8,167m)</a></li>
+                                <li><a href="mountains/Manaslu.htm">マナスル(8,156m)</a></li>
+                                <li><a href="mountains/Annapurna.htm">アンナプルナ 1(8,091m)</a></li>
+                                <li><a href="mountains/Gyachungkang.htm">ギャチュンカン(7,952m)</a></li>
+                                <li><a href="mountains/Annapurna2.htm">アンナプルナ 2(7,952m)</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="remarks.htm">リマックス</a></li>
+                        <li><a href="contact.htm">お問い合わせ</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <form class="myform" action="#">
+        姓:<br>
+        <input type="text" name="firstname" value="">
+        <br><br>
+        名:<br>
+        <input type="text" name="lastname" value="">
+        <br><br>
+        <br>
+        <label for="country">Select your Country:</label>
+        <select id="country" name="country">
+            <option value="australia">Australia</option>
+            <option value="canada">Canada</option>
+            <option value="India">India</option>
+            <option value="japan">japan</option>
+            <option value="usa">USA</option>
+        </select>
+        <br>
+        <br>
+        <textarea placeholder="Write something" style="height: 100px;"></textarea>
+        <br><br><br>
+        <button class="ius" type="button" onclick="myFunction()">Submit</button>
+
+        <p id="devil"></p>
+
+
+    </form>
+    <footer>&copy; Copyright 2020 Utsav Jung Rana Magar</footer>
+</body>
+
+</html>

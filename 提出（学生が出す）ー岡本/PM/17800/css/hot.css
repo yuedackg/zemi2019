@@ -1,0 +1,68 @@
+body{
+    max-width: 2000px;
+    width:100%;
+    margin: 0 auto;
+    background-color:floralwhite ;
+    text-align: center;
+    
+}
+header{
+    height:500px;
+    background-image:url("../image/bakery.jpg");
+    background-size:100%;
+    background-repeat:no-repeat;
+}
+ul{
+    list-style-type:none;
+    background-color:#1E90FF;
+    position: relative;
+    text-align: center;
+    margin-top: 0;
+}
+.box{
+    margin-left: 100px;
+}
+#menu ul li{
+    font-size: 20px;
+    color:#f1f1f1;
+    display: inline-table;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+}
+#menu ul li a:hover{
+    background:#C0FF3E;
+    color:#333;
+}
+#menu1 ul{
+    margin-right: 100px;
+}
+
+a{
+    color: #f1f1f1;
+    text-decoration: none;
+    display: block;
+}
+main {
+    overflow: hidden;
+}
+fieldset{
+    font-size: 90%;
+    margin: 0;
+    padding: 60px;
+    border: 0;
+    background: rgba(84, 67, 49, 0.05)
+}
+span{
+    color: #c00;
+}
+dl{
+    line-height: 1.6;
+}
+dd span{
+    position: relative;
+}
+.inquiry dd {
+    margin: 0;
+    padding: 0;
+}

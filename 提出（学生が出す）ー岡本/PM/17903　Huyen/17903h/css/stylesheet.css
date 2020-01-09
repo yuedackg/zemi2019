@@ -10,6 +10,24 @@ background-image: url("../img/topimage.jpg");
 background-color:0EB9C2;
 background-size: 100%;
 }
+#header1{
+    height: 400px;
+    background-image: url("../img/5.jpg");
+    background-color:0EB9C2;
+    background-size: 100%;
+}
+#header2{
+    height: 400px;
+    background-image: url("../img/a2.jpg");
+    background-color:0EB9C2;
+    background-size: 100%;
+}
+#header3{
+    height: 400px;
+    background-image: url("../img/a3.jpg");
+    background-color:0EB9C2;
+    background-size: 100%;
+}
 h1{
 color: #000000;
 background-image: url("../img/8.png");
@@ -109,7 +127,7 @@ width: 90%;
 padding: 15px;
 background-color: #fff;
 }
-/* ���i���j���[�@*/
+
 .price-table{
 display: flex;
 margin-left: 25px;
@@ -128,7 +146,14 @@ padding: 5px 48px;
 .table-right{
 margin-left: 30px;
 }
-/*�@�A�N�Z�X�@*/
+
 .address ul li{
 display: block;
+}
+#footer {
+    font-size: 100%;
+    border-top: 1px solid rgba(7, 7, 7, 0.877);
+    color: #070707e3;
+    padding: 1em 3em;
+    margin: 20px 73px;
 }

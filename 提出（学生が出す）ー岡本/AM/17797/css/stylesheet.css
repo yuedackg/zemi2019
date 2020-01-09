@@ -1,5 +1,5 @@
 body{
-4max-width: 1024px;
+max-width: 1024px;
 width: 90%;
 margin: 0 auto;
 background-color: rgb(167, 182, 247);
@@ -125,6 +125,10 @@ margin-top:0;
 }
 .photo1{
     
+        width:90%;
+        height:90%;
+        
+
     display: flex;
     margin-left: 25px;
     

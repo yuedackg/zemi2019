@@ -5,12 +5,46 @@
 		<title>Pretty Lovely</title>
 		<link rel="stylesheet" href="css/stylesheet.css">
 		<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script src="main.js"></script>
+		<link rel="stylesheet" href="css/jquery.bxslider.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="js/jquery.bxslider.min.js"></script>
+		<script>
+				$(function() {
+					$('.bxslider').bxSlider({
+					mode: 'fade', // を必ず忘れずに
+					speed: 3000, // 5秒でゆっくり今回はフェードイン[,]と変わっていくように
+					auto: true, // クリックしなくても自動的に変わっていくように
+					infiniteLoop: true, // 繰り返し
+					});
+				});
+			</script>
+			<script>
+
+				function stir0(){
+				var bbs = new Audio('anh/nhac.mp3');
+				bbs.play();
+				alert('音声確認してください。');
+				}
+			   
+				function pl(){
+			   
+				 var Loops = new Audio('anh/nhac.mp3');
+			   
+				Loops.play();
+				 }
+			   
+			   
+				</script>
 	</head>
-	<body>
+	<body onload="stir0()">
+		<header id="header">
 		<h1><marquee behavior="alternate" width="450">Pretty Lovely	</marquee></h1>
+		</header>
 		<nav>
 			<ul>
-				
 			<li><a href="top.html"><strong>Pretty Lovelyについて</strong></a></li>
 				<li><a href="a1.html"><strong>おすすめのflower</strong></a></li>
 				<li><a href="a2.html"><strong>お祝いの日</strong></a></li>

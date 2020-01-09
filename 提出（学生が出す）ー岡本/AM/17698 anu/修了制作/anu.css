@@ -6,7 +6,7 @@ background-color:powderblue;
 }
 #head{
 background-image: url("images/images.jpg");
-background-size: 900px;
+background-size: 800px;
 height: 500px;
 background-repeat: no-repeat;
 
@@ -15,12 +15,22 @@ background-repeat: no-repeat;
 height: 200px;
 width: 200px;
 }
+.baram{
+	list-style: none;
+	text-decoration: none;
+padding: 125px 0 0 30px;
+margin: 30px auto;
+color:green;
+
+}
+
 h1{
 	font-size: 30px;
 	text-align: center;
 	margin:50px;
-	padding-top: 100px;
+	padding-top: 10px;
 	color: black;
+        background-color:olivedrab
 }
 h2{
 	font-size: 20px;
@@ -44,6 +54,11 @@ h2{
 	margin-top:30px;
 	padding:5px
 }
+h3{
+	margin-top:40px;
+	padding:5px;
+	color:green;
+}
 .head{
 	background-image: url("images/images.jpg");
 	background-size:900px;
@@ -65,10 +80,4 @@ text-align:float right;
 }
 .anup {
 	margin-right: -50px;
-}
-
-table,td,th{
-margin-left: 30px;
-border: solid 2px;
-border-collapse: collapse;
 }

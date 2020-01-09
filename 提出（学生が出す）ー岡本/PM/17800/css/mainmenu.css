@@ -4,6 +4,7 @@ body{
     margin: 0 auto;
     background-color:floralwhite ;
     text-align: center;
+    display: block;
     
 }
 header{
@@ -23,6 +24,7 @@ ul{
     margin-left: 100px;
 }
 #menu ul li{
+    font-size: 20px;
     color:#f1f1f1;
     display: inline-table;
     width: 120px;
@@ -54,8 +56,19 @@ h1{
     padding: 1.2em 0;
     color: #544331;
     margin: 0 0 .5em;
-    -webkit-animation-fill-mode: both;
-    animation-fill-mode: both;
     font-size: 2em;
     margin: .67em 0;
 }
+.col p{
+    font-size: 20px;
+    line-height: auto;
+}
+table td{
+    font-size: 20px;
+}
+table img{
+    width:70%;
+    height: 70%;
+}
+
+

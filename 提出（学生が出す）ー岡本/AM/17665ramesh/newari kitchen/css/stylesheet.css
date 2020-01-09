@@ -1,6 +1,6 @@
 body{
-max-width:2000px;
-width: 90%;
+max-width:1000px;
+width: 100%;
 margin: 20px auto;
 background-color:#3D9970;
 height: 768px;
@@ -74,8 +74,7 @@ text-align: center;
 text-decoration: none;
 }
 #head{
-height: 400px;
-background: linear-gradient( rgba(0, 54, 146, 0.5), rgba(91, 56, 0, 0.5) ), url("../img/utsav.jpg");
+height: 400px
 
 background-repeat: no-repeat;
 }

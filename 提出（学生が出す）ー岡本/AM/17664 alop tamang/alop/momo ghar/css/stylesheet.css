@@ -81,18 +81,22 @@ h3{
 ����
 }
 .big img{
-width: 95%;
-padding: 20px;
-margin-top: 18px;
-background-color:#b22222;
-transform:rotate(-0deg)
-}
+	width: 95%;
+	padding: 20px;
+	margin-top: 18px;
+	background-color:#b22222;
+	transform:rotate(-0deg)
+	}
 .big h3{
-margin-top: 35px;
+	width: 400px;
+	height: 300px;
+margin-top: 15px;
 }
 .small img{
+	margin-top: 15px;	
 width: 90%;
-padding: 15px;
+height: 230px;
+padding:15px;
 background-color: #b22222;
 }
 
@@ -133,7 +137,8 @@ width: 1020px;
 	margin-top: 25px;
 }
 .aaa img{
-	width: 98%;	
+	width:99%;
+	height:200px;	
 }
 .aaa1 td{
 	width: 400px;

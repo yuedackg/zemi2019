@@ -19,3 +19,6 @@ body{
    margin: 0 auto;
    background-color: rgb(233, 198, 233);
 }
+P{
+   font-size: 14px;
+}

@@ -1,8 +1,8 @@
 ﻿body{
-max-width: 1200px;
-width:90%;
+max-width:1200px;
+width:100%;
 margin: 0 auto;
-background-color: rgb(180, 211, 240);
+background-color: rgb(180, 240, 207);
 }
 header{
 height:400px;
@@ -57,14 +57,14 @@ h1{
 margin-bottom: 0;
 }
 .hocsinh{
-    background-image:url("../image/p5.jpg");
+    background-image:url("../image/p9.jpg");
     background-size:320px 420px;
     background-repeat: no-repeat;
     width: 300px;
     height: 400px;
 }
 .kethon{
-    background-image:url("../image/p1.jpg");
+    background-image:url("../image/p5.jpg");
     background-size:320px 420px;
     background-repeat: no-repeat;
     width: 300px;
@@ -87,18 +87,13 @@ p{
     color: rgb(241, 245, 19);
     margin-top:-10px;
 }
-div.tan{
-    background-color: antiquewhite;
-    border-radius: 10px;
-    padding: 10px;
+p.text{
+font-size: 30px;
+margin-left: 20px;
+margin-top: 20px;
+color: black;
 }
-.cachtan{
-    background-image: url("../images/ct3.jpg");
-    background-size:320px 420px;
-    background-repeat: no-repeat;
-    width: 300px;
-    height: 400px;
-}
+
 .pagetop{
 position: fixed;
 right: 60px;
