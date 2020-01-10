@@ -1,13 +1,13 @@
 ﻿body{
-max-width: 1024px;
+max-width: 1200px;
 width: 90%;
 margin: 0 auto;
-background-color: #CC0000;
+background-color: rgb(0, 163, 204);
 }
 header{
 background-image: url("../img/9.jpg");
 background-repeat: no-repeat;
-background-size:1024px 360px;
+background-size:1200px 360px;
 }
 h1{
 color:rgb(16, 161, 106);
@@ -126,5 +126,19 @@ right: 60px;
 bottom: 20px;
 background-color: rgba(100,100,100,0.5);
 padding: 0 10px;
+}
+div.TEXT{
+    display: flex;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+}
+div p{
+    font-size:20px;
+    font-weight: 100px;
+}
+div img{
+    width: 250px;
+    height: 100px;
 }
 

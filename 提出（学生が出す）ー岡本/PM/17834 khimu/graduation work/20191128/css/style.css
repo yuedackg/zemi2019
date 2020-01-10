@@ -1,5 +1,6 @@
 
 body{
+    background-color: crimson;
     width: 800px;
     margin:0 auto;
     font-family: Arial, Helvetica, sans-serif;
@@ -36,7 +37,7 @@ h1{
 }
 .topnav :hover{
    
-    color: white;
+    color: red;
 
 }
 
@@ -149,4 +150,10 @@ h2{
 }
 .history{
     display: flex;
+}
+.links{
+	border-radies:10px;
+}
+.links.hover{
+	backgroud-color:red;
 }

@@ -1,7 +1,5 @@
 ﻿body{
 max-width:1024px;
-padding:center;
-margin:center;
 }
 header{
 background-image: url("../anh1/topimage.jpg");
@@ -208,6 +206,11 @@ img {
   border-radius: 0 3px 3px 0;
   user-select: none;
   -webkit-user-select: none;
+  background-color:yellow;
+  border-top-style: dotted;
+  border-right-style: solid;
+  border-bottom-style: dotted;
+  border-left-style: solid;
 }
 /* Position the "next button" to the right */
 .next {
@@ -302,4 +305,5 @@ img {
 }
 h1{
 border-bottom: 2px dotted;
+border-left-style: solid;
 }

@@ -3,8 +3,9 @@
 	margin: 0 auto;
 	color: #ffffff;
 	font-size: 16pt;
-
-
+}
+a{
+	color: #ffffff;
 }
 h1{
 	font-size: 40px;
@@ -13,4 +14,7 @@ h1{
 #catch{
 	font-size: 17px;
 	margin-bottom: 0px;
+}
+.text{
+	background-color: rgba(108,108,108,0.3);
 }

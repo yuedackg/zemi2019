@@ -71,8 +71,19 @@ min-width: 150px;
 }
 
 .photo p{
-margin-top: 15px;
-margin-left: 30px;
+    font-size: 14px;
+	width: 690px;
+	margin: 10px 10px 10px 10px;
+	line-height: 25px;
+	color: #000000;
+	letter-spacing: 3px;
+}
+.photo img{
+    width: 30%;
+	height: 40%;
+	min-width: 100px;
+	background-color: #ffffff;
+	padding: 10px;
 }
 .photo-box{
 display: flex;

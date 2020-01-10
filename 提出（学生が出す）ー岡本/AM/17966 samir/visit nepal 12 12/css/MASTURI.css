@@ -1,5 +1,5 @@
 body{
-    max-width: 1024px;
+    max-width: 1200px;
     width: 90%;
     margin:0 auto;
     background-color: rgba(231, 228, 35, 0.705);
@@ -8,9 +8,9 @@ body{
 header{
   background-image: url("../img/n.jpg");
   height:350px;
-  width:1024px;
+  width:1200px;
   background-repeat:no-repeat;
-  background-size:1024px 350px;
+  background-size:1200px 350px;
   margin: 0; 
   }
   nav{
@@ -50,11 +50,40 @@ a{
       }
     section{
         display: flex;
-        margin-top: 20PX;
+        margin-top:50px;
         margin-left: 15PX;
     }
+    section.colom{
+        margin-left:60px;
+    }
+    section.colom img{
+        width: 800px;
+        height: 350px;
+    }
     .ONE{
-        margin-top: 30PX;
+        padding-top:-10PX;
         margin-left: 20PX;
         margin-bottom: 5PX;
     }
+div.man{
+background-color: azure;
+background-size:contain;
+border-radius: 5px;
+padding-left: 10px;
+}
+div.photo1{
+    display: flex;
+    padding: 10px;
+}
+div img{
+    padding: 10px;
+    width:500px;
+    height: 350px;
+}
+p.ONE{
+    font-size: 20px;
+}
+p.TEXT{
+    font-size:25px;
+    color: rgb(52, 18, 177);
+}

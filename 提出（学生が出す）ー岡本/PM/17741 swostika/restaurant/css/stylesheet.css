@@ -93,23 +93,23 @@ p#bigtitle{
 /*	th{
 	background-color: #ccc;
 }
-td{
-	background-color: #b9ad19;
-}
 */
-	table,th,td{
-		width: 414px;
-		padding-left: 0px;
-		text-align: center;
-		border: solid 1px;
-		border-collapse: collapse;
-		background-color:#FF9800
+table#recomand-t td#text{
+	height: 80px;
+}
+table,th,td{
+	width: 414px;
+	padding-left: 0px;
+	text-align: center;
+	border: solid 1px;
+	border-collapse: collapse;
+	background-color:#FF9800
+}
+#text p{
+	margin: 0;
 }
 .table-right{
 	margin-left: 152px;
-
-}
-
 }
 
 

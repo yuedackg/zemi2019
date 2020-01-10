@@ -31,12 +31,12 @@ text-style:center;
 
 }
 img{
-filter:drop-shadow(0 0 5px red);
+filter:drop-shadow(0 0 3px red);
 display:block;
 margin-left:auto;
 margin-right:auto;
-width:50%;
-height:100%;
+width:30%;
+height:30%;
 }
 body {
 }
@@ -87,19 +87,9 @@ body {
     text-align: left;
   }
 }
-.price-table{
-display: flex;
-margin-left: 25px;
-}
-th{
-background-color: #ffff00;
-}
-table,th,td{
-border: solid 1px #ff0000;
-border-collapse: collapse;
-padding: 5px 48px;
-color:#007f7f
-}
-.table-right{
-margin-left: 30px;
+.pagetop{
+position: fixed;
+right: 60px;
+bottom: 20px;
+padding: 0 10px;
 }

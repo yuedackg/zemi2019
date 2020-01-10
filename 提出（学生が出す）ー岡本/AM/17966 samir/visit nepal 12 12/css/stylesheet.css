@@ -2,7 +2,7 @@ body{
     max-width: 1024px;
     width: 90%;
     margin:0 auto;
-    background-color: rgba(231, 228, 35, 0.705);
+    background-color: rgba(68, 231, 35, 0.705);
     border-bottom-color:  rgba(27, 27, 25, 0.705);
 }
 header{
@@ -41,7 +41,7 @@ a{
     }
 
     h1{
-      color:rgb(234, 238, 22);
+      color:rgb(37, 37, 34);
       font-family: Lobster;
       font-size:20px;
       text-align:center;

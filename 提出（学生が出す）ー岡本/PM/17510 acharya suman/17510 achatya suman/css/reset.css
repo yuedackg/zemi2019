@@ -20,14 +20,8 @@ form,
 fieldset,
 input,
 textarea,
-p,
-blockquote,
-th,
-td {
-	margin: 0;
-	padding: 0;
-}
 
+blockquote,
 fieldset,
 img {
 	border: 0;
@@ -40,6 +34,7 @@ strong,
 th {
 	font-style: normal;
 	font-weight: normal;
+	font-size:20px;
 }
 
 h1,
@@ -52,6 +47,11 @@ h6 {
 	font-weight: normal;
 	margin-left: 100px;
 	font-weight: bold;
-	margin-top:20px;
+	margin-top:5px;
+}
+p{
+	color:#056305;
+	font-size: 40px;
+	margin-top:5px;
 }
 

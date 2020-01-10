@@ -136,6 +136,9 @@ margin-left: 25px;
 th{
 background-color: #ddd;
 }
+td{
+	background-color: #ddd;
+}
 table,th,td{
 border: solid 1px #666;
 border-collapse: collapse;

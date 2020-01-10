@@ -2,6 +2,7 @@ body{
     width: 1024px;
     height: auto;
     margin: 0px auto;
+    
     background-color: #282828;
     font-family: Arial, Helvetica, sans-serif, Verdana, Tahoma;
 }
@@ -256,23 +257,26 @@ header .logo2 img{
     width: 320px;
     position: relative;
     top: 12px;
-    left: 15px;
+    left: 695px;
 }
 .secondmid2{
     background-color: #59c1f7;
     height: 300px;
-    width: 658px;
+    width: 1000px;
     position: absolute;
-    top: 12px;
-    left: 350px;
+    top: 10px;
+    left: 10px;
 }
 .bigmap{
     background-color: #59c1f7;
     height: 300px;
-    width: 97%;
     position: absolute;
     top: 12px;
     left: 15px;
+    width: 680px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
 }
 /*
 .secondmid3{
@@ -454,8 +458,9 @@ footer go_top{
     left: 15px;
     position: relative;
     font-size: 22px;
-    text-align: center;   
+    text-align: left;   
     height: 602px;
+    padding-left: 5px;
 }
 #product2 {
     top: 86px;
@@ -564,7 +569,7 @@ footer go_top{
     position: relative;
     background-color: #ffffff;
     z-index: 0;
-    border: 10px solid #f69913;
+    border: 10px solid #df6704;
     border-radius: 0px 25px 0px 25px;
 }
 .two{
@@ -575,7 +580,7 @@ footer go_top{
     position: absolute;
     background-color: #ffffff;
     z-index: 0;
-    border: 10px solid #f69913;
+    border: 10px solid #04acac;
     border-radius: 0px 25px 0px 25px;
 }
 .three{
@@ -586,7 +591,7 @@ footer go_top{
     position: absolute;
     background-color: #ffffff;
     z-index: 0;
-    border: 10px solid #f69913;
+    border: 10px solid #7b7a7cfa;
     margin-bottom: 268px;
     border-radius: 0px 25px 0px 25px;
 }
@@ -634,7 +639,7 @@ footer go_top{
 .about p{
     margin: 35px;
     padding: 40px 5px 5px 5px;
-    text-align: center;
+    text-align: left;
     letter-spacing: 2px;
     font-size: 16px;
     line-height: 27px;

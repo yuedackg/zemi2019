@@ -169,3 +169,8 @@ h2{
 	text-align: left;
 	font-size: 18px;
 }
+.map iframe{
+	width: 500px;
+	height: 250px;
+	border: 0;
+}
