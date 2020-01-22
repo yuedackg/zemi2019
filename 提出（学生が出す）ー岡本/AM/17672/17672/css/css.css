@@ -151,7 +151,10 @@ margin-top:0;
 }
 .photo1{
 display: flex;
-margin-left: 505px;
+}
+.big2 img{
+	width: 328px;
+    height: 200px;
 }
 table,tr,td{
 border: none
