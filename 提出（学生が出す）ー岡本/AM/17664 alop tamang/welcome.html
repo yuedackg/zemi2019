@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="ja">
+	<head>
+		<meta charset="UTF-8">
+		<title>welcome</title>
+		<link rel="stylesheet" href="css/stylesheet.css">
+		<script>
+				function showtext() {
+					let item = document.getElementById("ClickHere");
+					item.style.display = "block";
+		
+				}
+				function closetext(){
+					let item = document.getElementById("ClickHere");
+					item.style.display = "none";
+		
+				}
+			</script>
+			<style>
+				.sectionList {
+					display: none;
+		
+				}
+			</style>
+	</head>
+	<body>
+		<header id="header">
+			<h1>MOMOGHAR</h1>
+		</header>
+		<nav>
+			<ul>	
+					<li><a href="welcome.html">WELCOME</a></li>
+					<li><a href="aboutmomoghar.html">ABOUT MOMO GHAR</a></li>
+					<li><a href="recommended.html">RECOMMENDED</a></li>
+					<li><a href="menu.html">MENU</a></li>
+					<li><a href="map.html">MAP</a></li></ul>
+		</nav>
+		<h2 onclick="showtext()">
+			Clickhere
+		</h2>
+			<section id="ClickHere" class="sectionList">
+				<h1>Welcome to MomoGhar<br>(いらしゃいませ)
+				</h1>
+
+				<div onclick="closetext()"><h2>hide</h2></div>
+			</section>
+        
+		<p class="pagetop">
+			<a href="#header">PAGE TOP</a>
+		</p>
+		<footer>&copy; 2019momo ghar</footer>
+	</body>
+
+</html>

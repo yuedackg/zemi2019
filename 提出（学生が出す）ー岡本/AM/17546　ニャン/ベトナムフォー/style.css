@@ -36,46 +36,74 @@ h3{
 	margin-bottom: 0px;
 	border-left: solid 10px blue;
 	border-bottom: dotted 5px blue;
-	margin-top: 15px;
+	margin-top: 26px;
 	font-size: 30px;
-}
-h2{
-	margin-bottom: 0px;
-	border-left: solid 10px blue;
-	border-bottom: dotted 5px blue;
-	margin-top: 15px;
-	font-size: 30px;
-}	
-.lili{
-	display: flex;
-}
-.top-text{
-	font-size: 21px;
-}
-.lili img{
-	width: 34%;
-    height: 179px;
-    margin-top: 25px;
 }
 .aaa{
+    display: flex;
+    margin-top: 10px;
+}
+.aaa2{
+    width: 35%;
+    height: 230px;
+    margin-top: 26px;
+}
+.aaa3{
+    width: 35%;
+    height: 205px;
+    margin-top: 26px;
+}
+.aaa1{
+    margin-left: 15px;
+}
+footer{
+    font-size: 12px;
+	line-height: 7px;
+	color: red;
 	margin-top: 25px;
 }
-.aaa img{
-	width: 98%;	
+.thuy{
+	display: flex;
+	margin-top: 25px;
 }
-.aaa1 td{
-	width: 400px;
+.thuy img{
+    width: 352px;
+    margin: -3px -3px 0 -3px;
 }
-.aaa2 th{
-	color: blue;
-	text-align: left;
-	font-size: 17px;
-	width: 392px;
+.thuy th{
+    color: blue;
+    text-align: inherit;
+    font-size: 18px;
 }
-.aaa3 td{
-	color: cornsilk;
+.td1{
+    color: cornsilk;
+    font-size: 20px;
 }
-
+.td2{
+	color: darkred;
+}
+.thuy1{
+    background-color: burlywood;
+    margin-left: 10px;
+}
+.thuy3{
+    background-color: burlywood;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.thuy4{
+    background-color: burlywood;
+    margin-left: 10px;
+}
+.thuy5{
+    background-color: burlywood;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+/* ドリンク・デザートページ　*/
+.bbb .table-left td,.bbb .table-right td{
+	border-bottom: solid 2px #666;
+}
 .BBB{
 	display: flex;
 }
@@ -87,6 +115,8 @@ h2{
 	text-align: center;
 	font-size: 28px;
 }
+
+
 .table-left{
 	width: 330px;
 }
@@ -136,39 +166,7 @@ h2{
 	color: crimson;
 	font-size: 25px;
 }
-.class1{
-	display: flex;
-	background-color: lightcoral;
-	margin-top: 25px;
-}
-.class1 img{
-	width: 355px;
-}
-.class1 th{
-	color: blue;
-	text-align: left;
-	font-size: 20px;
-}
-.class1 td{
-	font-size: 18px;
-}
-.td1{
-	font-size: 20px;
-	color: aliceblue;
-}
-.class2{
-	display: flex;
-	background-color: lightcoral;
-	margin-top: 25px;
-}
-.class2 img{
-	width: 355px;
-}
-.class2 th{
-	color: blue;
-	text-align: left;
-	font-size: 18px;
-}
+
 .map iframe{
 	width: 500px;
 	height: 250px;

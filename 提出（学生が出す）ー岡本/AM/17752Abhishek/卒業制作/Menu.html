@@ -6,7 +6,26 @@
 	<title>Thulo Mo:Mo</title>
 	<link rel="stylesheet" href="css/stylesheet.css">
 	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+	<script>
+		function showmenu() {
+			let item = document.getElementById("menu");
+			item.style.display = "block";
+	
+		}
+		function closemenu(){
+			let item = document.getElementById("menu");
+			item.style.display = "none";
+	
+		}
+	</script>
+	<style>
+		.sectionList {
+			display: none;
+	
+		}
+	</style>
 </head>
+
 
 <body>
 	<header id="header">
@@ -21,16 +40,20 @@
 			<li><a href="map.html">Map</a></li>
 		</ul>
 	</nav>
-	<h2 id="price">Menu</h2>
-	<section class="class">
+	<h1 onclick="showmenu()">
+        menu
+	</h1>
+	<section id="menu" class="sectionList">
+	<h2 id="price">メニュー</h2>
+	<div class="class">
 		<div class="class-table">
 			<table class="table-left">
 				<tr>
-					<th>Classic product</th>
+					<th>クラシック製品</th>
 					<th>class</th>
 				</tr>
-				<tr>　
-					<td>Thulo buff steam</td>
+				<tr>
+					<td>Thuloバフスチーム</td>
 					<td>500Rs</td>
 				</tr>
 				<tr>
@@ -61,10 +84,13 @@
 				</tr>
 			</table>
 		</div>
+	</div>
+	<div onclick="closemenu()">hide</div>
 	</section>
 	<p class="pagetop">
 		<a href="#header">PAGE TOP</a>
 	</p>
+	<br>
 	<footer>&copy; Thulo mo:mo by Abhi17752</footer>
 </body>
 

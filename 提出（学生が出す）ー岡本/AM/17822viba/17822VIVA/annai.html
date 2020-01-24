@@ -4,6 +4,55 @@
 		<meta charset="UTF-8"/>
 		<title>ホームページ</title>
 		<link rel="stylesheet" href="css/flexbox.css">
+
+		<script>
+			var pictures = new Array(
+				  "imgvd/a02.jpg",
+				  "imgvd/totnghiep.jpg",
+				  "imgvd/hinh01.jpg",
+				  "imgvd/hinh12.JPG",
+				  "imgvd/hinh13.jpg",
+				  "imgvd/hinh011.jpg",
+				  "imgvd/hinh002.jpg",
+				  "imgvd/hinh013.jpg",
+				  "imgvd/hakata_1.jpg",
+				  "imgvd/hakata_2.jpg",
+				  "imgvd/anhdao.jpg",
+				  "imgvd/hana2.jpg",
+				  "imgvd/fujihana.jpg",
+				  "imgvd/xichlo.jpg",
+				  "imgvd/dongthap.jpg",
+				  "imgvd/bong-sung.jpg",
+			);
+			var index = 0;
+				var on = 0;
+				var timer1;
+			function play(){
+				document.images[4].src=pictures[index];
+				document.images[4].width=400;
+				document.images[4].height=300;
+				index++;
+				if ( index >= 16)   index = 0;
+					if(on==1){
+					timer1 = setTimeout("play()" ,5000);
+					}
+			}
+			function start(){
+					if(on==0){
+						on=1;
+						play();
+					}
+			}
+			function stop(){
+					on=0;
+					clearTimeout(timer1);
+			}
+			function openPic( item ){
+				document.images[4].src=pictures[ item - 1 ];
+				document.images[4].width=400;
+				document.images[4].height=300;
+			}
+			</script>
 	</head>
 	<body>
 		<header id="header">
@@ -19,32 +68,64 @@
 					<li><a href="sunki.html">日本語学校</a></li>
 				</ul>
 			</nav>
-		<section>
-				<div class="nihon">
-						<h4>2019年5月</h4>
-						<a href="nokonoshima.html">
-						<img src="img1/IMG_5540.JPG" alt="" />
-						</a>
-						<p>能古島の花畑</p>
-					</div>
-	<div class="nihon">
-		<h4>2018年10月</h4>
-		<a href="uminonaka.html">
-		<img src="img/IMG_5769.JPG" alt="" />
-		</a>
-		<p>海ノ中道の記念撮影</p>
-	</div>
+			<h2>ビバの生活についての写真をご覧下さい。</h2>
+			<div class="box">
+				<div class="table">
+			<table border="1">
 
-	<div class="nihon">
+				<tr>
+				<td><img src="imgvd/hinh01.jpg" id="picture1" onmouseover="openPic(1)"></td>
+				<td><img src="imgvd/totnghiep.jpg" id="picture2" onmouseover="openPic(2)"></td>
+				<td><img src="imgvd/hinh013.jpg" id="picture3" onmouseover="openPic(3)"></td>
+				<td><img src="imgvd/xichlo.jpg" id="picture5" onmouseover="openPic(4)"></td>
+				</tr>
+				<tr>
+				<td colspan="16" class="mainPic"><img class="mainPic"></td>
+				</tr>
+				</table>
+				<p class="text">・写真が表示されない場合は再生ボタンをクリックして下さい。<br>
+				・自動的には、5秒間で写真が変わります。<br>
+				・止まりたい場合は停止ボタンをクリックして下さい。<br>	
+				</p>
+				</div>
+				<div class="but">
+				<button onclick = "start()">
+				再生
+				</button>
+				<button onclick = "stop()">
+				停止
+				</button>
+				</div>
+			</div>	
+		<h2>ビバの生活についてのサイトも見ていただきたいと思います。</h2>
+		<section>
+		<div class="nihon">
+			<h4>2019年5月</h4>
+			<a href="nokonoshima.html">
+			<img src="img1/IMG_5540.JPG" alt="" />
+			</a>
+			<p>能古島の花畑</p>
+		</div>
+		</section>
+		<section>
+		<div class="nihon">
+			<h4>2018年10月</h4>
+			<a href="uminonaka.html">
+			<img src="img/IMG_5769.JPG" alt="" />
+			</a>
+			<p>海ノ中道の記念撮影</p>
+		</div>
+		</section>
+		<section>
+		<div class="nihon">
 			<h4>福岡市</h4>
 			<a href="fukuoka.html">
 			<img src="img3/fukuoka.jpg" alt="" />
 			</a>
 			<p>福岡市へようこそ！</p>
 		</div>
-	
-</section>
-<section>
+		</section>
+		<section>
 		<div class="nihon">
 				<h4>ドンタップ県について</h4>
 				<a href="dongthap.html">
@@ -52,6 +133,8 @@
 				</a>
 				<p>ドンタップ県はビバの故郷です。</p>
 			</div>
+		</section>
+		<section>
 		<div class="nihon">
 				<h4>日本語学校の時代</h4>
 				<a href="sunki.html">
@@ -59,19 +142,22 @@
 				</a>
 				<p>日本語学校のことを思い出します。</p>
 			</div>
-	<div class="nihon">
-		<h4>興味</h4>
-		<a href="index.html">
-		<img src="imgs/anhdao.jpg" alt="" />
-		</a>
-		<p>花を眺めること好きです。</p>
-	</div>
-</section>
-<footer>
-		<div class="foot">誠にありがとうございます。<br>
-			質問があれば、びばに連絡してください。<br>
-				 Tell:08012345678<br>
-				 ViBa Addmin
-</footer>
+		</section>
+		<section>
+			<div class="nihon">
+				<h4>興味</h4>
+				<a href="index.html">
+				<img src="imgs/anhdao.jpg" alt="" />
+				</a>
+				<p>花を眺めること好きです。</p>
+			</div>
+		</section>
+			<footer>
+				<div class="foot">誠にありがとうございます。<br>
+					質問があれば、びばに連絡してください。<br>
+				 	Tell:08012345678<br>
+				 	ViBa Addmin
+				</div>
+			</footer>
 </body>
 </html>

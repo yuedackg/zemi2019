@@ -1,42 +1,80 @@
 <!DOCTYPE html>
 <html lang="ja">
-
 <head>
-	<title></title>
+	
+	<meta charset="UTF-8">
+	<title>moon light restaurent</title>
 	<link rel="stylesheet" href="css/style.css">
-</head>
+	<script>
+        function showimage() {
+            let item = document.getElementById("image");
+            item.style.display = "block";
 
+        }
+        function closeimage(){
+            let item = document.getElementById("image");
+            item.style.display = "none";
+
+        }
+    </script>
+     <style>
+        .sectionList {
+            display: none;
+
+        }
+    </style>
+</head>
 <body>
 	<header id="header">
+		<h1>moon light restaurent</h1>
 	</header>
-
+	<nav>
 	<ul>
 		<li><a href="shreedhar.html">moon light restaurent</a></li>
 		<li><a href="about.html">moon light restaurentについて</a></li>
-		<li><a href="vegetable.html">おすすめの料理</a></li>
+		<li><a href="veg.html">おすすめの料理</a></li>
 		<li><a href="menu.html">商品メニュー</a></li>
 	</ul>
-
-	<div class="utsav">
-		<h2 id="photo">おすすめの料理</h2>
-		<img src="img/sk.jpg">
-
-
-		<h3>chicken rice</h3><br>
-		<img src="img/go.jpg">
-
-
-		<h3>curry nan</h3><br>
-		<img src="img/sp.jpg">
-
-
-		<h3>momo</h3><br>
-		<img src="img/fg.jpg">
+	</nav>
+	<h1 onclick="showimage()">
+		showimage
+	</h1>
+	<section id="image" class="sectionList">
+		<h2>image</h2>
+		<img src="img/sk.jpg" alt="festival" >
+		<br>
+		<div onclick="closeimage()">hide</div>
+	</section>
+	<h2 id="photo">おすすめの料理</h2>
+<section>
+	<h3 class="text">chicken rice</h3>
+	<div class="photoG">
+		<img src="img/sk.jpg" alt="festival">
 	</div>
+	<p>この料理はポラウといます。ネパールで結婚式に作って食べます。</p>
+</section>		
+<section>
+	<h3 class="text">chicken rice</h3>
+	<div class="photoG">
+		<img src="img/go.jpg" alt="festival">
+	</div>
+	<p>カレライスと焼いたお肉です。ネパール人がよく食べる料理です</p>	
+</section>
+<section>
+	<h3 class="text">curry nan</h3>	
+	<div class="photoG">
+		<img src="img/sp.jpg" alt="festival">
+	</div>
+	<p>カリナンは粉とお肉から作ったものです。</p>	
+</section>
+<section>
+	<h3 class="text">momo</h3>
+	<div class="photoG">
+		<img src="img/fg.jpg" alt="festival">	
+	</div>
+	<p>このぎょうざはお肉からつくるものです。</p>
+</section>
+ <p class="pagetop">
+    <a href="#header">PAGE TOP</a>
 </body>
-</html>
-
-	</ul>
-</body>
-
 </html>

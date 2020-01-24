@@ -11,8 +11,8 @@ background-color: green;
     background-repeat: no-repeat;
     height: 400px;
     margin-top: 20px;
-    
     }
+
 h1{
 color: darkkhaki;
 font-family: Lobster;
@@ -83,10 +83,7 @@ margin-left: 30px;
 .box{
 margin-left: 65px;
 }
-h3{
-�T�C�Y
-����
-}
+
 .big img{
 width: 95%;
 padding: 20px;
@@ -139,4 +136,11 @@ background-color: rgba(100,100,100,0.5);
 padding: 0 10px;
 }
 #headerpicture{
-width:1000px;
+width:1000px;}
+.dinessh img{
+    width: 50%;
+    }
+.dinessh p{
+    width: 42%;
+    float: right;
+}    

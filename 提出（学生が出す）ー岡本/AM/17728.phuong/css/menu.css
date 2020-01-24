@@ -1,9 +1,4 @@
-img{
-    width: 300px ;
-    height:300px;
-    border: double 4px palegreen;
-    
-}
+
 body{
     background-color: rgb(241, 150, 193);
     color: rgb(90, 90, 5);
@@ -31,9 +26,8 @@ header{
         padding-top:120px;
         }
     section{
-    display:flex;
-    margin:10px;
-    margin-top:30px;
+    display: flex;
+    margin-top: 50px;
     }
     nav{
         background-color:rgb(7, 50, 53);
@@ -77,19 +71,17 @@ margin-top:0;
     display: flex;
     padding:10px;
 }
-div.bia{
-background-image: url("../image/p9.jpg");
-background-size:400px 450px;
-width:400px;
-height:450px;
-background-repeat: no-repeat;
-padding: 5px 48px;
+div img{
+    width: 300px ;
+    height:300px;
 }
-div.lon{
-    background-image: url("../image/p5.jpg");
-    background-size:400px 450px;
-    width:400px;
-    height:450px;
-    background-repeat: no-repeat;
-    padding: 5px 48px;
-    }
+div.photo{
+    background-color: rgb(211, 221, 175);
+    margin: 10px;
+    padding: 10px;
+}
+.text1{
+    color: rgb(21, 18, 202);
+    margin: 10px;
+    font-size: 20px;
+}

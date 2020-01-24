@@ -1,0 +1,80 @@
+﻿
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>ハロン湾</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<font size="14pt">
+	<script>
+	var pictures = new Array(
+	      "img/1.jpg",
+	      "img/2.jpg",
+	      "img/3.jpg",
+	      "img/4.jpg",
+	      "img/5.jpg",
+	      "img/6.jpg",
+	      "img/7.jpg",
+	      "img/8.jpg",
+	      "img/9.jpg",
+	      "img/10.jpg",
+	);
+	var index = 0;
+        var on = 0;
+        var timer1;
+	function play(){
+	    document.images[5].src=pictures[index];
+	    document.images[5].width=640;
+	    document.images[5].height=480;
+	    index++;
+	    if ( index >= 10 )   index = 0;
+            if(on==1){
+	        timer1 = setTimeout("play()" , 1000);
+            }
+	}
+	function start(){
+            if(on==0){
+                on=1;
+                play();
+            }
+	}
+	function stop(){
+            on=0;
+            clearTimeout(timer1);
+	}
+	function openPic( item ){
+	    document.images[5].src=pictures[ item - 1 ];
+	    document.images[5].width=640;
+	    document.images[5].height=480;
+	}
+	</script>
+</head>
+<body>
+	ベトナムの観光と言えばハロンでございます。
+		<p>ハロン湾-ユネスコは、壮大で鮮やかな創造物で作られた何千もの島々で、世界の自然遺産として繰り返し認識されています。<br>
+		ハロン湾は美しい風景を持っているため、この場所は国内外の観光客にとって非常に魅力的な観光地です。<br>
+		ハロンは、多くの形の石灰岩カルストの形をした澄んだ青い湾の「人里離れた」美しさ、美しい乳石、<br>
+		自然のままのビーチは、常にすべての国内外の観光客を魅了します。
+		</p>
+		<a href="../index.html"<h4>戻る</h4></a><br>
+
+	<table border="1">
+
+	<tr>
+	<td><img src="img/1.jpg" id="picture1" onmouseover="openPic(1)"></td>
+	<td><img src="img/2.jpg" id="picture2" onmouseover="openPic(2)"></td>
+	<td><img src="img/3.jpg" id="picture3" onmouseover="openPic(3)"></td>
+	<td><img src="img/4.jpg" id="picture4" onmouseover="openPic(4)"></td>
+	<td><img src="img/5.jpg" id="picture5" onmouseover="openPic(5)"></td>
+	</tr>
+	<tr>
+	<td colspan="5" class="mainPic"><img class="mainPic"></td>
+	</tr>
+	</table>
+	<button onclick = "start()">
+	再生
+	</button>
+	<button onclick = "stop()">
+	停止
+	</button>
+	
+</html>

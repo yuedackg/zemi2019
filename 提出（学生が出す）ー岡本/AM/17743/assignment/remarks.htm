@@ -3,11 +3,13 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>About Us</title>
     <link rel="stylesheet" href="css/utsav.css">
     <script>
         function myFunction() {
-            document.getElementById("devil").innerHTML = "ありがとうございました。";
+            document.getElementById("devil").innerHTML = "メッセージを確認しました。";
         }
     </script>
 </head>
@@ -43,16 +45,26 @@
                 </li>
             </ul>
         </nav>
+        <form class="example" action="/action_page.php" style="margin:-51px 0 0 760px;max-width:300px">
+            <input type="text" placeholder="Search.." name="search2">
+            <button type="submit"><i class="fa fa-search"></i></button>
+          </form>
     </header>
-    <form class="myform" action="#">
-        姓:<br>
+    <form class="myforms" action="#">
+        姓<span style="color: #000;"> *</span>:<br>
         <input type="text" name="firstname" value="">
         <br><br>
-        名:<br>
+        名<span style="color: #000;"> *</span>:<br>
         <input type="text" name="lastname" value="">
         <br><br>
         <br>
-        <label for="country">Select your Country:</label>
+        <div class="custom-select" style="width:200px; ">
+            Gender: <select>
+                <option value="0">Male</option>
+                <option value="1">Female</option>
+            </select>
+        </div><br>
+        <label for="country">国を選択<span style="color: #000;"> *</span>:</label>
         <select id="country" name="country">
             <option value="australia">Australia</option>
             <option value="canada">Canada</option>
@@ -64,13 +76,34 @@
         <br>
         <textarea placeholder="Write something" style="height: 100px;"></textarea>
         <br><br><br>
-        <button class="ius" type="button" onclick="myFunction()">Submit</button>
+        <div class="form-group">
+            <label>Select a file to upload:</label>
+            <input type="file" name="file">
+
+        </div>
+        <button class="ius" type="button" onclick="myFunction()">Submit</button><br><br>
 
         <p id="devil"></p>
 
 
+
+        <textarea class="stextarea" rows="4" cols="50">
+    とてもいいページでした。山についてよくわかりました。
+ありがとうございます！！
+    </textarea>
+        <textarea class="stextarea" rows="4" cols="50">
+
+    </textarea>
     </form>
-    <footer>&copy; Copyright 2020 Utsav Jung Rana Magar</footer>
+    <footer>
+        <p>Follow us at:<br></p>
+        <ul class="junge">
+        <li><a href="https://www.facebook.com/utsav.rana20" target="_blank"><img src="img/fb.png" alt="facebook"></a></li>
+        <li><a href="https://twitter.com/home" target="_blank"><img src="img/twitter.png" alt="twitter"></a></li>
+        <li><a href="https://www.youtube.com/?gl=JP&hl=ja" target="_blank"><img src="img/youtube.png" alt="youtube"></a></li>
+        </ul>
+        <h5>&copy; Copyright 2020 Utsav Jung Rana Magar</h5>
+    </footer>
 </body>
 
 </html>

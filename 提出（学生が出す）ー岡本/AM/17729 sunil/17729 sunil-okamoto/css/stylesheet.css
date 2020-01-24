@@ -1,0 +1,147 @@
+body{
+max-width: 1024px;
+width: 90%;
+margin: 0 auto;
+background-color: #669999;
+}
+header#header{
+    margin-top: 30px;
+    height: 313px;
+    background-image: url(../img/top-image.png);
+    background-repeat: no-repeat;
+    background-size: 1048px;
+    background-position: 0px -113px;
+}
+
+h1{
+color: rgb(255, 51, 245);
+background-repeat: no-repeat;
+font-family: Lobster;
+font-size: 60px;
+text-align: center;
+margin-top: 0px;
+padding-top: 50px;
+height: 40px;
+}
+#header p.subtitle{
+margin: 10px 20px 30px 40px;
+color: #aaa;
+font-size: 20px;
+text-align: center;
+}
+nav{
+background-color: rgb(206, 209, 13);
+}
+ul{
+text-align: center;
+margin-top: 0;
+padding-left: 16px;
+}
+li{
+font-size: 14px;
+list-style: none;
+margin-right: 30px;
+display: inline-block;
+padding: 10px 0px;
+}
+a{
+color: #ffffff;
+text-decoration: none;
+}
+h2{
+border-left: solid 10px #9900FF;
+border-bottom:  dotted 5px rgb(24, 240, 121) ;
+margin-top: 30px;
+padding: 5px;
+}
+section{
+margin-bottom: 50px;
+position: relative;
+top: 320px;
+}
+
+.about{
+display: flex;
+}
+.about p{
+width: 700px;
+margin: 0px 40px;
+text-align: justify;
+line-height: 25px;
+}
+.about img{
+width: 20%;
+height: 20%;
+min-width: 150px;
+}
+
+.photo p{
+margin-top: 15px;
+margin-left: 30px;
+}
+.photo-box{
+display: flex;
+margin-left: 30px;
+
+}
+.box{
+margin-left: 65px;
+}
+h3{
+
+}
+.big img{
+width: 60%;
+padding: 30px;
+margin-top: 18px;
+background-color: #fff;
+
+}
+.big h3{
+margin-top: 35px;
+}
+.small img{
+width:100%;
+padding: 25px;
+background-color: #0000BF;
+}
+
+.price-table{
+display: flex;
+margin-left: 25px;
+}
+th{
+background-color: #ccc;
+}
+table,th,td{
+border: solid 1px #9900FF;
+border-collapse: collapse;
+padding: 5px 48px;
+}
+.table-right{
+margin-left: 450px;
+margin-top: -142px;
+}
+/* ?@?A?N?Z?X?@*/
+.access{
+display: flex;
+}
+.access p{
+margin-left: 15px;
+margin-top: 0;
+}
+.map-title{
+font-family: Lobster;
+font-size: 32px;
+margin-bottom: 15px;
+}
+.pagetop{
+position: fixed;
+right: 60px;
+bottom: 20px;
+background-color: rgba(100,100,100,0.5);
+padding: 0 10px;
+}
+#headerpicture{
+width:1000px;
+}

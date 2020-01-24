@@ -1,20 +1,19 @@
 body{
-    max-width: 1024px;
+    max-width: 1200px;
     width: 90%;
     margin: 0 auto;
     background-color:rgb(255, 255, 128);
     }
     header{
-        height:350px;
         width:1200px;
-        background-image: url("../anh/anh1.png");
+        height: 350px;
+        background-image: url("../anh/anh1.jpg");
         background-repeat:no-repeat;
         background-size:1200px 350px;
         margin: 0;
     }
-    
     h1{
-    color: white;
+    color: rgb(224, 8, 8);
     font-size: 50px;
     text-align: center;
     margin-top: 30px;
@@ -44,7 +43,7 @@ body{
     margin-top: 15px;
     padding: 5px;
     color: #ffffff;
-    font-size: 21px;
+    font-size: 30px;
     font-weight: normal;
     line-height: 1.0;
     background: #007130;

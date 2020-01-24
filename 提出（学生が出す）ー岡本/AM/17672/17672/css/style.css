@@ -40,6 +40,53 @@ body{
     .img{
         float: left;
     }
-    p{
-
-    }
+    section{
+        margin-bottom: 20px;
+        }
+        .home{
+        display: flex;
+        }
+        .home p{
+            font-size: 20px;
+            width: 690px;
+            margin: 0px 40px;
+            line-height: 25px;
+            color: #000000;
+            letter-spacing: 6px;
+           
+        }
+        
+        .home img{
+        width: 30%;
+        height: 30%;
+        min-width: 100px;
+        background-color: #ffffff;
+        padding: 10px;
+        }
+        .about{
+            display:inline-block;
+            }
+            .about p{
+            width: 690px;
+            margin: 0px 40px;
+            text-align: justify;
+            line-height: 25px;
+            }
+            .about img{
+            width: 50%;
+            height: 50%;
+            min-width: 80px;
+            }
+            .small img{
+                width: 50%;
+                padding: 10px;
+                background-color: #fff;
+                }
+                .imgsezi{
+                    width: 100px;
+                    float: left;
+                }
+                .price-table{
+                display: flex;
+                margin-left: 25px;
+                }

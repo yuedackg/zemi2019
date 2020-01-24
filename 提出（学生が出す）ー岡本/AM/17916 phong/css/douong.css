@@ -1,0 +1,68 @@
+body{
+    max-width:1200px;
+    width: 90%;
+    margin: 0 auto;
+    background-color:rgb(255, 255, 128);
+    }
+    header{
+        width:1200px;
+        height: 350px;
+        background-image: url("../anh/anh1.jpg");
+        background-repeat:no-repeat;
+        background-size:1200px 350px;
+        margin: 0;
+    }
+    h1{
+    color: rgb(224, 8, 8);
+    font-size: 50px;
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 30px;
+    height: 500px;
+    }
+    nav{
+    background-color: rgb(68, 153, 51)
+    }
+    ul{
+    text-align: center;
+    margin-top: 0;
+    padding-left: 16px;
+    }
+    li{
+    font-size: 14px;
+    list-style: none;
+    margin-right: 30px;
+    display: inline-block;
+    padding: 10px 0px;
+    }
+    a{
+    color: #ffffff;
+    text-decoration: none;
+    }
+    h2{
+    margin-top: 15px;
+    padding: 5px;
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: normal;
+    line-height: 1.0;
+    background: #007130;
+    }
+    section{
+    margin-bottom: 20px;
+    width:auto;
+    height: auto;
+    display: flex;
+    }
+    div.photoB{
+    background-color: blanchedalmond;
+    padding: 10px;
+    }
+    div.photoB img{
+    width: 380px;
+    height:300px;
+    }
+    div p{
+        font-family: 'Courier New', Courier, monospace;
+        color: black;
+    }

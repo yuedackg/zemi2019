@@ -4,7 +4,7 @@
     background-color: blanchedalmond;;
 }
 /* 
-header#toppage .title{
+header#toppage pptitle{
 
 */
 header .title{
@@ -20,7 +20,7 @@ header .title p{
 h1{
 	font-size: 50px;
 	height: 34px;
-	margin-top: 0px;
+	margin-top: -40px;
 	width: 1000px;
 	text-align: center;
 }
@@ -52,6 +52,19 @@ nav li a {
 
 .utsav{
     columns: 2;
-    column-gap: 0em;
-    margin: 50px;
+    column-gap:0em;
+	margin: 40px;
+}
+.hello{
+    columns: 2;
+    column-gap:0em;
+	margin: 40px;
+	height: 263px;
+}
+.seeta{
+	margin: 24px 0 0 100px;
+}
+.geeta{
+	margin: 0 90px 0 0px ;
+	float: right;
 }

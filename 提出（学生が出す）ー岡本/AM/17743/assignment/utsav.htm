@@ -3,6 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>NEPAL</title>
     <link rel="stylesheet" href="css/utsav.css">
 </head>
@@ -36,26 +38,137 @@
                 </li>
             </ul>
         </nav>
+        <form class="example" action="/action_page.php" style="margin:-51px 0 0 760px;max-width:300px">
+            <input type="text" placeholder="Search.." name="search2">
+            <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
         <h1>NEPAL<br> Country of mountains</h1>
         <h3>ネパール：山の国</h3>
     </header>
     <h2 class="dinesha">ネパール</h2>
     <div class="nepal">
-        <p>ヒマラヤ山脈の南斜面に沿って横たわっているネパール、アジアの国。インド、東、南、西とチベット自治区の間に位置する内陸国北の中国の地域...その領土は約500マイルに及ぶ<a href="utsav.htm">もっと見る...</a>
+        <p>ヒマラヤ山脈の南斜面に沿って横たわっているネパール、アジアの国。インド、東、南、西とチベット自治区の間に位置する内陸国北の中国の地域...その領土は約500マイルに及ぶ<a
+                href="utsav.htm">もっと見る...</a>
         </p>
         <a href="https://www.youtube.com/watch?v=89s6vHB6_Gw"> <img src="img/nepal.gif" alt="nepal of nepal"> ビデオを見る</a>
 
     </div>
     <h2 class="dinesha">山について</h2>
+
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 10</div>
+            <img src="img/mount-everest.jpg" style="width:100%; height: 350px;" alt="everest">
+            <div class="text">1)マウント　エブレスト(8,848m)</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 10</div>
+            <img src="img/kanchan.jpg" style="width:100%; height: 350px;" alt="kanchanjunga">
+            <div class="text">2)カンチャンジュンガ(8,586m)</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 10</div>
+            <img src="img/Lhotse.jpg" style="width:100% ;height: 350px;" alt="lhotse">
+            <div class="text">3)ローツェ(8,516m)</div>
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">4 / 10</div>
+            <img src="img/Makalu.jpg" style="width:100% ;height: 350px;" alt="makalu">
+            <div class="text">4)マカル(8,463m)</div>
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">5 / 10</div>
+            <img src="img/cho.jpg" style="width:100% ;height: 350px;" alt="cho oyu">
+            <div class="text">5)チョ・オユー(8,201m)</div>
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">6 / 10</div>
+            <img src="img/Dhaulagiri.jpg" style="width:100% ;height: 350px;" alt="dhaulagiri">
+            <div class="text">6)ダウラギリ 1(8,167m)</div>
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">7 / 10</div>
+            <img src="img/manaslu.jpg" style="width:100% ;height: 350px;" alt="manaslu">
+            <div class="text">7)マナスル(8,156m)</div>
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">8 / 10</div>
+            <img src="img/Anna.jpg" style="width:100% ;height: 350px;" alt=" annapurna">
+            <div class="text">8)アンナプルナ 1(8,091m)</div>
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">9 / 10</div>
+            <img src="img/gyachung.jpg" style="width:100% ;height: 350px;" alt="gyachung">
+            <div class="text">9)ギャチュンカン(7,952m)</div>
+        </div>
+        <div class="mySlides fade">
+            <div class="numbertext">10 / 10</div>
+            <img src="img/anna2.jpg" style="width:100% ;height: 350px;" alt="annapurna 2">
+            <div class="text">10)アンナプルナ 2(7,952m)</div>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    </div>
+    <br>
+
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+        <span class="dot" onclick="currentSlide(6)"></span>
+        <span class="dot" onclick="currentSlide(7)"></span>
+        <span class="dot" onclick="currentSlide(8)"></span>
+        <span class="dot" onclick="currentSlide(9)"></span>
+        <span class="dot" onclick="currentSlide(10)"></span>
+    </div>
+
+    <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            if (n > slides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = slides.length }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+        }
+    </script>
+
     <div class="nepal">
-        <p>ヒマラヤ山脈の南斜面に沿って横たわっているネパール、アジアの国。  インドは東、南、西のインドと北の中国のチベット自治区の間に位置する内陸国です。その領土は、東から西に約500マイル（800キロ）、北から南に約90から150マイル延びています。 首都はカトマンズです。<br>
+        <p>ヒマラヤ山脈の南斜面に沿って横たわっているネパール、アジアの国。 
+            インドは東、南、西のインドと北の中国のチベット自治区の間に位置する内陸国です。その領土は、東から西に約500マイル（800キロ）、北から南に約90から150マイル延びています。首都はカトマンズです。<br>
             ネパールには、世界最高峰のヒマラヤ山脈の一部が含まれています...<a href="introduction.htm">もっと見る...</a>
         </p>
         <a href="https://www.youtube.com/watch?v=wZ7aPtfVd0g"> <img src="img/nepal2.jpg" alt="mountain"> ビデオを見る</a>
     </div>
     <h2 class="dinesha">ヒマラヤ（山）</h2>
     <div class="nepal">
-        <p>ネパールは、世界中のヒマラヤの土地として知られています。 6000メートル以上に1,310のピークがあり、そのうち238はすでに登山用に開かれています。同様に、世界最高峰であるエベレスト山を含む8つのピークの上の8000メートルの高さの14メートルのうち、ネパールにあります...<a href="mountains.htm">もっと見る...</a>
+        <p>ネパールは、世界中のヒマラヤの土地として知られています。6000メートル以上に1,310のピークがあり、そのうち238はすでに登山用に開かれています。同様に、世界最高峰であるエベレスト山を含む8つのピークの上の8000メートルの高さの14メートルのうち、ネパールにあります...<a
+                href="mountains.htm">もっと見る...</a>
         </p>
         <img src="img/utsavrana.jpg" alt="moutnain" height="350">
     </div>
@@ -70,7 +183,16 @@
         </p>
     </div>
 
-    <footer>&copy; Copyright 2020 Utsav Jung Rana Magar</footer>
+
+    <footer>
+        <p>Follow us at:<br></p>
+        <ul class="junge">
+        <li><a href="https://www.facebook.com/utsav.rana20" target="_blank"><img src="img/fb.png" alt="facebook"></a></li>
+        <li><a href="https://twitter.com/home" target="_blank"><img src="img/twitter.png" alt="twitter"></a></li>
+        <li><a href="https://www.youtube.com/?gl=JP&hl=ja" target="_blank"><img src="img/youtube.png" alt="youtube"></a></li>
+        </ul>
+        <h5>&copy; Copyright 2020 Utsav Jung Rana Magar</h5>
+    </footer>
 </body>
 
 </html>

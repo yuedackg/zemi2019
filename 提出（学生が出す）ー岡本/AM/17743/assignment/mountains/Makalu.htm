@@ -3,6 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Makalu</title>
     <link rel="stylesheet" href="../css/utsav.css">
 </head>
@@ -38,10 +40,35 @@
                 </li>
             </ul>
         </nav>
+        <form class="example" action="/action_page.php" style="margin:-51px 0 0 760px;max-width:300px">
+            <input type="text" placeholder="Search.." name="search2">
+            <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
     </header>
     <h2 class="dinesh">マカル(Makalu)</h2>
-    <div class="king">
-        <img src="../img/makalu.jpg" alt="mount makalu">
+    <div class="queen">
+        <img id="myImg" src="../img/makalu.jpg" alt="Makalu Snow" style="width:100%;max-width:300px">
+        <div id="myModal" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" src="../img/makalu.jpg" id="img01" alt="manaslu" height="450" width="700">
+            <div id="caption"></div>
+        </div>
+
+        <script>
+            var modal = document.getElementById("myModal");
+            var img = document.getElementById("myImg");
+            var modalImg = document.getElementById("img01");
+            var captionText = document.getElementById("caption");
+            img.onclick = function () {
+                modal.style.display = "block";
+                modalImg.src = this.src;
+                captionText.innerHTML = this.alt;
+            }
+            var span = document.getElementsByClassName("close")[0];
+            span.onclick = function () {
+                modal.style.display = "none";
+            }
+        </script>
         <p class="anu">
             マカルは、8,485メートル（27,838フィート）の世界で5番目に高い山です。 エベレストの南東19 km（12マイル）のマハラングールヒマラヤにあります。
             、ネパールとチベット自治区の国境、中国。 8千の山の1つであるマカルーは、形状が四角錐である孤立したピークです。 </p>
@@ -52,7 +79,15 @@
         広い高原を横切り、7,200 mの狭いサドルでカンチュンツェに接続しているのは、チョモロンゾ（7,804 m）です。
         <a href="https://en.wikipedia.org/wiki/Makalu">もっと見る。。。</a>
     </p>
-    <footer>&copy; Copyright 2020 Utsav Jung Rana Magar</footer>
+    <footer>
+        Follow us at:<br>
+        <ul class="junge">
+                <li><a href="https://www.facebook.com/utsav.rana20" target="_blank"><img src="../img/fb.png" alt="facebook"></a></li>
+                <li><a href="https://twitter.com/home" target="_blank"><img src="../img/twitter.png" alt="twitter"></a></li>
+                <li><a href="https://www.youtube.com/?gl=JP&hl=ja" target="_blank"><img src="../img/youtube.png" alt="youtube"></a></li>
+        </ul>
+        <h5>&copy; Copyright 2020 Utsav Jung Rana Magar</h5>
+    </footer> 
 </body>
 
 </html>

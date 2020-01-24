@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charaset="UTF-8">
+<title>CKG</title>
+<link rel="stylesheet" href="style.css">
+<style>
+body{
+max-width:1200px;
+width:90%;
+margin: 0 auto;
+background-color: rgb(240, 223, 199);
+}
+header{
+height:200px;
+width: 100%;
+background-image: url('s0.jpg');
+background-repeat:no-repeat;
+background-size: 100% 100%;
+margin: 0;
+text-align: center;
+padding-top:150px;
+}
+h1{
+	color: rgb(226, 43, 104);
+}
+td{
+	padding:20px;
+}
+div{	
+	background-size:450px 450px;
+	width:350px;
+	height:350px;
+}
+.div1{
+	background-image:url('ram.JPG');
+	border-radius:50%;
+	background-size: 350px 350px;
+	background-position: bottom;
+	border-color:#fff;
+}
+.div2{
+	background-image:url('ramuji.JPG');
+	border-radius:50%;
+	background-position:center;
+	background-size: 350px 350px;
+	border-color:#fff;
+	filter: contrast(1.8) brightness(1.5) grayscale(1);
+	z-index: 3;
+	mix-blend-mode: hard-light;
+	box-shadow: 0 0 500px rgba(0,0,0,0,6) inset;
+}
+.div3{
+	background-image: url('ramuji.JPG');
+	border-radius:50% ;
+	background-position:center;
+	background-size: 350px 350px;
+	animation:blinker 5s linear infinite;
+}
+@keyframes blinker{
+	50%{
+		opacity: 0;
+	}
+}
+</style>
+</head>
+<body>
+<header>
+<h1>卒業アルバムの写真</h1>
+</header>
+	<center><h2>コンピューター教育学院ビジネスカレッジ</h2></center>
+	<table>
+		<tr>
+			<td><div class="div1"></div></td>
+			<td><div class="div2"></div></td>
+			<td><div class="div3"></div></td>
+		</tr>
+	</table>
+	<center><h2>406AMの卒業アルバム</h2></center>
+</body>
+</html>

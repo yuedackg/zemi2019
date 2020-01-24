@@ -1,0 +1,4 @@
+[0116/103559.777:ERROR:process_reader_win.cc(151)] SuspendThread: アクセスが拒否されました。 (0x5)
+[0116/103559.788:ERROR:process_reader_win.cc(123)] NtOpenThread: 無効なクライアント ID を指定しました。 (0xc000000b)
+[0116/103559.816:ERROR:exception_snapshot_win.cc(98)] thread ID 14428 not found in process
+[0116/103559.817:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: 既存のプロセスにアクセスしようとしました。 (0xc000010a)

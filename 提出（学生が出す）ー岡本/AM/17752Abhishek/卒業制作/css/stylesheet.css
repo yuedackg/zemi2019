@@ -12,7 +12,7 @@ background-repeat: no-repeat;
 background-size: 1024px;
 }
 h1{
-color: #3399FF;
+color: rgb(255, 51, 245);
 background-repeat: no-repeat;
 font-family: Lobster;
 font-size: 60px;
@@ -28,7 +28,7 @@ font-size: 20px;
 text-align: center;
 }
 nav{
-background-color: cornflowerblue;
+background-color: rgb(206, 209, 13);
 }
 ul{
 text-align: center;
@@ -141,3 +141,8 @@ padding: 0 10px;
 #headerpicture{
 width:1000px;
 }
+.menu{
+    display:none;
+
+}
+

@@ -4,10 +4,28 @@
 		<meta charset="UTF-8">
 		<title>tharu culture</title>
 		<link rel="stylesheet" href="css/stylesheet.css">
+		<script>
+			function showimages() {
+				let item = document.getElementById("images");
+				item.style.display = "block";
+	
+			}
+			function closeimages(){
+				let item = document.getElementById("images");
+				item.style.display = "none";
+	
+			}
+		</script>
+		<style>
+			.sectionList {
+				display: none;
+	
+			}
+		</style>
 	</head>
 	<body>
 		<header id="header">
-			<h1>tharu food</h1>
+			<h1>tharu-food</h1>
 			<nav>
 				<ul>
 					<li><a href="toppage.html">top page</a></li>
@@ -18,36 +36,39 @@
 			</nav>
 		</header>
 		<section class="about">
-			<p>Tharu are the ethnic indigenous communities from southern foothills and inner Terai of Nepal. They have very rich and diverse food culture. The food culture and cuisine vary according to the regions they live. The food culture is largely characterized by the fertile flooded plains, forests, and environment they live in. Rice is the major staple, and a variety of sticky rice (eanadi rice)locally known as andik is traditionally grown by the Tharu communities. Fishes, crabs, snails, mussels etc. from the rivers and water bodies are central to the Tharu food culture. They also have this particular culture of eating mouse that lives eating rice in paddy fields etc. Other sources of meats are pig, wild boar, chicken, wild rabbit, pigeon meat etc. Taro (including steam and leaves, yam, varieties of legumes, wild mushrooms, and other wild vegetables, and varieties of greens are the widely eaten.
-
-Maghi is the biggest festival of Tharu communities and also regarded as the New Year. The festival is celebrated by eating varieties of delicacies such as dhikri (eaten by western Tharu communities), bagiya (eaten by eastern Tharu communities), chichar, teel ko laddu, ghonghi, pork, bariya, aairkanchan, tele paur roti etc. A special delicacy is also prepared by cooking sesame seed and local aromatic variety of rice together. These pictures were taken during the Maghi festival in Kathmandu.</section>
+			<p>
+				タ―ルは、ネパール南部の山と内側のテライに住む先住民族のコミュニティです。彼らは非常に豊かで多様な食文化を持っています。食文化は主に彼らが住んでいる肥沃なenvironment濫原、森林、環境によって特徴付けられます。米は主要な主食であり、地元ではandikとして知られている様々なもち米（アナダイ米） タールコミュニティによって伝統的に栽培されています。川や水域からの魚、カニ、カタツムリ、ムール貝などは、タールの食文化の中心です。肉の源は、豚、イノシシ、鶏、野生のウサギ、ハトの肉などです。 、マメ科植物、野生キノコ、およびその他の野生野菜の品種、および緑の品種が広く食べられています。
+				マーギはタールコミュニティの最大の祭りであり、新年とも見なされます。祭りは、ディークリー（西部のクールコミュニティで食べられる）、バギヤ（東部のクールコミュニティで食べられる）、チチャール、ティールコラドゥ、ゴンヒ、ポーク、バリヤ、エアカンチャン、テレパウルロティなどのさまざまな珍味を食べることで祝われます。
+</section>
 
 		<h2 id="photo"></h2>
-		<table>
-			<tr>
-				<td>
-					<img src="img/ghonghi.jpg" width="350px" height="400px">
-				</td>
-				<td>
-					<img src="img/nagarroti.jpg" width="350px" height="400px">
-				</td>
-				<td>
-					<img src="img/chichar.jpg" width="350px" height="400px">
-				</td>
-			</tr>
-			<tr>
-				<td><p>ghonghi</p></td>
-				<td><p>nagarroti</p></td>
-				<td><p>chichar</p></td>
-			</tr>
-			<tr>
-			</tr>
-			<tr>
-			</tr>
-			<tr>
-			</tr>
-		</table>
-
+		<h3 onclick="showimages()">
+		show images
+		</h3>
+		<section id="images" class="sectionList">
+			<table>
+				<tr>
+					<td>
+						<img src="img/ghonghi.jpg" width="350" height="400" alt="dharma">
+					</td>
+					<td>
+						<img src="img/nagarroti.jpg" width="350" height="400" alt="rima">
+					</td>
+					<td>
+						<img src="img/chichar.jpg" width="350" height="400" alt="aarav">
+					</td>
+				</tr>
+				<tr>
+					<td><p>グンギ</p></td>
+					<td><p>ナガルロチ</p></td>
+					<td><p>チタル</p></td>
+				
+			</table>
+	
+			<br>
+			<div onclick="closeimages()">closeimages</div>
+		</section>
+		
 		<p class="pagetop">
 			<a href="#header">PAGE TOP</a>
 		</p>

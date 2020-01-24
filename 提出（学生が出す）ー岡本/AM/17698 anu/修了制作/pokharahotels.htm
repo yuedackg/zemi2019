@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<link rel="stylesheet" href="anu.css">
+	</head>
+	<script>
+		function showShortDetail() {
+			let item = document.getElementById("ShortDetail");
+			item.style.display = "block";
+
+		}
+		function closeShortDetail() {
+			let item = document.getElementById("ShortDetail");
+			item.style.display = "none";
+
+		}
+
+	</script>
+	<style>
+		.sectionList {
+			display: block;
+		}
+	</style>
+</head>
+
+
+<body>
+	<header id="header"></header>
+	<h1>ホテル　バラヒ</h1>
+
+	<ul>
+		<li><a href="Pokharalakes.html">Pokhara lakes</a></li>
+		<li><a href="whitepeacestupa.html"> white peace stupa </a></li>
+		<li><a href="pokharahotels.htm">pokhara hotels </a></li>
+		<li><a href="map.html"> pokhara map</a></li>
+	</ul>
+	<p>様々な国の料理があったり毎日ネパールの文化を表すダンスやトラマが見える
+		から夜このホテルでは楽しいです。
+		ホテルの受付で聞くといろいろサビスがあります。いろいろトラベルするところや
+		ついていくガイドや乗り物を色々紹介してくれる人もいます。住みやすいしそんなに高くないので止まって見たほうが
+	いいと思います。</p>
+		<div class="baramu">
+	<h1 onclick="showShortDetail()">
+		short menu
+	</h1>
+	<section id="ShortDetail" class="sectionList">
+		<h2>short detail</h2>
+		<table class="table-left">
+			<tr>
+				<th>short detail</th>
+				<th>ホテルバラヒ</th>
+			</tr>
+			<tr>
+				<td>一泊とまる</td>
+				<td>3000\\</td>
+			<tr>
+				<td>日本料理</td>
+				<td>2000\\</td>
+			</tr>
+			<tr>
+				<td>ラメん</td>
+				<td>500\\</td>
+			</tr>
+			<tr>
+				<td>天ぷらセット</td>
+				<td>500\\</td>
+			</tr>
+			<tr>
+				<td>生ビール</td>
+				<td>500\\</td>
+			</tr>
+			<tr>
+				<td>サラダセット</td>
+				<td>500\\</td>
+			</tr>
+		</table>
+
+
+
+		<div onclick="closeShortDetail()">hide</div>
+	</section>
+
+	<div class="anu">
+		<div class="shruti">
+			<img src="images/barahi.jpg">
+			<img src="images/barahi2.jpg">
+			<img src="images/barahi3.jpg">
+			<img src="../images/dance.jpg">
+
+			<p class="lamichane">ポカラでは様々な国から観光客を来られます。住みやすい
+				ホテルもたくさんあります。
+				ホテルバラヒはペワレックから歩いて2分ぐらいかかります
+				ので夜になった出かけてレクサイドの景色を見ることができ楽しめます。スタッフメンバーもたくさんいるのでサービスも早くもらえます
+			スイミングプールもありますのでいつでもスイミングできます。子供のために小さいプールもあります。</p>
+
+			<p class="pagetop">
+				<a href="#header">PAGE TOP</a>
+</body>
+
+</html>

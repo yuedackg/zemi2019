@@ -11,6 +11,15 @@ width:1100px;
 height:500px;
 background-repeat: no-repeat;
 }
+/*　header-food　*/
+header#header-food{
+    height: 233px;
+    width: 500px;
+    background-image: url("../img/nepalikitchen.png");
+    background-size: 500px;
+    background-repeat: no-repeat;
+
+}
 h1{
 color: rgb(248, 169, 10);
 background-image: url("../img/.jpg");

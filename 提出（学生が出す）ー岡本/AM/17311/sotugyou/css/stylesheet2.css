@@ -1,11 +1,12 @@
 body{
+    color:rgb(36, 243, 198);
 max-width: 1024px;
 width: 90%;
 margin: 0 auto;
 background-color:rgba(0, 0, 0, 0.76);
 }
 header{
-height: 300px;
+height: 233px;
 background-image: url("img/vnepal.jpg");
 width:1100px;
 height:400px;

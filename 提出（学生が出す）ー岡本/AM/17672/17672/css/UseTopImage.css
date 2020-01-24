@@ -1,7 +1,7 @@
 header{
    
 }
-#abc{
+.abc{
     display: flex;
     
 }
@@ -12,3 +12,7 @@ img{
     display: inline-block;
 
 }
+.photo1{
+    display: flex;
+    margin-left: 505px;
+    }

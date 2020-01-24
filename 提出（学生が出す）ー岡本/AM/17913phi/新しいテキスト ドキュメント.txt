@@ -1,0 +1,39 @@
+<section class="photo">
+				<div class="box">
+					<div class="small">
+						<img src="anh/12.jpg">
+						<h3>Espressoコーヒー</h3>
+					</div>
+					<div class="small">
+						<img src="anh/13.jpg">
+						<h3>Latte Macchiatoコーヒー</h3>
+					</div>
+					<div class="small">
+						<img src="anh/14.jpg">
+						<h3>Cappuccinoコーヒー</h3>
+					</div>
+					<div class="small">
+						<img src="anh/15.jpg">
+						<h3>Cafe Latteコーヒ</h3>
+					</div>
+					<div class="small">
+						<img src="anh/16.jpg">
+						<h3>Cafe Mochaコーヒ</h3>
+					</div>
+					<div class="small">
+						<img src="anh/17.jpg">
+						<h3>Americanoコーヒ</h3>
+					</div>
+					<div class="small">
+						<img src="anh/18.jpg">
+						<h3>Espresso Con Pannaコーヒ</h3>
+					</div>
+					<div class="small">
+						<img src="anh/19.jpg">
+						<h3>Cappuccino Viennese?コーヒ</h3>
+					</div>
+				</div>
+			</div>
+		
+		
+		</section>

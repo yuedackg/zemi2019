@@ -1,40 +1,64 @@
 <!DOCTYPE html>
-<html>
+<html lang="ja">
 
 <head>
 	<meta charset="UTF-8">
 	<title>NEPAL</title>
-	<link rel="stylesheet" href="css/sam.css">
+	<link rel="stylesheet" href="css/stylesheet.css">
+
 </head>
+
+
 <body>
-	<header id="head">
+	<script>
+		function showShortDetail() {
+			let item = document.getElementById("ShortDetail");
+			item.style.display = "block";
+	
+		}
+		function closeShortDetail() {
+			let item = document.getElementById("ShortDetail");
+			item.style.display = "none";
+	
+		}
+	
+	</script>
+
+	<header id="header">
 		<h1>ネパールを訪問２０２０(visit nepal 2020)</h1>
 	</header>
-		<nav>
-			<ul>
-				
-						<li><a href="nepal.html">nepal</a></li>
-						<li><a href="aboutnepal.html">ネパールについて</a></li>
-						<li><a href="festival.html">お祭り</a></li>
-						<li><a href="adventure.html">ぼうけん(adventure)</a></li>
-						<li><a href="good place of nepal.html">ネパールの良い場所</a></li>
-						<li><a href="tracking.html">トレッキング</a></li>
-			</ul>
-		</nav>	
-        <section class="about">
-            <div class="BIG">
-            <img src="img/nepal.png" alt="1">
-            </div>
-            <p>
-                ネパールはインドと中国の間にいちし、<br>
-              じいんの他、エベレストがあるヒマラヤ山で知られてるとブッだ神様が生まれ国です。<br>
-              しゅとカトマンズにあるめいろのようなきゅうしがいには、<br>
-               ヒンドゥー教とブッキョウがのかず多くあります。<br>
-               それとキリスト教とイスラム教と他の教もあります。<br>
-  
-              </p>
-        </section>
-    </ul>
+	<nav>
+		<ul>
+
+			<li><a href="nepal.html">ネパール</a></li>
+			<li><a href="aboutnepal.html">ネパールについて</a></li>
+			<li><a href="festival.html">お祭り</a></li>
+			<li><a href="goodplaceofnepal.html">ネパールの良い場所</a></li>
+			<li><a href="tracking.html">トレッキング</a></li>
+		</ul>
+	</nav>
+	<img src="img/nepal.png" alt="festival" >
+	<h1 onclick="showShortDetail()">
+		ネパールについて
+	</h1>
+	<section id="ShortDetail" class="sectionList">
+		<h2>ネパール</h2>
+
+	<p>
+		ネパールはインドと中国の間に位置し、<br>
+		じいんの他、エベレストがあるヒマラヤ山で知られてるとブッダ神様が生まれ国です。<br>
+		首都カトマンズにあるめいろのようなきゅうしがいには、<br>
+		ヒンドゥー教と仏教がのかず多くあります。<br>
+
+
+	</p>
+	<div onclick="closeShortDetail()">hide</div>
+</section>
+<p class="pagetop">
+	<a href="#header">PAGE TOP</a>
+</p>
+
+	
 </body>
 
 </html>

@@ -5,24 +5,16 @@ margin: 0 auto;
 background-color:rgba(10, 240, 221, 0.445);
 }
 header{
-width:  1000px;
-
-
-background-repeat: no-repeat;
-background: 200%;
+background-image: url("../anh/anh2.png");
+background-size: 1024px 350px;
+height:350px;
+width: 1024px;
 }
-h1{
-color: rgb(214, 122, 127);
-background-image: url("anh/anh2.png");
-background-repeat: no-repeat;
-background-position: 50% 73%;
-font-family: Lobster;
-font-size: 50px;
-text-align: enter;
-margin-top: 200px;
-padding-top: 200px;
-height: 500px;
-}
+header img{
+	padding-left:20px;
+	padding-top:165px ;
+
+} 
 nav{
 background-color: rgb(68, 153, 51)
 }
@@ -50,57 +42,37 @@ font-size: 21px;
 font-weight: normal;
 text-align: center;
 background: #c4c111;
-width: 990px;
+width: 1015px;
 }
-section{
-margin-bottom: 20px;
+.abc{
+	display: flex;
 }
-.home{
-display: flex;
+.abc p{
+	margin-top: 0;
+	margin-bottom: 0;
 }
-.home p{
-	font-size: 20px;
-	width: 690px;
-	margin: 0px 40px;
-	line-height: 25px;
-    color: #000000;
-    letter-spacing: 6px;
-   
+.abc1{
+	width: 61%;
+	height: 289px;
+	margin-left: 15px;
 }
-
-.home img{
-width: 30%;
-height: 30%;
-min-width: 100px;
-background-color: #ffffff;
-padding: 10px;
+.item1{
+	width: 35%;
 }
-.about{
-display:inline-block;
+.box{
+background-color:antiquewhite;
+height: 390px;
 }
-.about p{
-width: 690px;
-margin: 0px 40px;
-text-align: justify;
-line-height: 25px;
+.item{
+	width: 493px;
+    height: 275px;
 }
-.about img{
-width: 50%;
-height: 50%;
-min-width: 80px;
+.box1{
+	display: flex;
 }
-
-.photo p{
-margin-top: 15px;
-margin-left: 30px;
-}
-.photo-box{
-display: inline-block;
-margin-left: 100px;
-}
-
-display: flex;
-flex-wrap: wrap;
+.item2{
+	width: 326px;
+    height: 253px;
 }
 .img{
 	display: inline-block;
@@ -116,48 +88,47 @@ padding: 30px;
 }
 .big3{
 margin-top: 10px;
-text-align: center;
-}
-.small img{
-width: 50%;
-padding: 10px;
-background-color: #fff;
-}
-.imgsezi{
-	width: 100px;
-	float: left;
-}
-.price-table{
 display: flex;
-margin-left: 25px;
 }
-th{
-background-color: #ccc;
+.photo-box img{
+	width: 100%;
+    height: 300px;
 }
-table,th,td{
-border: solid 1px #666;
-border-collapse: collapse;
-padding: 5px 48px;
+.big3 iframe{
+	width: 434px;
+	height: 200px;
 }
-.table-right{
-background-color: #fff;
-margin-left: 30px;
-margin-top:0;
+.big3 table th{
+	text-align: -webkit-auto;
+	width: 85px;
+	font-size: 20px;
 }
-.table-left{
-background-color: #fff;
-margin-left: 30px;
-margin-top:0;
+.big3 table td{
+	font-size: 20px;
 }
-.photo1{
-display: flex;
+.anh1{
+	display: flex;
+	margin-top: 25px;
+}
+.anh1 img{
+	font-size: 90%;
+	line-height: 1.6;
+	background-color:white;
+	padding: 10px;
+	width: 282px;
+	height: 235px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.big2{
+	display: flex;
 }
 .big2 img{
 	width: 328px;
     height: 200px;
 }
-table,tr,td{
-border: none
+.big2 p{
+	margin-left: 20px;
 }
 /* 地図*/
 .access{

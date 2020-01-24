@@ -7,12 +7,26 @@
 <link rel="stylesheet" href="css/stylesheet.css">
 <link href="css/reset.css" rel="stylesheet" type="text/css">
 <link href="css/sp-menu.css" rel="stylesheet" type="text/css">
+   <script>
+        function showimage() {
+            let item = document.getElementById("image");
+            item.style.display = "block";
 
+        }
+        function closeimage(){
+            let item = document.getElementById("image");
+            item.style.display = "none";
+
+        }
+    </script>
+     <style>
+        .sectionList {
+            display: none;
+
+        }
+    </style>
 </head>
-<body>
-	<header>
-	
-			<div class="wrapper">
+<body>	
 			<header id="krishna">
 				<div class="title">
 					<h1 id="subtitle">shree krishna</h1>
@@ -24,46 +38,45 @@
 				<div id="sp-icon" class="sp-close"><span></span>
 				</div>
 				<ul id="menu">
-					<li><a href="TOP PAGE.htm">　home　</a></li>
-					<li><a href="shree krishnaについて.htm">shree krishnaについて　</a></li>
+					<li><a href="TOPPAGE.htm">　home　</a></li>
+					<li><a href="shreekrishnaについて.htm">shree krishnaについて　</a></li>
 					<li><a href="すべてのアイテムの写真.htm"> 　すべてのアイテムの写真 </a></li>
 					<li><a href="商品メニュー.htm">　商品メニュー　</a></li>
 					<li><a href="ドリンクメニュー.htm">　ドリンクメニュー　</a></li>
 					<li><a href="アドレス.htm">　アドレス　</a></li>
 					
 				</ul>
+				<h1 onclick="showimage()">
+					showimage
+				</h1>
+				<section id="image" class="sectionList">
+					<h2>image</h2>
+					<img src="image/image4.jpg" alt="festival" >
+				
+					<br>
+					<div onclick="closeimage()">hide</div>
+				</section>
+
 				<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
 				<script src="js/sp-menu.js"></script>
 			</header>
-
-		<img src="image/image2.jpg" alt="" / id="menu-photo">
-		<img src="image/image3.jpg" alt="" / id="menu-photo">
-		<img src="image/image4.jpg" alt="" / id="menu-photo">
-		<img src="image/image5.jpg" alt="" / id="menu-photo">
-		<img src="image/image6.jpg" alt="" / id="menu-photo">
-		<img src="image/image7.jpg" alt="" / id="menu-photo">
-		<img src="image/image8.jpg" alt="" / id="menu-photo">
-		<img src="image/image9.jpg" alt="" / id="menu-photo">
-		<img src="image/image10.jpg" alt="" / id="menu-photo">
-		<img src="image/image11.jpg" alt="" / id="menu-photo">
-		<img src="image/image12.jpg" alt="" / id="menu-photo">
-		<img src="image/image13.jpg" alt="" / id="menu-photo">
-		<img src="image/image15.jpg" alt="" / id="menu-photo">
-		<img src="image/image16.jpg" alt="" / id="menu-photo">
-		<img src="image/image17.jpg" alt="" / id="menu-photo">
-		<img src="image/image18.jpg" alt="" / id="menu-photo">
-		<img src="image/image19.jpg" alt="" / id="menu-photo">
-		<img src="image/image20.jpg" alt="" / id="menu-photo">
-		<img src="image/image21.jpg" alt="" / id="menu-photo">
-		<img src="image/image22.jpg" alt="" / id="menu-photo">
+			<img src="image/image2.jpg" alt="" title="ディドセット" class="menu-photo">
+			<img src="image/image3.jpg" alt="" title="スプーモモ" class="menu-photo">
+			<img src="image/image4.jpg" alt=""  title="セルロティセット" class="menu-photo">
+			<img src="image/image5.jpg" alt=""  title="ダカリセット" class="menu-photo">
+			<img src="image/image6.jpg" alt=""  title="スクティ" class="menu-photo">
+			<img src="image/image7.jpg" alt=""  title="チャトパテイ" class="menu-photo">
+			<img src="image/image8.jpg" alt=""  title="フライライス"  class="menu-photo">
+			<img src="image/image9.jpg" alt=""  title="セクワ"  class="menu-photo">
+			<img src="image/image10.jpg" alt="" title="パカウだ" class="menu-photo">
+			<img src="image/image11.jpg" alt="" title="アルサデコ" class="menu-photo">
+			<img src="image/image12.jpg" alt="" title="カザセット"  class="menu-photo">
+			<img src="image/image13.jpg" alt=""  title="THUPPA"  class="menu-photo"> 
+	
 <p>DISCLAMER:menu item images are only for display,actual menu item may differ visually-copyright@2019 all rights reserved
 </p>
 <p class="pagetop">
-<a href=""shree krishnaについて.htm">TOP PAGE </a></p>
-
-
-
-<footer>17511 sharma krishna ; SHREE KRISHNA NEPALI & INDIAN CURRY HOUSE</footer>
-</section>
+<a href="shreekrishnaについて.htm">TOP PAGE </a></p>
+	<footer>17511 sharma krishna ; SHREE KRISHNA NEPALI & INDIAN CURRY HOUSE</footer>
 </body>
 </html>

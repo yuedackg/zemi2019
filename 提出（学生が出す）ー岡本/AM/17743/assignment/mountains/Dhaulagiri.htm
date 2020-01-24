@@ -3,6 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Dhaulagiri</title>
     <link rel="stylesheet" href="../css/utsav.css">
 </head>
@@ -38,10 +40,36 @@
                 </li>
             </ul>
         </nav>
+        <form class="example" action="/action_page.php" style="margin:-51px 0 0 760px;max-width:300px">
+            <input type="text" placeholder="Search.." name="search2">
+            <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
     </header>
     <h2 class="dinesh">ダウラギリ 1(Dhaulagiri)</h2>
-    <div class="king">
-        <img src="../img/dhaulagiri.jpg" alt="mount dhaulagiri">
+    <div class="queen">
+        <img id="myImg" src="../img/dhaulagiri.jpg" alt="dhaulagiri Snow" style="width:100%;max-width:300px">
+        <div id="myModal" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" src="../img/dhaulagiri.jpg" id="img01" alt="dhaulagiri" height="450" width="700">
+            <div id="caption"></div>
+        </div>
+
+        <script>
+            var modal = document.getElementById("myModal");
+            var img = document.getElementById("myImg");
+            var modalImg = document.getElementById("img01");
+            var captionText = document.getElementById("caption");
+            img.onclick = function () {
+                modal.style.display = "block";
+                modalImg.src = this.src;
+                captionText.innerHTML = this.alt;
+            }
+            var span = document.getElementsByClassName("close")[0];
+            span.onclick = function () {
+                modal.style.display = "none";
+            }
+        </script>
+
         <p class="anu">
             ネパールのダウラギリ山塊は、カリガンダキ川の西からベリまで120 km（70マイル）延びています。
             この山塊は、北と南西がベリ川の支流によって、南東がミャグディコラによって境界付けられています。<br>ダウラギリIは、8,167メートル（26,795フィート）の世界で7番目に高い山です。
@@ -56,7 +84,15 @@
         7 [要出典]ポカラの町はアンナプルナスの南にあり、重要な地域の中心地であり、両方の範囲を訪れる登山家や登山家の玄関口でもあります。
         それ自体が観光地として....<a href="https://en.wikipedia.org/wiki/Dhaulagiri">もっと見る。。。</a>
     </p>
-    <footer>&copy; Copyright 2020 Utsav Jung Rana Magar</footer>
+    <footer>
+        Follow us at:<br>
+        <ul class="junge">
+                <li><a href="https://www.facebook.com/utsav.rana20" target="_blank"><img src="../img/fb.png" alt="facebook"></a></li>
+                <li><a href="https://twitter.com/home" target="_blank"><img src="../img/twitter.png" alt="twitter"></a></li>
+                <li><a href="https://www.youtube.com/?gl=JP&hl=ja" target="_blank"><img src="../img/youtube.png" alt="youtube"></a></li>
+        </ul>
+        <h5>&copy; Copyright 2020 Utsav Jung Rana Magar</h5>
+    </footer> 
 </body>
 
 </html>

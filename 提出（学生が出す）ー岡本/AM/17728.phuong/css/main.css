@@ -1,12 +1,6 @@
-img{
-    width: 300px ;
-    height:300px;
-    border: double 4px palegreen;
-    
-}
+
 body{
     background-color: blue;
-    color: yellow;
     max-width: 1200px;
     width:90%;
     margin: 0 auto;
@@ -32,8 +26,6 @@ header{
         }
     section{
     display:flex;
-    margin: 20px;
-    margin-top:30px;
     }
     nav{
         background-color:rgb(7, 50, 53);
@@ -56,17 +48,23 @@ header{
     display: block;
     padding: 14px 16px;
     }
-table,th,td
-{
-border: solid 1px #666;
-border-collapse: collapse;
-padding: 5px 48px;
+div img{
+    padding-left:35px;
+    width: 300px ;
+    height:300px;
 }
-.table-right{
-margin-left: 30px;
-margin-top:0;
+div.photo{
+    background-color: rgb(211, 221, 175);
+    margin: 10px;
+    padding: 10px;
 }
-.table-left{
-margin-left: 30px;
-margin-top:0;
+.text1{
+    color: rgb(21, 18, 202);
+    margin: 10px;
+    font-size: 20px;
+}
+.text2{
+    color: rgb(21, 18, 202);
+    margin: 10px;
+    font-size:15px;
 }

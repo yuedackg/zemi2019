@@ -6,25 +6,48 @@
 		<title>Himalayan</title>
 		<link rel="stylesheet" href="css/stylesheet.css">
 		<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+		<script>
+				function showimage() {
+					let item = document.getElementById("image");
+					item.style.display = "block";
+		
+				}
+				function closeimage(){
+					let item = document.getElementById("image");
+					item.style.display = "none";
+		
+				}
+			</script>
+			 <style>
+				.sectionList {
+					display: none;
+		
+				}
+			</style>
 	</head>
 	<body>
 		<header id="header">
-			<img id="headerpicture" src="img/himalayan.jpg">
+			<img id="headerpicture" src="img/himalayan.jpg" alt="ram">
 		</header>
 		<nav>
 			<ul>
+				
 				<li><a href="original.html">About himalayan</a></li>
-				<li><a href="#photo">Famous dish</a></li>
-				<li><a href="#price">Menu</a></li>
-				<li><a href="#access">Map</a></li>
+				<li><a href="famousdish.html">Famous dish</a></li>
+				<li><a href="menu.html">Menu</a></li>
+				<li><a href="access.html">Map</a></li>
 			</ul>
 		</nav>
-
-
-		<section>
-		</div>
-	</section>
-		<section>
+		<h1 onclick="showimage()">
+				showimage
+			</h1>
+			<section id="image" class="sectionList">
+				<h2>image</h2>
+				<img src="img/sukuti.jpg" alt="festival" >
+				<br>
+				<div onclick="closeimage()">hide</div>
+			</section>
+	
 		<div class="famous dish">
 	
 				
@@ -35,14 +58,16 @@
 					<img src="img/khaja.jpg" alt="" />
 					<img src="img/dinner.png" alt="" />
 					<img src="img/sekuwa.jpg" alt="" />
+		</div>
 					
 		
-	</section>
-	<img src="img/khukuri rum.jpg" alt="" />
+	
+	<img src="img/khukurirum.jpg" alt="ramu" />
 	<img src="img/raksi.jpg" alt="" />
 	<img src="img/raksi1.jpg" alt="" />
 	<img src="img/od.jpg" alt="" />
 		<p class="pagetop">
+
 			<a href="#header">PAGE TOP</a>
 		</p>
 		<footer>&copy; 2019 Mom's Bakery</footer>

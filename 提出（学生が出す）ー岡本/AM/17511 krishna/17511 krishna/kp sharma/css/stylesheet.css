@@ -158,9 +158,15 @@ footer{
 .pagetop{
 	float: right;
 }
-#drink-photo{
+#drink-photo1{
 	width: 500px;
 	height: 700px;
-	margin:20px;
+	margin:30px;
+	background-size: 100%;
+}
+#drink-photo2{
+	width: 500px;
+	height: 700px;
+	margin:30px;
 	background-size: 100%;
 }

@@ -3,6 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Manaslu</title>
     <link rel="stylesheet" href="../css/utsav.css">
 </head>
@@ -38,10 +40,36 @@
                 </li>
             </ul>
         </nav>
+        <form class="example" action="/action_page.php" style="margin:-51px 0 0 760px;max-width:300px">
+            <input type="text" placeholder="Search.." name="search2">
+            <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
     </header>
     <h2 class="dinesh">Manaslu</h2>
-    <div class="king">
-        <img src="../img/Manaslu.jpg" alt="mount manaslu">
+    <div class="queen">
+        <img id="myImg" src="../img/manaslu.jpg" alt="Manaslu Snow" style="width:100%;max-width:300px">
+        <div id="myModal" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" src="../img/manaslu.jpg" id="img01" alt="manaslu" height="450" width="700">
+            <div id="caption"></div>
+        </div>
+
+        <script>
+            var modal = document.getElementById("myModal");
+            var img = document.getElementById("myImg");
+            var modalImg = document.getElementById("img01");
+            var captionText = document.getElementById("caption");
+            img.onclick = function () {
+                modal.style.display = "block";
+                modalImg.src = this.src;
+                captionText.innerHTML = this.alt;
+            }
+            var span = document.getElementsByClassName("close")[0];
+            span.onclick = function () {
+                modal.style.display = "none";
+            }
+        </script>
+
         <p class="anu">
             マナスルは世界で8番目に高い山です
             海抜8,163メートル（26,781フィート）。 それは、マンシリヒマールにあり、
@@ -59,7 +87,15 @@
         周囲の風景の上に急峻にそびえ立つ山頂にあり、遠くから見たときに主要な特徴です。
         <a href="https://en.wikipedia.org/wiki/Manaslu">もっと見る。。。</a>
     </p>
-    <footer>&copy; Copyright 2020 Utsav Jung Rana Magar</footer>
+    <footer>
+        Follow us at:<br>
+        <ul class="junge">
+                <li><a href="https://www.facebook.com/utsav.rana20" target="_blank"><img src="../img/fb.png" alt="facebook"></a></li>
+                <li><a href="https://twitter.com/home" target="_blank"><img src="../img/twitter.png" alt="twitter"></a></li>
+                <li><a href="https://www.youtube.com/?gl=JP&hl=ja" target="_blank"><img src="../img/youtube.png" alt="youtube"></a></li>
+        </ul>
+        <h5>&copy; Copyright 2020 Utsav Jung Rana Magar</h5>
+    </footer> 
 </body>
 
 </html>

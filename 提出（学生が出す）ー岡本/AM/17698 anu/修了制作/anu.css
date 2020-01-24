@@ -5,8 +5,8 @@ margin: 0 auto;
 background-color:powderblue;
 }
 #head{
-background-image: url("images/images.jpg");
-background-size: 800px;
+background-image: url("images/sarangkot.jpg");
+background-size: 900px;
 height: 500px;
 background-repeat: no-repeat;
 
@@ -24,13 +24,14 @@ color:green;
 
 }
 
+
 h1{
 	font-size: 30px;
 	text-align: center;
 	margin:50px;
 	padding-top: 10px;
 	color: black;
-        background-color:olivedrab
+        background-color:lightgreen
 }
 h2{
 	font-size: 20px;
@@ -57,10 +58,11 @@ h2{
 h3{
 	margin-top:40px;
 	padding:5px;
-	color:green;
+	color:green
+
 }
 .head{
-	background-image: url("images/images.jpg");
+	background-image: url("images/sarangkot.jpg");
 	background-size:900px;
 	height:500px;
 	background-repeat: no-repeat;
@@ -83,4 +85,17 @@ text-align:float right;
 }
 .short detail{
 display:none;
+}
+table,th,td{
+border: solid 1px; color:blueviolet;
+border-collapse: collapse;
+padding: 5px 48px;
+}
+.table-right{
+margin-left: 450px;
+margin-top: -142px;
+}
+.baramu{
+	text-align: float left;
+	background-color:none;
 }
