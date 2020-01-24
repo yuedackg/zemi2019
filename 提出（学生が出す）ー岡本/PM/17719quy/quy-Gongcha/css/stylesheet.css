@@ -95,6 +95,23 @@ h2{
     margin: 0px 167px;
     padding: 5px 0px;
 }
+
+div.img{
+    height: 400px;
+    background-image: url("../img/about.jpg");
+    background-repeat: no-repeat;
+}
+div.home-img{
+    height: 400px;
+    width: 934px;
+    margin-left: 200px;
+    background-image: url("../images/brand.jpg");
+    background-repeat: no-repeat;
+}
+
+
+
+
 .about img{
     margin: 0px 250px;
     padding: 10px 0px;
@@ -163,4 +180,31 @@ table{
 }
 .map{
     display: flex;
+}
+/********ontop********/
+a.on_top { 
+  display: none;
+}
+a.on_top:hover{
+  background-color:red;
+  color: #fff;
+  border: 1px solid red;
+  opacity:1;
+}
+a.on_top i{ 
+  font-size: 20px;
+  margin-right: 3px;
+  margin-top: 1px;
+}
+a.on_top {
+  border-radius: 15px;
+  background-color: black;
+  padding: 9px 6px;
+  white-space: nowrap;
+  color:white;
+  position: fixed;
+  bottom: 9px;
+  right: 5px;
+  height: 24px;
+  text-decoration: none;
 }

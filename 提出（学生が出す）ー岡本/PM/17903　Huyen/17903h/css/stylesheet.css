@@ -10,21 +10,21 @@ background-image: url("../img/topimage.jpg");
 background-color:0EB9C2;
 background-size: 100%;
 }
-#header1{
+#heder1{
     height: 400px;
-    background-image: url("../img/5.jpg");
+    background-image: url("../img/8.jpg");
     background-color:0EB9C2;
     background-size: 100%;
 }
 #header2{
     height: 400px;
-    background-image: url("../img/a2.jpg");
+    background-image: url("../img/a9.jpg");
     background-color:0EB9C2;
     background-size: 100%;
 }
 #header3{
     height: 400px;
-    background-image: url("../img/a3.jpg");
+    background-image: url("../img/88.jpg");
     background-color:0EB9C2;
     background-size: 100%;
 }
@@ -156,4 +156,10 @@ display: block;
     color: #070707e3;
     padding: 1em 3em;
     margin: 20px 73px;
+}
+.pagetop{
+position: fixed;
+right: 60px;
+bottom: 20px;
+padding: 0 10px;
 }

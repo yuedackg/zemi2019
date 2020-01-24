@@ -1,9 +1,6 @@
 <!DOCTYPE html>
 <html lang="ja">
 	<head>
-		<!DOCTYPE html>
-<html lang="ja">
-	<head>
 		<meta charset="UTF-8">
 		<title>ANFA Nepal</title>
 		<link rel="stylesheet" href="css/stylesheet.css">
@@ -12,34 +9,63 @@
 	<body>
 		<header>
 			<h1 id="nepal">ALL NEPAL FOOTBALL ASSOCIATION</h1>
-			<img id="headerpicture" src="images/exchange-flag.png" style="width:80px;">
+			<img id="headerpicture" src="images/exchange-flag.png" alt=""
+			 style="width:80px;">
 			
 		</header>
 		<div class="topnav" >
 			<ul id="menu">
-				<li><a href="about.html">About ANFA</a></li>
-				<li><a href="member.html">Member</a></li>
-				<li><a href="history.html">History</a></li>
-				<li><a href="kit.html">Kit</a></li>
-				<li><a href="place.html">Place</a></li>
+				<li><a href="about.html">ANFAについて</a></li>
+				<li><a href="member.html">メンバー</a></li>
+				<li><a href="history.html">歴史</a></li>
+				<li><a href="kit.html">キット</a></li>
+				<li><a href="place.html">場所</a></li>
 			</ul>		
 		</div>
 		<h2 id="about">ANFAについて</h2>
-		<section class="about">
+		<section class="about1">
 			<p>
-				ALL NEPAL FOOTBALL ASSOCIATION（ANFA）は、ネパールのサッカーの運営機関です。
+				<script>
+				var i = 0;
+				var images = [];
+				var time = 1000;
+			  
+				// Image list
+				images[0] = 'img/tai.jpg';
+				images[1] = 'img/afc.jpg';
+			
+			  
+				// Change image
+				function changeImage(){
+			  
+				  document.slide.src = images[i];
+			  
+				  if(i <images.length - 1){
+					i++;
+				  } else {
+					i = 0;
+				  }
+				  setTimeout("changeImage()", time);
+				}
+			  
+				window.onload = changeImage;
+			  </script>
+			   <img src="img/tai.jpg" width="300px" height="300px">
+			<p>
+				(ALLNEPALFOOTBALLASSOCIATIONANFA)<br>は,
+				ネパールのサッカーの運営機関です。<br>
 				代表チームとクラブサッカーを担当しています。
 				この組織は、1951年にオールネパールサッカー協会として設立され、1972年にFIFAに加盟しました。現在のANFA会長は、新たにカルマツェリングシェルパに選出されました。  
 
             </p>
-			<img src="images/tai.jpg" style="width: 380px;">
-			<img src="images/afc.jpg" style="width: 380px;">
+			
 		</section>
 
-		
-		<p class="pagetop">
-			<a href="#nepal">PAGE TOP</a>
-		</p>
-		<footer class="footer">&copy; ANFA HOME</footer>
+		<div class="pagetop">
+			<a href="about.html">PAGE TOP</a>
+		</div>
+		<div class="footer">
+			<footer>&copy; ANFA HOME</footer>
+		</div>
 	</body>
 </html>

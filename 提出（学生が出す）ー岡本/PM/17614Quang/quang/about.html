@@ -25,7 +25,35 @@
                 バイクと自動車の2つの主要製品を持つベトナム企業。<br>
                 ベトナムでの20年以上のプレゼンスの後、ホンダベトナムは継続的に発展し、<br>
                 ベトナム市場でのオートバイと自動車の製造分野における主要なユニットの1つになりました。</p>
-			<img src="images/16.jfif">
+                <script>
+                    var i = 0;
+                    var images = [];
+                    var time = 1000;
+                  
+                    // Image list
+                    images[0] = 'img/1.jfif';
+                    images[1] = 'img/2.jfif';
+                    images[2] = 'img/3.jfif';
+                    images[3] = 'img/4.jfif';
+                  
+                    // Change image
+                    function changeImage(){
+                  
+                      document.slide.src = images[i];
+                  
+                      if(i <images.length - 1){
+                        i++;
+                      } else {
+                        i = 0;
+                      }
+                      setTimeout("changeImage()", time);
+                    }
+                  
+                    window.onload = changeImage;
+                  </script>
+                  
+                  <img name="slide" width="800" height="400">
+                  
         </section>
         <footer>17614 Nguyen Tho Quang</footer>
         <p class="ホームページ">

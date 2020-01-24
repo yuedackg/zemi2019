@@ -12,7 +12,6 @@ header{
 	display: flex;;
 	background-color:lime
 }
-
 header#toppage{
 	height: 590px;
 	background-image: url("../image/topimage.jpg");
@@ -21,6 +20,7 @@ header#toppage{
 	display: flex;;
 	background-color:lime
 }
+
 
 .title{
 	display: block;
@@ -32,15 +32,20 @@ h1{
 	font-weight: 900;
 	text-align: center;	
 }
-	h1#subtitle{
+	h1#subtitle1{
 	font-size: 80px;
 	margin-left: 280px;
-	margin-top:-10px;
+	margin-top:30px;
+}
+	h1#subtitle2{
+	font-size: 80px;
+	margin-left: 280px;
+	margin-top:-50px;
 }
 	h1#maintitle{
 	font-size: 70px;
 	margin-left: 280px;
-	margin-top:-30px;
+	margin-top:-50px;
 }
 	p#smalltitle{
 	color:#030603
@@ -62,9 +67,9 @@ h1{
 	margin:20px;
 	font-family:bold;
 }
-#menu-photo{
+.menu-photo{
 	width: 400px;
-	height: 300px;
+	height: 380px;
 	margin:15px;
 	background-image: url("../image/image2.jpg");
 	background-size: 100%;
@@ -80,8 +85,8 @@ h1{
 td{
 	background-color: #fff;
 }
-	table,th,td{
-	border: solid 5px #5C5;
+	th,td{
+	border: solid 2px #5C5;
 	
 	padding:10px 60px;
 }
@@ -102,27 +107,45 @@ td{
 	margin-left: 130px;	
 }
 footer{
-    background-color: #7c7e7f;
+    background-color: chocolate;
     width: 100%;
-    height: 160px;
+    height: 130px;
     position: relative;
     top: 70px;
     margin-bottom: 15px;
 }
 footer li{
 	display: inline;
-    	list-style: none;
-	padding-right: 20px;
-	margin-left:65px;
-	margin-top:37px;
+    list-style: none;
+    padding-right: 30px;
 }
 .pagetop{
 	float: right;
 	font-size:20px;
 }
-#drink-photo{
+#drink-photo1{
 	width: 600px;
 	height: 700px;
 	background-image: url("../image/image15/16.jpg");
 	margin:30px;
+}
+#drink-photo2{
+	width: 600px;
+	height: 700px;
+	background-image: url("../image/image15/16.jpg");
+	margin:30px;
+}
+
+.sociallink{
+	text-align: center;
+    position: absolute;
+    left: 500px;
+    top: 4px;
+}
+footer h5{
+	font-style: italic;
+    text-align: center;
+    color: black;
+    padding-top: 94px;
+    font-size: 14px;
 }

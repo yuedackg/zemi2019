@@ -1,0 +1,142 @@
+﻿body{
+	width: 1024px;
+	margin: 0px auto;
+	background-color:rgb(205, 220, 57)
+
+}
+header{
+	height:320px;
+	background-repeat: no-repeat;
+	margin-top :0px;
+	background-color:#B66666;
+	min-width: 730px;
+}
+h1{
+	font-size: 40px;
+	margin-left: 21px;
+	color: #fff;
+}
+.title{
+	display: block;
+}
+nav{
+background-color: yellow;
+margin-top: 20px;
+	
+}
+nav ul {
+	list-style-type: none;
+    width: 554px;
+    margin: 0 auto;
+    padding: 0;
+}
+nav ul li{
+    padding: 2px 35px 1px 35px;
+    position: relative;
+    font-size: 12px;
+    display: inline;
+    width: 200px;
+    background-color: yellow;
+    margin-left: 5px;
+    text-align: center;
+}
+h1{
+	color:black;
+	font-family: 'SimSun';
+	font-weight: 1000;
+	text-align: center;
+	font-size: 75px;
+}
+
+/*おすすめ*/
+table{
+	margin-bottom: 10px;
+}
+td.recomand{
+	padding: 0 20px;
+}
+td.recomand img{
+	width: 300px;
+}
+td.recomand p{
+	margin-top: 0;
+	margin-bottom: 35px;
+}
+td.recomand-t td p{
+	margin: 0;
+	border: 0;
+	}
+table td.text{
+	padding: 0px;
+	}
+p#smalltitle{
+	color:blue;
+	font-size: 40px;
+	margin-left:100px;
+}
+p#bigtitle{
+	color:currentcolor;
+	font-size:30px;
+	margin-left:	0px;
+	margin-top:100px;
+	font-family:bold;
+}
+#menu-photo{
+	width: 100px;
+	height: 270px;
+	margin:0px;
+	background-image: url("../image/image2.jpg");
+	background-size: 100%;
+
+}
+/* 商品メニュー　*/
+	.price-table{
+	display:flex;
+	margin-left: 150px;
+	border:solid px #000;
+	width: 420px;
+}
+/*	th{
+	background-color: #ccc;
+}
+*/
+table#recomand-t td#text{
+	height: 23px;
+}
+table,th,td{
+	width: 414px;
+	text-align: center;
+	border: solid 1px;
+	border-collapse: collapse;
+	background-color:#FF9800;
+	height: 55px;
+}
+.text p{
+	margin: 0;
+}
+.table-right{
+	margin-left: 152px;
+}
+
+
+/* ドリンクメニュー　*/
+
+
+/*　アクセス　*/
+.address{
+	display: flex;
+	margin-left:100px;
+	text-align:center;
+}
+.access{
+	margin-left: 100px;
+	
+}
+footer{
+	position: relative;
+    margin-left: 10px;
+    top: 180px;
+}
+.pagetop{
+	float: right;
+}

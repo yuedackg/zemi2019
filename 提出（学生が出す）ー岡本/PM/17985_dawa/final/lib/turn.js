@@ -79,7 +79,7 @@ var has3d,
 
     // First page
 
-    page: 1,
+    page: 2,
     
     // Enables gradients
 
@@ -87,7 +87,7 @@ var has3d,
 
     // Corners used when turning the page
 
-    turnCorners: 'bl,br',
+    turnCorners: 'tr,br',
 
     // Events
 
@@ -113,7 +113,6 @@ turnMethods = {
   // $('#selector').turn([options]);
 
   init: function(options) {
-
     // Define constants
     
     has3d = 'WebKitCSSMatrix' in window || 'MozPerspective' in document.body.style;
@@ -209,6 +208,7 @@ turnMethods = {
   // Adds a page from external data
 
   addPage: function(element, page) {
+    debugger;
 
     var currentPage,
       className,
@@ -238,7 +238,7 @@ turnMethods = {
 
     }
 
-    if (page>=1 && page<=lastPage) {
+    if ((page>=1 && page<=lastPage)) {
 
       if (data.display=='double')
         className = (page%2) ? ' odd' : ' even';
@@ -1125,6 +1125,7 @@ turnMethods = {
   // Gets and sets the number of pages
 
   pages: function(pages) {
+ 
 
     var data = this.data();
 
@@ -1215,7 +1216,9 @@ turnMethods = {
   // Turns the page
 
   _turnPage: function(page) {
-
+    if(page==1){
+      return;
+    }
     var current,
       next,
       data = this.data(),
@@ -1342,6 +1345,7 @@ turnMethods = {
   // Turns to the next view
 
   next: function() {
+ 
 
     return this.turn('page', Math.min(this.data().totalPages,
       turnMethods._view.call(this, this.data().page).pop() + 1));
@@ -1537,6 +1541,7 @@ turnMethods = {
   // This event is called in context of flip
   
   _flip: function(e) {
+ 
 
     e.stopPropagation();
 
@@ -1565,8 +1570,11 @@ turnMethods = {
   _touchMove: function() {
     var data = this.data();
     for (var page in data.pages) {
+      if(parseInt(page)>1){
       if (has(page, data.pages)) {
         flipMethods._eventMove.apply(data.pages[page], arguments);
+      }
+
       }
     }
   },
@@ -1655,7 +1663,6 @@ turnMethods = {
             p.flip('resize');
           
           if (data.tpage) { // Is it turning the page to `tpage`?
-
             p.flip('hover', false).
               flip('disable',
                 $.inArray(parseInt(page, 10), data.pageMv)==-1 &&
@@ -1809,7 +1816,6 @@ turnMethods = {
   // Gets and sets the options
 
   options: function(options) {
-    
     if (options===undefined) {
       
       return this.data().opts;
@@ -1967,6 +1973,7 @@ flipMethods = {
   },
 
   _cornerActivated: function(p) {
+ 
 
     var data = this.data().f,
       width = this.width(),
@@ -2070,6 +2077,7 @@ flipMethods = {
   },
 
   _foldingPage: function() {
+ 
 
     var data = this.data().f;
 
@@ -2171,6 +2179,7 @@ flipMethods = {
   // Prepares the page by adding a general wrapper and another objects
 
   _addPageWrapper: function() {
+ 
 
     var att,
       data = this.data().f,
@@ -2254,6 +2263,7 @@ flipMethods = {
   // Takes a 2P point from the screen and applies the transformation
 
   _fold: function(point) {
+ 
 
     var data = this.data().f,
       turnData = data.opts.turn.data(),
@@ -2482,6 +2492,7 @@ flipMethods = {
       },
 
       transform = function(tr, c, x, a) {
+ 
       
         var f = ['0', 'auto'], mvW = (width-h)*x[0]/100, mvH = (height-h)*x[1]/100,
           cssA = {left: f[c[0]], top: f[c[1]], right: f[c[2]], bottom: f[c[3]]},
@@ -2635,6 +2646,7 @@ flipMethods = {
   },
 
   _showFoldedPage: function(c, animate) {
+ 
 
     var folding = flipMethods._foldingPage.call(this),
       dd = this.data(),
@@ -2762,6 +2774,7 @@ flipMethods = {
   },
 
   hideFoldedPage: function(animate) {
+ 
 
     var data = this.data().f;
 
@@ -2807,7 +2820,6 @@ flipMethods = {
   },
 
   turnPage: function(corner) {
-
     var that = this,
       data = this.data().f,
       turnData = data.opts.turn.data();
@@ -2847,6 +2859,7 @@ flipMethods = {
   },
 
   moving: function() {
+ 
 
     return 'effect' in this.data();
   
@@ -2859,12 +2872,14 @@ flipMethods = {
   },
 
   corner: function() {
+ 
     
     return this.data().f.corner;
       
   },
 
   _eventStart: function(e) {
+ 
 
     var data = this.data().f,
       turn = data.opts.turn;
@@ -2890,6 +2905,7 @@ flipMethods = {
   },
 
   _eventMove: function(e) {
+ 
 
     var data = this.data().f;
 
@@ -2949,20 +2965,19 @@ flipMethods = {
   },
 
   disable: function(disable) {
-
     flipMethods.setData.call(this, {'disabled': disable});
     return this;
 
   },
 
   hover: function(hover) {
-    
     flipMethods.setData.call(this, {'hover': hover});
     return this;
 
   },
 
   peel: function (corner, animate) {
+ 
 
     var data = this.data().f;
 
@@ -3190,7 +3205,6 @@ function gradient(obj, p0, p1, colors, numColors) {
 // Triggers an event
 
 function trigger(eventName, context, args) {
-
   var event = $.Event(eventName);
   context.trigger(event, args);
   if (event.isDefaultPrevented())
@@ -3257,10 +3271,14 @@ window.requestAnim = (function() {
 $.extend($.fn, {
 
   flip: function() {
+ 
+
     return dec($(this[0]), flipMethods, arguments);
   },
 
   turn: function() {
+ 
+
     return dec($(this[0]), turnMethods, arguments);
   },
 
@@ -3278,6 +3296,7 @@ $.extend($.fn, {
   },
 
   animatef: function(point) {
+ 
 
     var data = this.data();
 

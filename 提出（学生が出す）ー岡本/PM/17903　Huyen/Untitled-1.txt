@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head> 
+    <h1>ahihi</h1>
+
+       <h2>a chua co ngy dau na.
+            cac e cu tu nhien *.*</h2>
+<style>
+  body{
+     background-image:url('s1.jpg');
+}
+   td{
+     padding:20px;
+}
+   .div1{
+     background-image:url('s2.jpg');
+     padding: auto px;
+     width: 400px;
+     height: 400px;
+}
+   .div1{
+     border-radius:50%;
+     border-color:red;
+}
+ .div2{
+     background-image:url('s2.jpg');
+     width:400px;
+     height:400px;
+}
+ .div2{
+     border-radius: 50%;
+     border-color:red;
+     filter: contrast(1.8)brightness(1.5)grayscale(1);
+     z-index: 3;
+     mix-blend-mode: hard-light;
+     box-shadow: 0 0 500px rgba(0,0,0,0.6)inset;
+}
+ </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <td><div class="div1"></div>
+            </td>
+        </tr>
+        <tr>
+            <td><div class="div2"></div>
+            </td>
+        </tr>
+        <tr>
+            <td><div class="div3"></div>
+            </td>
+        </tr>
+    </table>
+    <p>VIDEO</p>
+    <video autoplay="1" controls="controls">
+        <source src="./https://youtu.be/qyOd9C5PcTo.mp4" type="video/mp4" />
+    </video>
+</body>
+</html>

@@ -1,4 +1,5 @@
-<!DOCTYPE <!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="ja">
 <head>
     <meta charset="utf-8" />
     <title>タメルバーザ＿ネパールのカレー屋</title>
@@ -9,21 +10,13 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="js/jquery.bxslider.min.js"></script>
     <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
-    <script>
-        $(function() {
-            $('.bxslider').bxSlider({
-            mode: 'fade', // を必ず忘れずに
-            speed: 3000, // 5秒でゆっくり今回はフェードイン[,]と変わっていくように
-            auto: true, // クリックしなくても自動的に変わっていくように
-            infiniteLoop: true, // 繰り返し
-            });
-        });
-    </script>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <script src="js/modernizr.custom.04022.js"></script>
 </head>
 <body>
     <header>
-        <div class="logo1"><img src="images/logo_mama.png"></div>
-        <div class="logo2"><img src="images/contact.png"></div>
+        <div class="logo1"><img src="images/logo_mama.png" alt="logo"></div>
+        <div class="logo2"><img src="images/contact.png" alt="年中無休"></div>
         <ul id="menu">
                 <li><a href="index.html">トップページ</a></li>
                 <li><a href="kodawari.html">タメルのこだわり</a></li>
@@ -32,49 +25,63 @@
                 <li><a href="contact.html">店舗情報</a></li>
         </ul>        
     </header>
-    <section id="about">
+    <section id="about_c">
             <div class="contactName"><h3>タメルバーザ　レストランーTHAMEL BZAAAR RESTAURENT</h3></div>
             <div class="contact">
-            <p>住所 : 福岡県福岡市博多区博多駅東2-2-10 博多 4F<br>
-              アクセス : Nishiteshu井尻駅口より徒歩5分<br>
-              電話番号 ：050-5269-7485<br>
+            <p>住所 : 福岡県福岡市南区井尻駅2-2-10 井尻 1F<br>
+              アクセス : 西鉄井尻駅東口より徒歩5分<br>
+              電話番号 ：050-7777-9999<br>
               営業時間17:00～翌1:00 （料理L.O. 翌0:00 ドリンクL.O. 翌0:00)日曜営業</p>
             </div>
 
     </section>
-   <!-- <section id="fulldis1">
-        <section class="one">
-               <div class="picture"><img src="images/recon1.jpg"></div>
-               <div class="productName"><h3>本格な味</h3></div>
-               <div class="discription">
-               <p>責まぼ工職むれ技必キヤリ庫張ねク属6韓ぜ本冬ワタア読界ヲルエ移児きじ基検ゃルどわ歳由べび木互たむごを合門は梨9償暴こそゃふ。田サ図再ユハル古点にぜぴー今32図むぱち題公コタヌメ読夜べゃ面柔場内記ネ狭島びぴ踏能チヱ話転販ヌユネ図断ムレヌト分象他加ラ。写読いょ日評選メ法揺ロノウヲ題特士参ヘユヱ上数ド札都79正ツヱ松朝イーみる勇訪ぶイフた春問みぞ諸牟クネリオ展材造法ぐが。</p>
-               </div>
-       </section>
-       <section class="two">
-           <div class="picture"><img src="images/recon2.jpg"></div>
-           <div class="productName"><h3>店舗の雰囲気</h3></div>
-           <div class="discription">        
-           <p>責まぼ工職むれ技必キヤリ庫張ねク属6韓ぜ本冬ワタア読界ヲルエ移児きじ基検ゃルどわ歳由べび木互たむごを合門は梨9償暴こそゃふ。田サ図再ユハル古点にぜぴー今32図むぱち題公コタヌメ読夜べゃ面柔場内記ネ狭島びぴ踏能チヱ話転販ヌユネ図断ムレヌト分象他加ラ。写読いょ日評選メ法揺ロノウヲ題特士参ヘユヱ上数ド札都79正ツヱ松朝イーみる勇訪ぶイフた春問みぞ諸牟クネリオ展材造法ぐが。</p>
-           </div>
-       </section>
-       <section class="three">
-           <div class="picture"><img src="images/recon3.jpg"></div>
-           <div class="productName"><h3>お席のご案内</h3></div>
-           <div class="discription">
-           <p>責まぼ工職むれ技必キヤリ庫張ねク属6韓ぜ本冬ワタア読界ヲルエ移児きじ基検ゃルどわ歳由べび木互たむごを合門は梨9償暴こそゃふ。田サ図再ユハル古点にぜぴー今32図むぱち題公コタヌメ読夜べゃ面柔場内記ネ狭島びぴ踏能チヱ話転販ヌユネ図断ムレヌト分象他加ラ。写読いょ日評選メ法揺ロノウヲ題特士参ヘユヱ上数ド札都79正ツヱ松朝イーみる勇訪ぶイフた春問みぞ諸牟クネリオ展材造法ぐが。</p>
-       </div>
-       </section>
-       </section>
-       -->
+  
     
        <div class="secondmidetc">
-        <div class="bigmap">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3325.1270401320776!2d130.44090231468525!3d33.55007545147385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x354190efa6c4442d%3A0xec4c9fbee34981!2z44Kk44Oz44OJJuODjeODkeODvOODq-ODrOOCueODiOODqeODs1RIQU1FTCBCQVpaQUFS!5e0!3m2!1sen!2sjp!4v1573709236209!5m2!1sen!2sjp" width="100%"" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-        </div>
+             <div class="container">
+
+			<div class="sp-slideshow">
+			
+				<input id="button-1" type="radio" name="radio-set" class="sp-selector-1" checked="checked" />
+				<label for="button-1" class="button-label-1"></label>
+				
+				<input id="button-2" type="radio" name="radio-set" class="sp-selector-2" />
+				<label for="button-2" class="button-label-2"></label>
+				
+				<input id="button-3" type="radio" name="radio-set" class="sp-selector-3" />
+				<label for="button-3" class="button-label-3"></label>
+				
+				<input id="button-4" type="radio" name="radio-set" class="sp-selector-4" />
+				<label for="button-4" class="button-label-4"></label>
+				
+				<input id="button-5" type="radio" name="radio-set" class="sp-selector-5" />
+				<label for="button-5" class="button-label-5"></label>
+				
+				<label for="button-1" class="sp-arrow sp-a1"></label>
+				<label for="button-2" class="sp-arrow sp-a2"></label>
+				<label for="button-3" class="sp-arrow sp-a3"></label>
+				<label for="button-4" class="sp-arrow sp-a4"></label>
+				<label for="button-5" class="sp-arrow sp-a5"></label>
+				
+				<div class="sp-content">
+					<div class="sp-parallax-bg"></div>
+					<ul class="sp-slider clearfix">
+						<li><img src="images/image1.png" alt="image01" /></li>
+						<li><img src="images/image2.png" alt="image02" /></li>
+						<li><img src="images/image3.png" alt="image03" /></li>
+						<li><img src="images/image4.png" alt="image04" /></li>
+						<li><img src="images/image5.png" alt="image05" /></li>
+					</ul>
+				</div><!-- sp-content -->
+				
+			</div><!-- sp-slideshow -->
+			
+		</div>
+       
     </div>
     
     <footer class="fotkod">
-        <h3>私たちはお客様のためには最高の味とおもてなしのためにあなたに約束いたします........</h3>
+        <h3>私たちはお客様のために最高の味とおもてなしを約束いたします。</h3>
         <ul class="sociallink">
                 <li><a href="https://www.facebook.com/gurung.gurkhazz.3" target="_blank"><img src="images/fbcom.png" alt="facebook"></a></li>
                 <li><a href="https://twitter.com/?lang=en" target="_blank"><img src="images/tweet.png" alt="facebook"></a></li>

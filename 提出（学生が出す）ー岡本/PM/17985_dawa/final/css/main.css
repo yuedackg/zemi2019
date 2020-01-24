@@ -46,7 +46,7 @@ header .logo1{
     padding: 0 25px;
     color: #999;
     text-transform: uppercase;
-    font: bold 12px/25px Arial, Helvetica;
+    font: bold 13px/25px Arial, Helvetica;
     text-decoration: none;
     text-shadow: 0 1px 0 #000;
 }
@@ -246,18 +246,19 @@ header .logo2 img{
 }
 .secondmid{
     height: 325px;
-    width: 100%;
+    width: 1024px;
     background-color: #ffffff;
     position: relative;
-    top: 180px;
+    top: 179px;
 }
 .secondmid1{
     background-color: #59c1f7;
-    height: 300px;
-    width: 320px;
     position: relative;
-    top: 12px;
-    left: 695px;
+    background-color: #59c1f7;
+    height: 301px;
+    width: 1000px;
+    
+    padding: 12px;
 }
 .secondmid2{
     background-color: #59c1f7;
@@ -293,7 +294,7 @@ footer{
     width: 100%;
     height: 160px;
     position: relative;
-    top: 0px;
+    top: 13px;
     margin-bottom: 4px;
 }
 
@@ -430,8 +431,8 @@ footer go_top{
     width: 100%;
     background-color: #ffffff;
     position: relative;
-    top: 47px;
-    margin-bottom: 49px;
+    top: 44px;
+    margin-bottom: 34px;
 }
 .etcpage{
     background-color: #7c7e7f;
@@ -442,11 +443,11 @@ footer go_top{
     margin-bottom: 4px;
 }
 .onlinepage{
-    height: 620px;
+    height: 638px;
     width: 1024px;
     background-image: url("../images/mid_back.png");
     position: relative;
-    top: 27px;
+    top: 42px;
 }
 .product{
     background-color: #ffffff;
@@ -456,12 +457,18 @@ footer go_top{
 #product1 {
     top: 15px;
     left: 15px;
+    width: 300px;
     position: relative;
-    font-size: 22px;
-    text-align: left;   
-    height: 602px;
-    padding-left: 5px;
+    font-size: 13px;
+    line-height: 29px;
+    text-align: left;
+    height: 579px;
+    padding: 15px;
+
 }
+
+
+
 #product2 {
     top: 86px;
     left: 350px;
@@ -482,7 +489,7 @@ footer go_top{
 #one{
     height: 500px;
     width: 320px;
-    top: 0px;
+    top: 446px;
     position: relative;
     background-color: #ffffff;
     z-index: 0;
@@ -530,8 +537,8 @@ footer go_top{
 #two{
     height: 500px;
     width: 320px;
-    top: 0px;
-    left: 342px;
+    top: 565px;
+    left: 505px;
     position: absolute;
     background-color: #ffffff;
     z-index: 0;
@@ -543,8 +550,8 @@ footer go_top{
 #three{
     height: 500px;
     width: 320px;
-    top: 0px;
-    left: 685px;
+    top: 565px;
+    left: 847px;
     position: absolute;
     background-color: #ffffff;
     z-index: 0;
@@ -552,7 +559,7 @@ footer go_top{
     margin-bottom: 268px;
     border-radius: 0px 25px 0px 25px;
 }
-#fulldis{
+.fulldis{
     background-color: #000000;
     position: relative;
     top: 445px;
@@ -560,12 +567,12 @@ footer go_top{
 #fulldis1{
     background-color: #000000;
     position: relative;
-    top: 45px;
+    top: 42px;
 }
 .one{
     height: 500px;
     width: 320px;
-    top: 0px;
+    top: 41px;
     position: relative;
     background-color: #ffffff;
     z-index: 0;
@@ -575,8 +582,8 @@ footer go_top{
 .two{
     height: 500px;
     width: 320px;
-    top: 0px;
-    left: 342px;
+    top: 500px;
+    left: 505px;
     position: absolute;
     background-color: #ffffff;
     z-index: 0;
@@ -586,8 +593,8 @@ footer go_top{
 .three{
     height: 500px;
     width: 320px;
-    top: 0px;
-    left: 685px;
+    top: 500px;
+    left: 847px;
     position: absolute;
     background-color: #ffffff;
     z-index: 0;
@@ -608,14 +615,14 @@ footer go_top{
     left: 350px;
     position: absolute;
     background-color: #ffffff;
-    height: 594px;
+    height: 601px;
     width: 650px;
     padding: 8px 0px 0px 10px;
 }
 #about{
     height: 330px;
     width: 1014px;
-    top: 45px;
+    top: 42px;
     position: relative;
     background-color: #ffffff;
     z-index: 0;
@@ -649,14 +656,14 @@ footer go_top{
     width: 100%;
     background-color: #ffffff;
     position: relative;
-    top: 28px;
+    top: 42px;
     margin-bottom: 49px;
 }
 .bookingfoot{
     width: 100%;
     height: 160px;
     position: relative;
-    top: -20px;
+    top: 25px;
     margin-bottom: 4px;
 }
 .contactName{
@@ -679,7 +686,17 @@ footer go_top{
     padding: 40px 5px 5px 5px;
     text-align: left;
     letter-spacing: 3px;
-    font-size: 22px;
-    line-height: 40px;
+    font-size: 16px;
+    line-height: 36px;
     margin-left: 69px;
+}
+#about_c{
+    height: 230px;
+    width: 1014px;
+    top: 42px;
+    position: relative;
+    background-color: #ffffff;
+    z-index: 0;
+    border: 5px solid #000000;
+    border-radius: 0px 25px 0px 25px;
 }

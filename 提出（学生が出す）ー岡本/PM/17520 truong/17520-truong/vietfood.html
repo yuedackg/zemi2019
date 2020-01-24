@@ -58,21 +58,22 @@
 @media screen and (min-width: 1024px){
   
 }
+
 </style>
 	<body>
-		<header id="header">
+		<header  class="header"   id="header">
 			<h1>VietFood</h1>
 		</header>
 		<div class="table">
 			<nav class="menu">
 				<ul>
 					<li><a href="vietfood.html">ホーム</a></li>
-					<li><a href="about.html">おすすめ料理</a>
+					<li><a href="about.html">紹介</a>
 						<ul class="sub-menu">
-							<li><a href="mienbac.html">北の料理</a></li>
-							<li><a href="mientrung.html">中部の料理</a></li>
-							<li><a href="miennam.html">南の料理</a></li>
-							<li><a href="anvat.html">街の屋台の料理</a></li>
+							<li><a href="about.html#mienbac">北の料理</a></li>
+							<li><a href="about.html#mientrung">中部の料理</a></li>
+							<li><a href="about.html#miennam">南の料理</a></li>
+							<li><a href="about.html#about">街の屋台の料理</a></li>
 						</ul>
 					</li>
 					<li><a href="photo.html">ドリンク</a>
@@ -96,7 +97,7 @@
 							<li><a href="price.html#A3">特別デザート</a></li>
 						</ul>
 					</li>
-					<li><a href="access.html">地図</a></li>
+					<li><a href="access.html">住所</a></li>
 				</ul>
 			</nav>
 	
@@ -105,18 +106,19 @@
 					<i class="fa fa-chevron-circle-left" onclick="Back();"></i>
 					<i class="fa fa-chevron-circle-right" onclick="Next();"></i>
 				</div>
-				<div class="chuyen-slide">
-					<img src="img/1.jpg"> // 0
-					<img src="img/2.jpg"> // 1000
-					<img src="img/3.jpg"> // 2000
-					<img src="img/4.jpg"> // 3000
-					<img src="img/5.jpg"> // 4000
-					<img src="photo/1.jpg">
-					<img src="photo/2.jpg">
-					<img src="photo/3.jpg">
-				</div>
+					<div class="chuyen-slide">
+						<img src="img/1.jpg"> // 0
+						<img src="img/2.jpg"> // 1000
+						<img src="img/3.jpg"> // 2000
+						<img src="img/4.jpg"> // 3000
+						<img src="img/5.jpg"> // 4000
+						<img src="photo/1.jpg">
+						<img src="photo/2.jpg">
+						<img src="photo/3.jpg">
+					</div>
 				</div>
 				<script type="text/javascript" src="js/slide.js"></script>
+				<h3 style="text-align: center;">ベトナムでは</h3>
 	<h2 id="about">ベトナムの有名の食べ物</h2>
 	<section class="about">
 		<p>フォーはベトナムの伝統的な料理であり、ベトナム料理の典型的な料理の一つと考えることもできます。<br>
@@ -129,10 +131,34 @@
 			フォーは通常、ビーフまたはチキンヌードルスープですが、ポークヌードル、エビヌードル、カエルヌードルなど、他のバリエーションもありますが、
 			あまり成功していません。
 		</p>
-		<p><img src="img/1.jpg"><br>
-				<img src="img/0.jpg">
+		<p><script>
+			var i = 0;
+			var images = [];
+			var time = 1000;
+		  
+			// Image list
+			images[0] = 'img/1.jpg';
+			images[1] = 'img/0.jpg';
+		
+		  
+			// Change image
+			function changeImage(){
+		  
+			  document.slide.src = images[i];
+		  
+			  if(i <images.length - 1){
+				i++;
+			  } else {
+				i = 0;
+			  }
+			  setTimeout("changeImage()", time);
+			}
+		  
+			window.onload = changeImage;
+		</script>
+		<img name="slide" width="600" height="600">		
 	</section>
-	<h3>フォーは有名なだけでなく、ベトナム料理も非常に豊富で多様です。</h3>
+	<h3 style="font-size:20px;" style="text-align: center;" >フォーは有名なだけでなく、ベトナム料理も非常に豊富で多様です。</h3>
 	<h2 id="about">外国人向けのベトナム料理</h2>
 	<section class="about1" id="about">
 		<p>ベトナム料理は非常に多様で豊かです。
@@ -144,23 +170,27 @@
 			ベトナムのコミュニティでは比較的一般的です。
 		</p>
 		<img src="images/s0.jpg">
-	</section>
+	</section style="tex-decoration:none;">
 
 		<a onclick="topFunction()" id="on_top" class="on_top" href="#ホーム"><i class="fa-arrow-circle-up fa"></i>PAGE TOP</a>
 		<script type="text/javascript" src="js/on_top.js"></script>
+
 		<address class="address">
 			<strong>Twitter, Inc.</strong><br>
-		Dinh Xuan Truong,番号：17520<br>
-		専門学校コンピュータ教育学院ビジネスカレッジ<br>
-		福岡市、南区向野２丁目１０番３０号<br>
-			<strong title="Phone">電話:</strong> (090) 123-4567
-		</address>
-			  
-			<address class="address">
-					<strong>Gmail</strong><br>
-					<p href="mailto:#" style="color:darkred;">VietFood@ckg.co.jp</p>
-			</address>
+				Dinh Xuan Truong,番号：17520<br>
+				専門学校コンピュータ教育学院ビジネスカレッジ<br>
+				福岡市、南区向野２丁目１０番３０号<br>
+			<strong title="Phone">電話:</strong> (090) 123-4567<br>
+			<strong>Gmail</strong><br>
+			<a href="http://gmail.com" style="color:darkred;" target="_blank" rel="noopener"><span>VietFood@ckg.co.jp</span></a>
+		</address>	
 			<footer>&copy; 2019,VietFood,Inc, or its affiliates</footer>
+		</div>
+		<div class="share1">
+			<div><a data-site="" class="twitter" href="http://twitter.com/share?&amp;text=vietfood thank you very much" target="_blank"><img src="icon/twitter.png"title="Twitter" class="ssba ssba-img" alt="Tweet about this on Twitter"></a></div>
+			<div><a data-site="" class="twitter" href="http://www.facebook.com/sharer.php?u=https://www.VietFood.html/" target="_blank"><img src="icon/facebook.png" title="Facebook" class="ssba ssba-img" alt="Share on Facebook"></a></div>
+			<a class="share">share on us</a>
+			<div class="clearfix"></div>
 		</div>
 	</body>
 </html>

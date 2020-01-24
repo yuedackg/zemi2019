@@ -16,12 +16,12 @@
   color:red;
 }
 h2{
-  border-bottom:#ffff00 double 5px;
   font-style: italic;
-  font-size:35px;
-  color:yellow;
-  margin: 0px 20px;
+  font-size: 35px;
+  color: yellow;
+  margin: 47px 20px 9px 20px;
 }
+
 h3{
   color: red;
   font-size: 15px;
@@ -57,12 +57,14 @@ body {
 #menu li {
   color: #f1f1f1;
   display: inline-block;
-  width: 120px;
-  height: 40px;
+  width: 112px;
+  height: 42px;
   line-height: 40px;
-  margin-left: -5px;
-  padding: 0px 105px;
+  padding: 0px 53px;
 }
+
+
+
 #menu a {
   text-decoration: none;
   color: #fff;

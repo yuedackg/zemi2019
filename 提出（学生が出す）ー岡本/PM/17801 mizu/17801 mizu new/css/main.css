@@ -1,0 +1,43 @@
+body{
+	background-color: palegoldenrod;
+	background-image: url('seoul.jpg');
+
+}
+header{
+	display: flex;
+}
+h1{
+	text-align: center;
+	color:purple;
+    font-size:40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h2{ 
+	text-align: center;
+	color:purple;
+	font-size: 40px;
+	font-family: 'Times New Roman', Times, serif;
+	width: 212px;
+	
+}
+h3{
+	text-align: center;
+	color: purple;
+	font-size: 40px;
+	font-family: 'Times New Roman', Times, serif;
+	width: 130px;
+	
+}
+p{
+	text-align: justify;
+    font-size: 20px;
+    margin-left: 265px;
+    width: 720px;
+    font-family: cursive;
+}
+.links{
+	border-radius:10px;;
+}
+.links:hover{
+	background-color:green;
+}

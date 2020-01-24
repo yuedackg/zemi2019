@@ -1,16 +1,16 @@
-
 body{
     width: 800px;
     margin:0 auto;
     font-family: Arial, Helvetica, sans-serif;
 }
 header{
-    background-image: url("../images/Nepal-football-team.jpg");
+    background-image: url(../images/Nepal-football-team.jpg);
     background-repeat: no-repeat;
-    height: 360px;
+    height: 266px;
+    background-position: 0px -39px;
 }
 header img#headerpicture{
-    margin: 254px 0px 0px 697px;
+    margin: 156px 0px 0px 697px;
 }
 h1{
     margin: 0;
@@ -134,6 +134,16 @@ h2{
 /*.about{
     display:;
 }*/
+.member{
+    display: flex;
+    margin: 16px 75px;
+}
+.member p{
+    padding-right: 0px 5px;
+    margin: 5px 10px;
+}
+
+
 .about p{
     width: 800px;
     margin: 0px 0px;
@@ -147,6 +157,52 @@ h2{
     margin: 22px 10px -1px 10px;
     text-align: justify;
 }
+.about1{
+    display: flex;
+}
+
+.about1 p{
+    width: 800px;
+    margin: 0px 17px;
+    text-align: justify;
+    display: flex;
+}
+.about1 img{
+    width: 400px;
+    padding: 0px 0px;
+    float: left;
+    margin: 0px 10px -1px 10px;
+    text-align: justify;
+}
 .history{
     display: flex;
+}
+.pagetop a{ 
+  text-decoration: none; 
+}
+.pagetop:hover{
+  background-color: red;
+  color:#fff;
+  border: 1px solid  red;
+  opacity:1;
+}
+.pagetop{ 
+  font-size: 20px;
+  margin-right: 122px;
+  margin-top: 1px;
+}
+.pagetop {
+  border-radius: 15px;
+  background-color: #f30a0ae6;
+  padding: 9px 6px;
+  position: fixed;
+  bottom: 9px;
+  right: 5px;
+  height: 24px;
+}
+.footer{
+    border-top:1px red ;
+    padding: 50px 20px;
+    float: left;
+    margin: 0px 0px;
 }

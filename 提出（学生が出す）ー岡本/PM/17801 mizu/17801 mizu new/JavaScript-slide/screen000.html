@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset=utf-8">
+	<title>U-town</title>
+	<link rel="stylesheet" type="text/css" href="sample.css">
+	<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+	<script type="text/javascript">
+		function slideSwitch() {
+			var $active = $('#slideshow img.active');
+
+			if ( $active.length == 0 ) $active = $('#slideshow img:last');
+
+			var $next =  $active.next().length ? $active.next()
+			    : $('#slideshow img:first');
+
+			$active.addClass('last-active');
+
+			$next.css({opacity: 0.0})
+			    .addClass('active')
+			    .animate({opacity: 1.0}, 1000, function() {
+			        $active.removeClass('active last-active');
+			    });
+		}
+
+		$(function() {
+		    setInterval( "slideSwitch()", 3000 );
+		});
+
+	</script>
+</head>
+
+<body>
+	<div>
+		<h1>U-town</h1>
+		<P>U-townレストランのおすすめです。</p>
+	</div>
+	<p id="slideshow">
+		<img src="screen00/1.jpg" alt="画像1:公園風景1" class="active" / width="300px">
+		<img src="screen00/2.jpg" alt="画像2:公園風景2" width="300px"/>
+		<img src="screen00/5.jpg" alt="画像3:公園風景3" width="300px"/>
+		<img src="screen00/4.jpg" alt="画像4:公園風景4" width="300px"/>
+	</p>
+</body>
+</html>

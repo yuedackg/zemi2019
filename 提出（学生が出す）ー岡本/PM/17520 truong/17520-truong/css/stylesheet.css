@@ -10,21 +10,34 @@
   background-size:100%;
   
 }
-
+.header{
+  width: 1024px;
+  height: 150px;
+}
 h1{
   color: rgb(26, 25, 25);
   font-family: 'Lobster';
   font-size: 85px;
   text-align: center;
   margin-top: 0px;
-  padding-top: 150px;
+  padding-top:46px;
   height: 104px;
 }
 h2{
   border-left: solid 10px #e91e63;
   border-bottom:  dotted 5px #e91e63;
-  margin-top: 30px;
+  margin-top: 5px;
   padding: 5px;
+}
+.new h2{
+  border-left: none;
+}
+h3{
+ font-size:40px ;
+}
+.text h3{
+  font-size: 40px;
+  text-align: center;
 }
 section{
 margin-bottom: 50px;
@@ -47,7 +60,7 @@ margin-bottom: 50px;
 }
 .about img{
   width: 102%;
-  height: 50%;
+  height: 90%;
   margin: 0px 0px;
   padding: 0px 0px;
   min-width: 150px;
@@ -118,6 +131,7 @@ margin-bottom: 50px;
   height: 44%;
   min-width: 150px;
   padding-top:3px;
+  margin: 0px 12px;
 }
 .miennam{
   display: flex;
@@ -133,6 +147,7 @@ margin-bottom: 50px;
   height: 44%;
   min-width: 150px;
   padding-top:3px;
+  margin: 0px 12px;
 }
 .anvat{
   display: flex;
@@ -145,7 +160,7 @@ margin-bottom: 50px;
 }
 .anvat img{
   width: 108%;
-  height: 44%;
+  height: 38%;
   min-width: 150px;
   padding-top:3px;
 }
@@ -167,18 +182,27 @@ margin-bottom: 50px;
   font-family: Lobster;
   font-size: 32px;
   margin-bottom: 15px;
-  margin: 0px 20px;
+  margin: 0px 160px;
+}
+.map1 h2{
+  border-left: none;
+  text-align: center;
+}
+.map1{
+  background-color: #e97a7a80;
 }
 .access iframe{
   width: 50%;
-  height: 100%;
+  height: 90%;
   margin: 0px 20px;
 }
 /*nut page top*/
 
-a.on_top { 
-  opacity:0.6; 
+a.on_top {  
   display: none;
+}
+a.on_top a {  
+  text-decoration: none;
 }
 a.on_top:hover{
   background-color: #007bb6;
@@ -200,6 +224,7 @@ a.on_top {
   bottom: 9px;
   right: 5px;
   height: 24px;
+  text-decoration: none;
 }
     
     
@@ -214,7 +239,7 @@ a.on_top {
   width: 1024px;
   margin: 0 auto;
   overflow: hidden;
-  margin-top: 12px;
+  margin-top: 0px;
   border-radius: 10px;
   position: relative;
 }
@@ -228,7 +253,7 @@ a.on_top {
 }
 img{
   width: 1024px;
-  height: 400px;
+  height: 300px;
   float:left;
 }
 .dieuhuong{
@@ -289,3 +314,35 @@ body{
 .address{
   margin: 0px 20px;
 }
+.twitter img{
+  width: 50px;
+  height: 50px;
+  float: right;
+  margin: 0px 3px;
+}
+.address{
+  border-top: solid 2px red;
+}
+.share{
+  float: right;
+  margin: -26px 20px;
+  margin-right: 120px;
+}
+.share1{
+  float: right;
+  margin: -55px 0px;
+}
+.clearfix{
+  clear: both;
+}
+/*****drink******/
+.menu{
+  background:#e97a7a80;
+}
+.menu h2{
+  text-align: center;
+  border-top: 2px dotted red;
+  border-left: none;
+  border-bottom: none;
+}
+

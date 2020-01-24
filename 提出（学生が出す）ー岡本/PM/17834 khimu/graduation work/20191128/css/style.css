@@ -1,4 +1,3 @@
-
 body{
     background-color: crimson;
     width: 800px;
@@ -6,20 +5,29 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 header{
-    background-image: url("../image/Nepali-Daal-Bhat.jpg");
+    background-image: url(../image/top.jpg);
     background-repeat: no-repeat;
-    height: 360px;
+    height: 316px;
+    background-position: -89px -250px;
+    background-size: 980px;
 }
 header img#headerpicture{
     margin: 254px 0px 0px 697px;
 }
-h1{
+#header h1{
     margin: 0;
-    color: #999;
-    font-size: 32px;
+    font-size: 55px;
     padding: 10px 0px 0px 20px;
     text-align: center;
-    color: darkorange;
+    color: blue;
+    font-family: fantasy;
+}
+#header #menu p{
+    font-size: 18px;
+    margin-left: 320px;
+}
+p#catch{
+    margin-left: 200px;
 }
 .topnav{
     overflow:hidden;
@@ -36,9 +44,7 @@ h1{
     font-size: 17px;
 }
 .topnav :hover{
-   
     color: red;
-
 }
 
 #menu {
@@ -52,6 +58,8 @@ h1{
     float: left;
     padding: 0 30px 10px 15px;
     position: relative;
+    list-style: none;
+}
 }
 
 #menu a {
@@ -96,19 +104,6 @@ h1{
 #menu ul li:first-child a {
     border-radius: 5px 5px 0 0;
 }
-
-#menu ul li:first-child a:after {
-    content: '';
-    position: absolute;
-    left: 30px;
-    top: -8px;
-    width: 0;
-    height: 0;
-    border-left: 5px solid transparent;
-    border-right: 5px solid transparent;
-    border-bottom: 8px solid #444;
-}
-
 #menu ul li:first-child a:hover:after {
     border-bottom-color: #04acec; 
 }
@@ -130,7 +125,7 @@ h1{
 * html #menu             { zoom: 1; } /* IE6 */
 *:first-child+html #menu { zoom: 1; } /* IE7 */
 h2{
-    color: aqua;
+    color: blue;
 }
 /*.about{
     display:;

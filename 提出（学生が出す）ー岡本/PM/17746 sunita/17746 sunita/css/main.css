@@ -9,7 +9,13 @@ a{
 }
 h1{
 	font-size: 40px;
-	margin-top: 0px;
+	margin-top: -32px;
+}
+h2.title{
+	font-size: 26px;
+	color: #7a98e0;
+	margin-left: 90px;
+
 }
 #catch{
 	font-size: 17px;
@@ -17,4 +23,7 @@ h1{
 }
 .text{
 	background-color: rgba(108,108,108,0.3);
+}
+.singleColumn{
+	display: flex;
 }

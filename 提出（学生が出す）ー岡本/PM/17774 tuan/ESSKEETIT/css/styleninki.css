@@ -18,6 +18,9 @@ h1{
     margin: 0px 0px 0px 0px;
 	padding: 59px 0px 0px 31px;
 }
+h2{
+	text-align: center;
+}
 ul{
 	font-size: 13px;
 	background-color:rgb(33, 134, 101);
@@ -48,7 +51,7 @@ a{
 .photo p{
 	margin-top: 15px;
 	margin-left: 30px;
-}
+}			
 .photo-box{
 	display: flex;
 	margin-left: 29px;
@@ -56,7 +59,7 @@ a{
 }
 .box{
 	width: 400px;
-	margin-left: 65px;
+	
 }
 .big6{
 	font-size: 90%;
@@ -77,9 +80,13 @@ a{
 	margin-right: 20px;
 }
 .big h3{
+	text-align: center;
 	font-weight: 700;
     font-size: 18px;
     font-size: 1.3rem;
+}
+
+	text-align: center;
 }
 .price-table{
 display: flex;

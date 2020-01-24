@@ -8,7 +8,7 @@ body{
 }
 header{
     height:500px;
-    background-image:url("../image/bakery.jpg");
+    background-image:url("../image/Bbakery.jpg");
     background-size:100%;
     background-repeat:no-repeat;
 }
@@ -54,9 +54,11 @@ fieldset{
     background: rgba(84, 67, 49, 0.05)
 }
 span{
+    text-align: center;
     color: #c00;
 }
 dl{
+    text-align: center;
     line-height: 1.6;
 }
 dd span{

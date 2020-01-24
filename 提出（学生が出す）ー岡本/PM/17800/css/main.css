@@ -7,12 +7,12 @@ body{
     
 }
 header{
-    height:500px;
-    background-image:url("../image/bakery.jpg");
+    height:550px;
+    background-image:url("../image/Bbakery.jpg");
     background-size:100%;
     background-repeat:no-repeat;
 }
-ul{
+#menu ul{
     list-style-type:none;
     background-color:#1E90FF;
     position: relative;
@@ -34,10 +34,6 @@ ul{
     background:#C0FF3E;
     color:#333;
 }
-#menu1 ul{
-    margin-right: 100px;
-}
-
 a{
     color: #f1f1f1;
     text-decoration: none;
@@ -64,9 +60,6 @@ table{
     position: relative;
     left: 500px;
 }
-div{
-    display: block;
-}
 .container {
     padding: 0 10px;
 }
@@ -87,6 +80,7 @@ h2 {
     color: #a07e57;
 }
 .show p {
+    font-size: larger;
     height: 100px;
     width: 500px;
     margin: 0px 40px;
@@ -95,11 +89,12 @@ h2 {
     margin-left: 2%;
 }
 .text p{
+    font-size: larger;
     height: 100px;
     width: 700px;
     margin: 0px 40px;
     text-align: justify;
-    line-height: 2;
+    line-height: 1.5;
     margin-left: 2%;
 }
 .vew{
@@ -113,6 +108,7 @@ h2 {
     text-align: center;
 }
 .more a{
+    left: 200px;
     position: relative;
     transition: 0.2s;
     display: inline-block;
@@ -161,6 +157,7 @@ element.style {
     padding: 0 10px;
 }
 .row{
+    font-size: larger;
     padding-top: 30px;
     border-top: 1px solid #a07e57;
     padding-bottom: 0;

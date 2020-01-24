@@ -34,8 +34,9 @@ section {
         font-size: 15px ;
 }
 ul {
-        font-family: Lobster;
-        font-size: 30px;
+        font-family: sans-serif;
+        font-size: 26px;
+        line-height: 50px;
 }
 #div section p {
         font-family: Lobster;

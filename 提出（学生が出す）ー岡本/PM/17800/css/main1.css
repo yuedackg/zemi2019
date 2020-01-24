@@ -8,7 +8,7 @@ body{
 }
 header{
     height:500px;
-    background-image:url("../image/bakery.jpg");
+    background-image:url("../image/DT.jpg");
     background-size:100%;
     background-repeat:no-repeat;
 }
@@ -45,7 +45,7 @@ a{
 table{
     position: relative;
     text-align: center;
-    left: 400px;
+    left: 300px;
 }
 caption{
     font-size: 30px;

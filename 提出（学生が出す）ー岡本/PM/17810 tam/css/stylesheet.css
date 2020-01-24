@@ -60,7 +60,7 @@ display: flex;
 }
 .about p{
     width: 930px;
-    margin: 0px 0px;
+    margin: 2px 20px;
     text-align: justify;
     line-height: 25px;
 }
@@ -82,15 +82,27 @@ margin-left: 30px;
 .box{
 margin-left: 65px;
 width: 525px;
-height: 722px;
+height: 610px;
 display: flex;
 }
+.box2{
+    margin-left: 65px;
+    width: 525px;
+    height: 525px;
+    display: flex;
+    }
+
 .small{
 margin-right: 25px;
 }
-h3{
-サイズ
-あき
+#price{
+    border: #ff0000 2px solid;
+    border-radius: 20px;
+    padding-top: -9px;
+    margin-top: -5px;
+    text-align: center;
+    word-spacing: 110px;
+
 }
 .big img{
 width: 95%;
