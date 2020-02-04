@@ -1,4 +1,8 @@
-﻿body{
+﻿*{
+	font-family: "メイリオ";
+}
+
+body{
     max-width: 1000px;
     margin: 0 auto;
     background-color: blanchedalmond;;
@@ -68,3 +72,4 @@ nav li a {
 	margin: 0 90px 0 0px ;
 	float: right;
 }
+
