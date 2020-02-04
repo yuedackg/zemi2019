@@ -496,6 +496,7 @@ footer go_top{
     border: 10px solid #f69913;
     margin-bottom: 268px;
     border-radius: 0px 25px 0px 25px;
+    line-height: 25px;
     
 }
 .picture{
@@ -545,6 +546,7 @@ footer go_top{
     border: 10px solid #f69913;
     margin-bottom: 268px;
     border-radius: 0px 25px 0px 25px;
+    line-height: 25px;
 
 }
 #three{
@@ -558,6 +560,7 @@ footer go_top{
     border: 10px solid #f69913;
     margin-bottom: 268px;
     border-radius: 0px 25px 0px 25px;
+    line-height: 25px;
 }
 .fulldis{
     background-color: #000000;
@@ -578,6 +581,7 @@ footer go_top{
     z-index: 0;
     border: 10px solid #df6704;
     border-radius: 0px 25px 0px 25px;
+    line-height: 26px;
 }
 .two{
     height: 500px;
@@ -589,6 +593,7 @@ footer go_top{
     z-index: 0;
     border: 10px solid #04acac;
     border-radius: 0px 25px 0px 25px;
+    line-height: 26px;
 }
 .three{
     height: 500px;
@@ -601,6 +606,7 @@ footer go_top{
     border: 10px solid #7b7a7cfa;
     margin-bottom: 268px;
     border-radius: 0px 25px 0px 25px;
+    line-height: 26px;
 }
 .fodkod{
     background-color: #7c7e7f;

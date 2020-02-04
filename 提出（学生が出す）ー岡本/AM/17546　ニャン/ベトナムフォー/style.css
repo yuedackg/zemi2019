@@ -4,7 +4,7 @@
 	background-color: rgba(225, 127, 0, 0.8);
 }
 header{
-	background-image: url("anh/anh5/2.jpg");
+	background-image: url("anh/trangchu/2.jpg");
 	background-repeat: no-repeat;
 	height: 270px;
 	display: flex;
@@ -38,6 +38,7 @@ h3{
 	border-bottom: dotted 5px blue;
 	margin-top: 26px;
 	font-size: 30px;
+	color: forestgreen;
 }
 .aaa{
     display: flex;
@@ -115,15 +116,14 @@ footer{
 	text-align: center;
 	font-size: 28px;
 }
-
-
 .table-left{
-	width: 330px;
+	width: 345px;
 }
 .table-right{
 	margin-left: -120px;
 	width: 300px;
 }
+
 .ccc{
 	height: 330px;
 	width: 94%;

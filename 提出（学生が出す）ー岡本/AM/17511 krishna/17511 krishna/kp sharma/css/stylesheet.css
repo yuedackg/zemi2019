@@ -2,14 +2,10 @@
 	background-color: #ccc;
 
 }
-.wrapper{
-	width: 1024px;
-	margin: 0px auto;
-}
-header#top{
-	height:225px;
-	background-image: url("../image/image21.jpg");
-	background-size: 80%;
+header{
+	height:370px;
+	background-image: url("../image/image6.jpg");
+	background-size: 100%;
 	background-repeat: no-repeat;
 	display: flex;
 	margin top :90px;
@@ -17,7 +13,7 @@ header#top{
 
 }
 header#krishna{
-	height:366px;
+	height:590px;
 	background-image: url("../image/sub-image.jpg");
 	background-size: 1024px;
 	background-repeat: no-repeat;
@@ -31,7 +27,7 @@ header#krishna{
 }
 
 h1{
-	color:red;
+	color:black;
 	font-family: 'SimSun';
 	font-weight: 900;
 	text-align: center;
@@ -45,7 +41,7 @@ h1{
 	margin-left: 40px;
 }
 	p#smalltitle{
-	color: #dd3333;
+	color: blue;
     font-size: 26px;
     margin-left: 360px;
 }

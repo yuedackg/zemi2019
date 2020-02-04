@@ -4,16 +4,26 @@ width: 900px;
 margin: 0 auto;
 background-color:powderblue;
 }
-#head{
-background-image: url("images/sarangkot.jpg");
-background-size: 900px;
-height: 500px;
-background-repeat: no-repeat;
-
-}
 .image img{
 height: 200px;
 width: 200px;
+}
+.head .baram a{
+	color: darkorange;
+	text-decoration: none;
+	font-size: 20px;
+}
+.heads .baram a{
+	color:darkorange;
+	text-decoration: none;
+	font-size: 17px;
+}
+.heads .baram {
+list-style: none;
+text-decoration: none;
+padding: 125px 0 0 30px;
+margin: -120px auto;
+
 }
 .baram{
 	list-style: none;
@@ -24,8 +34,7 @@ color:green;
 
 }
 
-
-h1{
+.uuuu{
 	font-size: 30px;
 	text-align: center;
 	margin:50px;
@@ -66,7 +75,22 @@ h3{
 	background-size:900px;
 	height:500px;
 	background-repeat: no-repeat;
-
+	margin-top: 25px;
+}
+.heads{
+	background-image: url("images/hlo.jpg");
+	background-size:900px;
+	height:250px;
+	background-repeat: no-repeat;
+	margin-top: 25px;
+}
+.head .sunil{
+	text-align: center;
+	color: cornsilk;
+}
+.heads .sunil{
+	text-align: center;
+	color: cornsilk;
 }
 .lamichane{ 
 padding-top: 60px;

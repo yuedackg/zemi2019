@@ -1,0 +1,38 @@
+body{
+    width: 450px;
+    margin: 0 auto;
+    padding: 0;
+}
+header{
+    height: 350px;
+    background-image: url("../img/abhi203.jpg");
+    background-size: 450px;
+    background-repeat: no-repeat;
+    background-position: 0px -96px;
+}
+h1{
+    font-size: 40px;
+    color: #ffff00;
+    margin: 0px 10px;
+}
+p{
+    color: rgb(231, 28, 28);
+    margin-left: 10px;
+    margin-top: 0px;
+}
+ul{
+    display: flex;
+}
+li{
+    list-style: none;
+    margin-right: 35px;
+}
+a{
+    text-decoration: none;
+    color: #666;
+}
+
+header#subpage{
+    height: 100px;
+    background-position: 0px 101px;
+}

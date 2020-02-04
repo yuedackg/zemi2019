@@ -21,25 +21,17 @@ font-family: Arial, Helvetica, sans-serif;
 .header ul{
   margin: 0px 20px;
 }
-#logo{
-  float:left ;
-  height: 45px;
-}
-#logo img{
-  height: 100%;
-  width: auto;
-}
 ul#menu li{
   float: left;
 }
 ul#menu li a{
   padding: 12px 15px;
   text-decoration: none;
-  color:yellow;
+  color:red;
   font-size: 20px;
 }
 ul#menu{
-  float: right;
+  float: center;
   padding: 30px 201px;
   margin: 0px 0px;
 }

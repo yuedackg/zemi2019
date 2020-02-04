@@ -1,0 +1,39 @@
+﻿body{
+	width: 900px;
+	margin: 0 auto;
+	padding: 0;
+}
+header{
+	height: 500px;
+	background-image: url("../img/11111.jpg");
+	background-size: 900px;
+	background-repeat: no-repeat;
+	background-position: 0px -52px;
+}
+h1{
+	font-size: 40px;
+	color: #ffff00;
+	margin-bottom
+	margin-left: 10px:
+}
+p{
+	color: #fff;
+	margin-left: 10px;
+	margin-top: 0px; 
+	
+}
+ul{
+	display: flex;
+}
+li{
+	list-style: none;
+	margin-right: 35px;
+}
+a{
+	text-decoration: none;
+	color: #666;
+}
+header#subpage{
+height:1000px;
+background-position: 6px -50px;
+}

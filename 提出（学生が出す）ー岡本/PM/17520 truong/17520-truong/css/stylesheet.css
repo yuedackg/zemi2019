@@ -325,12 +325,13 @@ body{
 }
 .share{
   float: right;
-  margin: -26px 20px;
-  margin-right: 120px;
+  margin: -25px 40px;
+  padding: 0px 13px;
+  margin-right: 110px;
 }
 .share1{
   float: right;
-  margin: -55px 0px;
+  margin: -54px 30px;
 }
 .clearfix{
   clear: both;
