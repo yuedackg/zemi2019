@@ -48,7 +48,7 @@ a:visited {
   
 }
 h2{
-    color: white;
+    color: #ff0;
     text-align: center;
 }
 h3{
@@ -132,7 +132,6 @@ p{
 }
 /* Style cho ảnh */
 .row .col img {
-    float: left;
     margin-right: 1em;
 }
 .about{
@@ -211,4 +210,20 @@ margin: 0px 80px;
     padding: 43em 3em;
     margin: 0px 0px;
     margin-right: 0px 0px;
+}
+/****img****/
+#box1 img{
+    width:222px;
+    margin: 0px 31px;
+    padding: 0px 0px;
+}
+#box2 img{
+    width:344px;
+    margin: 0px -35px;
+    padding: 0px 0px;
+}
+#box3 img{
+    width:380px;
+    margin: 0px -26px;
+    padding: 0px 0px;
 }

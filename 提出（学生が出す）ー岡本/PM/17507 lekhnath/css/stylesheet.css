@@ -5,7 +5,7 @@ margin: 0px auto;
 background-color:rgb(73, 115, 139);
 }
 header#toppage{
-height: 436px;
+height: 435px;
 background-image: url("../image/topimage.jpg");
 background-size: 120%;
 background-repeat: no-repeat;
@@ -13,7 +13,7 @@ margin-bottom: 40px;
 }
 
 header{
-height:210px;
+height:200px;
 background-image: url("../image/topimage.jpg");
 background-size: 120%;
 background-repeat: no-repeat;
