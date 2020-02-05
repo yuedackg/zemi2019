@@ -38,7 +38,7 @@ nav ul {
 	position: relative;
 	list-style-type: none;
 	display: flex;
-	margin-left: 190px;
+	margin-left: 219px;
   
 }
 nav li a {
@@ -72,5 +72,8 @@ nav li a {
 .geeta{
 	margin: 0 90px 0 0px ;
 	float: right;
+}
+p{
+	text-align:justify;
 }
 

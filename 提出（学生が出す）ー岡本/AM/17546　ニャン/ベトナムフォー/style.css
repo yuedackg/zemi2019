@@ -1,7 +1,7 @@
 ﻿body{
 	width: 1085px;
 	margin: 0 auto;
-	background-color:sandybrown;
+	background-color:darkkhaki;
 }
 header{
 	background-image: url("anh/trangchu/2.jpg");
@@ -77,27 +77,27 @@ footer{
     font-size: 18px;
 }
 .td1{
-    color: cornsilk;
+    color: blue;
     font-size: 20px;
 }
 .td2{
-	color: indigo;
+	color: firebrick;
 }
 .thuy1{
-    background-color: chocolate;
+    background-color: aliceblue;
     margin-left: 10px;
 }
 .thuy3{
-    background-color: chocolate;
+    background-color: aliceblue;
     margin-left: 10px;
     margin-top: 10px;
 }
 .thuy4{
-    background-color: chocolate;
+    background-color: aliceblue;
     margin-left: 10px;
 }
 .thuy5{
-    background-color: chocolate;
+    background-color: aliceblue;
     margin-left: 10px;
     margin-top: 10px;
 }
@@ -124,7 +124,6 @@ footer{
 	background-color: lightgray;
 	text-align: center;
 	font-size: 28px;
-	color: rgb(54, 42, 165);
 	border: solid 1px black;
 	border-collapse: collapse;
 	border-bottom: solid 2px black;
