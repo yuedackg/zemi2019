@@ -24,7 +24,7 @@ section{
 display:inline-flex;
 }
 nav{
-    background-color:rgb(92, 39, 8);
+    background-color:rgb(51, 56, 58);
     }
     ul{
     text-align: center;
@@ -54,20 +54,13 @@ width:450px;
 height: 350px;
 }
 div.nihon p{
-color:rgb(10, 10, 10);
+color:rgb(26, 29, 199);
 margin-left: 25px;
-}
-div.nihon h4{
-color: #10a6ec;
-font-size: 25px;
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-margin-left:25px;
-margin-bottom: -10px;
 }
 footer{
     width: auto;
     height:auto;
-    background-color :rgb(136, 236, 198);
+    background-color :rgb(51, 56, 58);
 }
 .foot{
     text-align: center;

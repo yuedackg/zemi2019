@@ -83,9 +83,9 @@ h2{
     display: flex;
     margin-top: 15px;
 }
-.table-left th,td{
+.aaa table,th,td{
     border: solid 1px red;
-    empty-cells: hide;
+    border-collapse: collapse;
 }
 .aaa2{
     width: 35%;

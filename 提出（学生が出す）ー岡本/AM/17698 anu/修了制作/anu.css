@@ -72,7 +72,8 @@ h3{
 }
 .head{
 	background-image: url("images/sarangkot.jpg");
-	background-size:900px;
+
+	background-size:100%;
 	height:500px;
 	background-repeat: no-repeat;
 	margin-top: 25px;

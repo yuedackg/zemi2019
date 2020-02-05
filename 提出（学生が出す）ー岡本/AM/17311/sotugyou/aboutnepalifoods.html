@@ -6,23 +6,8 @@
 	<title>NEPALI STREET FOODS</title>
 	<link rel="stylesheet" href="css/stylesheet.css">
 	<link href="https://fonts.googleapis.com/css?family=HG明朝E" rel="stylesheet" type="text/css">
-</head>
-
-<body>
-	<header id="header-food">
-	</header>
-	<nav>
-		<ul>
-			<li><a href="#about">ネパールフードについて</a></li>
-			<li><a href="foods.html">ランチ/ディナー/スナック</a></li>
-			<li><a href="access.html">アクセスマップ</a></li>
-			<li><a href="aboutnepal.html">ネパールについて</a></li>
-		</ul>
-	</nav>
 	<style>
-		 {
-			box-sizing: border-box;
-		}
+	
 		body {
 			font-family: Verdana, sans-serif;
 		}
@@ -37,7 +22,7 @@
 
 		/* Slideshow container */
 		.slideshow-container {
-			max-width:650px;
+			max-width: 650px;
 			position: relative;
 			margin: auto;
 		}
@@ -111,93 +96,106 @@
 				font-size: 11px
 			}
 		}
-	}
 	</style>
-	
-		<h2 id="about">Nepali Foods について</h2>
-		NEPALI FOODS とは ネパールの文化の多様性と地理に関連する民族、土壌、気候に基づいた
-		さまざまな料理で構成されています。Dal-bhat-tarkariはネパール全体で食べられます。
-		食べ物への渇望は気分とともに変化し続けます。ネパールの食品には多くの種類があります。 何を
-		食べるか選択できます。ネパール人の間で人気があり、非常に好まれる食品のいくつか あります。
+</head>
 
-		<div class="slideshow-container">
-
-			<div class="mySlides fade">
-				<div class="numbertext">1 / 6</div>
-				<img src="img/sukuti.jpg" alt="nepalifood" style="width:100%">
-				<div class="text">スクティ</div>
-			</div>
-
-			<div class="mySlides fade">
-				<div class="numbertext">2 / 6</div>
-				<img src="img/naan.jpg" alt="nepalifood" style="width:100%">
-				<div class="text">ナン　アンド　カレー</div>
-			</div>
-
-			<div class="mySlides fade">
-				<div class="numbertext">3 / 6</div>
-				<img src="img/curryandrice.jpg" alt="nepalifood" style="width:100%">
-				<div class="text">ライス　アンド　カレー</div>
-			</div>
-			<div class="mySlides fade">
-				<div class="numbertext">4 / 6</div>
-				<img src="img/chowmein.jpg" alt="nepalifood" style="width:100%">
-				<div class="text">チョウメイン</div>
-			</div>
-			<div class="mySlides fade">
-				<div class="numbertext">5 / 6</div>
-				<img src="img/selroti.jpg" alt="nepalifood" style="width:100%">
-				<div class="text">ネパール　FOODS</div>
-			</div>
-			<div class="mySlides fade">
-				<div class="numbertext">6 / 6</div>
-				<img src="img/samosachat.jpg" alt="nepalifood" style="width:100%">
-				<div class="text">チャット</div>
-			</div>
-
-		</div>
-		<br>
-
-		<div style="text-align:center">
-			<span class="dot"></span>
-			<span class="dot"></span>
-			<span class="dot"></span>
-			<span class="dot"></span>
-			<span class="dot"></span>
-			<span class="dot"></span>
-			<span class="dot"></span>
-		</div>
-
-		<script>
-			var slideIndex = 0;
-			showSlides();
-
-			function showSlides() {
-				var i;
-				var slides = document.getElementsByClassName("mySlides");
-				var dots = document.getElementsByClassName("dot");
-				for (i = 0; i < slides.length; i++) {
-					slides[i].style.display = "none";
-				}
-				slideIndex++;
-				if (slideIndex > slides.length) { slideIndex = 1 }
-				for (i = 0; i < dots.length; i++) {
-					dots[i].className = dots[i].className.replace(" active", "");
-				}
-				slides[slideIndex - 1].style.display = "block";
-				dots[slideIndex - 1].className += " active";
-				setTimeout(showSlides, 2000); // Change image every 2 seconds
-			}
-		</script>
-		<ul class="sociallink">
-			<li><a href="https://www.facebook.com/" target="_blank"><img src="img/fbcom.png" alt="faceooklogo"></a></li>
-			<li><a href="https://twitter.com/?lang=en" target="_blank"><img src="img/tweet.png" alt="tweeterlogo"></a>
-			</li>
-			<li><a href="https://www.pinterest.jp/" target="_blank"><img src="img/pintrest.png" alt="pintrestlogo"></a>
-			</li>
+<body>
+	<header id="header-food">
+	</header>
+	<nav>
+		<ul>
+			<li><a href="#about">ネパールフードについて</a></li>
+			<li><a href="foods.html">ランチ/ディナー/スナック</a></li>
+			<li><a href="access.html">アクセスマップ</a></li>
+			<li><a href="aboutnepal.html">ネパールについて</a></li>
 		</ul>
-		<footer><b>ネパールフードIN福岡 ALL RIGHTS RESERVED</b>
-		</footer>
-	</body>
+	</nav>
+	
+
+	<h2 id="about">Nepali Foods について</h2>
+	NEPALI FOODS とは ネパールの文化の多様性と地理に関連する民族、土壌、気候に基づいた
+	さまざまな料理で構成されています。Dal-bhat-tarkariはネパール全体で食べられます。
+	食べ物への渇望は気分とともに変化し続けます。ネパールの食品には多くの種類があります。 何を
+	食べるか選択できます。ネパール人の間で人気があり、非常に好まれる食品のいくつか あります。
+
+	<div class="slideshow-container">
+
+		<div class="mySlides fade">
+			<div class="numbertext">1 / 6</div>
+			<img src="img/sukuti.jpg" alt="nepalifood" style="width:100%">
+			<div class="text">スクティ</div>
+		</div>
+
+		<div class="mySlides fade">
+			<div class="numbertext">2 / 6</div>
+			<img src="img/naan.jpg" alt="nepalifood" style="width:100%">
+			<div class="text">ナン　アンド　カレー</div>
+		</div>
+
+		<div class="mySlides fade">
+			<div class="numbertext">3 / 6</div>
+			<img src="img/curryandrice.jpg" alt="nepalifood" style="width:100%">
+			<div class="text">ライス　アンド　カレー</div>
+		</div>
+		<div class="mySlides fade">
+			<div class="numbertext">4 / 6</div>
+			<img src="img/chowmein.jpg" alt="nepalifood" style="width:100%">
+			<div class="text">チョウメイン</div>
+		</div>
+		<div class="mySlides fade">
+			<div class="numbertext">5 / 6</div>
+			<img src="img/selroti.jpg" alt="nepalifood" style="width:100%">
+			<div class="text">ネパール　FOODS</div>
+		</div>
+		<div class="mySlides fade">
+			<div class="numbertext">6 / 6</div>
+			<img src="img/samosachat.jpg" alt="nepalifood" style="width:100%">
+			<div class="text">チャット</div>
+		</div>
+
+	</div>
+	<br>
+
+	<div style="text-align:center">
+		<span class="dot"></span>
+		<span class="dot"></span>
+		<span class="dot"></span>
+		<span class="dot"></span>
+		<span class="dot"></span>
+		<span class="dot"></span>
+		<span class="dot"></span>
+	</div>
+
+	<script>
+		var slideIndex = 0;
+		showSlides();
+
+		function showSlides() {
+			var i;
+			var slides = document.getElementsByClassName("mySlides");
+			var dots = document.getElementsByClassName("dot");
+			for (i = 0; i < slides.length; i++) {
+				slides[i].style.display = "none";
+			}
+			slideIndex++;
+			if (slideIndex > slides.length) { slideIndex = 1 }
+			for (i = 0; i < dots.length; i++) {
+				dots[i].className = dots[i].className.replace(" active", "");
+			}
+			slides[slideIndex - 1].style.display = "block";
+			dots[slideIndex - 1].className += " active";
+			setTimeout(showSlides, 2000); // Change image every 2 seconds
+		}
+	</script>
+	<ul class="sociallink">
+		<li><a href="https://www.facebook.com/" target="_blank"><img src="img/fbcom.png" alt="faceooklogo"></a></li>
+		<li><a href="https://twitter.com/?lang=en" target="_blank"><img src="img/tweet.png" alt="tweeterlogo"></a>
+		</li>
+		<li><a href="https://www.pinterest.jp/" target="_blank"><img src="img/pintrest.png" alt="pintrestlogo"></a>
+		</li>
+	</ul>
+	<footer><b>ネパールフードIN福岡 ALL RIGHTS RESERVED</b>
+	</footer>
+</body>
 
 </html>

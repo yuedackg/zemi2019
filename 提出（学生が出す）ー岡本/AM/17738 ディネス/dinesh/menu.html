@@ -8,12 +8,12 @@
 	<link href="http://fonts.googleapis.com?family=Lobster" rel="stylesheet" type="text/css">
 	<script>
 		function showmenu() {
-			let item = document.getElementById("Show menu");
+			let item = document.getElementById("Shmenu");
 			item.style.display = "block";
 
 		}
-		function closemenu(){
-			let item = document.getElementById("Show menu");
+		function closemenu() {
+			let item = document.getElementById("Shmenu");
 			item.style.display = "none";
 
 		}
@@ -28,6 +28,9 @@
 
 <body>
 	<header id="header">
+		<h3 class="utsa">
+			ディネスの
+		</h3>
 		<h1>バティパサル
 		</h1>
 	</header>
@@ -42,17 +45,19 @@
 		</ul>
 	</nav>
 
-	<h1 onclick="showmenu()">
+	<h1 class="uts" onclick="showmenu()">
 		Show menu
 	</h1>
-		<section id="Show menu" class="sectionList">
-			<img src="images/menu.jpg" alt="menu">
-			<div onclick="closemenu()">hide menu</div>
-		</section>
+	<section id="Shmenu" class="sectionList">
+		<img src="images/menu.jpg" alt="menu">
+		<div onclick="closemenu()">hide menu</div>
+	</section>
 
 	<p class="pagetop">
 		<a href="#header">PAGE TOP</a>
 	</p>
 	<footer>&copy;バティパサル</footer>
-	
-</body> </html>
+
+</body>
+
+</html>

@@ -5,6 +5,8 @@ body{
 	background-color:#64dbffcf;
 	margin:0;
 	padding:0;
+	overflow: auto;
+
 }
 
 .flipbook-viewport{
@@ -18,6 +20,7 @@ body{
 	top:46%;
 	left:50%;
 	margin:auto;
+	
 }
 
 .flipbook-viewport .flipbook{
@@ -25,6 +28,7 @@ body{
 	height:650px;
 	left:-461px;
 	top:-300px;
+	
 }
 
 .flipbook-viewport .page{
