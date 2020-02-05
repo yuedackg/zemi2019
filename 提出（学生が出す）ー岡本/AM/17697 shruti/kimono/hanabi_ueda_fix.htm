@@ -4,17 +4,16 @@
 <head>
 	<meta charset="UTF-8">
 	<title>日本の文化</title>
-
+	<!-- ここでブラウザごとのCSSのリセットを行う。 -->
 	<link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.18.1/build/cssreset/cssreset-min.css">
-
-	<!-- <link rel="stylesheet" href="css/reset1.css"> -->
+	<!-- 最初からあるCSS -->
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-
+	
 	<style>
-		P {
+		/* P {
 			margin-left: -60px;
 			padding: 0;
-		}
+		} */
 
 		.rana {
 			width: 400px;
@@ -23,14 +22,19 @@
 		/* img{
 			border : solid 1px yellow;
 		} */
-		
+		/* 
+			h1に対して、style.cssでmargin-topが-40px(style.css line 24.)で設定されている。
+			すべてのh1に対して余白が設定されるため、それを打ち消す必要がある。
+		*/
+		#yukata_title{
+			margin-top: 0px;
+		}
 	</style>
-</hea
-d>
+</head>
 
 
 <body>
-	<h1>ゆかた yukata</h1><br>
+	<h1 id="yukata_title">ゆかた yukata</h1><br>
 	<h2>Japanese Culture</h2>
 	<h2>浴衣で花火大会</h2>
 

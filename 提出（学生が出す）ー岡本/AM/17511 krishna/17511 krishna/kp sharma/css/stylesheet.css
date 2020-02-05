@@ -3,8 +3,8 @@
 
 }
 header{
-	height:370px;
-	background-image: url("../image/image6.jpg");
+	height:350px;
+	background-image: url("../image/sub-image.jpg");
 	background-size: 100%;
 	background-repeat: no-repeat;
 	display: flex;
@@ -12,45 +12,40 @@ header{
 	background-color:green;
 
 }
-header#krishna{
+header#toppage{
 	height:590px;
-	background-image: url("../image/sub-image.jpg");
-	background-size: 1024px;
+	background-image: url("../image/image6.jpg");
+	background-size: 100%;
 	background-repeat: no-repeat;
 	display: flex;
 	margin top :100px;
 	background-color:lime
 
 }
+
 .title{
 	display: block;
 }
 
 h1{
-	color:black;
+	color:blue;
 	font-family: 'SimSun';
 	font-weight: 900;
-	text-align: center;
-	
+	text-align: center;	
 }
 	h1#subtitle{
 	font-size: 80px;
+	margin-top:10px;
 }
 	h1#maintitle{
 	font-size: 70px;
-	margin-left: 40px;
+	margin-top:0px;
+	margin-left: 280px;
 }
 	p#smalltitle{
-	color: blue;
-    font-size: 26px;
-    margin-left: 360px;
-}
-	p#bigtitle{
-	color:blue;
-	font-size:30px;
+	font-size: 40px;
 	margin-left:300px;
-	margin-top:200px;
-	font-family:bold;
+	margin-top:0px;
 }
 #menu-photo{
 	width: 290px;
