@@ -92,9 +92,13 @@ section{
 	height: 100%;
 	min-width: 150px;
 }
+.photo-box{
+	display: flex;
+}
 .photo p{
-	margin-top: 15px;
-	margin-left: 30px;
+    margin-top: -4px;
+    margin-left: 13px;
+}
 }
 .photo-box{
 	display: flex;
@@ -152,7 +156,7 @@ margin-left: 30px;
 margin-top:0;
 }
 .photo1{
-	display: flex;
+	display: block;
 	margin-top: 5px;
 	margin-left: 5px;
 }

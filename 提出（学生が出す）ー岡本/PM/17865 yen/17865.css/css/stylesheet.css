@@ -1,7 +1,5 @@
 ﻿body{
 max-width: 1024px;
-padding:center;
-margin:center;
 background-color:#ccffff;
 }
 h1{
@@ -15,9 +13,6 @@ margin-top: 0px;
 padding-top: 250px;
 height: 270px;
 }
-div{
-background-color: #daa520;
-}
 a{
 text-align: center;
 margin-top: 0;
@@ -28,7 +23,7 @@ display: inline-block;
 padding: 10px 0px 10px 16px;
 }
 a{
-color: #ffffff;
+color: blue;
 text-decoration: none;
 }
 h2{
@@ -98,6 +93,10 @@ padding: 5px 48px;
 }
 .table-right{
 margin-left: 30px;
+background-color: #daa520;
+}
+.table-left{
+background-color: #daa520;
 }
 /* 　アクセス　*/
 .access{
@@ -139,4 +138,7 @@ h1.subpage{
     text-align:left;
     height: 200px;
     padding-top: 0px;
+}
+.div{
+background-color: #daa520;
 }

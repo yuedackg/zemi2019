@@ -42,6 +42,128 @@ h3{
 section{
 margin-bottom: 50px;
 }
+   
+/***slider***/
+    
+*{
+  margin: 0;
+  padding: 0;
+}
+      
+.slide{
+  width: 1024px;
+  margin: 0 auto;
+  overflow: hidden;
+  margin-top: 0px;
+  border-radius: 10px;
+  position: relative;
+}
+.slide:hover .dieuhuong{
+  display: block;
+}
+    
+.chuyen-slide{
+  width: 9999px;
+  transition: all 0.5s;
+}
+img{
+  width: 1024px;
+  height: 300px;
+  float:left;
+}
+.dieuhuong{
+  position: absolute;
+  color: white;
+  font-size: 40px;
+  top: 48%;
+  padding-left: 20px;
+  display: none;
+}
+.dieuhuong i:last-child{
+  position: relative;
+  left: 905px;
+}
+    
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  margin: 0 auto;
+  color: rgb(38, 70, 70);
+  font-family: sans-serif;
+}
+.menu ul{
+  list-style-type: none;
+  background: black;
+  text-align: center;
+}
+.menu ul li{
+  color: blanchedalmond;
+  display: inline-table;
+  width: 120px;
+  line-height: 20px;
+  position: relative;
+}
+.menu ul li a{
+  color: blanchedalmond;
+  text-decoration: none;
+  display: block;
+}
+.menu ul li a:hover{
+  background: rgb(170, 8, 8);
+  color: blanchedalmond;
+}
+.menu ul li > .sub-menu{
+   display: none;
+   position: absolute;
+}
+.menu ul li:hover .sub-menu{
+   display: block;
+}
+.sub-menu{
+  z-index:1;
+  transition:opacity linear 0.15s;
+  line-height: 30px;
+}
+/* address*/
+.address{
+  margin: 0px 20px;
+}
+.twitter img{
+  width: 50px;
+  height: 50px;
+  float: right;
+  margin: 0px 3px;
+}
+.address{
+  border-top: solid 2px red;
+}
+.share{
+  float: right;
+  margin: -25px 40px;
+  padding: 0px 13px;
+  margin-right: 110px;
+}
+.share1{
+  float: right;
+  margin: -54px 30px;
+}
+.clearfix{
+  clear: both;
+}
+/*****drink******/
+.menu{
+  background:#e97a7a80;
+}
+.menu h2{
+  text-align: center;
+  border-top: 2px dotted red;
+  border-left: none;
+  border-bottom: none;
+}
+
+
 /*phan menu tren*/
 .table{
   background-color:#ffc3c3;
@@ -227,123 +349,4 @@ a.on_top {
   text-decoration: none;
 }
     
-    
-/***slider***/
-    
-*{
-  margin: 0;
-  padding: 0;
-}
-      
-.slide{
-  width: 1024px;
-  margin: 0 auto;
-  overflow: hidden;
-  margin-top: 0px;
-  border-radius: 10px;
-  position: relative;
-}
-.slide:hover .dieuhuong{
-  display: block;
-}
-    
-.chuyen-slide{
-  width: 9999px;
-  transition: all 0.5s;
-}
-img{
-  width: 1024px;
-  height: 300px;
-  float:left;
-}
-.dieuhuong{
-  position: absolute;
-  color: white;
-  font-size: 40px;
-  top: 48%;
-  padding-left: 20px;
-  display: none;
-}
-.dieuhuong i:last-child{
-  position: relative;
-  left: 905px;
-}
-    
-*{
-  padding: 0;
-  margin: 0;
-}
-body{
-  margin: 0 auto;
-  color: rgb(38, 70, 70);
-  font-family: sans-serif;
-}
-.menu ul{
-  list-style-type: none;
-  background: black;
-  text-align: center;
-}
-.menu ul li{
-  color: blanchedalmond;
-  display: inline-table;
-  width: 120px;
-  line-height: 20px;
-  position: relative;
-}
-.menu ul li a{
-  color: blanchedalmond;
-  text-decoration: none;
-  display: block;
-}
-.menu ul li a:hover{
-  background: rgb(170, 8, 8);
-  color: blanchedalmond;
-}
-.menu ul li > .sub-menu{
-   display: none;
-   position: absolute;
-}
-.menu ul li:hover .sub-menu{
-   display: block;
-}
-.sub-menu{
-  z-index:1;
-  transition:opacity linear 0.15s;
-}
-/* address*/
-.address{
-  margin: 0px 20px;
-}
-.twitter img{
-  width: 50px;
-  height: 50px;
-  float: right;
-  margin: 0px 3px;
-}
-.address{
-  border-top: solid 2px red;
-}
-.share{
-  float: right;
-  margin: -25px 40px;
-  padding: 0px 13px;
-  margin-right: 110px;
-}
-.share1{
-  float: right;
-  margin: -54px 30px;
-}
-.clearfix{
-  clear: both;
-}
-/*****drink******/
-.menu{
-  background:#e97a7a80;
-}
-.menu h2{
-  text-align: center;
-  border-top: 2px dotted red;
-  border-left: none;
-  border-bottom: none;
-}
-
+ 

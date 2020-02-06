@@ -130,20 +130,30 @@ h1{
 *:first-child+html #menu { zoom: 1; } /* IE7 */
 h2{
     color: aqua;
+    font-size: 30px;
 }
 /*.about{
     display:;
 }*/
+
+/*　メンバーページ　*/
 .member{
     display: flex;
-    margin: 16px 75px;
+    margin: 16px -18px;
+}
+#member-title{
+    color: #ff0000;
+    font-size: 14px;
+    font-weight: 800;
+    margin-right: 27px;
 }
 .member p{
     padding-right: 0px 5px;
     margin: 5px 10px;
 }
-
-
+.member img{
+    margin: 0px 0px 0px 0px;
+}
 .about p{
     width: 800px;
     margin: 0px 0px;
@@ -177,6 +187,9 @@ h2{
 .history{
     display: flex;
 }
+iframe{
+    margin: 0px;
+}
 .pagetop a{ 
   text-decoration: none; 
 }
@@ -203,6 +216,5 @@ h2{
 .footer{
     border-top:1px red ;
     padding: 50px 20px;
-    float: left;
     margin: 0px 0px;
 }

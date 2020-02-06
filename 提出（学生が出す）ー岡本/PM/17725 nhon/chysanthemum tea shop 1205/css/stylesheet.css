@@ -10,16 +10,21 @@ font-family: Arial, Helvetica, sans-serif;
   width:100%;
   margin: 0px auto;
 }
-.heder{
-  padding: 10px 0px;
-  background: black;
+.header{
+  padding: 0px 0px;
+  height: 54px;
 }
-.hader img{
+.header img{
   width:120px;
   margin:-94px 205px ;
 }
 .header ul{
   margin: 0px 20px;
+}
+.sitetitle{
+  font-size: 24px;
+  font-weight: 600;
+  margin: 10px 0px 0px 10px;
 }
 ul#menu li{
   float: left;
@@ -28,11 +33,11 @@ ul#menu li a{
   padding: 12px 15px;
   text-decoration: none;
   color:red;
-  font-size: 20px;
+  font-size: 14px;
 }
 ul#menu{
   float: center;
-  padding: 30px 201px;
+  padding: 16px 201px;
   margin: 0px 0px;
 }
 ul li{
@@ -47,7 +52,8 @@ background-image: url("../anh/tra-hoa-cuc-.jpg");
 background-size:cover;
 background-position: center center;
 padding-top:40px;
-color:red;
+color:#d21414;
+font-size: 40px;
 }
 h2{
 border:#ffff00 solid 2px;

@@ -11,8 +11,10 @@
 
 	</head>
 	<body>
+		
 		<center><h1>ホーム</h1></center>
-		<p>　U-Townで最高の本場韓国料理をお楽しみください！最高の韓国料理を提供しています。私たちのレストランでは、ビビンバ、さまざまな鍋バーベキュー肉、鶏肉料理。ご飯とおかずを添韓国ミュージックのセレクションがレストランの雰囲気を完成させます。食事サービスとテイクアウト。。。</p>
+		<p>　U-Townで最高の本場韓国料理をお楽しみください！最高の韓国料理を提供しています。私たちのレストランでは、ビビンバ、さまざまな鍋、バーベキュー肉、鶏肉料理 を提供しています。ご飯とおかずを添えて。韓国音楽の選択は、私たちのレストランの雰囲気を完成させます。食事サービスとテイクアウトを提供しています。</p>
+		
 		<table border="0" width="100%" height="10%">
 			<tr class="main-nav">
 				<td width="12.5%" align="center" bgcolor="purple" class="links"><a href="17801.html" style="color:white;">ホーム</a></td>
@@ -21,7 +23,40 @@
 				<td width="12.5%" align="center" bgcolor="purple" class="links"><a href="contactus.html" style="color:white;">アクセス　マップ</a></td>
 			</tr>
 		</table>
-		<img src="images/s1.jpg" width="100%" height="95%">
+
+			<script>
+			var i = 0;
+			var images = [6];
+			var time = 2000;
+			
+			// Image list
+			images[0] = 'images/1.jpg';
+			images[1] = 'images/2.jpg';
+			images[2] = 'images/4.jpg';
+			images[3] = 'images/Bibimbap.jpg';
+			images[4] = 'images/kimbap.jpg';
+			images[5] = 'images/kimchi.jpg';
+			images[6] = 'images/kimchi stew.jpg';
+		
+			
+			// Change image
+			function changeImage(){
+			
+				document.slide.src = images[i];
+			
+				if(i <images.length - 1){
+				i++;
+				} else {
+				i = 0;
+				}
+				setTimeout("changeImage()", time);
+			}
+			
+			window.onload = changeImage;
+			</script>
+		 <img name="slide" width="100%" height="95%">
+	
+		
 		
 			
 	

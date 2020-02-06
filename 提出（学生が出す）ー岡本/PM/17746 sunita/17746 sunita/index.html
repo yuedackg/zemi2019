@@ -7,7 +7,9 @@
 		<script src="js/script"></script>
 	</head>
 	<body style="background-image: url('image/img_1.png');">
+		
 		<table>
+					<p>
 			<tr>
 				<td style="width: 300px;"><header id="header">
 					<p id="catch">ネパール・タメルにあるモモがおすすめのお店</p>
@@ -25,6 +27,39 @@
 	    <h1>Nepali restaurant</h1>
         <p class="text"> ネパしてカトマンズで本物のネパールのレストランを探しているなら、私たちのブログがそれらのいくつかを見つけるのを助けるかもしれません。 旅行者のほとんどは、その特定の目的地での旅行中に本物の地元の食べ物を味わうのが大好きです。 おもてなしの温かさに加えて、本物の創世記の食事を味わうことが重要になります。
 		</p>
+		<p>
+			<script>
+			var i = 0;
+			var images = [];
+			var time = 1000;
+			
+			// Image list
+			images[0] = 'image/image5.jpg';
+			images[1] = 'image/image6.jpg';
+			images[2] = 'image/image8.jpg';
+			images[3] = 'image/image13.jpg';
+			images[4] = 'image/image16.jpg';
+			images[5] = 'image/image19.jpg';
+			images[6] = 'image/image20.jpg';
+		
+			
+			// Change image
+			function changeImage(){
+			
+				document.slide.src = images[i];
+			
+				if(i <images.length - 1){
+				i++;
+				} else {
+				i = 0;
+				}
+				setTimeout("changeImage()", time);
+			}
+			
+			window.onload = changeImage;
+			</script>
+			 <img name="slide" width="800" height="400">
+		<p>
         </header>
 		
 	</body>

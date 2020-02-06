@@ -9,7 +9,7 @@ body{
 header{
     height:550px;
     background-image:url("../image/Bbakery.jpg");
-    background-size:100%;
+    background-size:auto;
     background-repeat:no-repeat;
 }
 #menu ul{
