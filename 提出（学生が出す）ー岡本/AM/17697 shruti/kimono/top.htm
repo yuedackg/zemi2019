@@ -1,57 +1,93 @@
-﻿ <!DOCTYPE html>
-	<html lang="ja"> 
-	<head>
-		<meta charset="UTF-8">
-		<title>日本の文化</title>
-		<link rel="stylesheet" type="text/css" href="css/style.css">
-		<link rel="stylesheet" type="text/css" href="css/CUSTOM.CSS">
-		<script>
-			function showreadme() {
-				let item = document.getElementById("read");
-				item.style.display = "block";
+﻿<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+	<meta charset="UTF-8">
+	<title>日本の文化</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/CUSTOM.CSS">
+	<script>
+		function showreadme() {
+			let item = document.getElementById("read");
+			item.style.display = "block";
+
+		}
+		function closereadme() {
+			let item = document.getElementById("read");
+			item.style.display = "none";
+
+		}
+	</script>
+		<link rel="stylesheet" type="text/css" href="css/sample.css">
+		<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+		<script type="text/javascript">
+			function slideSwitch() {
+				var $active = $('#slideshow img.active');
 	
-			}
-			function closereadme(){
-				let item = document.getElementById("read");
-				item.style.display = "none";
+				if ( $active.length == 0 ) $active = $('#slideshow img:last');
 	
+				var $next =  $active.next().length ? $active.next()
+					: $('#slideshow img:first');
+	
+				$active.addClass('last-active');
+	
+				$next.css({opacity: 0.0})
+					.addClass('active')
+					.animate({opacity: 1.0}, 1000, function() {
+						$active.removeClass('active last-active');
+					});
 			}
+	
+			$(function() {
+				setInterval( "slideSwitch()", 3000 );
+			});
+	
 		</script>
-		<style>
-			.sectionList {
+	<style>
+		.sectionList {
 				display: none;
 	
 			}
 		</style>
-	</head>
-	<body>
-		<header id="toppage">
-			<div class="title"><h1>ゆかた yukata</h1></div>
-			<h2>Japanese Culture</h2>
-			<nav>
-				<ul>
-					<li><a href="top.htm">日本の文化</a></li>
-					<li><a href="about.htm">浴衣について</a></li>
-					<li><a href="howto.htm">浴衣の着方</a></li>
-					<li><a href="hanabi.htm">花火</a></li>
-					<li><a href="hanami.htm">お花見</a></li>
-				</ul>
-			</nav>
-		</header>
-		<button class="seeta" type="button" onclick="showreadme()">開くボタン!</button>
-		
-		<section id="read" class="sectionList">
-			<h1>
-				日本の文化
-			</h1>
-			<div class="comment">
-				<p id="b1" class="si">本項では日本の文化全般について、幅広く過去から現在への事象を取り上げ、概要の説明やリンクを示す。分類については、まだ発展・整理の途上であり、正式なものではない。日本発祥のもの以外でも、日本に深く根付い
-				ているものはこの記事に含まれる。 なお、日本の文化に関係する人物は、原則として記述しない。人名一覧を参照のこと。 
-				</p>
-			</div>
-			<button class="geeta" type="button" onclick="closereadme()">閉じるボタン!</button>
+</head>
 
-		</section>
-			
-	</body>
+<body>
+		<div class="title">
+				<h1>ゆかた yukata</h1>
+			</div>
+			<h2>Japanese Culture</h2><br>
+			<nav>
+					<ul>
+						<li><a href="top.htm">日本の文化</a></li>
+						<li><a href="about.htm">浴衣について</a></li>
+						<li><a href="howto.htm">浴衣の着方</a></li>
+						<li><a href="hanabi.htm">花火</a></li>
+						<li><a href="hanami.htm">お花見</a></li>
+					</ul>
+				</nav>
+	<p id="slideshow">
+		<img src="screen00/uts.png" alt="画像1:公園風景1" class="active"  width="800px" height="500px"/>
+		<img src="screen00/yukata1.jfif" alt="画像2:公園風景2" width="800px" height="500px"/>
+		<img src="screen00/yukata2.jpg" alt="画像3:公園風景3" width="800px" height="500px"/>
+		<img src="screen00/rana01.jpg" alt="画像4:公園風景4" width="800px" height="500px"/>
+	</p>
+		
+	
+	
+	<button class="seeta" type="button" onclick="showreadme()">開くボタン!</button>
+
+	<section id="read" class="sectionList">
+		<h1>
+			衣服と日本の文化
+		</h1>
+		<div class="comment">
+			<p id="b1" class="si">現在では、日常生活で和服を着用することは少なくなりました。しかし、結婚式、成人式をはじめとした冠婚葬祭には着物がかかせません。
+				また、盆踊りや花火大会などのイベントでは浴衣(ゆかた)が広く着用されています。海外でも和服は評価されていて、「kimono」という言葉で通用するまでになっていますね。</p>
+		</div>
+		<button class="geeta" type="button" onclick="closereadme()">閉じるボタン!</button>
+
+	</section>
+
+</body>
+
 </html>

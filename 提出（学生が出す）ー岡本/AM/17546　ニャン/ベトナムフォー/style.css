@@ -117,13 +117,13 @@ footer{
 }
 .bbb{
 	padding: 10px 145px 20px;
-	font-size: 20px;
+	font-size: 14px;
 	margin-top: 10px;
 }
 .bbb th{
 	background-color: lightgray;
 	text-align: center;
-	font-size: 28px;
+	font-size: 20px;
 	border: solid 1px black;
 	border-collapse: collapse;
 	border-bottom: solid 2px black;

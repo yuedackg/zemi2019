@@ -74,7 +74,7 @@ width: 20%;
 height: 20%;
 min-width: 150px;
 }
-
+/*　料理　*/
 .photo p{
 margin-top: 15px;
 margin-left: 30px;
@@ -82,7 +82,6 @@ margin-left: 30px;
 .photo-box{
 display: flex;
 margin-left: 30px;
-
 }
 .box{
 margin-left: 65px;
@@ -105,7 +104,6 @@ width:100%;
 padding: 25px;
 background-color: #0000BF;
 }
-
 .price-table{
 display: flex;
 margin-left: 25px;
@@ -122,6 +120,12 @@ padding: 5px 48px;
 margin-left: 450px;
 margin-top: -142px;
 }
+
+/*アクティビティ*/
+.activity-box{
+display: flex;
+}
+
 /* ?@?A?N?Z?X?@*/
 .access{
 display: flex;

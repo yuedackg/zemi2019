@@ -15,6 +15,11 @@ header#header{
 	height: 123px;
 	display: flex;
 }
+header p#maintitle{
+    font-size: 23px;
+	margin-top: 8px;
+	color: #923131;
+}
 #header h1{
 	font-size: 45px;
   margin-right: 25px;

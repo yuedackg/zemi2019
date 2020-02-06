@@ -59,10 +59,9 @@ h2{
 }
 
 h2{
-	border-none;
 	border-bottom: dotted 5px; 
-	margin-top:30px;
-	padding:5px
+	margin-top: 30px;
+	padding: 5px
 }
 h3{
 	margin-top:40px;
@@ -95,7 +94,6 @@ h3{
 }
 .lamichane{ 
 padding-top: 60px;
-text-align:float right;
 }
 .pagetop{
 	padding-top: 40px;
@@ -119,8 +117,4 @@ padding: 5px 48px;
 .table-right{
 margin-left: 450px;
 margin-top: -142px;
-}
-.baramu{
-	text-align: float left;
-	background-color:none;
 }

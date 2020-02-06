@@ -11,6 +11,13 @@ background-image: url("../img/top-image.jpg");
 background-repeat: no-repeat;
 background-size: 1024px;
 }
+header#headers{
+    margin-top: 30px;
+height: 250px;
+background-image: url("../img/topp.jpg");
+background-repeat: no-repeat;
+background-size: 1024px;
+}
 h1{
 color: rgb(255, 51, 245);
 background-repeat: no-repeat;
@@ -87,7 +94,7 @@ h3{
 
 }
 .big img{
-width: 60%;
+width: 45%;
 padding: 30px;
 margin-top: 18px;
 background-color: #fff;

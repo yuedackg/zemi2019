@@ -5,18 +5,18 @@
 
 ul#menu {
 	list-style-type: none;
-	width: 100%;
 	background: #ffffff;
-	opacity: 0.7;
-	position: absolute;
+	opacity: 0.9;
 	left: 0px;
 	top: 70px;
 	z-index: 990;
 	display: none;
+    width: 260px;
+	position: inherit;
+	height: 300px;
 }
-
 ul#menu li {
-	text-align: center;
+	text-align: left;
 }
 
 ul#menu li a {
