@@ -21,9 +21,6 @@ h1{
     padding-top:120px;
     text-align: center;
     }
-section{
-display:inline-flex;
-}
 nav{
     background-color:rgb(7, 50, 53);
     }
@@ -49,32 +46,37 @@ li{
     margin-right: 30px;
     display: inline-block;
     }
-section{
-display:flex;
-padding-left:30px;
-}
+
 h1{
 margin-bottom: 0;
 }
 div img{
-    background-color: antiquewhite;
-    border-radius: 10px;
-    padding: 10px;
-    width:100%;
-    height: 500px;
+    width:900px;
+    height:400px;
 }
 p{
     font-size:20px;
     color: rgb(241, 245, 19);
     margin-top:-10px;
 }
+div.photo{
+    display: flex;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    padding: 10px;
+    width:fit-content;
+    height: fit-content;
+}
 p.text{
-font-size: 30px;
+font-size:20px;
 margin-left: 20px;
 margin-top: 20px;
 color: black;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
+section{
+    display: flex;
+}
 .pagetop{
 position: fixed;
 right: 60px;

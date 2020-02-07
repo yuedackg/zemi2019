@@ -56,12 +56,12 @@ width: 1015px;
 	margin-bottom: 0;
 }
 .abc1{
-	width: 61%;
+	width: 46%;
 	height: 289px;
 	margin-left: 15px;
 }
 .item1{
-	width: 35%;
+	width: 25%;
 }
 .box{
 background-color:antiquewhite;
@@ -95,6 +95,7 @@ margin-top: 10px;
 display: flex;
 }
 .photo-box img{
+
 	width: 100%;
     height: 300px;
 }
@@ -153,11 +154,12 @@ display: flex;
 	display: flex;
 }
 .big2 img{
-	width: 328px;
-    height: 200px;
+	width: 372px;
+	height: 202px;
 }
 .big2 p{
 	margin-left: 20px;
+	margin-top: 0;
 }
 /* 地図*/
 .access{

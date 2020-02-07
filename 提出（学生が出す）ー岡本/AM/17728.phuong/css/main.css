@@ -1,6 +1,6 @@
 
 body{
-    background-color: blue;
+    background-color: rgb(205, 205, 243);
     max-width: 1200px;
     width:90%;
     margin: 0 auto;
@@ -53,18 +53,7 @@ div img{
     width: 300px ;
     height:300px;
 }
-div.photo{
-    background-color: rgb(211, 221, 175);
-    margin: 10px;
-    padding: 10px;
-}
-.text1{
-    color: rgb(21, 18, 202);
-    margin: 10px;
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 20px;
-}
-.text2{
-    color: rgb(21, 18, 202);
-    margin: 10px;
-    font-size:15px;
 }

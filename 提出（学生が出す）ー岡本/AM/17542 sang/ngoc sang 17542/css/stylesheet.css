@@ -12,11 +12,11 @@ header{
 	background-size:1024px 400px;
 }
 h1{
-	color: #f01f10;
-	font-family: Lobster;
-	font-size: 50px;   
-	text-align: center;
-	padding-top:150px;
+	color: chartreuse;
+    font-family: Lobster;
+    font-size: 70px;
+    text-align: center;
+    padding-top: 89px;
 }
 nav{
 	background-color:32cd32;	
@@ -180,4 +180,30 @@ padding:0 10px;
 	width: 200px;
 	word-wrap: none;
 	margin-left: 40px;
+}
+.div table{
+	border: solid 2px black;
+	border-collapse: collapse;
+	margin-left: 300px;
+}
+.div th{
+	border: solid 1px black;
+	border-collapse: collapse;
+	background-color: burlywood;
+	font-size: 20px;
+	border-bottom: solid 2px black;
+}
+.div td{
+	border: solid 1px black;
+	border-collapse: collapse;
+	font-size: 15px;
+	background-color: blanchedalmond;
+}
+.div img{
+	height: 300px;
+	width: 32%;
+	margin-left: 7px;
+}
+.div1{
+	margin-top: 20px;
 }
