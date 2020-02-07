@@ -20,7 +20,7 @@ h1{
 	background-repeat: no-repeat;
 	background-position: 50% 73%;
 	font-family: Lobster;
-	font-size: 50px;        #f8e4ce;
+	font-size: 50px;       
 	text-align: center;
 	margin-top: 10px;
 	padding-top: 10px;
@@ -99,11 +99,11 @@ section{
     margin-top: -4px;
     margin-left: 13px;
 }
-}
+
 .photo-box{
 	display: flex;
 	margin-left: 29px;
-	
+	padding: 0px 14px;
 }
 .box{
 	width: 400px;
@@ -197,5 +197,9 @@ padding:0 10px;
 	width: 200px;
 	word-wrap: none;
 	margin-left: 40px;
-}c
-
+}
+#box1 img{
+    width: 60%;
+    padding:0px 0px;
+    margin: 0px 0px;
+}

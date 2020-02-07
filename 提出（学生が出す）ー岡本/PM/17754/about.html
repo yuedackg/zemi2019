@@ -26,12 +26,44 @@
 		</div>
 		<h2 id="about">About CAN</h2>
 		<section class="about">
-				
+				<p>
+						<script>
+						var i = 0;
+						var images = [];
+						var time = 1000;
+						
+						// Image list
+						images[0] = 'images/2.jpg.jpg';
+						images[1] = 'images/3.jpg.jpg';
+						images[2] = 'images/4.jpg';
+						images[3] = 'images/6.jpg';
+					
+					
+					
+					
+						
+						// Change image
+						function changeImage(){
+						
+							document.slide.src = images[i];
+						
+							if(i <images.length - 1){
+							i++;
+							} else {
+							i = 0;
+							}
+							setTimeout("changeImage()", time);
+						}
+						
+						window.onload = changeImage;
+						</script>
+						 <img name="slide" width="800" height="400">
+				<p>	
 			
 			<p>ネパールは条件付きで国際クリケット評議会（ICC）のメンバーとして復帰しました。 ICCは、2019年10月13日にネパールのクリケット協会（CAN）の禁止を解除しました。この決定は、月曜日にドバイで開催されたICC理事会会議の結果です。ネパールのクリケット運営団体は、政府の干渉を禁止し、自由で公正な選挙を義務付けているICC規則にCANが違反したことをICCが発見した後、2016年に停止されました。
 			</p>
-			<img src="images/2.jpg" style="width: 380px;">
-			<img src="images/3.jpg" style="width: 380px;">
+			
+		
 		</section>
 
 		

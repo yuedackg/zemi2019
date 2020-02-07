@@ -24,6 +24,38 @@
 		</div>
 		<h2 id="about">ANFAについて</h2>
 		<section class="about1">
+
+<div class="simpleS">
+  <img src="img/tai.jpg" style="width:100%" alt="1">
+  <img src="img/afc.jpg" style="width:100%" alt="2">
+  <img src="img_mountains.jpg" style="width:100%" alt="3">
+  <img src="img_forest.jpg" style="width:100%" alt="4">
+
+  <button class="button-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="button-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+<p>
 			
 				ANFA(ALLNEPALFOOTBALLASSOCIATION)<br>は,
 				ネパールのサッカーの運営機関です。<br>

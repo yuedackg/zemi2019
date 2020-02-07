@@ -2,7 +2,7 @@
 max-width:1024px;
 }
 header{
-background-image: url("../anh1/topimage.jpg");
+background-image: url("../anh1/k.jpg");
 background-size:1024px;
 height:300px;
 }
@@ -276,6 +276,7 @@ img {
 .dropup {
   position: relative;
   display: inline-block;
+  width:100%;
 }
 
 .dropup-content {

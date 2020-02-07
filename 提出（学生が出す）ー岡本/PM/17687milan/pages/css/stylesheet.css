@@ -218,3 +218,15 @@ iframe{
     padding: 50px 20px;
     margin: 0px 0px;
 }
+.simpleS{
+
+}
+.button-left{
+    margin-left: 10px;
+
+}
+.button-right{
+    float: right;
+    margin-right: -10px;
+
+}

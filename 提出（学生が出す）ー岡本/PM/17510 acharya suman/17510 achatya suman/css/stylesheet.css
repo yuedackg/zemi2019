@@ -91,7 +91,7 @@ td{
 	padding:10px 60px;
 }
 .table-right{
-	margin-left: -50px;
+	margin-left: -20px;
 
 }
 
@@ -124,20 +124,20 @@ footer li{
 	font-size:20px;
 }
 .drink-photo{
-	width: 400px;
-	height: 350px;
+	width: 380px;
+	height: 330px;
 	background-image: url("../image/image17.jpg");
 	margin:30px;
 }
 .drink-photo1{
-	width: 350px;
-	height: 300px;
+	width: 380px;
+	height: 330px;
 	background-image: url("../image/image19.jpg");
 	margin:30px;
 }
 .drink-photo2{
-	width: 400px;
-	height: 350px;
+	width: 380px;
+	height: 330px;
 	background-image: url("../image/image22.jpg");
 	margin:30px;
 }
