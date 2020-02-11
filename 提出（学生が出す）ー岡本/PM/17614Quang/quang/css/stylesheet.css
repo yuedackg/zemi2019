@@ -198,8 +198,65 @@ padding:0 10px;
 	word-wrap: none;
 	margin-left: 40px;
 }
-#box1 img{
-    width: 60%;
+#photo1 img{
+    width: 125%;
     padding:0px 0px;
     margin: 0px 0px;
+}
+#photo2 img{
+    width: 56%;
+    padding:0px 33px;
+    margin: 0px 124px;
+}
+#photo3 img{
+    width: 77%;
+    padding:15px 0px;
+    margin: 40px 49px;
+}
+#photo4 img{
+    width: 48%;
+    padding:0px 49px;
+    margin: 40px 120px;
+}
+.tex h3{
+	text-align: center;
+	margin: 0px 10px;
+	padding: 0px 10px;
+}
+.tex h4{
+	text-align: center;
+	margin: 0px 10px;
+	padding: 0px 10px;
+}
+.tex1 h3{
+	text-align: center;
+	margin: 0px 10px;
+	padding: 0px 10px;
+}
+.tex1 h4{
+
+	margin: 0px 72px;
+	padding: 0px 124px;
+}
+.tex2 h3{
+	text-align: center;
+	margin: -50px 10px;
+	padding: 0px 10px;
+}
+.tex2 h4{
+	text-align: center;
+	margin: 50px 10px;
+	padding: 0px 10px;
+}
+.tex3 h3{
+	text-align: center;
+	margin: -40px 10px;
+	padding: 0px 10px;
+}
+.tex3 h4{
+	margin: 40px 10px;
+	padding: 0px 200px;
+}
+.span{
+	margin: 10px 10px;
 }
