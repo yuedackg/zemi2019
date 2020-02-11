@@ -104,12 +104,17 @@ background-position: 0px -243px;
 
 }
 #header h1{
-color: #eee;
+color: #ef2;
 font-family: serif;
 font-size: 50px;
 text-align: center;
-margin-top: 0px;
+margin: 0px 0 0 390px;
 padding-top: 60px;
+
+}
+#header p{
+  margin: 50px 0 0 420px;
+  color: #ef2
 }
 #header h3{
   text-align: center;

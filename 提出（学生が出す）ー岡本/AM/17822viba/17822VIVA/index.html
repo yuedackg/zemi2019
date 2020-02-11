@@ -1,114 +1,163 @@
-﻿<!DOCTYPE html>
-<html>
+﻿<!doctype html>
+<html lang="ja">
 	<head>
-	  <meta charaset="UTF-8">
-	  <meta name="viewport" content="width=device-width,initial-scale=1">
-	  <title>興味</title>
-	  <link rel="stylesheet" href="css/style.css">
+		<meta charset="UTF-8"/>
+		<title>ホームページ</title>
+		<link rel="stylesheet" href="css/flexbox.css">
+
+		<script>
+			var pictures = new Array(
+				  "imgvd/a02.jpg",
+				  "imgvd/totnghiep.jpg",
+				  "imgvd/hinh01.jpg",
+				  "imgvd/hinh12.JPG",
+				  "imgvd/hinh13.jpg",
+				  "imgvd/hinh011.jpg",
+				  "imgvd/hinh002.jpg",
+				  "imgvd/hinh013.jpg",
+				  "imgvd/hakata_1.jpg",
+				  "imgvd/hakata_2.jpg",
+				  "imgvd/anhdao.jpg",
+				  "imgvd/hana2.jpg",
+				  "imgvd/fujihana.jpg",
+				  "imgvd/xichlo.jpg",
+				  "imgvd/dongthap.jpg",
+				  "imgvd/bong-sung.jpg",
+			);
+			var index = 0;
+				var on = 0;
+				var timer1;
+			function play(){
+				document.images[4].src=pictures[index];
+				document.images[4].width=400;
+				document.images[4].height=300;
+				index++;
+				if ( index >= 16)   index = 0;
+					if(on==1){
+					timer1 = setTimeout("play()" ,5000);
+					}
+			}
+			function start(){
+					if(on==0){
+						on=1;
+						play();
+					}
+			}
+			function stop(){
+					on=0;
+					clearTimeout(timer1);
+			}
+			function openPic( item ){
+				document.images[4].src=pictures[ item - 1 ];
+				document.images[4].width=400;
+				document.images[4].height=300;
+			}
+			</script>
 	</head>
 	<body>
-	  <header>
-	  皆さん、こんにちは!!!<br>
-	  こちらへ　ようこそ！
-	  </header>
-	  <nav>
-			<ul>
-				<li><a href="annai.html">ホームページ</a></li>
-				<li><a href="nokonoshima.html">能古島</a></li>
-				<li><a href="uminonaka.html">海ノ中道</a></li>
-				<li><a href="fukuoka.html">福岡市</a></li>
-				<li><a href="dongthap.html">ドンタップ県について</a></li>
-				<li><a href="sunki.html">日本語学校</a></li>
-			</ul>
-		</nav>
-	　<div class="main">
-		<aside class="trai">
-			
-				<a href="https://www.google.co.jp/">・Google</a><br>
-				<a href="https://www.nhaccuatui.com/">・ベトナムのミュージック</a><br>
-				<a href="https://dantri.com.vn/">・ベトナムの新聞</a><br>
-				<div class="link"><a href="https://twitter.com/fashionpressnet">・ファッションWEB</a></div><br>
-				<div class="CKG">
-					<a href="https://www.google.com/search?q=ckg&npsic=0&rflfq=1&rlha=0&rllag=33578361,130410560,2104&tbm=lcl&ved=2ahUKEwj7_5PMzNnlAhWK7WEKHS5gBN4QtgN6BAgGEAQ&tbs=lrf:!2m4!1e17!4m2!17m1!1e2!2m1!1e2!3sIAE,lf:1,lf_ui:2&rldoc=1#rldoc=1&rlfi=hd:;si:1940572924976064328;mv:[[33.571756876922635,130.43084598419182],[33.55344745218192,130.39097762939446],null,[33.56260264978514,130.41091180679314],15];tbs:lrf:!2m1!1e2!2m4!1e17!4m2!17m1!1e2!3sIAE,lf:1,lf_ui:2">・CKGビジネスカレッジ</a>
-				</div><br>
-				<div class="fuku"><a href="https://www.youtube.com/watch?v=zIyLDBLtivM">・福間海岸</a></div><br>
-		</aside>
-		
-		<div class="main-contents">
-			<table>
-				<tr>
-					<td><h2>あじさい</h2><div class="hana"></div></td>
-				</tr>
-			</table>
-			<p>
-				アジサイの特別なところは、花の色が土壌のpHに依存することです。
+		<header id="header">
+			<h1>ホームページ</h1>
+		</header>
+			<nav>
+				<ul>
+					<li><a href="index.html">ホームページ</a></li>
+					<li><a href="nokonoshima.html">能古島</a></li>
+					<li><a href="uminonaka.html">海ノ中道</a></li>
+					<li><a href="fukuoka.html">福岡市</a></li>
+					<li><a href="dongthap.html">ドンタップ県について</a></li>
+					<li><a href="sunki.html">日本語学校</a></li>
+				</ul>
+			</nav>
+			<h2>ビバの生活についての写真をご覧下さい。</h2>
+			<div class="box">
+				<div class="table">
+			<table border="1">
 
-				土壌のpHが7の場合、植物は乳白色の花を生成し、土壌のpHが7を超える場合、植物はピンクまたは紫色の花を生成し、pHが7未満の場合、植物は青色の花を生成します。
-				
-				したがって、土壌のpHを調整することで花の色を調整することが可能です。
-				（花青い夏収集肥料液塩化第二鉄またはいくつかの釘を埋め込むことができるが、また、土壌中に少し塩化アルミニウム、塩化マグネシウムを埋め込み、ツリーの錆。
-				花ピンクにすることにも適用することができます少しのライムパウダー。）
-				
-				意味の点では、アジサイの主な意味は冷たさと無感情を象徴しています。
-				
-				その上、他の意味もありますが、それでも周囲には多くの論争があります。
-				土壌のpHが変化すると色が変化する性質があるため、アジサイにとって非常に悲しい意味があります。それは愛の変化です。
-				
-				別の話は、愛する人に謝罪するためにアジサイを使った日本の皇帝についてです。そのため、あじさいはおologiesびを送る花でもありました。
-				
-				また、花びらを形成する繊細で混雑した花びらの外観から、アジサイは感謝と誠実さも象徴しています。
-				
-				アジサイの意味をめぐる多くの論争がありますが、世界のいくつかの地域は、アジサイは4年の結婚記念日を祝うために使用される花であると認識しています。
-			</p>
-			<table>
 				<tr>
-					<td><h2>桜花</h2><div class="Dao"></div></td>
+				<td><img src="imgvd/hinh01.jpg" id="picture1" onmouseover="openPic(1)"></td>
+				<td><img src="imgvd/totnghiep.jpg" id="picture2" onmouseover="openPic(2)"></td>
+				<td><img src="imgvd/hinh013.jpg" id="picture3" onmouseover="openPic(3)"></td>
+				<td><img src="imgvd/xichlo.jpg" id="picture5" onmouseover="openPic(4)"></td>
 				</tr>
-			</table>
-			<p>
-				富士山とともに、桜は日本の象徴になります。桜は侍の生活のようなものです。<br>
-				ユナイテッドブルーム、枯れた花、まだ新鮮でかすかに香りがする地面に落ちるとき。<br>
-				日本の武士は、花の生活だけでなく、侍の生き方についても考えていました。<br>
-				必要に応じて、桜のように穏やかで穏やかな笑顔で犠牲を払うことができます。<br>
-			</p>
-		<table>
-			<tr>
-				<td><h2>藤花</h2><div class="fuji"></div></td>
-			</tr>
-		</table>
-		<p>
-			西洋の国々にとって、バラが不滅の愛の象徴として見られている場合、特に日本では、藤の花は永遠の愛に値する。
-			これは、4月5日に日本を旅行する際に、最も目の肥えた旅行者を喜ばせることができる素晴らしいアトラクションです。
-			
-			ホアトゥダンは、育てるのが非常に難しい花です。東アメリカ。ただし、日本を含むアジア諸国で人気があります。
-			
-			ウィステリアは、豆科に属する夢のような紫色を特徴とし、花が地面に垂れ下がって、天気のあらゆる微風に魅力的で柔らかく、流れるような外観を作ります。夏に引き返し始めた
-		</p>
+				<tr>
+				<td colspan="16" class="mainPic"><img class="mainPic"></td>
+				</tr>
+				</table>
+				<p class="text">・写真が表示されない場合は再生ボタンをクリックして下さい。<br>
+				・自動的には、5秒間で写真が変わります。<br>
+				・止まりたい場合は停止ボタンをクリックして下さい。<br>	
+				</p>
+				</div>
+				<div class="but">
+				<button onclick = "start()">
+				再生
+				</button>
+				<button onclick = "stop()">
+				停止
+				</button>
+				</div>
+			</div>	
+		<h2>ビバの生活についてのサイトも見ていただきたいと思います。</h2>
+		<section>
+		<div class="nihon">
+			<p>2019年5月</p>
+			<a href="nokonoshima.html">
+			<img src="img1/IMG_5540.JPG" alt="1" />
+			</a>
+			<p>能古島の花畑</p>
 		</div>
-		
-	    <aside class="phai">
-			<table>
-				<tr>
-					<td><h3>パソコンの興味です。</h3><div class="box1"><h4>現代のパソコン</h4></div></td>
-				</tr>
-			</table>
-			<table>
-				<tr>
-					<td><div class="box2"><h4>昔のパソコン</h4></div></td>
-				</tr>
-			</table>
-			<table>
-				<tr>
-					<td><h5>勉強にとっては、パソコンが必要であるでしょう！</h5><div class="box3"></div></td>
-				</tr>
-			</table>
-		</aside>
-	  </div>
-	  <footer class="cuoi">
-	  	<div class="saigo">誠にありがとうございます。<br>
-						質問があれば、びばに連絡してください。<br>
-						 	Tell:08012345678<br>
-	  	</div>
-	  </footer>
-	</body>
+		</section>
+		<section>
+		<div class="nihon">
+			<p>2018年10月</p>
+			<a href="uminonaka.html">
+			<img src="img/IMG_5769.JPG" alt="2" />
+			</a>
+			<p>海ノ中道の記念撮影</p>
+		</div>
+		</section>
+		<section>
+		<div class="nihon">
+			<p>福岡市</p>
+			<a href="fukuoka.html">
+			<img src="img3/fukuoka.jpg" alt="3" />
+			</a>
+			<p>福岡市へようこそ！</p>
+		</div>
+		</section>
+		<section>
+		<div class="nihon">
+				<p>ドンタップ県について</p>
+				<a href="dongthap.html">
+				<img src="imge/dongthap4.jpg" alt="4" />
+				</a>
+				<p>ドンタップ県はビバの故郷です。</p>
+			</div>
+		</section>
+		<section>
+		<div class="nihon">
+				<p>日本語学校の時代</p>
+				<a href="sunki.html">
+				<img src="img2/tradao.jpg" alt="5" />
+				</a>
+				<p>日本語学校のことを思い出します。</p>
+			</div>
+		</section>
+		<section>
+			<div class="nihon">
+				<p>興味</p>
+				<a href="index.html">
+				<img src="imgs/anhdao.jpg" alt="6" />
+				</a>
+				<p>花を眺めること好きです。</p>
+			</div>
+		</section>
+			<footer>
+				<div class="foot">誠にありがとうございます。<br>
+					質問があれば、びばに連絡してください。<br>
+				 	Tell:08012345678<br>
+				 	ViBa Addmin
+				</div>
+			</footer>
+</body>
 </html>

@@ -1,43 +1,91 @@
 ﻿<!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="UTF-8">
-		<title>日本の文化</title>
-		<link rel="stylesheet" type="text/css" href="css/style.css">
-		<link rel="stylesheet" type="text/css" href="css/CUSTOM.CSS">
-	
-		<style>
-			P {
-				margin-left: 0;
-				padding-left: 0;
-			}
-			#b2{
-				column-gap:50px;
-			    line-height: 27px;
-			}
-			.wi{
-				width:70%;
-				margin-left: 150px;
-			}
-		</style>
-	</head>
+
+<head>
+	<meta charset="UTF-8">
+	<title>日本の文化</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/CUSTOM.CSS">
+	<script>
+		function showreadme() {
+			let item = document.getElementById("read");
+			item.style.display = "block";
+
+		}
+		function closereadme() {
+			let item = document.getElementById("read");
+			item.style.display = "none";
+
+		}
+	</script>
+	<link rel="stylesheet" type="text/css" href="css/sample.css">
+	<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+	<script type="text/javascript">
+		function slideSwitch() {
+			var $active = $('#slideshow img.active');
+
+			if ($active.length == 0) $active = $('#slideshow img:last');
+
+			var $next = $active.next().length ? $active.next()
+				: $('#slideshow img:first');
+
+			$active.addClass('last-active');
+
+			$next.css({ opacity: 0.0 })
+				.addClass('active')
+				.animate({ opacity: 1.0 }, 1000, function () {
+					$active.removeClass('active last-active');
+				});
+		}
+
+		$(function () {
+			setInterval("slideSwitch()", 3000);
+		});
+
+	</script>
+
+	<style>
+		P {
+			margin-left: 150px;
+			padding-left: 0;
+		}
+
+		#b2 {
+			column-gap: 50px;
+			line-height: 27px;
+		}
+
+		.wi {
+			width: 70%;
+			margin-left: 150px;
+		}
+	</style>
+</head>
 
 <body>
 	<header id="aboutyukata">
-		<div class="title"><h1>ゆかた yukata</h1><h2>Japanese Culture</h2></div>
+		<div class="title">
+			<h1>ゆかた yukata</h1>
+			<h2>Japanese Culture</h2>
+		</div>
 		<nav>
 			<ul>
-				<li><a href="top.htm">日本の文化</a></li>
+				<li><a href="top.htm">日本の和服</a></li>
 				<li><a href="about.htm">浴衣について</a></li>
 				<li><a href="howto.htm">浴衣の着方</a></li>
-				<li><a href="hanabi.htm">花火</a></li>
-				<li><a href="hanami.htm">お花見</a></li>
+				<li><a href="hanabi.htm">浴衣で花火</a></li>
+				<li><a href="hanami.htm">浴衣でお花見</a></li>
 			</ul>
 		</nav>
+		<p id="slideshow">
+			<img src="images/shruti09.jpg" alt="画像1:公園風景1" class="active" width="700px" height="400px" />
+			<img src="screen00/yukata6.jpg" alt="画像2:公園風景2" width="700px" height="400px" />
+			<img src="screen00/yukata8.jpg" alt="画像3:公園風景3" width="700px" height="400px" />
+			<img src="screen00/yukata5.jpg" alt="画像4:公園風景4" width="700px" height="400px" />
+		</p>
 		<h2>「浴衣について」</h2>
 	</header>
-
-	<img src="images/shruti09.jpg" class="wi" alt="shruti"><br>
+	<br>
 	<p id="b2" class="wi">Yukata [浴衣」：浴衣（ゆかた）とは和服（着物）の一種である。通常の和服とは違い、長襦袢を着用せず、
 		素肌の上に着る略装である。平安時代の湯帷子（ゆかたびら）がその原型とされる。湯帷子は平安中期に成立した倭名類聚抄
 		（わみょうるいじゅしょう）によると、内衣布で沐浴するための衣とされている。この時代、複数の人と入浴する機会があったため汗取り
@@ -47,4 +95,5 @@
 
 	</p>
 </body>
+
 </html>

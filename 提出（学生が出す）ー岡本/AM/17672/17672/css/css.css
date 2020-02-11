@@ -67,6 +67,9 @@ width: 1015px;
 background-color:antiquewhite;
 height: 390px;
 }
+.box p{
+	margin-left: 10px
+}
 .item{
 	width: 493px;
     height: 275px;

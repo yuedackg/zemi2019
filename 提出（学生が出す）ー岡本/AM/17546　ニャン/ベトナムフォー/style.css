@@ -18,7 +18,7 @@ header img{
     display: flex;
     background-color: rgba(7, 225, 0, 0.7);
     height: 41px;
-    margin-left: -336px;
+    margin-left: -476px;
     font-size: 12px;
 }
 .nav1 a{
@@ -175,9 +175,15 @@ footer{
 	color: crimson;
 	font-size: 25px;
 }
-
 .map iframe{
 	width: 500px;
 	height: 250px;
 	border: 0;
+}
+.ホームページ{
+	position:fixed;
+	right:60px;
+	bottom:20px;
+	background-color:rgba(100,100,100,0.5);
+	padding:0 10px;
 }

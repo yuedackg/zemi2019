@@ -99,9 +99,16 @@ padding-top: 60px;
 	padding-top: 40px;
 }
 .ansuni img{
-	height: 400px;
-	width: 500px;
+	height: 300px;
+	width: 40%;
 	background-repeat: no-repeat;
+	margin-left: 20px;
+
+}
+.ansuni p{
+	float: right;
+	width: 55%;
+	mar
 }
 .anup {
 	margin-right: -50px;
@@ -121,4 +128,9 @@ margin-top: -142px;
 p{
 	color:blue
 
+}
+.map{
+	width:50%
+	paragraph:50%
+	text-align: float right;
 }
