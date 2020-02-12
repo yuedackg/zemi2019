@@ -1,0 +1,69 @@
+﻿<!doctype html>
+<html lang="ja">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Nepal</title>
+	<link rel="stylesheet" href="css/stylesheet.css">
+	<link rel="stylesheet" href="css/jquery.bxslider.css">
+	<style>
+		header img {
+			/* https://www.webcreatorbox.com/tech/object-fit */
+			width: 1000px;
+			height: 300px;
+			object-fit: cover;
+		}
+	</style>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="js/jquery.bxslider.min.js"></script>
+	<script>
+		$(function () {
+			$('.bxslider').bxSlider({
+				mode: 'fade', // を必ず忘れずに
+				speed: 2000, // 5秒でゆっくり今回はフェードイン[,]と変わっていくように
+				auto: true, // クリックしなくても自動的に変わっていくように
+				infiniteLoop: true, // 繰り返し
+			});
+		});
+	</script>
+</head>
+
+<body>
+	<header id="header">
+		<h1>NEWARI</h1>
+		<p>kitchen</p>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="index.html">About newari kitchen</a></li>
+			<li><a href="recommended.html">Recommended</a></li>
+			<li><a href="menu.html">Menu</a></li>
+			<li><a href="map.html">Map</a></li>
+		</ul>
+	</nav>
+	<h2 id="about">About newari kitchen</h2>
+	<div class="aboutnewarikitchen">
+		<p> ネワリ　キッチンは、2008A.D。に設立されたネパールの有名なキッチンで、カトマンズの有名な場所にあります
+			アシャンネワールキッチンでは、典型的なネワール料理を見つけることができます.ネワール料理は
+			、クミン、ターメリック、コショウ、シナモン　ニンニク、唐辛子、
+			マスタードオイルとシードなどのスパイスをたっぷり使って調理されるさまざまな料理で構成されています。
+			ジャガイモ、ヒヨコ豆、ナス、カリフラワー、レンズ豆、ビターメロン、マスタードグリーンなどの野菜が一般的です。
+
+
+		</p>
+		<ul class="bxslider">
+			<li><img src="r/img1.jpg" alt=""></li>
+			<li><img src="r/img2.jpg" alt=""></li>
+			<li><img src="r/img3.jpg" alt=""></li>
+			<li><img src="r/img4.jpg" alt=""></li>
+			<li><img src="r/img5.jpg" alt=""></li>
+		</ul>
+
+	</div>>
+	<p class="pagetop">
+		<a href="#header">PAGE TOP</a>
+	</p>
+	<footer>&copy; 2008newari kitchen</footer>
+</body>
+
+</html>

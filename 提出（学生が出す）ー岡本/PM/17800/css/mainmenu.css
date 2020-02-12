@@ -156,3 +156,26 @@ table img{
 #myBtn:hover {
   background-color: #555;
 }
+
+.copyright .sns a, .copyright .sns button {
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  margin-right: 6px;
+  text-indent: -9999em;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: 100% auto;
+}
+.sns{
+  box-sizing: border-box;
+}
+.copyright .sns {
+  margin-top: 20px;
+}
+.copyright .sns .facebook {
+  background-image: url("../image/face.png");
+}
+.copyright .sns .twitter {
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAGXRFW…OyXVhdyWPVRoH7rZAXVtmu9Cpwq2G70kOt4BffK72/AgwA7PxrvyDg2JcAAAAASUVORK5CYII=);
+}

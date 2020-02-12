@@ -61,9 +61,17 @@ font-size: 40px;
 margin: 0px 20px;
 color: black;
 }
-#utsav{
+#jamuna{
     text-align: justify;
 }
 #utsav img{
     float: left;
+}
+.jamuna p{
+    width: 50%;
+    float: right;
+
+}
+.jamuna img{
+    width: 45%;
 }

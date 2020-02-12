@@ -97,7 +97,8 @@ section{
 }
 .photo p{
     margin-top: -4px;
-    margin-left: 13px;
+	margin-left: 13px;
+	text-align: center;
 }
 
 .photo-box{
@@ -260,3 +261,26 @@ padding:0 10px;
 .span{
 	margin: 10px 10px;
 }
+.news1{
+    width: 99%;
+    height: auto;
+    padding: 5px;
+    background-color: #e6e6e6;
+}
+.article1 {
+    width: 350px;
+    height: 340px;
+    display: inline-block;
+    padding: 27px;
+    margin-left: 72px;
+    vertical-align:top;
+}
+.thumb1 {
+    width: 325px;
+    height: 200px;
+    background-color: #3e3e3e;
+    background-image: none;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}  

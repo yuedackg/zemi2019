@@ -5,7 +5,7 @@ margin: 0px auto;
 background-color:rgb(73, 115, 139);
 }
 header#toppage{
-height: 435px;
+height: 400px;
 background-image: url("../image/image1.jpg");
 background-size: 85%;
 background-repeat: no-repeat;
@@ -22,9 +22,9 @@ margin-bottom: 40px;
 h1{
 color:red;
 background-repeat: no-repeat;
-background-position: 50% 73%;
+background-position: 30% 60%;
 margin: 0px 20px;
-font-size: 60px;
+font-size: 50px;
 height: 95px;
 }
 
@@ -39,7 +39,7 @@ nav ul li{
 	color: #fff;
 	background-color: #17c7cc;
   padding: 0px 5px;
-	width: 100px;
+	width: 110px;
 	text-align: under;
 	border-radius: 5px
 }

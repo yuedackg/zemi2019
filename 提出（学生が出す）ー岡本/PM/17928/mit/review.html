@@ -17,193 +17,46 @@
 				<a href="menu.html">商品メニュー</a>
 				<a href="map.html">アクセスマップ</a>
 		</div>
+<h2 id="about">La Milanaについて</h2>
+		<section class="about">
+		<p>
+歴史的で誇り高い建築作品に加えて、イタリアの料理文化は多くの非常に繊細な特徴的な作品を所有する宝物でもあります。ジェラートはイタリアのスピリットを含んだ「専門」と言われることがほとんどでしたが、ジェラートはすべての味覚をリードして初めての征服に導きます。
+
+約5％の脂肪のみを含み、防腐剤を含まない特殊な配合で、ジェラートは滑らかな構造と新鮮な天然成分の点で工業用クリームとは異なります。リリースされたすべてのジェラートフレーバーは、偉業と創造性のプロセスを完了するため、常に真の芸術作品と見なされます。
+
+このことから、なぜこのアイスクリームの芸術が、すべての土着の心と美しいイタリアの愛好家の魂になったのかを簡単に理解できます。かつてイタリア、ローマ、コロッセオ、ピサの斜塔の美しさを賞賛していたなら、ジェラートもそのような情熱を覚えているでしょう。</p>
 <style>
-body {
-  font-family: Arial;
-  margin: 0;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-img {
-  vertical-align: middle;
-}
-
-/* Position the image container (needed to position the left and right arrows) */
-.container {
-  position: relative;
-}
-
-/* Hide the images by default */
-.mySlides {
-  display: none;
-}
-
-/* Add a pointer when hovering over the thumbnail images */
-.cursor {
-  cursor: pointer;
-}
-
-/* Next & previous buttons */
-.prev,
-.next {
-  cursor: pointer;
-  position: absolute;
-  top: 40%;
-  width: auto;
-  padding: 16px;
-  margin-top: -50px;
-  color: white;
-  font-weight: bold;
-  font-size: 20px;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-  -webkit-user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover,
-.next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
-}
-
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
-/* Container for image text */
-.caption-container {
-  text-align: center;
-  background-color: #222;
-  padding: 2px 16px;
-  color: white;
-}
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/*six columns side by side */
-.column {
-  float: left;
-  width: 16.66%;
-}
-
-/* Add a transparency effect for thumnbail images */
-.demo {
-  opacity: 0.6;
-}
-
-.active,
-.demo:hover {
-  opacity: 1;
-}
-</style>		
+.mySlides {display:none;}
+</style>
+</head>
 <body>
-<div class="container">
-  <div class="mySlides">
-    <div class="numbertext">1 /6</div>
-    <img src="anh/lamilana8.jpg" style="width:100%">
-  </div>
+<div class="w3-content w3-section" style="max-width:500px">
+  <img class="mySlides" src="anh/lamilana8.jpg" style="width:205%">
+  <img class="mySlides" src="anh/lamilana11.jpg" style="width:205%">
+  <img class="mySlides" src="anh/lamilana12.jpg" style="width:205%">
+  <img class="mySlides" src="anh/lamilana13.jpg" style="width:205%">
+  <img class="mySlides" src="anh/lamilana14.jpg" style="width:205%">
+  <img class="mySlides" src="anh/lamilana1.jpg" style="width:205%">
 
-  <div class="mySlides">
-    <div class="numbertext">2 / 6</div>
-    <img src="anh/lamilana11.jpg" style="width:100%">
-  </div>
-
-  <div class="mySlides">
-    <div class="numbertext">3 / 6</div>
-    <img src="an/lamilana12.jpg" style="width:100%">
-  </div>
-    
-  <div class="mySlides">
-    <div class="numbertext">4 /6</div>
-    <img src="anh/lamilana13.jpg" style="width:100%">
-  </div>
-
-  <div class="mySlides">
-    <div class="numbertext">5 /6</div>
-    <img src="anh/lamilana14.jpg" style="width:100%">
-  </div>
-   <div class="mySlides">
-    <div class="numbertext">6 /6</div>
-    <img src="anh/lamilana1.jpg" style="width:100%">
-  </div>
-    <a class="prev" onclick="plusSlides(-1)"><</a>
-  <a class="next" onclick="plusSlides(1)">></a>
-
-    <div class="caption-container">
-    <p id="caption"></p>
-  </div>
-
-  <div class="row">
-    <div class="column">
-      <img class="demo cursor" src="anh/lamilana8.jpg" style="width:100%" onclick="currentSlide(1)">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="anh/lamilana11.jpg" style="width:100%" onclick="currentSlide(2)">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="anh/lamilana12.jpg" style="width:100%" onclick="currentSlide(3)">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="anh/lamilana13.jpg" style="width:100%" onclick="currentSlide(4)">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="anh/lamilana14.jpg" style="width:100%" onclick="currentSlide(5)">
-    </div>  
-    <div class="column">
-      <img class="demo cursor" src="anh/lamilana1.jpg" style="width:100%" onclick="currentSlide(5)">
-    </div>   
-  </div>
 </div>
 
 <script>
-var slideIndex = 1;
-showSlides(slideIndex);
+var myIndex = 0;
+carousel();
 
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
+function carousel() {
   var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("demo");
-  var captionText = document.getElementById("caption");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
   }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
-  captionText.innerHTML = dots[slideIndex-1].alt;
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // Change image every 2 seconds
 }
 </script>
-</body>
+
 <p class="pagetop">
   <button class="btn"><i class="fa fa-home"></i><a href="toppage.htm">TOP PAGE</a></button>
 

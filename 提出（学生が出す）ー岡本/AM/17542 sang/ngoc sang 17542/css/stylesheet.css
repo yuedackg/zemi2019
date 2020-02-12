@@ -207,3 +207,19 @@ padding:0 10px;
 .div1{
 	margin-top: 20px;
 }
+.main1{
+	display: flex;
+}
+.main img{
+	width: 304px;
+    height: 289px;
+}
+.main{
+	color: blue;
+	background-color: burlywood;
+	padding: 10px;
+	margin: 10px;
+}
+.main p{
+	margin-left: 10px;
+}

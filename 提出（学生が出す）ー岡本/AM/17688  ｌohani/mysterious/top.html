@@ -1,0 +1,45 @@
+﻿</doctype>
+<html lang="ja">
+	<head>
+		<meta charset="UTF-8">
+		<title>CApital restaurent</title>
+		<link rel="style sheetheet" href="css/stylesheet.css">
+		<script>
+			function showimage() {
+				let item = document.getElementById("image");
+				item.style.display = "block";
+	
+			}
+			function closeimage(){
+				let item = document.getElementById("image");
+				item.style.display = "none";
+	
+			}
+		</script>
+		 <style>
+			.sectionList {
+				display: none;
+	
+			}
+		</style>
+	</head>
+	<body>
+		<header id="header">
+			<h1>CApital restaurent</h1>
+		</header>
+		<nav>
+			<ul>
+				<li><a href="top.html">Top</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#price">Menu</a></li>
+				<li><a href="#access">Access map</a></li>
+			</ul
+	</nav>        <h1 onclick="showimage()">
+            showimage
+        </h1>
+        <section id="image" class="sectionList">
+            <h2>image</h2>
+            <img src="image/ja.jpg" alt="festival" >
+            <br>
+            <div onclick="closeimage()">hide</div>
+        </section>

@@ -4,12 +4,13 @@ body{
     margin: 0 auto;
     background-color:floralwhite ;
     text-align: center;
+    display: block;
     
 }
 header{
     height:500px;
     background-image:url("../image/DT.jpg");
-    background-size:auto;
+    background-size:100%;
     background-repeat:no-repeat;
 }
 ul{
