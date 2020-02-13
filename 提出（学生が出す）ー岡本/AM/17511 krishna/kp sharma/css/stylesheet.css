@@ -5,21 +5,21 @@
 header{
 	height:350px;
 	background-image: url("../image/sub-image.jpg");
-	background-size: 80%;
+	background-size: 100%;
 	background-repeat: no-repeat;
 	display: flex;
-	margin-top :90px;
+	margin top :90px;
 	background-color:green;
 
 }
 header#toppage{
 	height:590px;
 	background-image: url("../image/image22.jpg");
-	background-size: 80%;
+	background-size: 100%;
 	background-repeat: no-repeat;
 	display: flex;
-	margin-top :100px;
-	background-color:lime;
+	margin top :100px;
+	background-color:lime
 
 }
 
@@ -129,6 +129,3 @@ footer{
     padding-top:40px;
     font-size: 15px;
 }
-<link rel="stylesheet" href="css/stylesheet.css">
-<link href="css/reset.css" rel="stylesheet" type="text/css">
-<link href="css/sp-menu.css" rel="stylesheet" type="text/css">

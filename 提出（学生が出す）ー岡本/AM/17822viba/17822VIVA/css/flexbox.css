@@ -18,8 +18,16 @@ h1{
     font-size: 60px;
     text-align:left;
     margin-top: 0px;
-    padding-top:260px;
+    padding-left: 10px;
     }
+h1.subtitle{
+    color:rgb(223, 236, 39);
+    font-family: Lobster;
+    font-size:40px;
+    text-align:left;
+    margin-top: 0px;
+    padding-left: 10px;
+}
 section{
 display:inline-flex;
 }

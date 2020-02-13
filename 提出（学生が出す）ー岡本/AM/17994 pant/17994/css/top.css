@@ -23,7 +23,6 @@ nav{
     background-color: #ffa500;
     width:100%;
     }
-
 a{
     text-decoration: none;
     color: antiquewhite;
@@ -46,12 +45,11 @@ li{
     margin-right: 30px;
     display: inline-block;
     }
+h1{
+margin-bottom: 0;
+}
 section{
-margin: 30px;
-background-color: blanchedalmond;
-width: 500px;
-height: auto;
-padding: 10px;
+    display: flex;
 }
 div.photoG{
 display: flex;
@@ -128,6 +126,11 @@ h2{
     .table-right{
     margin-left: 30px;
     }
-div.box1{
-    display: flex;
+div.box1 img{
+    width:600px ;
+    height:400px;
+    background-color: #ccc;
+    padding: 10px;
+    margin: 30px;
+    
 }

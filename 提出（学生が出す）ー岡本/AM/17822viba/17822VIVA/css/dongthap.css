@@ -13,6 +13,14 @@ header{
     width: 100%;
     height:350px;
 }
+h1{
+    color:rgb(45, 236, 39);
+    font-family: Lobster;
+    font-size: 60px;
+    text-align:left;
+    margin-top: 0px;
+    padding-left: 10px;
+    }
 p.titi{
     color: rgb(239, 243, 10);
     text-align: center;
@@ -46,7 +54,7 @@ a{
         border-radius: 10px;
         font-size: 15px;
     }
-h1{
+h2{
     border-left: solid 10px rgb(24, 209, 18);
     border-bottom:double 9px rgb(2, 43, 8);
     margin-top: 30px;

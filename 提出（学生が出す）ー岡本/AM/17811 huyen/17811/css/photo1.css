@@ -5,12 +5,13 @@ margin: 0 auto;
 background-color: rgb(162, 882, 887);
 }
 header{
-	width:100%;
-	height:350px;
-	background-image: url("../img/photo1.jpg");
-	background-repeat: no-repeat;
-	background-size:100% 350px;
-	margin: 0;
+	width: 100%;
+    height: 287px;
+    background-image: url(../img/top-photo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0px -130px;
+    margin: 0;
 }
 h1{
 color:rgb(38, 0, 255);
@@ -204,9 +205,9 @@ margin-top:0;
 	font-size: 30%;
 	line-height: 1.6;
 	background-color:#fff;
-	padding: 10px;
-	width: 310px;
-	height:310px;
+	padding: 7px;
+	width: 235px;
+	height:235px;
 }
 table,tr,td{
 border: none

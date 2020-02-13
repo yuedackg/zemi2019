@@ -5,7 +5,7 @@ margin: 0 auto;
 background-color: #f8e4ce;
 }
 header{
-height: 1000hpx;
+height: 475px;
 background-repeat: no-repeat;
 }
 h1{
@@ -132,5 +132,6 @@ padding: 0 10px;
 }
 #headerpicture{
 width:1000px;
+height:450px;
 
 

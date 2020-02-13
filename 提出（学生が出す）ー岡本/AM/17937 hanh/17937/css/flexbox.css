@@ -49,6 +49,9 @@ section{
 display:flex;
 padding-left:30px;
 }
+p.text{
+    margin-left: 35px;
+}
 h1{
 margin-bottom: 0;
 }

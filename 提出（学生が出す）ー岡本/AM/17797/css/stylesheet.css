@@ -107,9 +107,10 @@ margin-left: 30px;
     font-size: 1.3rem;
     margin-left: 30px;
 }
-.anh h4{
+.anh p{
     word-wrap:none;
     margin-left: 40px;
+    text-align: justify;
 }
 .price-table{
 display: flex;

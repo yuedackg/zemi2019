@@ -69,7 +69,7 @@ footer{
 }
 .thuy img{
     width: 352px;
-    margin: -3px -3px 0 -2px;
+    margin: -3px -3px 0 -3px;
 }
 .thuy th{
     color: blue;
@@ -169,6 +169,26 @@ footer{
 	height: 235px;
 	margin-left: 20px;
 	margin-right: 20px;
+}
+.anh2{
+	display: flex;
+	margin-top: 25px;
+	margin-left: 18px;
+}
+.anh3{
+	background-color: aliceblue;
+	padding: 10px;
+	margin: 0px 37px 5px 2px;
+}
+.anh3 img{
+	width: 282px;
+	height: 235px;
+}
+.anh3 p{
+	margin-top: 5px;
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 18px;
 }
 .div1{
 	margin-top: 35px;

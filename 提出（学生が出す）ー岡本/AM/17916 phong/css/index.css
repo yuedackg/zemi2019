@@ -5,11 +5,13 @@ body{
     background-color:rgb(255, 255, 128);
     }
     header{
-        width:1200px;
-        height: 350px;
-        background-image: url("../anh/anh1.jpg");
-        background-repeat:no-repeat;
-        background-size:1200px 350px;
+        width: 100%;
+        min-width: 1096px;
+        height: 290px;
+        background-image: url(../anh/anh1.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: 0px -130px;
         margin: 0;
     }
     h1{
