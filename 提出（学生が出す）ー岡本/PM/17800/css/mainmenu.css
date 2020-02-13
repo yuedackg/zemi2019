@@ -8,7 +8,7 @@ body{
     
 }
 header{
-    height:500px;
+    height:350px;
     background-image:url("../image/Bbakery.jpg");
     background-size:auto;
     background-repeat:no-repeat;
@@ -167,15 +167,72 @@ table img{
   background-position: 50%;
   background-size: 100% auto;
 }
-.sns{
-  box-sizing: border-box;
+
+.footer {
+  text-align: center;
+  margin-bottom: 0px;
+  height: 241px;
+  font-size: .875rem;
+  color: #818181;
+  background: #292929;
 }
-.copyright .sns {
-  margin-top: 20px;
+
+.socials-share {
+  text-align: center;
+  margin-bottom: 30px;
 }
-.copyright .sns .facebook {
-  background-image: url("../image/face.png");
+
+.socials-share a {
+  padding: 4px 30px;
+  color: #fff;
+  line-height: 2em;
+  text-decoration: none;
+  border-radius: 2px;
+  white-space: nowrap;
+  display: inline-block;
+  margin-bottom: 4px;
 }
-.copyright .sns .twitter {
-  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAGXRFW…OyXVhdyWPVRoH7rZAXVtmu9Cpwq2G70kOt4BffK72/AgwA7PxrvyDg2JcAAAAASUVORK5CYII=);
+
+.socials-share span.fa {
+  margin-right: 3px;
+}
+
+.bg-facebook {
+  background: #3a5899;
+}
+
+.bg-facebook:hover, .bg-facebook:focus {
+  background: #1d418d;
+}
+
+.bg-twitter {
+  background: #00acee;
+}
+
+.bg-twitter:hover, .bg-twitter:focus {
+  background: #0b93c7;
+}
+
+.bg-google-plus {
+  background: #db4437;
+}
+
+.bg-google-plus:hover, .bg-google-plus:focus {
+  background: #bb2a1d;
+}
+
+.bg-pinterest {
+  background: #cb1e26;
+}
+
+.bg-pinterest:hover, .bg-pinterest:focus {
+  background: #ae0e15;
+}
+
+.bg-email {
+  background: #dd5348;
+}
+
+.bg-email:hover, .bg-email:focus {
+  background: #ce3f34;
 }

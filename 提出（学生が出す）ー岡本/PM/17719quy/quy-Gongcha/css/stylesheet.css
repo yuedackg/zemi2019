@@ -44,7 +44,7 @@ ul li{
 }
 /* img*/
 .img{
-    width: 84%;
+    width: 100%;
     margin: 0 auto;
 }.img1{
     margin: 0 auto;
@@ -66,6 +66,12 @@ ul li{
     width: 960px;
     margin: auto;
 }
+#about{
+    text-align: center;
+    margin: 50px 0px;
+    padding: 20px 0px;
+    font-size: 40px;
+}
 h2{
     font-size: 20px;
     margin-top: 30px;
@@ -78,37 +84,48 @@ h2{
 .home p{
     width: 465px;
     margin: 0px 110px;
-    padding: 125px 3px;
+    padding: 65px 3px;
     text-align: justify;
-    line-height: 25px;
+    line-height: 30px;
     font-size: 16px;
 }
 .home img{
     width: 121%;
-    height: 100%;
-    margin: 25px 35px;
+    height: 110%;
+    margin: 0px 35px;
     padding: 0px 0px;
     min-width: 150px;
-    padding-top: 3px;
 }
 .about p{
     margin: 0px 167px;
     padding: 5px 0px;
+    font-size: 20px;
 }
 
 div.img{
-    height: 400px;
+    height: 495px;
+    margin-left: 86px;
     background-image: url("../img/about.jpg");
     background-repeat: no-repeat;
 }
 div.home-img{
-    height: 400px;
-    width: 934px;
-    margin-left: 200px;
+    height: 495px;
+    margin-left: 86px;
     background-image: url("../images/brand.jpg");
     background-repeat: no-repeat;
 }
-
+#menu img{
+    width: 100%;
+    padding: 10px 30px;
+    margin: -55px -100px;
+}
+#menu p{
+    height: 50%;
+    width: 50%;
+    position: 50% 50%;
+    margin: 0px 0pxx;
+    padding: 0px 0px;
+}
 
 
 
@@ -137,8 +154,8 @@ div.home-img{
 }
 h3{
     color: red;
-    margin: 150px 155px 0px 155px;
-    font-size: 20px;
+    margin: 10px 155px 0px 155px;
+    font-size: 40px;
     padding: 5px;
 }
 #footer {
@@ -154,6 +171,7 @@ div{
 /*bang*/
 table, th, td{
     border:1px solid black;
+    width: 50px;
 }
 table {
     width: 100%;
@@ -175,6 +193,13 @@ table{
 .table-bordered {
     border: 1px solid #ddd;
 }
+.ttr{
+    width: 5px;
+}
+.str{
+    width: 5px;
+}
+/*****map****/
 .red2 {
     color: #C3002F!important;
 }

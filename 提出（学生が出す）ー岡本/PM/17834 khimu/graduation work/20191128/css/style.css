@@ -22,18 +22,25 @@ header img#headerpicture{
     color: blue;
     font-family: fantasy;
 }
+#header #menu p.subtitle{
+    margin: 0px;
+    font-size: 22px;
+    text-align: center;
+}
 #header #menu p{
     font-size: 18px;
-    margin-left: 320px;
+    margin-left: 176px;
 }
 p#catch{
     margin-left: 200px;
+}
+nav{
+    margin: 154px 0px 0px 215px;
 }
 .topnav{
     overflow:hidden;
     background-color:#333;
     padding-right: 20px;
-
 }
 .topnav a{
     float: left;
@@ -46,22 +53,18 @@ p#catch{
 .topnav :hover{
     color: red;
 }
-
 #menu {
     width: 100%;
     margin: 0;
     padding: 10px 0 0 0;
     list-style: none;  
 }
-
 #menu li {
     float: left;
     padding: 0 30px 10px 15px;
     position: relative;
     list-style: none;
 }
-}
-
 #menu a {
     float: left;
     height: 25px;

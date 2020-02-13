@@ -123,12 +123,6 @@ font-family: Lobster;
 font-size: 32px;
 margin-bottom: 15px;
 }
-.pagetop{
-position: fixed;
-right: 60px;
-bottom: 20px;
-padding: 0 10px;
-}
 
 body {font-family: "Lato", sans-serif;}
 
@@ -141,7 +135,7 @@ body {font-family: "Lato", sans-serif;}
   cursor: pointer;
   padding: 14px 16px;
   font-size: 17px;
-  width: 20%;
+  width: 25%;
 }
 
 .tablink:hover {
@@ -192,39 +186,6 @@ img {
   cursor: pointer;
 }
 
-/* Next & previous buttons */
-.prev,
-.next {
-  cursor: pointer;
-  position: absolute;
-  top: 40%;
-  width: auto;
-  padding: 16px;
-  margin-top: -50px;
-  color: white;
-  font-weight: bold;
-  font-size: 20px;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-  -webkit-user-select: none;
-  background-color:yellow;
-  border-top-style: dotted;
-  border-right-style: solid;
-  border-bottom-style: dotted;
-  border-left-style: solid;
-}
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover,
-.next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
-}
-
 /* Number text (1/3 etc) */
 .numbertext {
   color: #f2f2f2;
@@ -264,48 +225,6 @@ img {
   opacity: 1;
 }
 
-
-
-.dropbtn {
-  background-color: #555;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
- width:20%;
-}
-
-.dropup {
-  position: relative;
-  display: inline-block;
-  width:100%;	
-}
-
-.dropup-content {
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  bottom: 50px;
-  z-index: 1;
-}
-
-.dropup-content a {
-  color: black;
-  padding:12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-.dropup-content a:hover {background-color: grey}
-
-.dropup:hover .dropup-content {
-  display: block;
-}
-
-.dropup:hover .dropbtn {
-  background-color: #2980B9;
-}
 h1{
 border-bottom: 2px dotted;
 }
@@ -313,3 +232,35 @@ border-bottom: 2px dotted;
 td{
 text-align:left;
 }
+
+/*nut page top*/
+
+a.on_top {  
+  display: none;
+}
+a.on_top a {  
+  text-decoration: none;
+}
+a.on_top:hover{
+  background-color: blue;
+  color: #fff;
+  border: 1px solid blue;
+  opacity:1;
+}
+a.on_top i{ 
+  font-size: 20px;
+  margin-right: 3px;
+  margin-top: 1px;
+}
+a.on_top {
+  border-radius: 15px;
+  background-color: #f30a0ae6;
+  padding: 5px 6px;
+  white-space: nowrap; color: #fff;
+  position: fixed;
+  bottom: 9px;
+  right: 5px;
+  height: 34px;
+  text-decoration: none;
+}
+    

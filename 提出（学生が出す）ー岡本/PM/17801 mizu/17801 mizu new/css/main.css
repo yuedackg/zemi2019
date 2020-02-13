@@ -6,6 +6,14 @@ body{
 header{
 	display: flex;
 }
+header.header-top{
+	display: block;
+	text-align: center;
+	line-height: 12px;
+}
+a{
+	font-size: 14px;
+}
 h1{
 	text-align: center;
 	color:purple;
@@ -35,9 +43,19 @@ p{
     width: 720px;
     font-family: cursive;
 }
+p.catch{
+	text-align: center;
+	font-size: 28px;
+    margin-bottom: 30px;
+}
 .links{
 	border-radius:10px;;
 }
 .links:hover{
 	background-color:green;
+}
+footer{
+	margin: 30px 0px;
+	text-align: center;
+	font-size: 12px;
 }

@@ -7,7 +7,8 @@ body{
 header{
     background-image: url("../images/team.jpg");
     background-repeat: no-repeat;
-    height: 360px;
+    height: 265px;
+    background-position: 0px -100px;
 }
 header img#headerpicture{
     margin: 254px 0px 0px 697px;
@@ -149,4 +150,7 @@ h2{
 }
 .history{
     display: flex;
+}
+.place{
+    display: flex;   
 }

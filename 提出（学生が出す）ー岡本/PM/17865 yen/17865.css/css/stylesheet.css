@@ -75,9 +75,9 @@ transform:rotate(-6deg)
 margin-top: 35px;
 }
 .small img{
-width:80%;
-padding: 15px;
-background-color: #fff;
+    width: 110%;
+    padding: 15px;
+    background-color: #fff;
 }
 .price-table{
 display: flex;
@@ -141,4 +141,8 @@ h1.subpage{
 }
 .div{
 background-color: #daa520;
+}
+.p{
+text-align:right;
+float:right;
 }

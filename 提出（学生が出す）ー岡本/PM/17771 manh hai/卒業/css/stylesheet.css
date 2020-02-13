@@ -1,6 +1,6 @@
 ﻿	body{
-max-width: 980px;
-width: 90%;
+max-width: 990px;
+width: 105%;
 margin: 0px auto;
 font-family: Arial, Helvetica, sans-serif;
 background-color: #f8e4ce;
@@ -12,7 +12,7 @@ background-repeat: no-repeat;
 background-position: 36% 38%;
 background-size: 124%;
 font-family: serif;
-font-size: 40px;
+font-size: 35px;
 text-align: center;
 margin: 0px;
 padding-top: 150px;
@@ -35,11 +35,11 @@ height: 40px;
 line-height: 40px;
 margin-left: -5px;
 
-font-size: 14px;
+font-size: 15px;
 list-style: none;
 margin-right: 30px;
 display: inline-block;
-padding: 10px 10px;
+padding: 3px 3px;
 }
 a{
 text-decoration: none;
@@ -60,7 +60,7 @@ margin-top: 30px;
 padding: 10px;
 }
 section{
-margin-bottom: 50px;
+margin-bottom: 30px;
 }
 
 .about{
