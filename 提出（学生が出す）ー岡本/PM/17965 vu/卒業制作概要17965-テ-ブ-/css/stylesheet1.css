@@ -1,0 +1,23 @@
+﻿#wrappr{
+  width:100%;
+  margin: 0px auto;
+  padding-left:0px100px;
+}
+ul#menu li{
+  float: left;
+  background-color:black;
+}
+ul#menu li a{
+  padding: 12px 15px;
+  text-decoration: none;
+  color:red;
+  font-size: 14px;
+}
+ul#menu{
+  float: center;
+  padding: 0px 0px;
+  margin: 0px 0px;
+}
+ul li{
+  list-style: none;
+}
