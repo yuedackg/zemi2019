@@ -18,62 +18,74 @@
 
 		}
 	</script>
-		<link rel="stylesheet" type="text/css" href="css/sample.css">
-		<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
-		<script type="text/javascript">
-			function slideSwitch() {
-				var $active = $('#slideshow img.active');
-	
-				if ( $active.length == 0 ) $active = $('#slideshow img:last');
-	
-				var $next =  $active.next().length ? $active.next()
-					: $('#slideshow img:first');
-	
-				$active.addClass('last-active');
-	
-				$next.css({opacity: 0.0})
-					.addClass('active')
-					.animate({opacity: 1.0}, 1000, function() {
-						$active.removeClass('active last-active');
-					});
-			}
-	
-			$(function() {
-				setInterval( "slideSwitch()", 3000 );
-			});
-	
-		</script>
+	<link rel="stylesheet" type="text/css" href="css/sample.css">
+	<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+	<script type="text/javascript">
+		function slideSwitch() {
+
+			var $active = $('#slideshow img.active');
+			// select image last picture.
+			if ($active.length == 0) $active = $('#slideshow img:last');
+
+			//  select next picture. 次ではなかったら最後の写真を選ぶ
+			var $next = $active.next().length ? $active.next()
+				: $('#slideshow img:first');
+
+
+			$active.addClass('last-active');
+
+			$next.css({ opacity: 0.0 })
+				.addClass('active')
+				.animate({ opacity: 1.0 }, 1000, function () {
+					$active.removeClass('active last-active');
+				});
+		}
+
+		$(function () {
+			setInterval("slideSwitch()", 1000);
+			// setInterval("slideSwitch()", 3000);
+		});
+
+	</script>
 	<style>
 		.sectionList {
-				display: none;
-	
-			}
-		</style>
+			display: none;
+
+		}
+		p img{
+			display: none;
+			;
+		}
+		.active{
+			display: block;
+		}
+
+	</style>
 </head>
 
 <body>
-		<div class="title">
-				<h1>ゆかた yukata</h1>
-			</div>
-			<h2>Japanese Culture</h2>
-			<nav>
-					<ul>
-						<li><a href="index.htm">日本の和服</a></li>
-						<li><a href="about.htm">浴衣について</a></li>
-						<li><a href="howto.htm">浴衣の着方</a></li>
-						<li><a href="hanabi.htm">浴衣で花火</a></li>
-						<li><a href="hanami.htm">浴衣でお花見</a></li>
-					</ul>
-				</nav>
+	<div class="title">
+		<h1>ゆかた yukata</h1>
+	</div>
+	<h2>Japanese Culture</h2>
+	<nav>
+		<ul>
+			<li><a href="index.htm">日本の和服</a></li>
+			<li><a href="about.htm">浴衣について</a></li>
+			<li><a href="howto.htm">浴衣の着方</a></li>
+			<li><a href="hanabi.htm">浴衣で花火</a></li>
+			<li><a href="hanami.htm">浴衣でお花見</a></li>
+		</ul>
+	</nav>
 	<p id="slideshow">
-		<img src="screen00/shr.png" alt="画像1:公園風景1" class="active"  width="800" height="500"/>
-		<img src="screen00/yukata1.jfif" alt="画像2:公園風景2" width="800" height="500"/>
-		<img src="screen00/yukata2.jpg" alt="画像3:公園風景3" width="800" height="500"/>
-		<img src="screen00/rana01.jpg" alt="画像4:公園風景4" width="800" height="500"/>
+		<img src="screen00/shr.png" alt="画像1:公園風景1" class="active" width="800" height="500" />
+		<img src="screen00/yukata1.jfif" alt="画像2:公園風景2" width="800" height="500" />
+		<img src="screen00/yukata2.jpg" alt="画像3:公園風景3" width="800" height="500" />
+		<img src="screen00/rana01.jpg" alt="画像4:公園風景4" width="800" height="500" />
 	</p>
-		
-	
-	
+
+
+
 	<button class="seeta" type="button" onclick="showreadme()">開くボタン!</button>
 
 	<section id="read" class="sectionList">
@@ -82,9 +94,9 @@
 		</h1>
 		<div class="comment">
 			<p id="b1" class="si">和服（わふく）とは、日本在来の衣服のこと。近年では日本における民族服ともされる。着物（きもの）ともいう。
-				 着物は日本の和装で、若い人にも多く支持されています。着物といっても沢山の種類があり、長い歴史があります。日本の伝統文化の1つ「着物」
-				 は長い歴史の中で発展を続け、数ある民族衣装の中でも最も美しいものとして世界に認められています。
-				 そんな「着物」という文化に触れることで、日本の良さを再発見してみましょう。</p>
+				着物は日本の和装で、若い人にも多く支持されています。着物といっても沢山の種類があり、長い歴史があります。日本の伝統文化の1つ「着物」
+				は長い歴史の中で発展を続け、数ある民族衣装の中でも最も美しいものとして世界に認められています。
+				そんな「着物」という文化に触れることで、日本の良さを再発見してみましょう。</p>
 		</div>
 		<button class="geeta" type="button" onclick="closereadme()">閉じるボタン!</button>
 

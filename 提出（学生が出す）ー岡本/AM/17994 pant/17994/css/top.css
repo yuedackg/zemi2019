@@ -66,8 +66,8 @@ h3.text{
     font-family: cursive;
 }
 p{
-    color: darkblue;
-    font-size:15px;
+    color: rgb(2, 2, 46);
+    font-size:25px;
 }
 div.animal{
 width:300px,
@@ -127,8 +127,8 @@ h2{
     margin-left: 30px;
     }
 div.box1 img{
-    width:600px ;
-    height:400px;
+    width:350px ;
+    height:250px;
     background-color: #ccc;
     padding: 10px;
     margin: 30px;

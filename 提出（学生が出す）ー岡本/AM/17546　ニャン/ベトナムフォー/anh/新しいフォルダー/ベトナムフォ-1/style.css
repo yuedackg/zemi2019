@@ -1,0 +1,211 @@
+﻿body{
+	width: 1085px;
+	margin: 0 auto;
+}
+header{
+	background-image: url("anh/trangchu/2.jpg");
+	background-repeat: no-repeat;
+	height: 270px;
+	display: flex;
+	color: rgba(225, 225, 225, 0.9);
+}
+header img{
+	width: 83%;
+	height: 57%;
+}
+.nav1{
+    display: flex;
+    background-color: rgba(7, 225, 0, 0.7);
+    height: 41px;
+    margin-left: -476px;
+    font-size: 12px;
+}
+.nav1 a{
+	color: floralwhite
+}
+.nav1 li{
+	list-style: none;
+	font-size: 14px;
+	display: inline-block;
+	padding: 0px 16px 0px 0px;
+	text-align: center;
+}
+
+h3{
+	margin-bottom: 0px;
+	border-left: solid 10px blue;
+	border-bottom: dotted 5px blue;
+	margin-top: 26px;
+	font-size: 30px;
+	color: forestgreen;
+}
+.aaa{
+    display: flex;
+    margin-top: 10px;
+}
+.aaa2{
+    width: 35%;
+    height: 230px;
+	margin-top: 26px;
+	background-color: yellowgreen;
+	padding: 10px;
+}
+.aaa3{
+    width: 35%;
+    height: 205px;
+	margin-top: 26px;
+	background-color: yellowgreen;
+	padding: 10px;
+}
+.aaa1{
+    margin-left: 15px;
+}
+footer{
+    font-size: 12px;
+	line-height: 7px;
+	color: red;
+	margin-top: 25px;
+}
+.thuy{
+	display: flex;
+	margin-top: 25px;
+}
+.thuy img{
+    width: 352px;
+    margin: -3px -3px 0 -3px;
+}
+.thuy th{
+    color: blue;
+    text-align: inherit;
+    font-size: 18px;
+}
+.td1{
+    color: blue;
+    font-size: 20px;
+}
+.td2{
+	color: firebrick;
+}
+.thuy1{
+    background-color: bisque;
+    margin-left: 10px;
+}
+.thuy3{
+    background-color: bisque;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.thuy4{
+    background-color: bisque;
+    margin-left: 10px;
+}
+.thuy5{
+    background-color: bisque;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+/*デザイン・デザート*/
+.BBB table{
+	border: solid 2px black;
+	border-collapse: collapse;
+}
+.bbb td{
+	border: solid 1px black;
+	border-collapse: collapse;
+	padding-left: 5px;
+}
+.BBB{
+	display: flex;
+}
+.bbb{
+	padding: 10px 145px 20px;
+	font-size: 14px;
+	margin-top: 10px;
+}
+.bbb th{
+	background-color: lightgray;
+	text-align: center;
+	font-size: 20px;
+	border: solid 1px black;
+	border-collapse: collapse;
+	border-bottom: solid 2px black;
+}
+.table-left{
+	width: 345px;
+}
+.table-right{
+	margin-left: -120px;
+	width: 300px;
+}
+
+.ccc{
+	height: 330px;
+	width: 94%;
+	margin-left: 55px;
+}
+
+.ddd img{
+	width: 38%;
+	height: 488px ;
+	margin-left: 60px;
+}
+
+.ddd{
+	display: flex;
+	margin-top: 17px;
+}
+
+.anh1{
+	display: flex;
+	margin-top: 25px;
+}
+.ddd table th{
+	text-align: left;
+}
+.anh1 img{
+	font-size: 90%;
+	line-height: 1.6;
+	background-color:burlywood;
+	padding: 10px;
+	width: 282px;
+	height: 235px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.anh2{
+	display: flex;
+	margin-top: 25px;
+	margin-left: 18px;
+}
+.anh3{
+	background-color: bisque;
+	padding: 10px;
+	margin: 0px 37px 5px 2px;
+}
+.anh3 img{
+	width: 282px;
+	height: 235px;
+}
+.anh3 p{
+	margin-top: 5px;
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 18px;
+}
+.div1{
+	margin-top: 35px;
+	color: crimson;
+	font-size: 25px;
+}
+.map iframe{
+	width: 500px;
+	height: 250px;
+	border: 0;
+}
+.ホームページ{
+	position:fixed;
+	right:60px;
+	bottom:20px;
+	background-color:rgba(100,100,100,0.5);
+	padding:0 10px;
+}
