@@ -1,4 +1,5 @@
-﻿#wrappr{
+﻿(MENU)
+wrapper{
   width:100%;
   margin: 0px auto;
   padding-left:0px100px;
@@ -8,13 +9,13 @@ ul#menu li{
   background-color:black;
 }
 ul#menu li a{
-  padding: 12px 15px;
-  text-decoration: none;
+  padding-right:196px;
+  text-decoration:none;
   color:red;
   font-size: 14px;
 }
 ul#menu{
-  float: center;
+  float: left;
   padding: 0px 0px;
   margin: 0px 0px;
 }
