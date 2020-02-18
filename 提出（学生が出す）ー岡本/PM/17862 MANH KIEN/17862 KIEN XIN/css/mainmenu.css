@@ -1,0 +1,76 @@
+body{
+    max-width: 1000px;
+    max-heigh:1000px
+    width:100%;
+    margin: 0 auto;
+    background-color:#FFFFFF;
+    text-align: center;
+    display: block;
+    
+}
+header{
+    height:750px;
+    background-image:url("../images/hinhnenmoi.jpg");
+    background-size:100%;
+    background-repeat:no-repeat;
+}
+ul{
+    list-style-type:none;
+    background-color:#FF9966;
+    position: relative;
+    text-align: center;
+    margin-top: 0;
+}
+.box{
+    margin-left: 100px;
+}
+#menu ul li{
+    font-size: 20px;
+    color:#f1f1f1;
+    display: inline-table;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+}
+#menu ul li a:hover{
+    background:#C0FF3E;
+    color:#333;
+}
+#menu1 ul{
+    margin-right: 100px;
+}
+
+a{
+    color: #00FF00;
+    text-decoration: none;
+    display: block;
+}
+element.style {
+    visibility: visible;
+}
+h1{
+    text-align: center;
+    position: relative;
+    font-size: 32px;
+    font-size: 3.2rem;
+    font-weight: normal;
+    padding: 1.2em 0;
+    color:#FF0000;
+    margin: 0 0 .5em;
+    font-size: 2em;
+    margin: .67em 0;
+
+}
+.col p{
+    font-size: 20px;
+    line-height: auto;
+}
+table td{
+    font-size: 20px;
+}
+table img{
+    width:70%;
+    height: 70%;
+}
+
+

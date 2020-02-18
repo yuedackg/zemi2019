@@ -2,23 +2,23 @@
 wrapper{
   width:100%;
   margin: 0px auto;
-  padding-left:0px100px;
+  padding: 0px auto;
 }
 ul#menu li{
-  float: left;
+  float:left;
   background-color:black;
 }
 ul#menu li a{
-  padding-right:196px;
+  padding-right:96px;
   text-decoration:none;
   color:red;
   font-size: 14px;
+  text-align:center;
+  margin-left:100px;
 }
 ul#menu{
   float: left;
   padding: 0px 0px;
   margin: 0px 0px;
-}
-ul li{
   list-style: none;
 }

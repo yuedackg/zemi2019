@@ -62,9 +62,6 @@ body {
   line-height: 40px;
   padding: 0px 53px;
 }
-
-
-
 #menu a {
   text-decoration: none;
   color: #fff;
@@ -95,6 +92,10 @@ table,th,td{
 .table-right{
   margin-left: 30px;
 }
+
+.photo h3{
+  margin: 20px 0px;
+}
 .pagetop{
   position: fixed;
   right: 60px;
@@ -109,11 +110,41 @@ table,th,td{
   margin: 0px 20px;
 }
 .about img{
-  margin: 0px 20px;
+  margin: 5px 20px;
   width: 70%
 }
-
-
+a.on_top {  
+  display: none;
+}
+a.on_top a {  
+  text-decoration: none;
+}
+a.on_top:hover{
+  background-color:red;
+  color:yellow;
+  border: 1px solid red;
+  opacity:1;
+}
+a.on_top i{ 
+  font-size: 20px;
+  margin-right: 3px;
+  margin-top: 1px;
+}
+a.on_top {
+  border-radius: 15px;
+  background-color:yellow;
+  padding: 9px 6px;
+  white-space: nowrap;
+  color: red;
+  position: fixed;
+  bottom: 9px;
+  right: 5px;
+  height: 24px;
+  text-decoration: none;
+}
+.footer{
+  margin: 20px 20px;
+}
 
 
 

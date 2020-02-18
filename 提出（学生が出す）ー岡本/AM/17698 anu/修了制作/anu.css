@@ -54,6 +54,13 @@ h2{
 	background-repeat: no-repeat;
 	
 }
+.anupa img{
+	height: 255px;
+	width: 290px;
+	padding: 3px;
+	background-repeat: no-repeat;
+	
+}
 .shruti p{
 	margin-top: -50px;
 }
@@ -109,7 +116,7 @@ padding-top: 60px;
 	float: right;
 	width: 55%;
 }
-.anup {
+.anu {
 	margin-right: -50px;
 }
 .short detail{
@@ -131,4 +138,8 @@ p{
 .map{
 	width:50%;
 	text-align: right;
+}
+.jung{
+	height: 400px;
+	width: 900px;
 }

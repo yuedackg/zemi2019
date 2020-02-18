@@ -58,11 +58,11 @@ a{
 	margin: 0px 0px;
 }
 #menu-photo{
-width: 270px;
-height: 270px;
-margin:20px;
+width: 0px;
+height: 0px;
+margin:10px;
 background-image: url("../image/image2.jpg");
-background-size: 100%;
+background-size:50%;
 }
 /* 商品メニュー　*/
 .price-table{

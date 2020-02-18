@@ -5,11 +5,12 @@ body{
     background-color:floralwhite ;
     text-align: center;
     display: block;
+    height: 100px;
     
 }
 header{
-    height:500px;
-    background-image:url("../image/DT.jpg");
+    height:435px;
+    background-image:url("../image/Donut/pc.jpg");
     background-size:100%;
     background-repeat:no-repeat;
 }
@@ -38,11 +39,10 @@ ul{
     margin-right: 100px;
 }
 
-a{
+#menu a{
     color: #f1f1f1;
     text-decoration: none;
-    display: block;
-}
+    display: block;}
 table{
     position: relative;
     text-align: center;
@@ -121,3 +121,30 @@ caption{
   .bg-email:hover, .bg-email:focus {
     background: #ce3f34;
   }
+  .list .p-list{
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    margin:100px;
+    padding: 0;
+}
+.item{
+    position: relative;
+}
+.list .item{
+    width: 30%;
+    margin: 30px 1%;
+    text-align: center;
+}
+.list .img{
+    position: relative;
+    text-align: center;
+}
+.name{
+    color: #e70909;
+    font-size: 24px;
+    margin:20px 0 10px;
+    line-height: 30px;
+    font-weight: bold;
+}
