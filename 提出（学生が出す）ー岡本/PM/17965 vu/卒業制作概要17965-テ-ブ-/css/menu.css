@@ -9,12 +9,12 @@ ul#menu li{
   background-color:black;
 }
 ul#menu li a{
-  padding-right:96px;
+  padding-right:67px;
   text-decoration:none;
   color:red;
-  font-size: 14px;
+  font-size: 22px;
   text-align:center;
-  margin-left:100px;
+  margin-left:95px;
 }
 ul#menu{
   float: left;
