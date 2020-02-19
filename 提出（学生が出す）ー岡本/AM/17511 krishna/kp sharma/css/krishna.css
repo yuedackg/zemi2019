@@ -1,0 +1,91 @@
+body{
+    max-width: 1024px;
+    width: 90%;
+    margin: 20px auto;
+    background-color: darkkhaki;
+    height: 768px;
+    color: midnightblue;
+    }
+    #head{
+        height: 400px;
+        background:url("../image/image8.jpg");
+        color: #020329;
+        background-repeat: no-repeat;
+        }
+        
+    
+
+	h1#subtitle{
+	font-size: 60px;
+    text-align: center;
+}
+	h1#maintitle{
+	font-size: 40px;
+    text-align: center;
+}
+	p#smalltitle{
+	font-size: 30px;
+    color:green;
+    text-align: center;
+}
+#menu{
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    margin-left: -38px;
+
+}
+#menu li a{
+    display: block;
+    width: 170px;
+    height: 35px;
+    text-align: center;
+    font-size: 14px;
+    color: #020329;
+    border: 2px solid #020329;
+    box-sizing: border-box;
+    text-decoration: none ;
+   
+    
+}
+/* すべての商品メニュー　*/
+	div.photo-box{
+
+	margin:200px;
+	font-family:bold;
+}
+.menu-photo{
+	width: 260px;
+	height: 185px;
+	margin:px;
+	background-image: url("../image/image2.jpg");
+	background-size: 100%;
+}
+/* 商品メニュー　*/
+	.price-table{
+	margin-left: 200px;
+}
+	th{
+	background-color: #ccc;
+}
+td{
+	background-color: #fff;
+}
+	th,td{
+	border: solid 2px #5C5;
+	
+	padding:10px 60px;
+}
+.table-right{
+	margin-left: -20px;
+
+}
+
+/* ドリンクメニュー　*/
+	margin-top:20px;
+/*　アクセス　*/
+.address{
+	display: flex;
+	margin-left:100px;
+	text-align:center;
+}

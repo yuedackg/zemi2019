@@ -35,6 +35,11 @@ h2{
 	text-align:center;
 }
 
+a:link {color: #000000}
+a:visited {color: #006600}
+a:hover {color: #FFCC00}
+a:active {color: #FF00CC}
+
 nav ul {
 	position: relative;
 	list-style-type: none;
@@ -49,9 +54,8 @@ nav li a {
 	text-align: center;
 	font-size: 12px;
 	color: black;
-	background-color: chartreuse;
 	text-decoration: none;
-	border: 1px solid blue ;
+	border: 0px solid blue ;
 	box-sizing: border-box;
 }
 

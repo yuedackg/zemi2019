@@ -1,34 +1,50 @@
 ﻿body{
-max-width: 1010px;
+max-width: 1024px;
 width: 90%;
-margin: 0px auto;
+margin: 0px 0 0 255px;
 background-color:rgb(73, 115, 139);
 }
 header#toppage{
-height: 400px;
+height: 150px;
 background-image: url("../image/image1.jpg");
 background-size: 85%;
 background-repeat: no-repeat;
 margin-bottom: 40px;
 }
 
-header{
-height:200px;
+.header{
+height:360px;
 background-image: url("../image/image20.jpg");
 background-size: 80%;
 background-repeat: no-repeat;
-margin-bottom: 40px;
-}
-h1{
-color:red;
+margin-bottom: 40px;}
+.head{
+	height:200px;
+	background-image: url("../image/image20.jpg");
+	background-size: 80%;
+	background-repeat: no-repeat;
+	margin-bottom: 40px;}
+	.uts{
+		color:red;
 background-repeat: no-repeat;
 background-position: 30% 60%;
-margin: 0px 20px;
-font-size: 40px;
-height: 45px;
+margin: 30px 0px 0px 230px;
+font-size: 30px;
+height: 30px;
+padding-top: 40px;
+	}
+	.utsa{
+		color:red;
+background-repeat: no-repeat;
+background-position: 30% 60%;
+margin: 30px 0px 0px 230px;
+font-size: 30px;
+height: 30px;
+padding-top: 192px;
+	}
+	nav{
+	margin-left: -200px;
 }
-
-/*　リンクボタン　*/
 nav ul{
 	display: flex;
 	margin: 0px 0px 0px 158px;
@@ -40,7 +56,7 @@ nav ul li{
 	background-color: #17c7cc;
   padding: 0px 5px;
 	width: 110px;
-	text-align: under;
+	text-align: center;
 	border-radius: 5px
 }
 a{
@@ -104,3 +120,23 @@ display: block;
 }
 .pagetop{
 	float: center;
+}
+.kum{
+	padding: 10px;
+	margin-top: 20px;
+}
+.kuma img{
+	padding: 20px 0 0 0;
+	height: 347px;
+	width: 806px;
+}
+.access{
+	margin-left: 240px;
+}
+.home p{
+	width: 55%;
+	float: right;
+}
+.home img{
+	padding: 10px 10px 10px 0;
+}

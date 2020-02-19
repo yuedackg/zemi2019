@@ -1,0 +1,88 @@
+
+body{
+    background-color: rgb(241, 150, 193);
+    color: rgb(90, 90, 5);
+    max-width: 1200px;
+    width:90%;
+    margin: 0 auto;
+
+}
+header{
+    height:250px;
+    width:auto;
+    background-image: url("../image/m.jpg");
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+    margin: 0;
+    padding-left:400px;
+    padding-top: 150px;
+    }
+    h1{
+        color:rgb(236, 236, 39);
+        font-family: Lobster;
+        font-size: 60px;
+        text-align:left;
+        margin-top: 0px;
+        padding-top:120px;
+        }
+    section{
+    display: flex;
+    margin-top: 50px;
+    }
+    nav{
+        background-color:rgb(7, 50, 53);
+        }
+        ul{
+        text-align: center;
+        margin-top: 0;
+        padding-left: 16px;
+        list-style-type: none;
+        }
+        li{
+        font-size: 14px;
+        list-style: none;
+        margin-right: 30px;
+        display: inline-block;
+        }
+    a{
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+    padding: 14px 16px;
+    }
+table,th,td
+{
+border: solid 1px #666;
+border-collapse: collapse;
+padding: 5px 48px;
+}
+div{
+    padding: 5px 48px;
+}
+.table-right{
+margin-left:100px;
+margin-top:0;
+}
+.table-left{
+margin-left:10px;
+margin-top:0;
+}
+.price-table{
+    display: flex;
+    padding:10px;
+}
+div img{
+    width: 300px ;
+    height:300px;
+}
+div.photo{
+    background-color: rgb(211, 221, 175);
+    margin: 10px;
+    padding: 10px;
+}
+.text1{
+    color: rgb(21, 18, 202);
+    margin: 10px;
+    font-size: 20px;
+}footer{
+	margin-top: 100px;

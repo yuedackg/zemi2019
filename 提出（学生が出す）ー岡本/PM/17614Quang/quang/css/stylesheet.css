@@ -26,6 +26,12 @@ h1{
 	padding-top: 10px;
 	height: 500px;
 }
+p{
+	color: #e6e6e6;
+}
+#home p{
+	color: #e6e6e6;
+}
 nav{
 	background-color:silver;	
 }
@@ -52,7 +58,7 @@ h2{
 	font-size: 21px;
 	font-weight: normal;
 	line-height: 1.0;
-	background: #007130;
+	background: #ffec09ad;
 }
 section{
 	margin-bottom: 50px;
@@ -189,10 +195,11 @@ margin-bottom:15px;
 }
 .ホームページ{
 position:fixed;
-right:60px;
-bottom:20px;
-background-color:rgba(100,100,100,0.5);
-padding:0 10px;
+right:50px;
+background-color:#e6e6e6;
+padding:0 5px;
+border-radius: 10px;
+bottom: 0px;
 }
 .photobox-text{
 	width: 200px;
@@ -283,4 +290,7 @@ padding:0 10px;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-}  
+}
+#footer{
+	border-top: #e6e6e6 solid 2px;
+	

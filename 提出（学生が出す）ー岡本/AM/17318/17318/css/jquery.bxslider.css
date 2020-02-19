@@ -172,14 +172,7 @@ ul.bxslider {
   font-size: .85em;
   padding: 10px;
 }
-h1{
-  margin: 0;
-  padding: 0;
-  position: absolute;
-  z-index: 99;
-  top: 6px;
-  left: 30px;
-}
+
 p{
   position: absolute;
   top: 100px;
