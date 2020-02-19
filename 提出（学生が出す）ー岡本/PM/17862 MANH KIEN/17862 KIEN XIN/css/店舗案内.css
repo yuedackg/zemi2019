@@ -32,14 +32,14 @@ ul{
 }
 #menu ul li a:hover{
     background:#C0FF3E;
-    color:#333;
+    color:#000000;
 }
 #menu1 ul{
     margin-right: 100px;
 }
 
 a{
-    color: #00FF00;
+    color: #000000;
     text-decoration: none;
     display: block;
 }

@@ -125,6 +125,7 @@ body{
 .menu ul li:hover .sub-menu{
    display: block;
 }
+
 .sub-menu{
   z-index:1;
   transition:opacity linear 0.15s;

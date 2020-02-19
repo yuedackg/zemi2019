@@ -4,8 +4,6 @@ body{
     margin: 0 auto;
     background-color:floralwhite ;
     text-align: center;
-    display: block;
-    height: 100px;
     
 }
 header{
@@ -126,11 +124,17 @@ caption{
     display: flex;
     flex-wrap: wrap;
     border-radius: 10px;
-    margin:100px;
-    padding: 0;
+    margin:182px;
+    padding: 92;
+}
+.list{
+  margin-top: -90px;
 }
 .item{
     position: relative;
+}
+.item img{
+  width: 70%;
 }
 .list .item{
     width: 30%;
@@ -147,4 +151,7 @@ caption{
     margin:20px 0 10px;
     line-height: 30px;
     font-weight: bold;
+}
+.pc{
+    line-height: 40px;
 }
