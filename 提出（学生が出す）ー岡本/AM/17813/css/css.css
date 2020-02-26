@@ -110,20 +110,44 @@ margin-left: 30px;
 .box{
 margin-left: 65px;
 }
+.big{
+    width: 50%;
+}
 .big img{
-    display: flex;
+display: flex;
 margin: 0 30px 30px 30px;
-width: 40%;
+width: 80%;
 height: 60%;
-text-align: center;
 float: left;
 background-color:#fff;
 padding: 30px;
 }
-.big1 p{
+.big p{
     float: left;
-    margin-left: 527px;
-    margin-top: -311px;
+    width: 80%;
+    margin-left: 40px;
+    margin-top: 0px;
+}
+
+.bi{
+    width: 50%;
+    float: right;
+    margin-top: -402px;
+}
+.bi img{
+display: flex;
+margin: 0 30px 30px 30px;
+width: 80%;
+height: 60%;
+float: left;
+background-color:#fff;
+padding: 30px;
+}
+.bi p{
+    float: left;
+    width: 80%;
+    margin-left: 40px;
+    margin-top: 0px;
 }
 .big1 img{
 margin: 0 30px 0;
@@ -188,4 +212,20 @@ right:60px;
 bottom:50px;
 background-color:rgba(100,100,100,0.5);
 padding:0 30px;
+}
+.tu img{width: 45%;
+    float: right;
+margin-top: -260px;
+}
+.tuy {
+    width: 53%;
+
+}
+.qwer{
+    margin-top: 100px;
+}
+.qwer img {
+    width: 32%;
+    height: 300px;
+    margin-right: 10px;
 }

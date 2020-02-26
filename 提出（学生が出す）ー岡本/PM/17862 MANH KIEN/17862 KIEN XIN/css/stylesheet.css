@@ -1,14 +1,13 @@
 body{
 	max-width: 1000px;
     max-height:1200px
-	width: 90%;
 	margin: 0 auto;
 	background-color:#FF9966;
 	text-align: center;
 }
 header{
 	height: 700px;
-	background-image: url("../images/hinhnenmoi.jpg");
+	background-image: url("../images/moimoi.jpg");
 	background-repeat: no-repeat;
 	background-size:100%;	
 }

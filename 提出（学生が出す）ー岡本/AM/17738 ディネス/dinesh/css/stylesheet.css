@@ -94,7 +94,7 @@ line-height: 25px;
 }
 .about img{
 width: 20%;
-height: 20%;
+height: 200px;
 min-width: 150px;
 }
 
@@ -173,10 +173,14 @@ width:1000px;}
     width: 50%;
     height: 350px;
     }
+    .shruti{
+        width:880px;
+        margin-left:50px; 
+    }
 .dinessh p{
     width: 46%;
     float: right;
-    margin-top: -250px;
+    margin-top: 0px;
 }  
 .dineh img{
     width: 50%;

@@ -34,6 +34,13 @@ color: #aaa;
 font-size: 20px;
 text-align: center;
 }
+
+#headers p.subtitle{
+    margin: 10px 20px 30px 40px;
+    color: #aaa;
+    font-size: 20px;
+    text-align: center;
+    }
 nav{
 background-color: rgb(206, 209, 13);
 }
@@ -150,6 +157,17 @@ width:1000px;
 }
 .menu{
     display:none;
-
+}
+#click{
+position: absolute;
+top: 400px;
+left: 400px;
 }
 
+.recommend{
+  width: 870px;
+    text-align: justify;
+    margin-left: 70px;
+    line-height: 25px;
+    font-size: 14px;
+}

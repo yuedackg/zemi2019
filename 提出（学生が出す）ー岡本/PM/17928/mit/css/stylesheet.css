@@ -16,7 +16,8 @@ background-repeat:no-repeat;
 padding-top:40px;
 color:red;
 text-align:center;
-font-size:80px;
+font-size:0px;
+margin-top:-10px;
 }
 h2{
 border:#FFE4B5 solid 5px;
@@ -31,27 +32,42 @@ text-style:center;
 
 }
 img{
-width:25%;
-height:30%;
-padding-top:4%;
+width:400px;
+height:400px;
+padding-top:-10%;
+
 }
 body {
 }
 .recommend{
   display: flex;
 }
+.recommend-t{
+  margin-left:0px;
+  margin-bottom:0px;
+	 text-align: center;
+}
 .recommend p{
   width: 465px;
-  margin: 0px 20px;
+  margin-right:0px;
+  margin-left:50px;
   padding: 0px 3px;
   text-align: justify;
   line-height: 25px;
   font-size: 15px;
 }
+.recommend-a{
+  margin-right: 0px;
+  margin-left:420px;
+  margin-top: -370px;
+  margin-bottom: 120px;
+}
 .recommend img{
-  width: 30%;
-  height: 90%;
-  margin: 7px 84px;
+  width: 300px;
+  height: 300px;
+  margin-right:420px;
+  margin-left:0px;
+  margin-top:-400px
   padding: 0px 50px;
   min-width: 150px;
   padding-top:3px;
@@ -59,6 +75,9 @@ body {
 .topnav {
   overflow: hidden;
   background-color: #333;
+  margin:0px;
+  padding:1px;
+  margin-right:-2px;
 }
 
 .topnav a {
@@ -80,8 +99,9 @@ body {
   display: none;
 }
 footer{
-  font-size: 12px;
+  font-size: 17px;
   text-align: center;
+  margin-top:0px;
 }
 
 @media screen and (max-width: 600px) {
@@ -113,28 +133,4 @@ padding: 0 10px;
 }
 img{
 text-align:right;
-}
-.big p{
-margin: -155px 110px;
-padding:125px 3px;
-text-align:left;
-line-height:25px;
-font-size: 16px;
-float:left;
-}
-.box p{
-margin: -155px 110px;
-padding:125px 3px;
-text-align:left;
-line-height:25px;
-font-size: 16px;
-float:left;
-}
-.small p{
-margin: -155px 110px;
-padding:125px 3px;
-text-align:left;
-line-height:25px;
-font-size: 16px;
-float:left;
 }

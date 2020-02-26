@@ -5,11 +5,12 @@ margin: 0 auto;
 background-color:rgb(105, 99, 64);
 }
 header{
-height: 300px;
+height: 235px;
 background-image: url("../img/compasss.jpg");
-width:1100px;
-height:400px;
-background-repeat: no-repeat;
+
+    background-size: 998px;
+    background-repeat: no-repeat;
+    background-position: 0px -176px;
 }
 h1{
 color: rgb(12, 11, 10);
@@ -25,7 +26,9 @@ padding-top: 65px;
 height:200px;
 }
 nav{
-background-color: rgb(10, 8, 0);
+background-color: rgb(3, 74, 83);
+}
+ul{
 }
 ul{
 text-align: center;

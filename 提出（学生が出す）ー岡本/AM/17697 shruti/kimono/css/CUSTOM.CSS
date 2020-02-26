@@ -11,6 +11,7 @@ nav ul {
 	list-style-type: none;
 	display: flex;
 	margin-left: 219px;
+	margin-top: 30px;
   
 }
 nav li a {
@@ -57,17 +58,19 @@ h2{
 #leaf{
 	font-size: 30px;
 	text-align: center;
+	margin-left: 12px;
 }
 #bud{
 	font-size:18px ;
 	text-align: center;
-	margin-left: 25px;
+	margin: -2px 0 4px 19px;
 }
 p{
 	text-align: justify;
 }
 #kimono{
 	text-align: center;
+	margin: 0 0 0 30px;
 }
 .rana{
 	border: solid 1px red;
@@ -97,4 +100,8 @@ div.comment #col-1,div.comment #col-2{
 	width: 200px;
 }
 .magar{
-	margin-left: 96px;}
+	margin-left: 96px;
+}
+footer{
+		margin-top: 50px;
+	}

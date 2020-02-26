@@ -1,16 +1,14 @@
 body{
     max-width: 1000px;
-    max-heigh:1000px
     width:100%;
     margin: 0 auto;
     background-color:#FFFFFF;
     text-align: center;
-    display: block;
-    
+    display: block; 
 }
 header{
-    height:750px;
-    background-image:url("../images/hinhnenmoi.jpg");
+    height:550px;
+    background-image:url("../images/moimoi.jpg");
     background-size:100%;
     background-repeat:no-repeat;
 }
@@ -33,7 +31,7 @@ ul{
     line-height: 40px;
 }
 #menu ul li a:hover{
-    background:#C0FF3E;
+    background:rgb(33, 202, 28);
     color:#333;
 }
 #menu1 ul{
@@ -41,7 +39,7 @@ ul{
 }
 
 a{
-    color: #00FF00;
+    color: rgb(55, 0, 255);
     text-decoration: none;
     display: block;
 }

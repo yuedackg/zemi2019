@@ -65,24 +65,26 @@ section{
 
 }
 .home{
-	display: flex
+	display: flex;
+	padding: 0px 14px;
 
 }
 .home p{
-    font-size: 14px;
+    font-size: 18px;
     width: 690px;
     margin: 0px 40px;
-    line-height: 25px;
+    line-height: 34px;
     color: #000000;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
 }
 
 .home img{
-	width: 90%;
+	width: 120%;
 	height: 100%;
 	min-width: 100px;
 	background-color: #ffffff;
 	padding: 10px;
+	margin: 0px 85px;
 }
 .about{
 	display: flex;
@@ -143,24 +145,43 @@ h4{
 display: flex;
 margin-left: 25px;
 }
+.table-right th{
+	background-color: white;
+	border: solid 1px #666;
+	border-collapse: collapse;
+	}
+.table-right td{
+	background-color: white;
+	border: solid 1px #666;
+	border-collapse: collapse;
+	}
+.table-right	table,th,td{
+	border: solid 1px #666;
+	border-collapse: collapse;
+	padding: 5px 48px;
+}
+.table-right{
+	margin-left: 30px;
+	margin-top:0;
+}
 th{
-background-color: #ddd;
+	background-color: #ddd;
 }
 td{
 	background-color: #ddd;
 }
 table,th,td{
-border: solid 1px #666;
-border-collapse: collapse;
-padding: 5px 48px;
+	border: solid 1px #666;
+	border-collapse: collapse;
+	padding: 5px 48px;
 }
 .table-right{
-margin-left: 30px;
-margin-top:0;
+	margin-left: 315px;
+	margin-top:-75px;
 }
 .table-left{
-margin-left: 30px;
-margin-top:0;
+	margin-left: 30px;
+	margin-top:0;
 }
 .photo1{
 	display: block;

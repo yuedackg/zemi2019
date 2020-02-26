@@ -1,0 +1,8 @@
+css
+
+header
+
+background-image: url(../images/team.jpg);
+background-repeat: no-repeat;
+height: 225px;
+background-position: -83px -100px;

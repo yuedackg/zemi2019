@@ -1,7 +1,7 @@
 body{
     max-width: 1024px;
     width: 90%;
-    margin: 20px auto;
+    margin: -33px auto;
     background-color: darkkhaki;
     height: 768px;
     color: midnightblue;
@@ -31,9 +31,9 @@ body{
 #menu{
     text-decoration: none;
     list-style-type: none;
+    margin-top: 100px;
     display: flex;
     margin-left: -38px;
-
 }
 #menu li a{
     display: block;
@@ -45,10 +45,11 @@ body{
     border: 2px solid #020329;
     box-sizing: border-box;
     text-decoration: none ;
+    background-color: blanchedalmond;
    
     
 }
-/* すべての商品メニュー　*/
+/* ????????i???j???[?@*/
 	div.photo-box{
 
 	margin:200px;
@@ -61,7 +62,7 @@ body{
 	background-image: url("../image/image2.jpg");
 	background-size: 100%;
 }
-/* 商品メニュー　*/
+/* ???i???j???[?@*/
 	.price-table{
 	margin-left: 200px;
 }
@@ -81,11 +82,50 @@ td{
 
 }
 
-/* ドリンクメニュー　*/
+/* ?h?????N???j???[?@*/
 	margin-top:20px;
-/*　アクセス　*/
+/*?@?A?N?Z?X?@*/
 .address{
 	display: flex;
 	margin-left:100px;
 	text-align:center;
 }
+
+    .drink-photo{
+        width: 340px;
+        height: 320px;
+        background-image: url("../image/image17.jpg");
+        margin:30px;
+    }
+    .drink-photo1{
+        width: 380px;
+        height: 330px;
+        background-image: url("../image/image19.jpg");
+        margin:30px;
+    }
+	.drink-photo2{
+        width: 380px;
+        height: 330px;
+        background-image: url("../image/image22.jpg");
+        margin:30px;
+}
+	.drink-photo3{
+        width: 380px;
+        height: 330px;
+        background-image: url("../image/image26.jpg");
+        margin:30px;
+}
+	.drink-photo4{
+        width: 400px;
+        height: 380px;
+        background-image: url("../image/image27.png");
+        margin:30px;
+}
+
+	.drink-photo5{
+        width: 380px;
+        height: 330px;
+        background-image: url("../image/image28.jpg");
+        margin:30px;
+}
+	

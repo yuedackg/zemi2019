@@ -73,7 +73,7 @@ h2{
 h3{
 	margin-top:40px;
 	padding:5px;
-	color:green
+	color:blue;
 
 }
 .head{
@@ -132,7 +132,8 @@ margin-left: 450px;
 margin-top: -142px;
 }
 p{
-	color:blue
+	color:purple;
+	padding:5px;
 
 }
 .map{

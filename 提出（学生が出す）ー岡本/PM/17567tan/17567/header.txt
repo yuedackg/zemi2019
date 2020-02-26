@@ -1,0 +1,9 @@
+height: 39px;
+width: auto;
+background-image: url(../image/m.jpg);
+background-repeat: no-repeat;
+background-size: 100%;
+background-position: 0px -72px;
+margin: 0;
+padding-left: 400px;
+padding-top: 150px;

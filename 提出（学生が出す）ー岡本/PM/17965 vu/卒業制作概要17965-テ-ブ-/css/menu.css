@@ -9,10 +9,10 @@ ul#menu li{
   background-color:black;
 }
 ul#menu li a{
-  padding-right:67px;
+  padding-right:101px;
   text-decoration:none;
   color:red;
-  font-size: 22px;
+  font-size: 14px;
   text-align:center;
   margin-left:95px;
 }

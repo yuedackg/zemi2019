@@ -31,7 +31,7 @@ h1{
 }
 h2{
 	font-size: 18px;
-	margin: 0px 0px 0px 20px;
+	margin: 30px 0px 0px 20px;
 	text-align:center;
 }
 
@@ -45,6 +45,7 @@ nav ul {
 	list-style-type: none;
 	display: flex;
 	margin-left: 219px;
+	margin-top: 30px;
   
 }
 nav li a {
@@ -62,7 +63,7 @@ nav li a {
 .utsav{
     columns: 2;
     column-gap:0em;
-	margin: 40px;
+	margin: 10px 0 -7px 40px;
 }
 
 .hello{
@@ -84,4 +85,7 @@ p{
 
 .activ{
 	margin-left: 150px;
+}
+footer{
+	margin-top: 50px;
 }

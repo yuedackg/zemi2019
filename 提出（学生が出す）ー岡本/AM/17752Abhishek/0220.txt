@@ -1,0 +1,5 @@
+    width: 870px;
+    text-align: justify;
+    margin-left: 151px;
+    line-height: 25px;
+    font-size: 14px;

@@ -15,6 +15,7 @@ a{
 	font-size: 14px;
 }
 h1{
+	margin-bottom: 55px;
 	text-align: center;
 	color:purple;
     font-size:40px;
@@ -39,7 +40,7 @@ h3{
 p{
 	text-align: justify;
     font-size: 20px;
-    margin-left: 265px;
+    margin-left: 340px;
     width: 720px;
     font-family: cursive;
 }

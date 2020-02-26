@@ -7,7 +7,7 @@ body{
 header{
 	width:1024px;
 	height: 300px;
-	background-image: url("../img/pho5.jpg");
+	background-image: url("../img/a.jpg");
 	background-repeat: no-repeat;
 	background-size:1024px 400px;
 }
@@ -88,7 +88,7 @@ h2{
 }
 .photo-box{
 	display: flex;
-	margin-left: 60px;
+	margin-left: 4px;
 	
 }
 .box{
@@ -100,7 +100,7 @@ h2{
 	line-height: 1.6;
 	background-color:#fff;
 	padding: 10px;
-	width: 300px;
+	width: 280px;
 	margin-left: 20px;
 	margin-right: 20px;
 }
@@ -149,6 +149,18 @@ margin-top:0;
 	background-color:#fff;
 	padding: 10px;
 	width: 300px;
+}
+#big01 img{
+	width: 283px;
+	height: 210px;
+}
+#big1 img{
+	width: 283px;
+	height: 210px
+}
+#big2 img{
+	width: 283px;
+	height: 210px;
 }
 .table,tr,td{
 border: none

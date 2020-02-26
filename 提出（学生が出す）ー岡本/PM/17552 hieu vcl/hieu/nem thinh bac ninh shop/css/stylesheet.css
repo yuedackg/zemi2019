@@ -30,9 +30,8 @@ h3{
 }
 
 .small img{
-width:420px;
-text-align: center;
-margin: 0px 456px;
+  width: 80%;
+  margin-left: 10%;
 }
 .small p{
   text-align: center;
@@ -42,7 +41,7 @@ margin: 0px 456px;
   padding: 0;
 }
  
-/*==Style cơ bản cho website==*/
+/*==Style c? b?n cho website==*/
 body {
   font-family: sans-serif;
   color: #333;
@@ -74,7 +73,7 @@ body {
 /*******/
 .price-table{
   display: flex;
-  margin-left: 25px;
+  margin-left: 225px;
 }
 th{
   background-color: orange;
@@ -90,7 +89,10 @@ table,th,td{
   margin: 15px 135px ;
 }
 .table-right{
-  margin-left: 30px;
+  margin: 0px 20px;
+}
+.table-left{
+  margin: 0px 20px;
 }
 
 .photo h3{
@@ -145,7 +147,10 @@ a.on_top {
 .footer{
   margin: 20px 20px;
 }
-
+.map{
+  margin-left: 470px;
+  display: flex;
+}
 
 
 

@@ -6,11 +6,11 @@ font-family: Arial, Helvetica, sans-serif;
 background-color: #f8e4ce;
 }
 h1{
-color: #fff;
-background-image: url("../anh/6.jpg");
+color: red;
+background-image: url("../img/tradep.jpg");
 background-repeat: no-repeat;
-background-position: 36% 38%;
-background-size: 124%;
+background-position:center center;
+background-size: cover;
 font-family: serif;
 font-size: 35px;
 text-align: center;
@@ -54,13 +54,69 @@ color: #333;
 }
 
 h2{
-border-left: solid 10px #ffa500;
-border-bottom:  dotted 5px #ffa500;
-margin-top: 30px;
-padding: 10px;
+    border-bottom: dotted 5px #ffa500;
+    margin-top: 30px;
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+    color: #3f51b5;
+}
+h4{
+    color: red;
+    text-align: center;
 }
 section{
 margin-bottom: 30px;
+}
+
+.home img{
+	width: 990px;
+	height: 300px;
+	margin: 0px 0px;
+	padding:  0px 0px;
+}
+.home1 h2{
+    border-bottom: dotted 5px #ffa500;
+    margin-top: 30px;
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+    color: #3f51b5;
+}
+
+.home1 p{
+	text-align: center;
+}
+/***phan chia anh **/
+.row {
+    overflow: auto;
+    margin: 1.5em auto;
+}
+.row .col {
+    float: left;
+    width: 31.3333%;
+    margin-right: 2.99%;
+}
+.row .col:last-child {
+    float: right;
+    margin-right: 0;
+}
+/* Style cho ảnh */
+.row .col img {
+    float: left;
+    margin-right: 1em;
+}
+.home2 {
+    display: flex;
+}
+.home2 img{
+    width: 460px;
+    height: 300px;
+    margin: 0px 20px;
+}
+.home2 p{
+    margin: 0px 10px;
+    padding: 0px 0px;
 }
 
 .about{
@@ -89,9 +145,12 @@ margin-left: 30px;
 .box{
 margin-left: 65px;
 }
-h3{
-サイズ
-あき
+.big{
+    display: flex;
+}
+.big p{
+    margin: 24px 70px;
+    line-height: 40px;
 }
 .big img{
 width: 55%;
@@ -99,15 +158,6 @@ padding: 20px;
 margin-top: 18px;
 background-color: #fff;
 transform:rotate(0deg)
-}
-.big h3{
-margin-top: 35px;
-}
-.small img{
-width: 125%;
-padding: 15px;
-background-color: #fff;
-line-height: 5px;
 }
 
 .price-table{
@@ -130,8 +180,12 @@ margin-left: 30px;
 display: flex;
 }
 .access p{
-margin-left: 15px;
-margin-top: 0;
+    margin-left: 15px;
+    margin-top: 0;
+}
+.access img{
+    width: 400px;
+    height: 400px;
 }
 .map-title{
 font-family: Lobster;
@@ -144,8 +198,13 @@ right: 60px;
 bottom: 20px;
 background-color: rgba(100,100,100,0.5);
 padding: 0 10px;
+border-radius: 20px;
 }
 .small img{
 	line-height: 5px;
 }
 
+.footer{
+    border-top: red solid 2px;
+    margin: 15px 20px;
+}

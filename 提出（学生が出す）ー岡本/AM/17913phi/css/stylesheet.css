@@ -83,3 +83,23 @@ padding: 0 10px;
 .photo h3{
  margin-left: 40px;
 }
+td{
+    text-align: center;
+    width:160px;
+    height:150px;
+    background-color:rgb(219, 213, 124);
+ }
+img{
+    width:160px;
+    height:150px;
+    margin: 0 auto;
+    margin-bottom:-8px;
+ }
+ .mainPic{
+    text-align:center;
+    width:650px;
+    height:420px;
+ }
+ table{
+     margin-left:20px;
+ }

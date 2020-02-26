@@ -174,7 +174,19 @@ h2{
 .about1{
     display: flex;
 }
-
+.kit{
+}
+.kit img{
+    width: 775px;
+    height: 350px;
+    padding: 0px 0px;
+    margin: 10px 10px;
+    text-align: justify;
+    display: flex;
+}
+.box{
+    display: flex;
+}
 .about1 p{
     width: 800px;
     margin: 0px 17px;
@@ -220,11 +232,9 @@ iframe{
 .footer{
     border-top:1px red ;
     padding: 50px 20px;
-    margin: 0px 0px;
+    margin-top: 5px 5px;
 }
-.simpleS{
 
-}
 .button-left{
     margin-left: 10px;
 

@@ -34,22 +34,11 @@ background-size: 100%;
     background-color:0EB9C2;
     background-size: 100%;
 }
-h1{
-color: #000000;
-background-image: url("../img/8.png");
-background-repeat: no-repeat;
-background-position: 70% 93%;
-font-family: helvetica;
-font-size: 50px;
-font-weight: 900;
-text-align: center;
-margin-top: 0px;
-padding-top: 105px;
-height: 38px;
-}
+
 .subcatch{
 font-size: 18px;
 text-align: center;
+margin:150px;
 }
 nav{
 background-color: #40FF00;
@@ -57,7 +46,7 @@ background-color: #40FF00;
 ul{
 text-align: center;
 margin-top: 0;
-padding-left: 10px;
+padding-left: 5px;
 background-color:#F7FE2E;
 }
 li{
@@ -90,11 +79,12 @@ margin-bottom: 50px;
 .about{
 display: flex;
 }
-.about p{
-    width: 1000px;
-    margin: 0px;
+.about p{ 
+    width: 570px;
+    margin: 0px 10px 0px 30px;
     text-align: justify;
-    line-height: 30px;
+    line-height: 28px;
+    font-size: 12px;
 }
 .about img{
 width: 20%;
@@ -104,7 +94,8 @@ min-width: 150px;
 
 .photo p{
 margin-top: 15px;
-margin-left: 30px;
+margin-left: 0px;
+margin:37px;
 }
 .photo-box{
 display: flex;
